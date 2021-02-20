@@ -1,0 +1,817 @@
+[
+ {
+   "Code": "AL-01",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Basic Analysis"
+ },
+ {
+   "Code": "AL-02",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Algorithmic Strategies"
+ },
+ {
+   "Code": "AL-03",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Fundamental Data Structures and Algorithms"
+ },
+ {
+   "Code": "AL-04",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Basic Automata, Computability and Complexity"
+ },
+ {
+   "Code": "AL-05",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Advanced Computational Complexity"
+ },
+ {
+   "Code": "AL-06",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Advanced Automata Theory and Computability"
+ },
+ {
+   "Code": "AL-07",
+   "Domain": "Algorithms and Complexity",
+   "Subdomain": "Advanced Data Structures, Algorithms, and Analysis"
+ },
+ {
+   "Code": "AR-01",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Digital Logic and Digital Systems"
+ },
+ {
+   "Code": "AR-02",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Machine Level Representation of Data"
+ },
+ {
+   "Code": "AR-03",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Assembly Level Machine Organization"
+ },
+ {
+   "Code": "AR-04",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Memory System Organization and Architecture"
+ },
+ {
+   "Code": "AR-05",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Interfacing and Communication"
+ },
+ {
+   "Code": "AR-06",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Functional Organization"
+ },
+ {
+   "Code": "AR-07",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Multiprocessing and Alternative Architectures"
+ },
+ {
+   "Code": "AR-08",
+   "Domain": "Architecture and Organization",
+   "Subdomain": "Performance Enhancements"
+ },
+ {
+   "Code": "CN-01",
+   "Domain": "Computational Science",
+   "Subdomain": "Introduction to Modeling and Simulation"
+ },
+ {
+   "Code": "CN-02",
+   "Domain": "Computational Science",
+   "Subdomain": "Modeling and Simulation"
+ },
+ {
+   "Code": "CN-03",
+   "Domain": "Computational Science",
+   "Subdomain": "Processing"
+ },
+ {
+   "Code": "CN-04",
+   "Domain": "Computational Science",
+   "Subdomain": "Interactive Visualization"
+ },
+ {
+   "Code": "CN-05",
+   "Domain": "Computational Science",
+   "Subdomain": "Data, Information, and Knowledge"
+ },
+ {
+   "Code": "CN-06",
+   "Domain": "Computational Science",
+   "Subdomain": "Numerical Analysis"
+ },
+ {
+   "Code": "DS-01",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Sets, Relations, and Functions"
+ },
+ {
+   "Code": "DS-02",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Basic Logic"
+ },
+ {
+   "Code": "DS-03",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Proof Techniques"
+ },
+ {
+   "Code": "DS-04",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Basics of Counting"
+ },
+ {
+   "Code": "DS-05",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Graphs and Trees"
+ },
+ {
+   "Code": "DS-06",
+   "Domain": "Discrete Structures",
+   "Subdomain": "Discrete Probability"
+ },
+ {
+   "Code": "GV-01",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Fundamental Concepts"
+ },
+ {
+   "Code": "GV-02",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Basic Rendering"
+ },
+ {
+   "Code": "GV-03",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Geometric Modeling"
+ },
+ {
+   "Code": "GV-04",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Advanced Rendering"
+ },
+ {
+   "Code": "GV-05",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Computer Animation"
+ },
+ {
+   "Code": "GV-06",
+   "Domain": "Graphics and Visualization",
+   "Subdomain": "Visualization"
+ },
+ {
+   "Code": "HCI-01",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Foundations"
+ },
+ {
+   "Code": "HCI-02",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Designing Interaction"
+ },
+ {
+   "Code": "HCI-03",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Programming Interactive Systems"
+ },
+ {
+   "Code": "HCI-04",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "User-Centered Design & Testing"
+ },
+ {
+   "Code": "HCI-05",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "New Interactive Technologies"
+ },
+ {
+   "Code": "HCI-06",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Collaboration & Communication"
+ },
+ {
+   "Code": "HCI-07",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Statistical Methods for HCI"
+ },
+ {
+   "Code": "HCI-08",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Human Factors & Security"
+ },
+ {
+   "Code": "HCI-09",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Design-Oriented HCI"
+ },
+ {
+   "Code": "HCI-10",
+   "Domain": "Human-Computer Interaction",
+   "Subdomain": "Mixed, Augmented and Virtual Reality"
+ },
+ {
+   "Code": "IAS-01",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Foundational Concepts in Security"
+ },
+ {
+   "Code": "IAS-02",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Principles of Secure Design"
+ },
+ {
+   "Code": "IAS-03",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Defensive Programming"
+ },
+ {
+   "Code": "IAS-04",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Threats and Attacks"
+ },
+ {
+   "Code": "IAS-05",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Network Security"
+ },
+ {
+   "Code": "IAS-06",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Cryptography"
+ },
+ {
+   "Code": "IAS-07",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Web Security"
+ },
+ {
+   "Code": "IAS-08",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Platform Security"
+ },
+ {
+   "Code": "IAS-09",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Security Policy and Governance"
+ },
+ {
+   "Code": "IAS-10",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Digital Forensics"
+ },
+ {
+   "Code": "IAS-11",
+   "Domain": "Information Assurance and Security",
+   "Subdomain": "Secure Software Engineering"
+ },
+ {
+   "Code": "IM-01",
+   "Domain": "Information Management",
+   "Subdomain": "Information Management Concepts"
+ },
+ {
+   "Code": "IM-02",
+   "Domain": "Information Management",
+   "Subdomain": "Database Systems"
+ },
+ {
+   "Code": "IM-03",
+   "Domain": "Information Management",
+   "Subdomain": "Data Modeling"
+ },
+ {
+   "Code": "IM-04",
+   "Domain": "Information Management",
+   "Subdomain": "Indexing"
+ },
+ {
+   "Code": "IM-05",
+   "Domain": "Information Management",
+   "Subdomain": "Relational Databases"
+ },
+ {
+   "Code": "IM-06",
+   "Domain": "Information Management",
+   "Subdomain": "Query Languages"
+ },
+ {
+   "Code": "IM-07",
+   "Domain": "Information Management",
+   "Subdomain": "Transaction Processing"
+ },
+ {
+   "Code": "IM-08",
+   "Domain": "Information Management",
+   "Subdomain": "Distributed Databases"
+ },
+ {
+   "Code": "IM-09",
+   "Domain": "Information Management",
+   "Subdomain": "Physical Database Design"
+ },
+ {
+   "Code": "IM-10",
+   "Domain": "Information Management",
+   "Subdomain": "Data Mining"
+ },
+ {
+   "Code": "IM-11",
+   "Domain": "Information Management",
+   "Subdomain": "Information Storage And Retrieval"
+ },
+ {
+   "Code": "IM-12",
+   "Domain": "Information Management",
+   "Subdomain": "MultiMedia Systems"
+ },
+ {
+   "Code": "IS-01",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Fundamental Issues"
+ },
+ {
+   "Code": "IS-02",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Basic Search Strategies"
+ },
+ {
+   "Code": "IS-03",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Basic Knowledge Representation and Reasoning"
+ },
+ {
+   "Code": "IS-04",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Basic Machine Learning"
+ },
+ {
+   "Code": "IS-05",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Advanced Search"
+ },
+ {
+   "Code": "IS-06",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Advanced Representation and Reasoning"
+ },
+ {
+   "Code": "IS-07",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Reasoning Under Uncertainty"
+ },
+ {
+   "Code": "IS-08",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Agents"
+ },
+ {
+   "Code": "IS-09",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Natural Language Processing"
+ },
+ {
+   "Code": "IS-10",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Advanced Machine Learning"
+ },
+ {
+   "Code": "IS-11",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Robotics"
+ },
+ {
+   "Code": "IS-12",
+   "Domain": "Intelligent Systems",
+   "Subdomain": "Perception and Computer Vision"
+ },
+ {
+   "Code": "NC-01",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Introduction"
+ },
+ {
+   "Code": "NC-02",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Networked Applications"
+ },
+ {
+   "Code": "NC-03",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Reliable Data Delivery"
+ },
+ {
+   "Code": "NC-04",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Routing And Forwarding"
+ },
+ {
+   "Code": "NC-05",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Local Area Networks"
+ },
+ {
+   "Code": "NC-06",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Resource Allocation"
+ },
+ {
+   "Code": "NC-07",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Mobility"
+ },
+ {
+   "Code": "NC-08",
+   "Domain": "Net Centric Computing",
+   "Subdomain": "Social Networking"
+ },
+ {
+   "Code": "OS-01",
+   "Domain": "Operating System",
+   "Subdomain": "Overview of Operating Systems"
+ },
+ {
+   "Code": "OS-02",
+   "Domain": "Operating System",
+   "Subdomain": "Operating System Principles"
+ },
+ {
+   "Code": "OS-03",
+   "Domain": "Operating System",
+   "Subdomain": "Concurrency"
+ },
+ {
+   "Code": "OS-04",
+   "Domain": "Operating System",
+   "Subdomain": "Scheduling and Dispatch"
+ },
+ {
+   "Code": "OS-05",
+   "Domain": "Operating System",
+   "Subdomain": "Memory Management"
+ },
+ {
+   "Code": "OS-06",
+   "Domain": "Operating System",
+   "Subdomain": "Security and Protection"
+ },
+ {
+   "Code": "OS-07",
+   "Domain": "Operating System",
+   "Subdomain": "Virtual Machines"
+ },
+ {
+   "Code": "OS-08",
+   "Domain": "Operating System",
+   "Subdomain": "Device Management"
+ },
+ {
+   "Code": "OS-09",
+   "Domain": "Operating System",
+   "Subdomain": "File Systems"
+ },
+ {
+   "Code": "OS-10",
+   "Domain": "Operating System",
+   "Subdomain": "Real Time and Embedded Systems"
+ },
+ {
+   "Code": "OS-11",
+   "Domain": "Operating System",
+   "Subdomain": "Fault Tolerance"
+ },
+ {
+   "Code": "OS-12",
+   "Domain": "Operating System",
+   "Subdomain": "System Performance Evaluation"
+ },
+ {
+   "Code": "PBD-01",
+   "Domain": "Platform-based Development",
+   "Subdomain": "Introduction"
+ },
+ {
+   "Code": "PBD-02",
+   "Domain": "Platform-based Development",
+   "Subdomain": "Web Platforms"
+ },
+ {
+   "Code": "PBD-03",
+   "Domain": "Platform-based Development",
+   "Subdomain": "Mobile Platforms"
+ },
+ {
+   "Code": "PBD-04",
+   "Domain": "Platform-based Development",
+   "Subdomain": "Industrial Platforms"
+ },
+ {
+   "Code": "PBD-05",
+   "Domain": "Platform-based Development",
+   "Subdomain": "Game Platforms"
+ },
+ {
+   "Code": "PD-01",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Parallelism Fundamentals"
+ },
+ {
+   "Code": "PD-02",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Parallel Decomposition"
+ },
+ {
+   "Code": "PD-03",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Communication and Coordination"
+ },
+ {
+   "Code": "PD-04",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Parallel Algorithms, Analysis, and Programming"
+ },
+ {
+   "Code": "PD-05",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Parallel Architecture"
+ },
+ {
+   "Code": "PD-06",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Parallel Performance"
+ },
+ {
+   "Code": "PD-07",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Distributed Systems"
+ },
+ {
+   "Code": "PD-08",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Cloud Computing"
+ },
+ {
+   "Code": "PD-09",
+   "Domain": "Parallel and Distributed Computing",
+   "Subdomain": "Formal Models and Semantics"
+ },
+ {
+   "Code": "PL-01",
+   "Domain": "Programming Languages",
+   "Subdomain": "Object-Oriented Programming"
+ },
+ {
+   "Code": "PL-02",
+   "Domain": "Programming Languages",
+   "Subdomain": "Functional Programming"
+ },
+ {
+   "Code": "PL-03",
+   "Domain": "Programming Languages",
+   "Subdomain": "Event-Driven and Reactive Programming"
+ },
+ {
+   "Code": "PL-04",
+   "Domain": "Programming Languages",
+   "Subdomain": "Basic Type Systems"
+ },
+ {
+   "Code": "PL-05",
+   "Domain": "Programming Languages",
+   "Subdomain": "Program Representation"
+ },
+ {
+   "Code": "PL-06",
+   "Domain": "Programming Languages",
+   "Subdomain": "Language Translation and Execution"
+ },
+ {
+   "Code": "PL-07",
+   "Domain": "Programming Languages",
+   "Subdomain": "Syntax Analysis"
+ },
+ {
+   "Code": "PL-08",
+   "Domain": "Programming Languages",
+   "Subdomain": "Compiler Semantic Analysis"
+ },
+ {
+   "Code": "PL-09",
+   "Domain": "Programming Languages",
+   "Subdomain": "Code Generation"
+ },
+ {
+   "Code": "PL-10",
+   "Domain": "Programming Languages",
+   "Subdomain": "Runtime Systems"
+ },
+ {
+   "Code": "PL-11",
+   "Domain": "Programming Languages",
+   "Subdomain": "Static Analysis"
+ },
+ {
+   "Code": "PL-12",
+   "Domain": "Programming Languages",
+   "Subdomain": "Advanced Programming Constructs"
+ },
+ {
+   "Code": "PL-13",
+   "Domain": "Programming Languages",
+   "Subdomain": "Concurrency and Parallelism"
+ },
+ {
+   "Code": "PL-14",
+   "Domain": "Programming Languages",
+   "Subdomain": "Type Systems"
+ },
+ {
+   "Code": "PL-15",
+   "Domain": "Programming Languages",
+   "Subdomain": "Formal Semantics"
+ },
+ {
+   "Code": "PL-16",
+   "Domain": "Programming Languages",
+   "Subdomain": "Language Pragmatics"
+ },
+ {
+   "Code": "PL-17",
+   "Domain": "Programming Languages",
+   "Subdomain": "Logic Programming"
+ },
+ {
+   "Code": "SDF-01",
+   "Domain": "Software Development Fundamentals",
+   "Subdomain": "Algorithms and Design"
+ },
+ {
+   "Code": "SDF-02",
+   "Domain": "Software Development Fundamentals",
+   "Subdomain": "Fundamental Programming Concepts"
+ },
+ {
+   "Code": "SDF-03",
+   "Domain": "Software Development Fundamentals",
+   "Subdomain": "Fundamental Data Structures"
+ },
+ {
+   "Code": "SDF-04",
+   "Domain": "Software Development Fundamentals",
+   "Subdomain": "Development Methods"
+ },
+ {
+   "Code": "SE-01",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Processes"
+ },
+ {
+   "Code": "SE-02",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Project Management"
+ },
+ {
+   "Code": "SE-03",
+   "Domain": "Software Engineering",
+   "Subdomain": "Tools and Environments"
+ },
+ {
+   "Code": "SE-04",
+   "Domain": "Software Engineering",
+   "Subdomain": "Requirements Engineering"
+ },
+ {
+   "Code": "SE-05",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Design"
+ },
+ {
+   "Code": "SE-06",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Construction"
+ },
+ {
+   "Code": "SE-07",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Verification and Validation"
+ },
+ {
+   "Code": "SE-08",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Evolution"
+ },
+ {
+   "Code": "SE-09",
+   "Domain": "Software Engineering",
+   "Subdomain": "Software Reliability"
+ },
+ {
+   "Code": "SE-10",
+   "Domain": "Software Engineering",
+   "Subdomain": "Formal Methods"
+ },
+ {
+   "Code": "SF-01",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Computational Paradigms"
+ },
+ {
+   "Code": "SF-02",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Cross-Layer Communications"
+ },
+ {
+   "Code": "SF-03",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "State and State Machines"
+ },
+ {
+   "Code": "SF-04",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Parallelism"
+ },
+ {
+   "Code": "SF-05",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Evaluation"
+ },
+ {
+   "Code": "SF-06",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Resource Allocation and Scheduling"
+ },
+ {
+   "Code": "SF-07",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Proximity"
+ },
+ {
+   "Code": "SF-08",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Virtualization and Isolation"
+ },
+ {
+   "Code": "SF-09",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Reliability through Redundancy"
+ },
+ {
+   "Code": "SF-10",
+   "Domain": "Systems Fundamentals",
+   "Subdomain": "Quantitative Evaluation"
+ },
+ {
+   "Code": "SP-01",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Social Context"
+ },
+ {
+   "Code": "SP-02",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Analytical Tools"
+ },
+ {
+   "Code": "SP-03",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Professional Ethics"
+ },
+ {
+   "Code": "SP-04",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Intellectual Property"
+ },
+ {
+   "Code": "SP-05",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Privacy and Civil Liberties"
+ },
+ {
+   "Code": "SP-06",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Professional Communication"
+ },
+ {
+   "Code": "SP-07",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Sustainability"
+ },
+ {
+   "Code": "SP-08",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "History"
+ },
+ {
+   "Code": "SP-09",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Economies of Computing"
+ },
+ {
+   "Code": "SP-10",
+   "Domain": "Social Issues and Professional Practice",
+   "Subdomain": "Security Policies, Laws and Computer Crimes"
+ }
+]
