@@ -1,0 +1,1113 @@
+﻿topicId,topic,CS Courses,Tier
+AL-01-01,"Differences among best, expected, and worst case behaviors of an algorithm ",COMP 3601,Tier 1
+AL-01-02,Asymptotic analysis of upper and expected complexity bounds,COMP 3601,Tier 1
+AL-01-03,Big O  notation: formal definition,COMP 3601,Tier 1
+AL-01-04,"Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential",COMP 3601,Tier 1
+AL-01-05,Empirical measurements of performance,COMP 3601,Tier 1
+AL-01-06,Time and space trade-offs in algorithms,COMP 3601,Tier 1
+AL-01-07,Big O notation: use,COMP 3601,Tier 2
+AL-01-08,"Little o, big omega and big theta notation",COMP 3601,Tier 2
+AL-01-09,Recurrence relations,COMP 3601,Tier 2
+AL-01-10,Analysis of iterative and recursive algorithms,"COMP 3601,COMP 1600",Tier 2
+AL-01-11,Some version of a Master Theorem,COMP 3601,Tier 2
+AL-02-01,Brute-force algorithms,COMP 3601,Tier 1
+AL-02-02,Greedy algorithms,COMP 3601,Tier 1
+AL-02-03,Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies),COMP 3601,Tier 1
+AL-02-04,Recursive backtracking,COMP 3601,Tier 1
+AL-02-05,Dynamic Programming,COMP 3601,Tier 1
+AL-02-06,Branch-and-bound,COMP 3601,Tier 2
+AL-02-07,Heuristics,COMP 3601,Tier 2
+AL-02-08,Reduction: transform-and-conquer,COMP 3601,Tier 2
+AL-03-01,"Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, ","COMP 2611,COMP 1602,COMP 1603",Tier 1
+AL-03-02,Sequential and binary search algorithms,"COMP 2611,COMP 1602",Tier 1
+AL-03-03,"Worst case quadratic sorting algorithms (selection, insertion)",COMP 2611,Tier 1
+AL-03-04,"Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)",COMP 2611,Tier 1
+AL-03-05,"Hash tables, including strategies for avoiding and resolving collisions",COMP 2611,Tier 1
+AL-03-06,Binary search trees,COMP 2611,Tier 1
+AL-03-07,Graphs and graph algorithms,COMP 2611,Tier 1
+AL-03-08,Heaps,COMP 2611,Tier 2
+AL-03-09,Graphs and graph algorithms,COMP 2611,Tier 2
+AL-03-10,"Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest ",COMP 3601,Tier 2
+AL-04-01,Finite-state machines,COMP 3602,Tier 1
+AL-04-02,Regular expressions,COMP 3602,Tier 1
+AL-04-03,The halting problem,,Tier 1
+AL-04-04,Context-free grammars (cross-reference PL/Syntax Analysis),COMP 3602,Tier 2
+AL-04-05,Introduction to the P and NP classes and the P vs. NP problem,,Tier 2
+AL-04-06,"Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",,Tier 2
+AL-05-01,Review of the classes P and NP; introduce P-space and EXP,,Elective
+AL-05-02,Polynomial hierarchy,,Elective
+AL-05-03,NP-completeness (Cook’s theorem),,Elective
+AL-05-04,Classic NP-complete problems,,Elective
+AL-05-05,Reduction Techniques,,Elective
+AL-06-01,Sets and languages,COMP 3602,Elective
+AL-06-02,Context-free languages,COMP 3602,Elective
+AL-06-03,"Turing machines, or an equivalent formal model of universal computation",,Elective
+AL-06-04,Nondeterministic Turing machines,,Elective
+AL-06-05,Chomsky hierarchy,,Elective
+AL-06-06,The Church-Turing thesis,,Elective
+AL-06-07,Computability,,Elective
+AL-06-08,Rice’s Theorem,,Elective
+AL-06-09,Examples of uncomputable functions,,Elective
+AL-06-10,Implications of uncomputability,,Elective
+AL-07-01,"Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)",,Elective
+AL-07-02,"Graphs (e.g., topological sort, finding strongly connected components, matching)",,Elective
+AL-07-03,"Advanced data structures (e.g., B-trees, Fibonacci heaps)",,Elective
+AL-07-04,"String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)",,Elective
+AL-07-05,"Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite ",,Elective
+AL-07-06,"Linear Programming (e.g.,duality, simplex method, interior point algorithms)",,Elective
+AL-07-07,"Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)",,Elective
+AL-07-08,"Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, ",,Elective
+AL-07-09,Randomized algorithms,,Elective
+AL-07-10,Stochastic algorithms,,Elective
+AL-07-11,Approximation algorithms,,Elective
+AL-07-12,Amortized analysis,,Elective
+AL-07-13,Probabilistic analysis,,Elective
+AL-07-14,Online algorithms and competitive analysis,,Elective
+AR-08-01,Overview and history of computer architecture,,Tier 2
+AR-08-02,Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + ,,Tier 2
+AR-08-03,Multiple representations/layers of interpretation (hardware is just another layer),,Tier 2
+AR-08-04,Computer-aided design tools that process hardware and architectural representations,,Tier 2
+AR-08-05,Register transfer notation/Hardware Description Language (Verilog/VHDL),,Tier 2
+AR-08-06,"Physical constraints (gate delays, fan-in, fan-out, energy/power)",,Tier 2
+AR-09-01,"Bits, bytes, and words",COMP 1600,Tier 2
+AR-09-02,Numeric data representation and number bases,COMP 1600,Tier 2
+AR-09-03,Fixed- and floating-point systems,,Tier 2
+AR-09-04,Signed and twos-complement representations,,Tier 2
+AR-09-05,"Representation of non-numeric data (character codes, graphical data)",,Tier 2
+AR-09-06,Representation of records and arrays,,Tier 2
+AR-10-01,Basic organization of the von Neumann machine,,Tier 2
+AR-10-02,"Control unit; instruction fetch, decode, and execution",,Tier 2
+AR-10-03,"Instruction sets and types (data manipulation, control, I/O)",COMP 1600,Tier 2
+AR-10-04,Assembly/machine language programming,,Tier 2
+AR-10-05,Instruction formats,,Tier 2
+AR-10-06,Addressing modes,,Tier 2
+AR-10-07,Subroutine call and return mechanisms (cross-referencePL/Language Translation and Execution),,Tier 2
+AR-10-08,I/O and interrupts,COMP 1600,Tier 2
+AR-10-09,Heap vs. Static vs. Stack vs. Code segments,,Tier 2
+AR-10-10,Shared memory multiprocessors/multicore organization,,Tier 2
+AR-10-11,Introduction to SIMD vs. MIMD and the Flynn Taxonomy,,Tier 2
+AR-11-01,Storage systems and their technology,,Tier 2
+AR-11-02,Memory hierarchy: importance of temporal and spatial locality,,Tier 2
+AR-11-03,Main memory organization and operations,,Tier 2
+AR-11-04,"Latency, cycle time, bandwidth, and interleaving",,Tier 2
+AR-11-05,"Cache memories (address mapping, block size, replacement and store policy)",COMP 1600,Tier 2
+AR-11-06,Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory ,,Tier 2
+AR-11-07,"Virtual memory (page table, TLB)",,Tier 2
+AR-11-08,Fault handling and reliability,,Tier 2
+AR-11-09,"Error coding, data compression, and data integrity (cross-referenceSF/Reliability through Redundancy)",,Tier 2
+AR-12-01,"I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O",,Tier 2
+AR-12-02,"Interrupt structures: vectoredand prioritized, interrupt acknowledgment",,Tier 2
+AR-12-03,"External storage, physical organization, and drives",,Tier 2
+AR-12-04,"Buses: bus protocols, arbitration, direct-memory access (DMA)",,Tier 2
+AR-12-05,Introduction to networks: communications networks as another layer of remote access,,Tier 2
+AR-12-06,Multimedia support,,Tier 2
+AR-12-07,RAID architectures,,Tier 2
+AR-13-01,"Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution",,Elective
+AR-13-02,Control unit: hardwired realization vs. microprogrammed realization,,Elective
+AR-13-03,Instruction pipelining,,Elective
+AR-13-04,Introduction to instruction-level parallelism (ILP),,Elective
+AR-14-01,Power Law,,Elective
+AR-14-02,Example SIMD and MIMD instruction sets and architectures,,Elective
+AR-14-03,"Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)",,Elective
+AR-14-04,Shared multiprocessor memory systems and memory consistency,,Elective
+AR-14-05,Multiprocessor cache coherence,,Elective
+AR-15-01,Superscalar architecture,,Elective
+AR-15-02,"Branch prediction, Speculative execution, Out-of-order execution",,Elective
+AR-15-03,Prefetching,,Elective
+AR-15-04,Vector processors and GPUs,,Elective
+AR-15-05,Hardware support for multithreading,,Elective
+AR-15-06,Scalability,,Elective
+AR-15-07,"Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose ",,Elective
+CN-16-01,Models as abstractions of situations,COMP 3607,Tier 1
+CN-16-02,Simulations as dynamic modeling,,Tier 1
+CN-16-03,"Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and ",,Tier 1
+CN-16-04,"Foundational approaches to validating models(e.g., comparing a simulation’s output to real data or the ",,Tier 1
+CN-16-05,Presentation of results in a form relevant to the system being modeled,,Tier 1
+CN-17-01,"Purpose of modeling and simulation including optimization; supporting decision making, forecasting, ",,Elective
+CN-17-02,"Tradeoffs including performance, accuracy, validity, and complexity",,Elective
+CN-17-03,"The simulation process; identification ofkey characteristics or behaviors, simplifying assumptions; ",,Elective
+CN-17-04,"Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and ",,Elective
+CN-17-05,Formal models and modeling techniques:  mathematical descriptions involving simplifying assumptions ,,Elective
+CN-17-06,Assessing and evaluating models and simulations in a variety of contexts; verification and validation of ,,Elective
+CN-17-07,"Important application areas including health care and diagnostics, economics and finance, city and urban ",,Elective
+CN-17-08,"Software in support of simulation and modeling; packages, languages",,Elective
+CN-18-01,Fundamental programming concepts:,,Elective
+CN-18-02,Numerical methods,,Elective
+CN-18-03,Fundamental properties of parallel and distributed computation:,,Elective
+CN-18-04,"Computing costs, e.g., the cost of re-computing  a value vs. the cost of storing and lookup.",,Elective
+CN-19-01,Principles of data visualization,,Elective
+CN-19-02,Graphing and visualization algorithms,,Elective
+CN-19-03,Image processing techniques,,Elective
+CN-19-04,Scalability concerns,,Elective
+CN-20-01,"Content management models, frameworks, systems, design methods (asin IM. Information Management)",,Elective
+CN-20-02,"Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g., ",,Elective
+CN-20-03,"Digital content creation/capture and preservation, including digitization, sampling, compression, ",,Elective
+CN-20-04,"Content structure / management, including digital libraries and static/dynamic/stream aspects for:",,Elective
+CN-20-05,"Processing and pattern recognition, including indexing, searching (including: queries and query languages; ",,Elective
+CN-20-06,"User / society support for presentation and interaction, including browse, search, filter, route, visualize, ",,Elective
+CN-20-07,"Modeling, design, logical and physical implementation, using relevant systems/software",,Elective
+CN-21-01,"Error, stability, convergence, including truncation and round-off",,Elective
+CN-21-02,"Function approximationincluding Taylor’s series, interpolation, extrapolation, and regression",,Elective
+CN-21-03,"Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods) ",,Elective
+CN-21-04,"Differential equations (Euler’s Method, finite differences) ",,Elective
+DS-22-01,Sets,COMP 1604,Tier 1
+DS-22-02,Relations,COMP 1604,Tier 1
+DS-22-03,Functions,COMP 1604,Tier 1
+DS-23-01,Propositional logic (cross-reference: Propositional logic is also reviewed in  IS/Knowledge Based ,COMP 1604,Tier 1
+DS-23-02,Logical connectives,COMP 1604,Tier 1
+DS-23-03,Truth tables,COMP 1604,Tier 1
+DS-23-04,Normal forms (conjunctive and disjunctive),COMP 1604,Tier 1
+DS-23-05,Validity of well-formed formula,COMP 1604,Tier 1
+DS-23-06,Propositional inference rules (concepts of modus ponens and modus tollens),COMP 1604,Tier 1
+DS-23-07,Predicate logic,COMP 1604,Tier 1
+DS-23-08,"Limitations of propositional and predicate logic (e.g., expressiveness issues)",COMP 1604,Tier 1
+DS-24-01,"Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction",COMP 1604,Tier 1
+DS-24-02,The structure of mathematical proofs,COMP 1604,Tier 1
+DS-24-03,Direct proofs,COMP 1604,Tier 1
+DS-24-04,Disproving by counterexample,COMP 1604,Tier 1
+DS-24-05,Proof by contradiction,COMP 1604,Tier 1
+DS-24-06,Induction over natural numbers,COMP 1604,Tier 1
+DS-24-07,Structural induction ,COMP 1604,Tier 1
+DS-24-08,"Weak and strong induction (i.e., First and Second Principle of Induction)",COMP 1604,Tier 1
+DS-24-09,Recursive mathematical definitions,COMP 1604,Tier 1
+DS-24-10,Well orderings,,Tier 2
+DS-25-01,Counting arguments,COMP 1604,Tier 1
+DS-25-02,The pigeonhole principle,COMP 1604,Tier 1
+DS-25-03,Permutations and combinations,COMP 1604,Tier 1
+DS-25-04,Solving recurrence relations (cross-reference: AL/Basic Analysis),COMP 1604,Tier 1
+DS-25-05,Basic modular arithmetic,COMP 1604,Tier 1
+DS-26-01,Trees,COMP 2611,Tier 1
+DS-26-02,Undirected graphs,COMP 2611,Tier 1
+DS-26-03,Directed graphs,COMP 2611,Tier 1
+DS-26-04,Weighted graphs,COMP 2611,Tier 1
+DS-26-05,Spanning trees/forests,COMP 2611,Tier 2
+DS-26-06,Graph isomorphism,,Tier 2
+DS-27-01,"Finite probability space, events",,Tier 1
+DS-27-02,Axioms of probability and probability measures,,Tier 1
+DS-27-03,"Conditional probability, Bayes’ theorem",,Tier 1
+DS-27-04,Independence,,Tier 1
+DS-27-05,"Integer random variables (Bernoulli, binomial)",,Tier 1
+DS-27-06,"Expectation, including Linearity of Expectation ",,Tier 1
+DS-27-07,Variance,,Tier 2
+DS-27-08,Conditional Independence,,Tier 2
+GV-28-01,"Media applications including user interfaces, audio and videoediting, game engines, cad, visualization, ",,Tier 1
+GV-28-02,"Digitization of analog data, resolution,and the limits of human perception, e.g., pixels for visual display, ",,Tier 1
+GV-28-03,Use of standard APIs for the construction of UIs and display of standard mediaformats (see HCI/GUI ,,Tier 1
+GV-28-04,"Standard mediaformats, including lossless and lossy formats",,Tier 1
+GV-28-05,Additive and subtractive color models (CMYK and RGB) and why these provide a range of colors,,Tier 2
+GV-28-06,Tradeoffs between storing data and re-computing data as embodied by vector and raster representations of ,,Tier 2
+GV-28-07,Animation as a sequence of still images,,Tier 2
+GV-28-08,Double buffering,,Elective
+GV-29-01,"Rendering in nature, e.g., the emission and scattering of light and its relation to numerical integration",,Elective
+GV-29-02,"Forward and backward rendering (i.e.,ray-casting and rasterization)",,Elective
+GV-29-03,Polygonal representation,,Elective
+GV-29-04,"Basic radiometry, similar triangles, and projection model",,Elective
+GV-29-05,Affine and coordinate system transformations,,Elective
+GV-29-06,Ray tracing,,Elective
+GV-29-07,"Visibility and occlusion, including solutions to this problem such as depth buffering, Painter’s algorithm, ",,Elective
+GV-29-08,The forward and backward rendering equation,,Elective
+GV-29-09,Simple triangle rasterization,,Elective
+GV-29-10,Rendering with a shader-based API,,Elective
+GV-29-11,"Texture mapping, including minification and magnification (e.g., trilinear MIP-mapping)",,Elective
+GV-29-12,Application of spatial data structures to rendering,,Elective
+GV-29-13,Sampling and anti-aliasing,,Elective
+GV-29-14,Scene graphs and the graphics pipeline,,Elective
+GV-30-01,Basic geometric operations such as intersection calculation and proximity tests,,Elective
+GV-30-02,"Volumes, voxels, and point-based representations",,Elective
+GV-30-03,Parametricpolynomial curves and surfaces,,Elective
+GV-30-04,Implicit representation of curves and surfaces,,Elective
+GV-30-05,"Approximation techniques such as polynomial curves, Bezier curves, spline curves and surfaces, and non-",,Elective
+GV-30-06,"Surface representation techniques including tessellation, mesh representation, mesh fairing,and mesh ",,Elective
+GV-30-07,Spatial subdivision techniques,,Elective
+GV-30-08,"Procedural models such as fractals, generative modeling, and L-systems",,Elective
+GV-30-09,"Graftals, cross referenced with programming languages (grammars to generated pictures)",,Elective
+GV-30-10,Elastically deformableand freeform deformable models,,Elective
+GV-30-11,Subdivision surfaces,,Elective
+GV-30-12,Multiresolution modeling,,Elective
+GV-30-13,Reconstruction,,Elective
+GV-30-14,Constructive Solid Geometry (CSG) representation,,Elective
+GV-31-01,"Solutions and approximations to the rendering equation, for example:",,Elective
+GV-31-02,"Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering",,Elective
+GV-31-03,Shadow mapping,,Elective
+GV-31-04,Occlusion culling,,Elective
+GV-31-05,Bidirectional Scattering Distribution function (BSDF) theory and microfacets,,Elective
+GV-31-06,Subsurface scattering,,Elective
+GV-31-07,Area light sources,,Elective
+GV-31-08,Hierarchical depth buffering,,Elective
+GV-31-09,"The Light Field, image-based rendering",,Elective
+GV-31-10,Non-photorealistic rendering,,Elective
+GV-31-11,GPU architecture,,Elective
+GV-31-12,"Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion",,Elective
+GV-32-01,Forward and inverse kinematics,,Elective
+GV-32-02,Collision detection and response,,Elective
+GV-32-03,"Procedural animation using noise, rules (boids/crowds), and particle systems",,Elective
+GV-32-04,Skinning algorithms,,Elective
+GV-32-05,"Physics based motions including rigid body dynamics, physical particle systems, mass-spring networks for ",,Elective
+GV-32-06,Key-frame animation,,Elective
+GV-32-07,Splines,,Elective
+GV-32-08,"Data structures forrotations, such as quaternions",,Elective
+GV-32-09,Camera animation,,Elective
+GV-32-10,Motion capture,,Elective
+GV-33-01,"Visualization of 2D/3D scalar fields: colormapping, isosurfaces",,Elective
+GV-33-02,"Direct volume data rendering: ray-casting, transfer functions, segmentation",,Elective
+GV-33-03,Visualization of:,,Elective
+GV-33-04,Perceptual and cognitive foundationsthat drive visual abstractions,,Elective
+GV-33-05,Visualization design,,Elective
+GV-33-06,Evaluation of visualization methods,,Elective
+GV-33-07,Applications of visualization,,Elective
+HCI-34-01,"Contexts for HCI (anything with a user interface, e.g.,webpage, business applications, mobile applications, ",COMP 3603,Tier 1
+HCI-34-02,"Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design",COMP 3603,Tier 1
+HCI-34-03,"Different measures for evaluation, e.g.,utility, efficiency, learnability, user satisfaction",COMP 3603,Tier 1
+HCI-34-04,Usability heuristics and the principles of usability testing,COMP 3603,Tier 1
+HCI-34-05,"Physical capabilities that inform interaction design, e.g.,color perception, ergonomics",COMP 3603,Tier 1
+HCI-34-06,"Cognitive models that inform interaction design, e.g.,attention, perception and recognition, movement, and ",COMP 3603,Tier 1
+HCI-34-07,"Social models that inform interaction design, e.g.,culture, communication, networks and organizations",COMP 3603,Tier 1
+HCI-34-08,Principles of good design and good designers; engineering tradeoffs,COMP 2603,Tier 1
+HCI-34-09,"Accessibility, e.g.,interfaces for differently-abled populations (e.g.,blind, motion-impaired)",,Tier 1
+HCI-34-10,"Interfaces for differently-aged population groups (e.g., children, 80+)",,Tier 1
+HCI-35-01,Principles of graphical user interfaces (GUIs),COMP 3603,Tier 2
+HCI-35-02,"Elements of visual design (layout, color, fonts, labeling)","COMP 2603,COMP 3603",Tier 2
+HCI-35-03,"Task analysis, including qualitative aspects of generating task analytic models",COMP 3603,Tier 2
+HCI-35-04,Low-fidelity (paper) prototyping,,Tier 2
+HCI-35-05,"Quantitative evaluation techniques, e.g., keystroke-level evaluation",,Tier 2
+HCI-35-06,Help and documentation,,Tier 2
+HCI-35-07,Handling human/system failure,COMP 3603,Tier 2
+HCI-35-08,User interface standards ,COMP 3603,Tier 2
+HCI-36-01,"Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross  ","COMP 2603,COMP 3607",Elective
+HCI-36-02,"Interaction Design Patterns: visual hierarchy, navigational distance",COMP 3603,Elective
+HCI-36-03,Event management and user interaction ,COMP 2603,Elective
+HCI-36-04,Geometry management (cross-reference GV/Geometric Modelling) ,,Elective
+HCI-36-05,Choosing interaction styles and interaction techniques ,,Elective
+HCI-36-06,"Presenting information: navigation, representation, manipulation",,Elective
+HCI-36-07,"Interface animation techniques (e.g., scene graphs) ",,Elective
+HCI-36-08,Widget classes and libraries,,Elective
+HCI-36-09,"Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross-",COMP 2603,Elective
+HCI-36-10,Declarative Interface Specification: Stylesheets and DOMs ,,Elective
+HCI-36-11,Data-driven applications (database-backed web pages) ,,Elective
+HCI-36-12,Cross-platform design ,,Elective
+HCI-36-13,"Design for resource-constrained devices(e.g. small, mobile devices)",COMP 3603,Elective
+HCI-37-01,"Approaches to, and characteristics of, the design process",,Elective
+HCI-37-02,Functionality and usability requirements (cross-reference to SE/Requirements Engineering),,Elective
+HCI-37-03,"Techniques for gathering requirements, e.g.,interviews, surveys, ethnographic and contextual enquiry",,Elective
+HCI-37-04,"Techniques and tools for the analysis and presentation of requirements, e.g.,reports, personas",COMP 3603,Elective
+HCI-37-05,"Prototyping techniques and tools, e.g.,sketching, storyboards, low-fidelity prototyping, wireframes ",,Elective
+HCI-37-06,"Evaluation without users, using both qualitative and quantitative techniques, e.g.,walkthroughs, GOMS, ",COMP 3603,Elective
+HCI-37-07,"Evaluation with users, e.g.,observation, think-aloud, interview, survey, experiment",COMP 3603,Elective
+HCI-37-08,"Challenges to effective evaluation, e.g.,sampling, generalization",,Elective
+HCI-37-09,Reporting the results of evaluations,,Elective
+HCI-37-10,"Internationalization, designing for users fromother cultures, cross-cultural",,Elective
+HCI-38-01,Choosing interaction styles and interaction techniques,,Elective
+HCI-38-02,"Representing information to users: navigation, representation, manipulation",,Elective
+HCI-38-03,"Approaches to design, implementation and evaluation of non-mouse interaction",,Elective
+HCI-39-01,"Asynchronous group communication, e.g., e-mail, forums, social networks",,Elective
+HCI-39-02,"Synchronous group communication, e.g.,chat rooms, conferencing, online games",,Elective
+HCI-39-03,"Social media, social computing, and social network analysis",,Elective
+HCI-39-04,"Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies",,Elective
+HCI-39-05,Online communities,,Elective
+HCI-39-06,"Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)",,Elective
+HCI-39-07,Social psychology,,Elective
+HCI-40-01,t-tests,,Elective
+HCI-40-02,ANOVA,,Elective
+HCI-40-03,"Randomization (non-parametric) testing, within vs. between-subjects design",,Elective
+HCI-40-04, C alculating effect size,,Elective
+HCI-40-05,Exploratory data analysis,,Elective
+HCI-40-06,Presenting statistical data,,Elective
+HCI-40-07,Combiningqualitative and quantitative results,,Elective
+HCI-41-01,Applied psychology and security policies,,Elective
+HCI-41-02,Security economics,,Elective
+HCI-41-03,"Regulatory environments – responsibility, liability and self-determination",,Elective
+HCI-41-04,Organizational vulnerabilities and threats,,Elective
+HCI-41-05,Usability design and security,COMP 3603,Elective
+HCI-41-06,"Pretext, impersonation and fraud, e.g., phishing and spear phishing (cross-reference IAS/Threats and ",,Elective
+HCI-41-07,"Trust, privacy and deception",,Elective
+HCI-41-08,"Biometric authentication (camera, voice)",,Elective
+HCI-41-09,Identity management,,Elective
+HCI-42-01,Intellectual styles and perspectives to technology andits interfaces,,Elective
+HCI-42-02,Consideration of HCI as a designdiscipline,,Elective
+HCI-42-03,Critically reflective HCI,,Elective
+HCI-42-04,Indicative domains of application,,Elective
+HCI-43-01,Output,,Elective
+HCI-43-02,User input ,,Elective
+HCI-43-03,Physical modelling and rendering,,Elective
+HCI-43-04,System architectures ,,Elective
+HCI-43-05,Networking,,Elective
+HCI-43-06,"CIA (Confidentiality, Integrity, Availability)",,Elective
+HCI-43-07,"Concepts of risk, threats, vulnerabilities, and attack vectors (cros- reference SE/Software Project ",,Elective
+HCI-43-08,"Authentication and authorization, access control (mandatory vs. discretionary)",,Elective
+HCI-43-09,Concept of trust and trustworthiness,,Elective
+HCI-43-10,"Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and ",,Elective
+IAS-44-01,Least privilege and isolation  (cross-reference OS/Security and Protection/Policy/mechanism separation ,,Tier 1
+IAS-44-02,"Fail-safe defaults (cross-referenceSE/Software Construction/ Coding practices: techniques, ",,Tier 1
+IAS-44-03,"Open design (cross-reference SE/Software Evolution/ Software development in the context of large, pre-",,Tier 1
+IAS-44-04,End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer ,,Tier 1
+IAS-44-05,"Defense in depth  (e.g., defensive programming, layered defense) ",,Tier 1
+IAS-44-06,Security by design (cross-reference SE/Software Design/System design principles),,Tier 1
+IAS-44-07,Tensions between security and other design goals,,Tier 1
+IAS-44-08,Complete mediation,,Tier 2
+IAS-44-09,Use of vetted security components,,Tier 2
+IAS-44-10,"Economy of mechanism (reducing trusted computing base, minimize attack surface) (cross-reference ",,Tier 2
+IAS-44-11,Usable security (cross-reference HCI/Foundations/Cognitive models that inform interaction design),,Tier 2
+IAS-44-12,Security composability ,,Tier 2
+IAS-44-13,"Prevention, detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction ",,Tier 2
+IAS-45-01,Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness),,Tier 1
+IAS-45-02,Choice of programming languageand type-safe languages,,Tier 1
+IAS-45-03,Examples of input validation and data sanitization errors (cross-reference SDF/Development ,,Tier 1
+IAS-45-04,Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared ,,Tier 1
+IAS-45-05,Correct handling of exceptions and unexpectedbehaviors (cross-reference SDF/Development ,,Tier 1
+IAS-45-06,Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness ,,Tier 2
+IAS-45-07,Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and ,,Tier 2
+IAS-45-08,Information flow control,,Elective
+IAS-45-09,Correctly generating randomness for security purposes,,Elective
+IAS-45-10,Mechanisms for detecting andmitigating input and data sanitization errors,,Elective
+IAS-45-11,Fuzzing,,Elective
+IAS-45-12,Static analysis and dynamic analysis,,Elective
+IAS-45-13,Program verification,,Elective
+IAS-45-14,"Operating system support (e.g., address space randomization, canaries)",,Elective
+IAS-45-15,"Hardware support (e.g., DEP, TPM)",,Elective
+IAS-46-01,"Attacker goals, capabilities, and motivations (such as  underground economy, digital espionage, ",,Tier 2
+IAS-46-02,"Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)",,Tier 2
+IAS-46-03,Denial of Service (DoS) and Distributed Denial of Service (DDoS),,Tier 2
+IAS-46-04,"Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in ",,Tier 2
+IAS-46-05,Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction ,,Elective
+IAS-46-06,Malware/unwanted communication such as covert channelsand steganography,,Elective
+IAS-47-01,"Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection, ",,Tier 2
+IAS-47-02,Use of cryptography for data and network security,,Tier 2
+IAS-47-03,"Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs, ",,Tier 2
+IAS-47-04,"Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls, ",,Tier 2
+IAS-47-05,"Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks; ",,Elective
+IAS-47-06,"Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks) ",,Elective
+IAS-47-07,Censorship resistance,,Elective
+IAS-47-08,"Operational network security management (e.g., configure network access control)",,Elective
+IAS-48-01,"BasicCryptography Terminology coveringnotions pertaining to the different (communication) partners, ",,Tier 2
+IAS-48-02,"Cipher types(e.g., Caesar cipher, affine cipher) together with typical attack methodssuch as frequency ",,Tier 2
+IAS-48-03,Public Key Infrastructure support for digital signature and encryption and its challenges,,Tier 2
+IAS-48-04,"Mathematical Preliminaries essential for cryptography, includingtopics in linear algebra, number theory, ",,Elective
+IAS-48-05,Cryptographic primitives:,,Elective
+IAS-48-06,Symmetric key cryptography,,Elective
+IAS-48-07,Public key cryptography:,,Elective
+IAS-48-08,"Authenticated key exchange protocols, e.g., TLS",,Elective
+IAS-48-09,"Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment, ",,Elective
+IAS-48-10,"Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and ",,Elective
+IAS-48-11,Security definitions and attacks on cryptographic primitives:,,Elective
+IAS-48-12,Cryptographic standards and references implementations,,Elective
+IAS-48-13,Quantum cryptography,,Elective
+IAS-49-01,Web security model,,Elective
+IAS-49-02,"Session management, authentication",,Elective
+IAS-49-03,Application vulnerabilities and defenses,,Elective
+IAS-49-04,Client-side security,,Elective
+IAS-49-05,"Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers",,Elective
+IAS-50-01,Code integrity and code signing,,Elective
+IAS-50-02,"Secure boot, measured boot, and root of trust",,Elective
+IAS-50-03,Attestation,,Elective
+IAS-50-04,TPM and secure co-processors,,Elective
+IAS-50-05,"Security threats from peripherals, e.g., DMA, IOMMU",,Elective
+IAS-50-06,"Physical attacks: hardware Trojans, memory probes, cold boot attacks",,Elective
+IAS-50-07,"Security of embedded devices, e.g., medical devices, cars",,Elective
+IAS-50-08,Trusted path,,Elective
+IAS-51-01,Privacy policy  (cross-reference SP/Social Context/Social implications of computing in a networked world; ,,Elective
+IAS-51-02,Inference controls/statistical disclosure limitation,,Elective
+IAS-51-03,"Backup policy, password refresh policy",,Elective
+IAS-51-04,Breach disclosure policy,,Elective
+IAS-51-05,Data collection and retention policies,,Elective
+IAS-51-06,Supply chain policy,,Elective
+IAS-51-07,Cloud security tradeoffs,,Elective
+IAS-52-01,Basic Principles and methodologies for digital forensics,,Elective
+IAS-52-02,Design systems with forensic needs in mind,,Elective
+IAS-52-03,Rules of Evidence – general concepts and differences between jurisdictions and Chain of Custody,,Elective
+IAS-52-04,Search and Seizure of evidence: legal and procedural requirements,,Elective
+IAS-52-05,DigitalEvidence methods and standards,,Elective
+IAS-52-06,Techniques and standards for Preservation of Data,,Elective
+IAS-52-07,Legal and Reporting Issues including working as an expert witness,,Elective
+IAS-52-08,OS/File System Forensics,,Elective
+IAS-52-09,Application Forensics ,,Elective
+IAS-52-10,Web Forensics,,Elective
+IAS-52-11,Network Forensics,,Elective
+IAS-52-12,Mobile Device Forensics,,Elective
+IAS-52-13,Computer/network/system attacks,,Elective
+IAS-52-14,Attack detection and investigation,,Elective
+IAS-52-15,Anti-forensics,,Elective
+IAS-53-01,Building security into the software development lifecycle (cross-reference SE/Software Processes),,Elective
+IAS-53-02,Secure design principles and patterns,,Elective
+IAS-53-03,Secure software specifications and requirements ,,Elective
+IAS-53-04,Secure software development practices (cross-reference SE/Software Construction),,Elective
+IAS-53-05,Secure testing - the process of testing that security requirements are met (including static and dynamic ,,Elective
+IAS-53-06,Software quality assurance andbenchmarking measurements,,Elective
+IM-54-01,Information systems as socio-technical systems,,Tier 1
+IM-54-02,Basic information storage and retrieval(IS&R) concepts,,Tier 1
+IM-54-03,Information capture and representation,,Tier 1
+IM-54-04,"Supporting human needs: searching, retrieving, linking, browsing, navigating",,Tier 1
+IM-54-05,Information management applications ,,Tier 2
+IM-54-06,"Declarative and navigational queries, use of links",,Tier 2
+IM-54-07,Analysis and indexing,,Tier 2
+IM-54-08,"Quality issues: reliability, scalability, efficiency, and effectiveness",,Tier 2
+IM-55-01,Approaches to and evolution of database systems,,Tier 2
+IM-55-02,Components of database systems ,COMP 2605,Tier 2
+IM-55-03,"Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, ",,Tier 2
+IM-55-04,Database architecture and data independence,,Tier 2
+IM-55-05,Use of a declarative query language,COMP 2605,Tier 2
+IM-55-06,Systems supporting structured and/or stream content,,Tier 2
+IM-55-07,"Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce). ",COMP 3613,Elective
+IM-56-01,Data modeling,COMP 2605,Tier 2
+IM-56-02,"Conceptual models (e.g., entity-relationship, UML diagrams) ","COMP 2605,COMP 3607",Tier 2
+IM-56-03,Spreadsheet models,,Tier 2
+IM-56-04,Relational data models,COMP 2605,Tier 2
+IM-56-05,Object-oriented models(cross-reference PL/Object-Oriented Programming),COMP 3607,Tier 2
+IM-56-06,"Semi-structured data model (expressed using DTD or XML Schema, for example)",,Tier 2
+IM-57-01,The impact of indices on query performance,,Elective
+IM-57-02,The basic structure of an index,,Elective
+IM-57-03,Keeping a buffer of data in memory,,Elective
+IM-57-04,Creating indexes with SQL,COMP 2605,Elective
+IM-57-05,Indexing text,,Elective
+IM-57-06,"Indexing the web (e.g., web crawling)",,Elective
+IM-58-01,Mapping conceptual schema to a relational schema,COMP 2605,Elective
+IM-58-02,Entity and referential integrity,COMP 2605,Elective
+IM-58-03,Relational algebra and relational calculus,COMP 2605,Elective
+IM-58-04,Relational Database design,COMP 2605,Elective
+IM-58-05,Functional dependency,COMP 2605,Elective
+IM-58-06,Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition,,Elective
+IM-58-07,"Candidate keys, superkeys,and closure of a set of attributes",COMP 2605,Elective
+IM-58-08,Normal forms (BCNF),,Elective
+IM-58-09,Multi-valued dependency (4NF),,Elective
+IM-58-10,"Join dependency (PJNF, 5NF)",,Elective
+IM-58-11,Representation theory,,Elective
+IM-59-01,Overview of database languages,,Elective
+IM-59-02,"SQL (data definition, query formulation, update sublanguage, constraints, integrity)",COMP 2605,Elective
+IM-59-03,Selections,COMP 2605,Elective
+IM-59-04,Projections,COMP 2605,Elective
+IM-59-05,Select-project-join,"COMP 2605,COMP 1600",Elective
+IM-59-06,Aggregates andgroup-by ,COMP 2605,Elective
+IM-59-07,Subqueries,COMP 2605,Elective
+IM-59-08,QBE and 4th-generation environments,,Elective
+IM-59-09,Different ways to invoke non-procedural queries in conventional languages,,Elective
+IM-59-10,"Introduction to other major query languages (e.g., XPATH, SPARQL)",,Elective
+IM-59-11,Stored procedures,,Elective
+IM-60-01,Transactions ,COMP 2605,Elective
+IM-60-02,Failure and recovery,COMP 2605,Elective
+IM-60-03,Concurrency control,COMP 2605,Elective
+IM-60-04,"Interaction of transaction management with storage, especially buffering",,Elective
+IM-61-01,Distributed DBMS,,Elective
+IM-61-02,Parallel DBMS,,Elective
+IM-62-01,Storage and file structure,,Elective
+IM-62-02,Indexed files,,Elective
+IM-62-03,Hashed files,,Elective
+IM-62-04,Signature files,,Elective
+IM-62-05,B-trees,,Elective
+IM-62-06,Files with dense index,,Elective
+IM-62-07,Files with variable length records,,Elective
+IM-62-08,Database efficiency and tuning,,Elective
+IM-63-01,Usesof data mining,,Elective
+IM-63-02,Data mining algorithms,,Elective
+IM-63-03,Associative and sequential patterns,,Elective
+IM-63-04,Data clustering,,Elective
+IM-63-05,Market basket analysis,,Elective
+IM-63-06,Data cleaning,,Elective
+IM-63-07,Data visualization(cross-reference GV/Visualization and CN/Interactive Visualization),,Elective
+IM-64-01,"Documents, electronic publishing, markup, and markup languages",,Elective
+IM-64-02,"Tries, inverted files, PAT trees, signature files, indexing",,Elective
+IM-64-03,"Morphological analysis, stemming, phrases, stop lists",,Elective
+IM-64-04,"Term frequency distributions, uncertainty, fuzziness, weighting",,Elective
+IM-64-05,"Vector space, probabilistic, logical, and advanced models",,Elective
+IM-64-06,"Information needs, relevance, evaluation, effectiveness",,Elective
+IM-64-07,"Thesauri, ontologies, classification and categorization, metadata",,Elective
+IM-64-08,"Bibliographic information, bibliometrics, citations",,Elective
+IM-64-09,Routing and (community) filtering,,Elective
+IM-64-10,"Multimedia search, information seeking behavior, user modeling, feedback",,Elective
+IM-64-11,Information summarization and visualization,,Elective
+IM-64-12,"Faceted search (e.g., using citations, keywords, classification schemes)",,Elective
+IM-64-13,Digital libraries,,Elective
+IM-64-14,"Digitization, storage, interchange, digital objects, composites, and packages",,Elective
+IM-64-15,Metadata and cataloging,,Elective
+IM-64-16,"Naming,repositories, archives",,Elective
+IM-64-17,"Archiving and preservation, integrity",,Elective
+IM-64-18,"Spaces (conceptual, geographical, 2/3D, VR)",,Elective
+IM-64-19,"Architectures (agents, buses, wrappers/mediators), interoperability",,Elective
+IM-64-20,"Services (searching, linking, browsing, and so forth)",,Elective
+IM-64-21,"Intellectual property rightsmanagement, privacy, and protection (watermarking)",,Elective
+IM-65-01,"Input and output devices, device drivers, control signals and protocols, DSPs",,Elective
+IM-65-02,"Standards (e.g., audio, graphics, video)",,Elective
+IM-65-03,"Applications, media editors, authoring systems, and authoring",,Elective
+IM-65-04,"Streams/structures, capture/represent/transform, spaces/domains, compression/coding",,Elective
+IM-65-05,"Content-based analysis, indexing, and retrieval of audio, images, animation, and video",,Elective
+IM-65-06,"Presentation, rendering, synchronization, multi-modal integration/interfaces",,Elective
+IM-65-07,"Real-time delivery, quality of service (including performance), capacity planning, audio/video ",,Elective
+IS-66-01,"Overview of AI problems, examples of successful recent AI applications",COMP 3608,Tier 2
+IS-66-02,What is intelligent behavior? ,COMP 3608,Tier 2
+IS-66-03,Problem characteristics,COMP 3608,Tier 2
+IS-66-04,Nature of agents,COMP 3608,Tier 2
+IS-66-05,Philosophical and ethical issues. [elective],COMP 3608,Tier 2
+IS-67-01,"Problem spaces (states, goals and operators),  problem solving by search",COMP 3608,Tier 2
+IS-67-02,Factored representation (factoring state into variables),COMP 3608,Tier 2
+IS-67-03,"Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)  ",COMP 3608,Tier 2
+IS-67-04,"Heuristics and informed search (hill-climbing, generic best-first, A*)  ",COMP 3608,Tier 2
+IS-67-05,Space and time efficiency of search  ,COMP 3608,Tier 2
+IS-67-06,Two-player games (introduction to minimax search)  ,COMP 3608,Tier 2
+IS-67-07,Constraint satisfaction (backtracking and local search methods) ,COMP 3608,Tier 2
+IS-68-01,Review of propositional and predicate logic (cross-reference DS/Basic Logic),,Tier 2
+IS-68-02,Resolution and theorem proving (propositional logic only),,Tier 2
+IS-68-03,"Forward chaining, backward chaining",,Tier 2
+IS-68-04,"Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)",,Tier 2
+IS-69-01,"Definition and examples of broad variety of machine learning tasks, including classification ",COMP 3608,Tier 2
+IS-69-02,Inductive learning,COMP 3608,Tier 2
+IS-69-03,"Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees",COMP 3608,Tier 2
+IS-69-04,The over-fitting problem,COMP 3608,Tier 2
+IS-69-05,Measuring classifier accuracy,COMP 3608,Tier 2
+IS-70-01,"Constructing search trees, dynamic search space, combinatorial explosion of search space",,Elective
+IS-70-02,Stochastic search,,Elective
+IS-70-03,"Implementation of A* search, beam search",,Elective
+IS-70-04,"Minimax search, alpha-beta pruning",,Elective
+IS-70-05,Expectimax search (MDP-solving) and chance nodes,,Elective
+IS-71-01,Knowledge representation issues,,Elective
+IS-71-02,"Non-monotonic reasoning (e.g., non-classical logics, default reasoning)",,Elective
+IS-71-03,Argumentation,,Elective
+IS-71-04,"Reasoning about action and change (e.g., situation and event calculus)",,Elective
+IS-71-05,Temporal and spatial reasoning,,Elective
+IS-71-06,Rule-based Expert Systems,,Elective
+IS-71-07,Semantic networks,,Elective
+IS-71-08,Model-based and Case-based reasoning,,Elective
+IS-71-09,Planning:,,Elective
+IS-72-01,Review of basic probability (cross-reference DS/Discrete Probability),COMP 3608,Elective
+IS-72-02,Random variables and probability distributions,"COMP 3608,COMP 1602",Elective
+IS-72-03,Conditional Independence,COMP 3608,Elective
+IS-72-04,Knowledge representations,COMP 3608,Elective
+IS-72-05,Decision Theory,COMP 3608,Elective
+IS-73-01,Definitions of agents,,Elective
+IS-73-02,"Agent architectures (e.g., reactive, layered, cognitive)",,Elective
+IS-73-03,Agent theory,,Elective
+IS-73-04,"Rationality, game theory",,Elective
+IS-73-05,"Software agents, personal assistants, and information access",,Elective
+IS-73-06,Learning agents,,Elective
+IS-73-07,Multi-agent systems,,Elective
+IS-74-01,Deterministic and stochastic grammars,,Elective
+IS-74-02,Parsing algorithms,,Elective
+IS-74-03,Representing meaning / Semantics,,Elective
+IS-74-04,Corpus-based methods,,Elective
+IS-74-05,N-grams and HMMs,,Elective
+IS-74-06,Smoothing and backoff,,Elective
+IS-74-07,Examples of use: POS tagging and morphology,,Elective
+IS-74-08,Information retrieval (Cross-reference IM/Information Storage and Retrieval),,Elective
+IS-74-09,Information extraction,,Elective
+IS-74-10,Language translation,,Elective
+IS-74-11,"Text classification, categorization",,Elective
+IS-75-01,Definition and examples of broad variety of machine learning tasks,COMP 3608,Elective
+IS-75-02,"General statistical-based learning, parameter estimation (maximum likelihood)",,Elective
+IS-75-03,Inductive logic programming (ILP),,Elective
+IS-75-04,Supervised learning  ,COMP 3608,Elective
+IS-75-05,Ensembles,,Elective
+IS-75-06,Nearest-neighbor algorithms,,Elective
+IS-75-07,Unsupervised Learning and clustering,COMP 3608,Elective
+IS-75-08,Semi-supervised learning,,Elective
+IS-75-09,Learning graphical models (Cross-reference IS/Reasoning under Uncertainty)  ,,Elective
+IS-75-10,"Performance evaluation (such as cross-validation, area under ROC curve)",COMP 3608,Elective
+IS-75-11,Learning theory,,Elective
+IS-75-12,"The problem of overfitting, the curse of dimensionality  ",COMP 3608,Elective
+IS-75-13,Reinforcement learning ,,Elective
+IS-75-14,Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining),,Elective
+IS-76-01,Overview: problems and progress,,Elective
+IS-76-02,Configuration space and environmental maps,,Elective
+IS-76-03,Interpreting uncertain sensor data,,Elective
+IS-76-04,Localizing and mapping,,Elective
+IS-76-05,Navigation and control,,Elective
+IS-76-06,Motion planning,,Elective
+IS-76-07,Multiple-robot coordination,,Elective
+IS-77-01,Computer vision,,Elective
+IS-77-02,Audio and speech recognition,,Elective
+IS-77-03,Modularity in recognition,,Elective
+IS-77-04,Approaches to pattern recognition (cross-reference IS/Advanced Machine Learning) ,,Elective
+IS-77-05,"Organization of the Internet (Internet Service Providers, Content Providers, etc.)",,Elective
+IS-77-06,"Switching techniques (e.g., circuit, packet)",,Elective
+IS-77-07,"Physical pieces of a network, including hosts, routers, switches, ISPs, wireless, LAN, access point, and ",,Elective
+IS-77-08,"Layering principles (encapsulation, multiplexing)",,Elective
+IS-77-09,"Roles of the different layers (application, transport, network, datalink, physical)",,Elective
+NC-78-01,"Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)",,Tier 1
+NC-78-02,"Distributed applications (client/server, peer-to-peer, cloud, etc.)",,Tier 1
+NC-78-03,HTTP as an application layer protocol,,Tier 1
+NC-78-04,Multiplexing with TCP and UDP,,Tier 1
+NC-78-05,Socket APIs,,Tier 1
+NC-79-01,"Error control (retransmission techniques, timers)",,Tier 2
+NC-79-02,"Flow control (acknowledgements, sliding window)",,Tier 2
+NC-79-03,Performance issues (pipelining),,Tier 2
+NC-79-04,TCP,,Tier 2
+NC-80-01,Routing versus forwarding,,Tier 2
+NC-80-02,Static routing,,Tier 2
+NC-80-03,Internet Protocol (IP),,Tier 2
+NC-80-04,Scalability issues (hierarchical addressing),,Tier 2
+NC-81-01,Multiple Access Problem,,Tier 2
+NC-81-02,"Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)",,Tier 2
+NC-81-03,Local Area Networks,,Tier 2
+NC-81-04,Ethernet,,Tier 2
+NC-81-05,Switching,,Tier 2
+NC-82-01,Need for resource allocation,,Tier 2
+NC-82-02,"Fixed allocation (TDM, FDM, WDM) versus dynamic allocation",,Tier 2
+NC-82-03,End-to-end versus network assisted approaches,,Tier 2
+NC-82-04,Fairness,,Tier 2
+NC-82-05,Principles of congestion control,,Tier 2
+NC-82-06,"Approaches to Congestion (e.g., Content Distribution Networks) ",,Tier 2
+NC-83-01,Principles of cellular networks,COMP 3606,Tier 2
+NC-83-02,802.11 networks,COMP 3606,Tier 2
+NC-83-03,Issues in supporting mobile nodes (home agents),,Tier 2
+NC-84-01,Social networks overview,,Elective
+NC-84-02,Example social network platforms,,Elective
+NC-84-03,Structure of social network graphs,,Elective
+NC-84-04,Social network analysis,,Elective
+OS-85-01,Role and purpose of the operating system,,Tier 1
+OS-85-02,Functionality of a typical operating system,"COMP 3606,COMP 1600",Tier 1
+OS-85-03,"Mechanisms to support client-server models, hand-held devices",COMP 3606,Tier 1
+OS-85-04,"Design issues (efficiency, robustness, flexibility, portability, security, compatibility)",,Tier 1
+OS-85-05,"Influences of security,networking, multimedia, windowing systems",,Tier 1
+OS-86-01,"Structuring methods (monolithic, layered, modular, micro-kernel models)",,Tier 1
+OS-86-02,"Abstractions, processes, and resources",,Tier 1
+OS-86-03,Concepts of application program interfaces (APIs),COMP 3606,Tier 1
+OS-86-04,The evolution of hardware/software techniquesand application needs,,Tier 1
+OS-86-05,Device organization,,Tier 1
+OS-86-06,Interrupts: methods and implementations,,Tier 1
+OS-86-07,"Concept of user/system state and protection, transition to kernel mode",,Tier 1
+OS-87-01,States and state diagrams (cross-reference SF/Stateand State Machines),,Tier 2
+OS-87-02,"Structures (ready list, process control blocks, and so forth)",,Tier 2
+OS-87-03,Dispatching and context switching,,Tier 2
+OS-87-04,The role of interrupts,,Tier 2
+OS-87-05,Managing atomic access to OS objects,,Tier 2
+OS-87-06,Implementing synchronization primitives,,Tier 2
+OS-87-07,"Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)",,Tier 2
+OS-88-01,"Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling, ",,Tier 2
+OS-88-02,"Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel ",,Tier 2
+OS-88-03,Processes and threads (cross-reference SF/ C omputational paradigms),,Tier 2
+OS-88-04,Deadlines and real-time issues,,Tier 2
+OS-89-01,Review of physical memory and memory management hardware,,Tier 2
+OS-89-02,Working sets and thrashing,,Tier 2
+OS-89-03,Caching(cross-reference AR/Memory System Organization and Architecture),,Tier 2
+OS-90-01,Overview of system security,,Tier 2
+OS-90-02,Policy/mechanism separation,,Tier 2
+OS-90-03,Security methods and devices,,Tier 2
+OS-90-04,"Protection, access control, and authentication",,Tier 2
+OS-90-05,Backups,,Tier 2
+OS-91-01,"Types of virtualization (including Hardware/Software, OS, Server, Service, Network) ",,Elective
+OS-91-02,Paging and virtual memory,COMP 1600,Elective
+OS-91-03,Virtual file systems,,Elective
+OS-91-04,Hypervisors ,,Elective
+OS-91-05,Portable virtualization; emulation vs. isolation,,Elective
+OS-91-06,Cost of virtualization,,Elective
+OS-92-01,Characteristics of serial and parallel devices,,Elective
+OS-92-02,Abstracting device differences,,Elective
+OS-92-03,Buffering strategies,,Elective
+OS-92-04,Direct memory access,,Elective
+OS-92-05,Recovery from failures,,Elective
+OS-93-01,"Files: data, metadata, operations, organization, buffering, sequential, nonsequential",,Elective
+OS-93-02,Directories: contents and structure,,Elective
+OS-93-03,"File systems: partitioning, mount/unmount, virtual file systems",,Elective
+OS-93-04,Standard implementation techniques,,Elective
+OS-93-05,Memory-mapped files,,Elective
+OS-93-06,Special-purpose file systems,COMP 3606,Elective
+OS-93-07,"Naming, searching, access, backups",,Elective
+OS-93-08,Journaling and log-structured file systems,,Elective
+OS-94-01,Process and task scheduling,,Elective
+OS-94-02,Memory/disk management requirements in a real-time environment,,Elective
+OS-94-03,"Failures, risks, and recovery",,Elective
+OS-94-04,Special concerns in real-time systems,,Elective
+OS-95-01,Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy),,Elective
+OS-95-02,Spatial and temporal redundancy (cross-reference SF/Reliability through Redundancy),,Elective
+OS-95-03,Methods used to implement fault tolerance,,Elective
+OS-95-04,"Examples of OS mechanisms for detection, recovery, restart to implement fault tolerance, use of these ",,Elective
+OS-96-01,Why system performance needs to be evaluated (cross-reference SF/Performance/Figures of performance ,,Elective
+OS-96-02,What is to be evaluated (cross-reference SF/Performance/Figures of performance merit),,Elective
+OS-96-03,"Systems performance policies, e.g., caching, paging, scheduling, memory management, and security",,Elective
+OS-96-04,"Evaluation models: deterministic, analytic, simulation, or implementation-specific",,Elective
+OS-96-05,How to collect evaluation data (profiling and tracing mechanisms),,Elective
+PBD-97-01,"Overview of platforms (e.g., Web, Mobile, Game,Industrial) ",,Elective
+PBD-97-02,Programming via platform-specific APIs,,Elective
+PBD-97-03,"Overview of Platform Languages (e.g., Objective C, HTML5) ",,Elective
+PBD-97-04,Programming under platform constraints,,Elective
+PBD-98-01,"Web programming languages (e.g., HTML5, Java Script, PHP, CSS) ",,Elective
+PBD-98-02,Web platform constraints ,,Elective
+PBD-98-03,Software as a Service (SaaS),,Elective
+PBD-98-04,Web standards,,Elective
+PBD-99-01,Mobile programming languages ,,Elective
+PBD-99-02,Challenges with mobility and wireless communication,,Elective
+PBD-99-03,Location-aware applications,,Elective
+PBD-99-04,Performance / power tradeoffs,,Elective
+PBD-99-05,Mobile platform constraints,,Elective
+PBD-99-06,Emerging technologies,,Elective
+PBD-100-01,"Types of Industrial Platforms (e.g., Mathematic, Robotic, Industrial Control) ",,Elective
+PBD-100-02,Robotic software and its architecture,,Elective
+PBD-100-03,Domain-specific languages,,Elective
+PBD-100-04,Industrial platform constraints,,Elective
+PBD-101-01,"Types of game platforms (e.g., XBox, Wii, PlayStation) ",,Elective
+PBD-101-02,"Game platform languages (e.g., C++, Java, Lua, Python)",,Elective
+PBD-101-03,Game platform constraints,,Elective
+PD-102-01,Multiple simultaneous computations,,Tier 1
+PD-102-02,"Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)",,Tier 1
+PD-102-03,"Parallelism, communication, and coordination ",,Tier 1
+PD-102-04,Programming errors not found in sequential programming,,Tier 1
+PD-103-01,Need for communication and coordination/synchronization,,Tier 1
+PD-103-02,Independence and partitioning,,Tier 1
+PD-103-03,Basic knowledge of parallel decomposition concepts (cross-reference SF/System Support for Parallelism) ,,Tier 2
+PD-103-04,Task-based decomposition,,Tier 2
+PD-103-05,Data-parallel decomposition,,Tier 2
+PD-103-06,"Actors and reactive processes (e.g., request handlers) ",,Tier 2
+PD-104-01,Shared Memory ,,Tier 1
+PD-104-02," C onsistency, and its role in programming language guarantees for data-race-free programs ",,Tier 1
+PD-104-03,Message passing,,Tier 2
+PD-104-04,Atomicity,,Tier 2
+PD-104-05,Consensus,,Elective
+PD-104-06,Conditional actions,,Elective
+PD-105-01,"Critical paths, work and span, and the relation to Amdahl’s law (cross-reference SF/Performance)",,Tier 2
+PD-105-02,Speed-up and scalability,,Tier 2
+PD-105-03,Naturally (embarrassingly) parallel algorithms,,Tier 2
+PD-105-04,"Parallel algorithmic patterns (divide-and-conquer, map and reduce, master-workers, others)",,Tier 2
+PD-105-05,"Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree) (cross-reference ",,Elective
+PD-105-06,Parallel matrix computations,,Elective
+PD-105-07,Producer-consumer and pipelined algorithms,,Elective
+PD-105-08,Examples of non-scalable parallel algorithms,,Elective
+PD-106-01,Multicore processors,,Tier 1
+PD-106-02,Shared vs. distributed memory,,Tier 1
+PD-106-03,Symmetric multiprocessing (SMP),,Tier 2
+PD-106-04,"SIMD, vector processing ",,Tier 2
+PD-106-05,"GPU, co-processing",,Elective
+PD-106-06,Flynn’s taxonomy,,Elective
+PD-106-07,Instruction level support for parallel programming,,Elective
+PD-106-08,Memory issues,,Elective
+PD-106-09,Topologies,,Elective
+PD-107-01,Load balancing,,Elective
+PD-107-02,Performance measurement,,Elective
+PD-107-03,Scheduling and contention (cross-reference OS/Scheduling and Dispatch),,Elective
+PD-107-04,Evaluating communication overhead,,Elective
+PD-107-05,Data management,,Elective
+PD-107-06,Power usage and management,,Elective
+PD-108-01,Faults (cross-reference OS/Fault Tolerance),,Elective
+PD-108-02,Distributed message sending,,Elective
+PD-108-03,Distributed system design tradeoffs,,Elective
+PD-108-04,Distributed service design,,Elective
+PD-108-05,Core distributed algorithms,,Elective
+PD-109-01,Internet-Scale computing,,Elective
+PD-109-02,Cloud services,,Elective
+PD-109-03,Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines),,Elective
+PD-109-04,Cloud-based data storage,,Elective
+PD-110-01,"Formal models of processes and message passing, including algebras such as Communicating Sequential ",,Elective
+PD-110-02,"Formal models of parallel computation, including the Parallel Random Access Machine (PRAM) and ",,Elective
+PD-110-03,Formal models of computational dependencies,,Elective
+PD-110-04,Models of (relaxed) shared memory consistency and their relation to programming language specifications,,Elective
+PD-110-05,Algorithmic correctness criteria including linearizability,,Elective
+PD-110-06,"Models of algorithmic progress, including non-blocking guarantees and fairness",,Elective
+PD-110-07,Techniques for specifying and checking correctness properties such as atomicity and freedom from data ,,Elective
+PL-111-01,Object-oriented design ,COMP 2603,Tier 1
+PL-111-02,"Definition of classes: fields, methods, and constructors ",COMP 2603,Tier 1
+PL-111-03,"Subclasses, inheritance, and method overriding ","COMP 2603,COMP 3607",Tier 1
+PL-111-04,Dynamic dispatch: definition of method-call ,COMP 2603,Tier 1
+PL-111-05,Subtyping (cross-reference PL/Type Systems),"COMP 2603,COMP 3607",Tier 2
+PL-111-06,Object-oriented idioms for encapsulation ,COMP 2603,Tier 2
+PL-111-07,"Using collection classes, iterators, and other common library components","COMP 2603,COMP 3606",Tier 2
+PL-112-01,Effect-free programming ,,Tier 1
+PL-112-02,"Processing structured data (e.g., trees) via functions with cases for each data variant ",,Tier 1
+PL-112-03,"First-class functions (taking, returning, and storing functions)",,Tier 1
+PL-112-04,Function closures (functions using variables in the enclosing lexical environment),,Tier 2
+PL-112-05,"Defining higher-order operations on aggregates, especially map, reduce/fold, and filter",,Tier 2
+PL-113-01,Events and event handlers ,"COMP 2603,COMP 3606",Tier 2
+PL-113-02,"Canonical uses such as GUIs, mobile devices, robots, servers",COMP 3606,Tier 2
+PL-113-03,Using a reactive framework,"COMP 2603,COMP 3606",Tier 2
+PL-113-04,Externally-generated events and program-generated events,COMP 3606,Tier 2
+PL-113-05,"Separation of model, view, and controller","COMP 2603,COMP 3606",Tier 2
+PL-114-01,A type as a set of values together with a set of operations ,,Tier 1
+PL-114-02,"Association of types to variables, arguments, results, and fields ",,Tier 1
+PL-114-03,Type safety and errors caused by using values inconsistently giventheir intended types,"COMP 2603,COMP 3607",Tier 1
+PL-114-04,Goals and limitations of static typing ,"COMP 2603,COMP 3607",Tier 1
+PL-114-05,Generic types (parametric polymorphism),COMP 3607,Tier 2
+PL-114-06,Complementary benefits of static and dynamic typing,,Tier 2
+PL-115-01,"Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation ",,Tier 2
+PL-115-02,Abstract syntax trees; contrast with concrete syntax,,Tier 2
+PL-115-03,"Data structures to represent code for execution, translation, or transmission",,Tier 2
+PL-116-01,Interpretation vs. compilation to native code vs. compilation toportable intermediate representation,,Tier 2
+PL-116-02,"Language translation pipeline: parsing, optional type-checking, translation, linking, execution",,Tier 2
+PL-116-03,Run-time representation of core language constructs such as objects (method tables) and first-class ,,Tier 2
+PL-116-04,"Run-time layout of memory: call-stack, heap, static data",,Tier 2
+PL-116-05,Memory management,,Tier 2
+PL-117-01,Scanning (lexical analysis) using regular expressions,,Elective
+PL-117-02,"Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g., ",,Elective
+PL-117-03,Generating scanners and parsers from declarative specifications,,Elective
+PL-118-01,High-level program representations such as abstract syntax trees,,Elective
+PL-118-02,Scope and binding resolution,,Elective
+PL-118-03,Type checking,,Elective
+PL-118-04,Declarative specifications such as attribute grammars,,Elective
+PL-119-01,Procedure calls and method dispatching,,Elective
+PL-119-02,Separate compilation; linking,,Elective
+PL-119-03,Instruction selection,,Elective
+PL-119-04,Instruction scheduling,,Elective
+PL-119-05,Register allocation,,Elective
+PL-119-06,Peephole optimization,,Elective
+PL-120-01,"Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep, ",,Elective
+PL-120-02,Data layout for objects and activation records,,Elective
+PL-120-03,Just-in-time compilation and dynamic recompilation,,Elective
+PL-120-04,"Other common features of virtual machines, such as class loading, threads,and security.",,Elective
+PL-121-01,"Relevant program representations, such as basic blocks, control-flow graphs, def-use chains,and static ",,Elective
+PL-121-02,Undecidability and consequences for program analysis,,Elective
+PL-121-03,"Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses",,Elective
+PL-121-04,"Flow-sensitive analyses, such as forward and backward dataflow analyses",,Elective
+PL-121-05,"Path-sensitive analyses, such as software model checking",,Elective
+PL-121-06,Tools and frameworks for defining analyses,,Elective
+PL-121-07,Role of static analysis in program optimization,,Elective
+PL-121-08,Role of static analysis in (partial) verification and bug-finding,,Elective
+PL-122-01,Lazy evaluation and infinite streams,,Elective
+PL-122-02,"Control Abstractions: Exception Handling, Continuations, Monads",,Elective
+PL-122-03,"Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods",,Elective
+PL-122-04,"Metaprogramming: Macros, Generative programming, Model-based development",,Elective
+PL-122-05,Module systems,,Elective
+PL-122-06,String manipulation via pattern-matching (regular expressions),,Elective
+PL-122-07,Dynamic code evaluation (“eval”),,Elective
+PL-122-08,"Language support for checking assertions, invariants, and pre/post-conditions",,Elective
+PL-123-01,Constructs for thread-shared variables and shared-memory synchronization,,Elective
+PL-123-02,Actor models,,Elective
+PL-123-03,Futures,,Elective
+PL-123-04,Language support for data parallelism,COMP 3606,Elective
+PL-123-05,Models for passing messages between sequential processes,COMP 3606,Elective
+PL-123-06,Effect of memory-consistency models on language semantics and correct code generation,,Elective
+PL-124-01,"Compositional type constructors, such as product types (for aggregates), sum types (for unions), function ",,Elective
+PL-124-02,Type checking,,Elective
+PL-124-03,Type safety as preservation plus progress,,Elective
+PL-124-04,Type inference,,Elective
+PL-124-05,Static overloading,,Elective
+PL-125-01,Syntax vs. semantics,,Elective
+PL-125-02,Lambda Calculus,,Elective
+PL-125-03,"Approaches to semantics: Operational, Denotational, Axiomatic",,Elective
+PL-125-04,Proofs by induction over language semantics,,Elective
+PL-125-05,Formal definitions and proofs for type systems(cross-reference PL/Type Systems),,Elective
+PL-125-06,Parametricity(cross-reference PL/Type Systems),,Elective
+PL-125-07,Using formal semantics for systems modeling,,Elective
+PL-126-01,Principles of language design such as orthogonality,,Elective
+PL-126-02,"Evaluation order, precedence, and associativity",,Elective
+PL-126-03,Eager vs. delayed evaluation,,Elective
+PL-126-04,Defining controland iteration constructs,,Elective
+PL-126-05,External calls and system libraries,,Elective
+PL-127-01,Clausal representation of data structures and algorithms,,Elective
+PL-127-02,Unification,,Elective
+PL-127-03,Backtracking and search,,Elective
+PL-127-04,Cuts,,Elective
+SDF-128-01,The concept and properties of algorithms,COMP 1601,Tier 1
+SDF-128-02,The role of algorithms in the problem-solving process,COMP 1601,Tier 1
+SDF-128-03,Problem-solving strategies ,,Tier 1
+SDF-128-04,Fundamental design concepts and principles,"COMP 2603,COMP 3607",Tier 1
+SDF-129-01,Basic syntax and semantics of a higher-level language,"COMP 2603,COMP 1603,COMP 1602,COMP 1601",Tier 1
+SDF-129-02,"Variables and primitive data types (e.g., numbers, characters, Booleans)","COMP 2603,COMP 1601",Tier 1
+SDF-129-03,Expressions and assignments,"COMP 2603,COMP 1601",Tier 1
+SDF-129-04,Simple I/O including file I/O,"COMP 2603,COMP 1601",Tier 1
+SDF-129-05,Conditional and iterative control structures,"COMP 2603,COMP 1601",Tier 1
+SDF-129-06,Functions and parameter passing,"COMP 2603,COMP 1602,COMP 1601",Tier 1
+SDF-129-07,The concept of recursion,COMP 1603,Tier 1
+SDF-130-01,Arrays,"COMP 2603,COMP 1602,COMP 1601",Tier 1
+SDF-130-02,Records/structs (heterogeneous aggregates),COMP 1602,Tier 1
+SDF-130-03,Strings and string processing,"COMP 2603,COMP 1602",Tier 1
+SDF-130-04,Abstract data types and their implementation,"COMP 2603,COMP 1603",Tier 1
+SDF-130-05,References and aliasing,,Tier 1
+SDF-130-06,Linked lists,COMP 1603,Tier 1
+SDF-130-07,Strategies for choosing the appropriate data structure,"COMP 2603,COMP 1603",Tier 1
+SDF-131-01,Program comprehension,COMP 3607,Tier 1
+SDF-131-02,Program correctness,COMP 3607,Tier 1
+SDF-131-03,Simple refactoring,COMP 3607,Tier 1
+SDF-131-04,Modern programming environments,COMP 3607,Tier 1
+SDF-131-05,Debugging strategies,COMP 3607,Tier 1
+SDF-131-06,Documentation and program style,COMP 3607,Tier 1
+SE-132-01,"Systems level considerations, i.e., the interaction of software with its intended environment (cross-",,Tier 1
+SE-132-02,"Introduction to software process models (e.g., waterfall, incremental, agile)",COMP 2606,Tier 1
+SE-132-03,Programming in the large vs. individual programming,COMP 2606,Tier 1
+SE-132-04,Evaluation of software process models,COMP 2606,Tier 2
+SE-132-05,Software quality concepts,COMP 2606,Elective
+SE-132-06,Process improvement,COMP 3613,Elective
+SE-132-07,Software process capability maturity models,COMP 3613,Elective
+SE-132-08,Software process measurements,COMP 3613,Elective
+SE-133-01,Team participation,"COMP 3613,COMP 2606",Tier 2
+SE-133-02,Effort Estimation (at the personal level),COMP 3613,Tier 2
+SE-133-03,Risk(cross reference IAS/Secure Software Engineering) ,"COMP 2606,COMP 3613",Tier 2
+SE-133-04,Team management,"COMP 3613,COMP 2606",Elective
+SE-133-05,Project management,"COMP 2606,COMP 3613",Elective
+SE-133-06,Software measurement and estimation techniques ,COMP 3613,Elective
+SE-133-07,Software quality assurance and the role of measurements,,Elective
+SE-133-08,Risk,COMP 2606,Elective
+SE-133-09,System-wide approach to risk including hazards associated with tools,,Elective
+SE-134-01,Software configuration management and version control,COMP 3613,Tier 2
+SE-134-02,Release management,COMP 3613,Tier 2
+SE-134-03,Requirements analysis and design modeling tools,COMP 2606,Tier 2
+SE-134-04,Testing tools including static and dynamic analysis tools,,Tier 2
+SE-134-05,"Programming environments that automate parts of program construction processes (e.g., automated builds)",COMP 3607,Tier 2
+SE-134-06,Tool integration concepts and mechanisms,,Tier 2
+SE-135-01,"Describing functional requirements using, for example, use cases or users stories","COMP 3607,COMP 2606,COMP 3613",Tier 1
+SE-135-02,"Properties of requirements including consistency, validity, completeness, and feasibility","COMP 2606,COMP 3613",Tier 1
+SE-135-03,Software requirements elicitation,"COMP 2606,COMP 3613",Tier 2
+SE-135-04,"Describing system data using, for example, class diagrams or entity-relationship diagrams","COMP 2606,COMP 3613",Tier 2
+SE-135-05,Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure ,"COMP 2606,COMP 3613",Tier 2
+SE-135-06,Evaluation and use of requirements specifications,"COMP 2606,COMP 3613",Tier 2
+SE-135-07,Requirements analysis modeling techniques,COMP 2606,Elective
+SE-135-08,Acceptability of certainty / uncertainty considerations regarding software / system behavior,,Elective
+SE-135-09,Prototyping,COMP 2606,Elective
+SE-135-10,Basic concepts of formal requirements specification,"COMP 2606,COMP 3613",Elective
+SE-135-11,Requirements specification,"COMP 2606,COMP 3613",Elective
+SE-135-12,Requirements validation,"COMP 2606,COMP 3613",Elective
+SE-135-13,Requirements tracing,,Elective
+SE-136-01,"System design principles:  levels of abstraction (architectural design and detailed design), separation of ","COMP 2603,COMP 3607,COMP 2606",Tier 1
+SE-136-02,"Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis ","COMP 3607,COMP 2606",Tier 1
+SE-136-03,Structural and behavioral models of software designs,"COMP 3607,COMP 2606,COMP 3613",Tier 1
+SE-136-04,Design patterns,COMP 3607,Tier 1
+SE-136-05,"Relationships between requirements and designs:  transformation of models, design of contracts, invariants",,Tier 2
+SE-136-06,"Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, ",COMP 2606,Tier 2
+SE-136-07,Refactoring designs using design patterns,COMP 3607,Tier 2
+SE-136-08,"The use of components in design:  component selection, design, adaptation and assembly of components, ",COMP 3613,Tier 2
+SE-136-09,"Internal design qualities, and models for them:  efficiency and performance, redundancy and fault ",COMP 3613,Elective
+SE-136-10,"External design qualities, and models for them:  functionality, reliability, performance and efficiency, ",COMP 3613,Elective
+SE-136-11,Measurement and analysis of design quality,COMP 3613,Elective
+SE-136-12,Tradeoffs between different aspects of quality,COMP 3613,Elective
+SE-136-13,Application frameworks,,Elective
+SE-136-14,"Middleware:  the object-oriented paradigm within middleware, object request brokers and marshalling, ",COMP 3607,Elective
+SE-136-15,Principles of secure design and coding (cross-reference IAS/Principles of Secure Design),,Elective
+SE-137-01,"Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference ",,Tier 2
+SE-137-02,Coding standards,COMP 3607,Tier 2
+SE-137-03,Integration strategies,COMP 3613,Tier 2
+SE-137-04,Development context: “green field” vs. existing code base,,Tier 2
+SE-137-05,Potential security problems in programs,,Elective
+SE-138-01,Verification and validation concepts,COMP 2606,Tier 2
+SE-138-02,"Inspections, reviews, audits",COMP 2606,Tier 2
+SE-138-03,"Testing types, including human computer interface, usability,reliability, security, conformance to ",COMP 3613,Tier 2
+SE-138-04,Testing fundamentals(cross-reference SDF/Development Methods) ,COMP 3613,Tier 2
+SE-138-05,Defect tracking,,Tier 2
+SE-138-06,"Limitations of testing in particular domains, such as parallel or safety-critical systems",,Tier 2
+SE-138-07,Static approaches and dynamic approaches to verification,,Elective
+SE-138-08,Test-driven development,"COMP 3607,COMP 3613,COMP 2606",Elective
+SE-138-09,Validation planning; documentation for validation,,Elective
+SE-138-10,Object-oriented testing; systems testing,COMP 3607,Elective
+SE-138-11,"Verification and validation of non-code artifacts (documentation, help files, training materials)",,Elective
+SE-138-12,"Fault logging, fault tracking and technical support for such activities",,Elective
+SE-138-13,Fault estimation and testing termination including defect seeding,,Elective
+SE-139-01,"Software development in the context of large, pre-existing code bases",,Tier 2
+SE-139-02,Software evolution,COMP 3613,Tier 2
+SE-139-03,Characteristics of maintainable software,COMP 3613,Tier 2
+SE-139-04,Reengineering systems,,Tier 2
+SE-139-05,Software reuse,COMP 3613,Tier 2
+SE-140-01,Software reliability engineering concepts,,Tier 2
+SE-140-02,"Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through ",,Tier 2
+SE-140-03,Fault lifecycle concepts and techniques,,Tier 2
+SE-140-04,Software reliability models,,Elective
+SE-140-05,Software fault tolerance techniques and models,,Elective
+SE-140-06,Software reliability engineering practices,,Elective
+SE-140-07,Measurement-based analysis of software reliability,,Elective
+SE-141-01,Role of formal specification and analysis techniques in the software development cycle,,Elective
+SE-141-02,Program assertion languages and analysis approaches (including languages for writing and analyzing pre- ,,Elective
+SE-141-03,Formal approaches to software modeling and analysis,,Elective
+SE-141-04,Tools in support of formal methods,,Elective
+SF-142-01,"Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections; ",COMP 1600,Tier 1
+SF-142-02,"Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions, ",,Tier 1
+SF-142-03,Application-level sequential processing: single thread,,Tier 1
+SF-142-04,"Simple application-level parallel processing: request level (web services/client-server/distributed), single ",COMP 3606,Tier 1
+SF-142-05,"Basic concept of pipelining, overlapped processing stages",,Tier 1
+SF-142-06,Basic concept of scaling: going faster vs. handling larger problems,,Tier 1
+SF-143-01,"Programming abstractions, interfaces, use of libraries",COMP 3606,Tier 1
+SF-143-02,"Distinction between Application and OS services, Remote Procedure Call",COMP 3606,Tier 1
+SF-143-03,Application-Virtual Machine Interaction,,Tier 1
+SF-143-04,Reliability,,Tier 1
+SF-144-01,Digital vs. Analog/Discrete vs. Continuous Systems,,Tier 1
+SF-144-02,"Simple logic gates, logical expressions, Boolean logic simplification",COMP 1600,Tier 1
+SF-144-03,"Clocks, State, Sequencing",,Tier 1
+SF-144-04,"Combinational Logic, Sequential Logic, Registers, Memories",,Tier 1
+SF-144-05,Computers and Network Protocols as examples of state machines,,Tier 1
+SF-145-01,Sequential vs. parallel processing,,Tier 1
+SF-145-02,Parallel programming vs. concurrent programming,,Tier 1
+SF-145-03,Request parallelism vs. Task parallelism,,Tier 1
+SF-145-04,"Client-Server/Web Services, Thread (Fork-Join), Pipelining",,Tier 1
+SF-145-05,Multicore architectures and hardware support for synchronization,,Tier 1
+SF-146-01,Performance figures of merit,,Tier 1
+SF-146-02,"Workloadsand representative benchmarks, and methods of collecting and analyzing performance figures of ",,Tier 1
+SF-146-03,"CPI (Cycles per Instruction) equationas tool for understanding tradeoffs in the design of instruction sets, ",,Tier 1
+SF-146-04,Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,,Tier 1
+SF-147-01,"Kinds of resources (e.g., processor share, memory, disk, net bandwidth) ",,Tier 2
+SF-147-02,"Kinds of scheduling (e.g., first-come, priority) ",,Tier 2
+SF-147-03,"Advantages of fair scheduling, preemptive scheduling",,Tier 2
+SF-148-01,Speed of light and computers (one foot per nanosecond vs. one GHz clocks),,Tier 2
+SF-148-02,Latencies in computer systems: memory vs. disk latencies vs. across the network memory,,Tier 2
+SF-148-03,Cachesand the effects of spatial and temporal localityon performancein processors and systems,,Tier 2
+SF-148-04,"Caches and cache coherency in databases, operating systems, distributed systems, and computer ",,Tier 2
+SF-148-05,Introduction into the processor memory hierarchyand the formula for average memory access time,,Tier 2
+SF-149-01,Rationale for protection and predictable performance,,Tier 2
+SF-149-02,"Levels of indirection, illustrated by virtual memory for managing physical memory resources",,Tier 2
+SF-149-03,Methods for implementing virtual memory and virtual machines,,Tier 2
+SF-150-01,Distinction between bugs and faults,,Tier 2
+SF-150-02,Redundancy through check and retry,,Tier 2
+SF-150-03,"Redundancy through redundant encoding (error correcting codes, CRC, FEC)",,Tier 2
+SF-150-04,Duplication/mirroring/replicas,,Tier 2
+SF-150-05,Other approaches to fault tolerance and availability,,Tier 2
+SF-151-01,Analytical tools to guidequantitative evaluation,,Elective
+SF-151-02,Order of magnitude analysis (Big-Oh notation),,Elective
+SF-151-03,Analysis of slow and fast paths of a system,,Elective
+SF-151-04,"Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)",,Elective
+SF-151-05,"Understanding layered systems, workloads, and platforms, their implications for performance, and the ",,Elective
+SF-151-06,Microbenchmarking pitfalls,,Elective
+SP-152-01,Social implications of computing in a networked world (cross-reference HCI/Foundations/social models; ,,Tier 1
+SP-152-02,"Impact of social media on individualism, collectivism and culture.",,Tier 1
+SP-152-03,Growth and control of the Internet (cross-reference NC/Introduction/organization of the Internet),,Tier 2
+SP-152-04,"Often referred to as the digital divide, differences in access to digital technology resources and its resulting ",,Tier 2
+SP-152-05,"Accessibility issues, including legal requirements",,Tier 2
+SP-152-06,Context-aware computing  (cross-reference HCI/Design for non-mouse interfaces/ ubiquitous and context-,,Tier 2
+SP-153-01,Ethical argumentation,,Tier 1
+SP-153-02,Ethical theories and decision-making,,Tier 1
+SP-153-03,Moral assumptions and values,,Tier 1
+SP-154-01,Community values and the laws by which we live ,,Tier 1
+SP-154-02,"The nature of professionalism including care, attention and discipline, fiduciary responsibility, and ",,Tier 1
+SP-154-03,"Keeping up-to-date as a computing professional in terms of familiarity, tools, skills, legal and professional ",,Tier 1
+SP-154-04,"Professional certification, codes of ethics, conduct, and practice, such as the ACM/IEEE-CS, SE, AITP, ",,Tier 1
+SP-154-05,"Accountability, responsibility and liability (e.g. software correctness, reliability and safety, as well as ",,Tier 1
+SP-154-06,The role of the computing professional in public policy,,Tier 2
+SP-154-07,Maintaining awareness of consequences,,Tier 2
+SP-154-08,Ethical dissent and whistle-blowing,,Tier 2
+SP-154-09,The relationship between regional culture and ethicaldilemmas,,Tier 2
+SP-154-10,Dealing with harassment and discrimination,,Tier 2
+SP-154-11,Forms of professional credentialing ,,Tier 2
+SP-154-12,Acceptable use policies for computing in the workplace,,Tier 2
+SP-154-13,Ergonomics and healthy computing environments,,Tier 2
+SP-154-14,Time to market and cost considerations versus quality professional standards,,Tier 2
+SP-155-01,Philosophical foundations of intellectual property ,,Tier 1
+SP-155-02,Intellectual property rights (cross-reference IM/Information Storage and Retrieval/intellectual property and ,,Tier 1
+SP-155-03,Intangible digital intellectual property (IDIP),,Tier 1
+SP-155-04,Legal foundations for intellectual property protection,,Tier 1
+SP-155-05,Digital rights management,,Tier 1
+SP-155-06,"Copyrights, patents, trade secrets, trademarks",,Tier 1
+SP-155-07,Plagiarism,,Tier 1
+SP-155-08,Foundations of the open source movement,,Elective
+SP-155-09,Software piracy,,Elective
+SP-156-01,Philosophical foundations of privacy rights (cross-reference IS/Fundamental Issues/philosophical issues),,Tier 1
+SP-156-02,Legal foundations of privacy protection ,,Tier 1
+SP-156-03,"Privacy implications of widespread data collection for transactional databases, data warehouses, ",,Tier 1
+SP-156-04,Ramifications of differential privacy ,,Tier 1
+SP-156-05,Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on ,,Tier 1
+SP-156-06,Privacy legislation in areas of practice,,Elective
+SP-156-07,Civil liberties and cultural differences,,Elective
+SP-156-08,Freedom of expression and its limitations ,,Elective
+SP-157-01,"Reading, understanding and summarizing technical material, including source code and documentation",,Tier 1
+SP-157-02,Writing effective technical documentation and materials,,Tier 1
+SP-157-03,"Dynamics of oral, written, and electronic team and group communication (cross-reference ",,Tier 1
+SP-157-04,Communicating professionally with stakeholders,,Tier 1
+SP-157-05,Utilizing collaboration tools  (cross-reference HCI/Collaboration and Communication/online communities; ,,Tier 1
+SP-157-06,Dealing with cross-cultural environments (cross-reference HCI/User-Centered Design and Testing/cross-,,Elective
+SP-157-07,"Tradeoffs of competing risks in software projects, such as technology, structure/process, quality, people, ",,Elective
+SP-158-01,Being a sustainable practitioner by taking into consideration cultural and environmental impacts of ,,Tier 1
+SP-158-02,Explore global social and environmental impacts of computer use and disposal (e-waste),,Tier 1
+SP-158-03,"Environmental impacts of design choices in specific areas such as algorithms, operating systems, networks, ",,Tier 2
+SP-158-04,Guidelines for sustainable design standards,,Elective
+SP-158-05,Systemic effects of complex computer-mediated phenomena (e.g. telecommuting or web shopping),,Elective
+SP-158-06,"Pervasive computing; information processingintegrated into everyday objects and activities, such as smart ",,Elective
+SP-158-07,"Research on applications of computing to environmental issues, such as energy, pollution, resource usage, ",,Elective
+SP-158-08,"The interdependence ofthe sustainability of software systems with social systems, including the knowledge ",,Elective
+SP-159-01,Prehistory—the world before 1946,,Elective
+SP-159-02,"History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/ ",COMP 1600,Elective
+SP-159-03,Pioneers of computing,,Elective
+SP-159-04,History oftheInternet,,Elective
+SP-160-01,Monopolies and their economic implications,,Elective
+SP-160-02,Effect of skilled labor supply and demand on the quality of computing products,,Elective
+SP-160-03,Pricing strategies in the computing domain,,Elective
+SP-160-04,The phenomenon of outsourcing and off-shoring software development; impacts on employment and on ,,Elective
+SP-160-05,Consequences of globalization for the computer science profession,,Elective
+SP-160-06,Differences in access to computing resources and the possible effects thereof,,Elective
+SP-160-07,"Cost/benefit analysis of jobs with considerations tomanufacturing, hardware, software, and engineering ",,Elective
+SP-160-08,Cost estimates versus actual costs in relation to total costs,,Elective
+SP-160-09,Entrepreneurship: prospects and pitfalls,,Elective
+SP-160-10,Network effect or demand-side economies of scale,,Elective
+SP-160-11,Use of engineering economics in dealing with finances,,Elective
+SP-161-01,Examples of computer crimes and legal redress for computer criminals (cross-reference IAS/Digital ,,Elective
+SP-161-02,"Social engineering, identity theft and recovery (cross-reference HCI/Human Factors and Security/trust, ",,Elective
+SP-161-03,Issues surrounding the misuse of access and breaches in security,,Elective
+SP-161-04,"Motivations and ramifications of cyber terrorism and criminal hacking, “cracking”",,Elective
+SP-161-05,"Effects of malware, such as viruses, worms and Trojan horses",,Elective
+SP-161-06,Crime prevention strategies,,Elective
+SP-161-07,Security policies (cross-reference IAS/SecurityPolicy and Governance/policies),,Elective

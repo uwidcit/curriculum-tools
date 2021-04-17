@@ -159,34 +159,6 @@ function getTopics(texts){
     return topics;
 }
 
-// function getTopics(texts){
-//     const topics = {};
-       
-//     let i = 0;
-//     let cursub = null;
-
-//     while(i < texts.length){
-//         while(!isSubdomain(texts[i]))i++;
-  
-//         cursub = texts[i];
-//         topics[cursub.text] = []
-
-//         i++;
-        
-//         while(i < texts.length && !isSubdomain(texts[i]) ){
-
-//             if( texts[i].text[0] === "•" && i < texts.length && (texts[i].size === TOPICSIZE1 || texts[i].size === TOPICSIZE2 )){
-//                 text = texts[i].text.replace("•", "");
-//                 topics[cursub.text].push(text);
-//             }
-//             i++;
-//         }
-
-//     }
-
-//     return topics;
-// }
-
 
 function getSubdomains(){
     const subs = [];

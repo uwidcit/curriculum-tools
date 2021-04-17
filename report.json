@@ -1,0 +1,228 @@
+{
+  "AR-09": {
+    "COMP 1600-Tier 2": 2
+  },
+  "SF-144": {
+    "COMP 1600-Tier 1": 1
+  },
+  "SF-142": {
+    "COMP 1600-Tier 1": 1,
+    "COMP 3606-Tier 1": 1
+  },
+  "AR-10": {
+    "COMP 1600-Tier 2": 2
+  },
+  "AR-11": {
+    "COMP 1600-Tier 2": 1
+  },
+  "OS-85": {
+    "COMP 1600-Tier 1": 1,
+    "COMP 3606-Tier 1": 2
+  },
+  "OS-91": {
+    "COMP 1600-Elective": 1
+  },
+  "AL-01": {
+    "COMP 1600-Tier 2": 1,
+    "COMP 3601-Tier 1": 6,
+    "COMP 3601-Tier 2": 5
+  },
+  "IM-59": {
+    "COMP 1600-Elective": 1,
+    "COMP 2605-Elective": 6
+  },
+  "SP-159": {
+    "COMP 1600-Elective": 1
+  },
+  "SDF-129": {
+    "COMP 1601-Tier 1": 6,
+    "COMP 1602-Tier 1": 2,
+    "COMP 1603-Tier 1": 2,
+    "COMP 2603-Tier 1": 6
+  },
+  "SDF-130": {
+    "COMP 1601-Tier 1": 1,
+    "COMP 1602-Tier 1": 3,
+    "COMP 1603-Tier 1": 3,
+    "COMP 2603-Tier 1": 4
+  },
+  "SDF-128": {
+    "COMP 1601-Tier 1": 2,
+    "COMP 2603-Tier 1": 1,
+    "COMP 3607-Tier 1": 1
+  },
+  "AL-03": {
+    "COMP 1602-Tier 1": 2,
+    "COMP 1603-Tier 1": 1,
+    "COMP 2611-Tier 1": 7,
+    "COMP 2611-Tier 2": 2,
+    "COMP 3601-Tier 2": 1
+  },
+  "IS-72": {
+    "COMP 1602-Elective": 1,
+    "COMP 3608-Elective": 5
+  },
+  "DS-22": {
+    "COMP 1604-Tier 1": 3
+  },
+  "DS-23": {
+    "COMP 1604-Tier 1": 8
+  },
+  "DS-24": {
+    "COMP 1604-Tier 1": 9
+  },
+  "DS-25": {
+    "COMP 1604-Tier 1": 5
+  },
+  "HCI-34": {
+    "COMP 2603-Tier 1": 1,
+    "COMP 3603-Tier 1": 7
+  },
+  "HCI-36": {
+    "COMP 2603-Elective": 3,
+    "COMP 3603-Elective": 2,
+    "COMP 3607-Elective": 1
+  },
+  "PL-111": {
+    "COMP 2603-Tier 1": 4,
+    "COMP 2603-Tier 2": 3,
+    "COMP 3606-Tier 2": 1,
+    "COMP 3607-Tier 1": 1,
+    "COMP 3607-Tier 2": 1
+  },
+  "PL-113": {
+    "COMP 2603-Tier 2": 3,
+    "COMP 3606-Tier 2": 5
+  },
+  "PL-114": {
+    "COMP 2603-Tier 1": 2,
+    "COMP 3607-Tier 1": 2,
+    "COMP 3607-Tier 2": 1
+  },
+  "SE-136": {
+    "COMP 2603-Tier 1": 1,
+    "COMP 2606-Tier 1": 3,
+    "COMP 2606-Tier 2": 1,
+    "COMP 3607-Tier 1": 4,
+    "COMP 3607-Tier 2": 1,
+    "COMP 3607-Elective": 1,
+    "COMP 3613-Tier 1": 1,
+    "COMP 3613-Tier 2": 1,
+    "COMP 3613-Elective": 4
+  },
+  "HCI-35": {
+    "COMP 2603-Tier 2": 1,
+    "COMP 3603-Tier 2": 5
+  },
+  "IM-55": {
+    "COMP 2605-Tier 2": 2,
+    "COMP 3613-Elective": 1
+  },
+  "IM-56": {
+    "COMP 2605-Tier 2": 3,
+    "COMP 3607-Tier 2": 2
+  },
+  "IM-58": {
+    "COMP 2605-Elective": 6
+  },
+  "IM-60": {
+    "COMP 2605-Elective": 3
+  },
+  "IM-57": {
+    "COMP 2605-Elective": 1
+  },
+  "SE-132": {
+    "COMP 2606-Tier 1": 2,
+    "COMP 2606-Tier 2": 1,
+    "COMP 2606-Elective": 1,
+    "COMP 3613-Elective": 3
+  },
+  "SE-134": {
+    "COMP 2606-Tier 2": 1,
+    "COMP 3607-Tier 2": 1,
+    "COMP 3613-Tier 2": 2
+  },
+  "SE-133": {
+    "COMP 2606-Elective": 3,
+    "COMP 2606-Tier 2": 2,
+    "COMP 3613-Tier 2": 3,
+    "COMP 3613-Elective": 3
+  },
+  "SE-135": {
+    "COMP 2606-Tier 1": 2,
+    "COMP 2606-Tier 2": 4,
+    "COMP 2606-Elective": 5,
+    "COMP 3607-Tier 1": 1,
+    "COMP 3613-Tier 2": 4,
+    "COMP 3613-Tier 1": 2,
+    "COMP 3613-Elective": 3
+  },
+  "SE-138": {
+    "COMP 2606-Tier 2": 2,
+    "COMP 2606-Elective": 1,
+    "COMP 3607-Elective": 2,
+    "COMP 3613-Tier 2": 2,
+    "COMP 3613-Elective": 1
+  },
+  "DS-26": {
+    "COMP 2611-Tier 1": 4,
+    "COMP 2611-Tier 2": 1
+  },
+  "AL-02": {
+    "COMP 3601-Tier 1": 5,
+    "COMP 3601-Tier 2": 3
+  },
+  "AL-06": {
+    "COMP 3602-Elective": 2
+  },
+  "AL-04": {
+    "COMP 3602-Tier 1": 2,
+    "COMP 3602-Tier 2": 1
+  },
+  "HCI-37": {
+    "COMP 3603-Elective": 3
+  },
+  "HCI-41": {
+    "COMP 3603-Elective": 1
+  },
+  "NC-83": {
+    "COMP 3606-Tier 2": 2
+  },
+  "PL-123": {
+    "COMP 3606-Elective": 2
+  },
+  "OS-86": {
+    "COMP 3606-Tier 1": 1
+  },
+  "OS-93": {
+    "COMP 3606-Elective": 1
+  },
+  "SF-143": {
+    "COMP 3606-Tier 1": 2
+  },
+  "CN-16": {
+    "COMP 3607-Tier 1": 1
+  },
+  "SDF-131": {
+    "COMP 3607-Tier 1": 6
+  },
+  "SE-137": {
+    "COMP 3607-Tier 2": 1,
+    "COMP 3613-Tier 2": 1
+  },
+  "IS-66": {
+    "COMP 3608-Tier 2": 5
+  },
+  "IS-67": {
+    "COMP 3608-Tier 2": 7
+  },
+  "IS-69": {
+    "COMP 3608-Tier 2": 5
+  },
+  "IS-75": {
+    "COMP 3608-Elective": 5
+  },
+  "SE-139": {
+    "COMP 3613-Tier 2": 3
+  }
+}
