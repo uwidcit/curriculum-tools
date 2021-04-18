@@ -25,8 +25,27 @@ const domains = {
 };
 
 const ITdomains = {
-    'CSP':'Cybersecurity Principles'
-}
+    "CSP": "Cybersecurity Principles",
+    "GPP": "Global Professional Practice",
+    "IMA": "Information Management",
+    "IST": "Integrated Systems Technology",
+    "NET": "Networking",
+    "PFT": "Platform Technologies",
+    "SPA": "System Paradigms",
+    "SWF": "Software Fundamentals",
+    "UXD": "User Experience Design",
+    "WMS": "Web and Mobile Systems",
+    "ANE": "Applied Networks",
+    "CCO": "Cloud Computing",
+    "CEC": "Cybersecurity Emerging Challenges",
+    "DSA": "Data Scalability and Analytics",
+    "IOT": "Internet of Things",
+    "MAP": "Mobile Application",
+    "SDM": "Software Development and Management",
+    "SRE": "Social Responsibility",
+    "VSS": "Virtual Systems and Services"
+  };
+
 
 const HEADINGSIZE = 18.04;
 const TOPICSIZE1 = 12.96;
@@ -56,16 +75,44 @@ function getObj(text, run){
     };
 }
 
-function isDomain(string){
+function isITDomain(string){
     return ((string.startsWith("ITE") || string.startsWith("ITS")) && string.split('-').length === 2 )
 }
 
-function isSubDomain(string){
+function isITSubDomain(string){
     return ((string.startsWith("ITE") || string.startsWith("ITS")) && string.split('-').length === 3 )
 }
 
-function isTopics(string){
+function isITTopic(string){
     return !(string.startsWith("ITE") || string.startsWith("ITS"))
+}
+
+function getItDomain(string){
+    let obj = {};
+    obj['domainId'] = string.substring(4, 7);
+    obj['domain'] = string.substring(4, 7) +' '+string.substring(7, string.length);
+    obj['type'] = string.startsWith("ITE") ? "Essential" : "Supplementary";
+    return obj;
+}
+
+function getITSubDomain(string){
+    let obj = {};
+    obj['subdomainId'] = string.substring(4, 10);
+    obj['subdomain'] = string.substring(10, string.length);
+    obj['domainId'] = string.substring(4, 7);
+    obj['type'] = string.startsWith("ITE") ? "Essential" : "Supplementary";
+    return obj;
+}
+
+function getITDomains(texts){
+    return texts.filter(item=>isITDomain(item.text))
+    .map(item=>{
+        return getItDomain(item.text);
+    }).reduce((acc, cur)=>{
+        const key = Object.keys(cur)[0];
+        acc[key] = cur[key];
+        return acc;
+    }, {});
 }
 
 /**
@@ -101,7 +148,6 @@ async function getPDFText(fileBuffer){
         }
 
     }
-
     return merged;
 }
 
@@ -110,75 +156,88 @@ function isSubdomain(text){
     return text.size === HEADINGSIZE && text.text.includes('/');
 }
 
-function getSubDomainIT(){
+function getSubDomainsIT(texts){
+    const subDomains = [];
+    let curDomain = null;
+    let curDomainId = null;
+    let curType = null;
 
-}
+    for(let text of texts){
+        
+        if(isITDomain(text.text)){
+            const { type, domainId, domain} = getItDomain(text.text);
+            curDomain = domain;
+            curDomainId = domainId;
+            curType = type;
+        }
 
-function getDomainIT(){
+        if(isITSubDomain(text.text)){
+            const { subdomainId, subdomain } = getITSubDomain(text.text);
+          
+            subDomains.push({
+                domain: curDomain,
+                domainId: curDomainId,
+                subdomain,
+                subdomainId,
+                type: curType
+            })
+        }
 
+        
+    }
+   
+    return subDomains;
 }
 
 function getTopicsIT(texts){
   
-
-
     const topics = [];
-       
-    let i = 0;
-    let cursub = null;
-    let subcounter = 0;
+    let curDomain = null;
+    let curDomainId = null;
+    let curSubDomain = null;
+    let curSubDomainId = null;
+    let curType = null;
+    let topicCount = 1;
+    let lastTopic = null;
 
-
-    while(i < texts.length){
-        while(!isSubdomain(texts[i]))i++;
-  
-        cursub = texts[i];
-        const [domainId, subdomain] = cursub.text.split('/');
-        topics[cursub.text] = [];
-        let counter = 1;
-        subcounter++;
-
-        i++;
-
-        let tier="N/A";
-        let breakdown = null;
+    for(let text of texts){
         
-        while(i < texts.length && !isSubdomain(texts[i]) ){
+        if(isITDomain(text.text)){
+            const { type, domainId, domain} = getItDomain(text.text);
+            curDomain = domain;
+            curDomainId = domainId;
+            curType = type;
+        }
 
-            if(texts[i].size === CATSIZE )
-                breakdown = texts[i].text; 
+        if(isITSubDomain(text.text)){
+            const { subdomainId, subdomain } = getITSubDomain(text.text);
+            topicCount = 1;
+            curSubDomain = subdomain;
+            curSubDomainId = subdomainId;
+        }
+
+        if(text.size === 11.04){
             
-            if(texts[i].size === TIERSIZE && texts[i].x > 4 && texts[i].x < 4.5){
-                tier = getTier(texts[i].text)
-                if(tier === "Both"){
-                    console.log(texts[i].text);
-                    tier = 'N/A';
-                }
-            }
-                 
-
-            if( texts[i].text[0] === "•" && i < texts.length && (texts[i].size === TOPICSIZE1 || texts[i].size === TOPICSIZE2 )){
-                text = texts[i].text.replace("•", "");
-                const subdomainId = `${domainId}-${subcounter.toString().padStart(2, '0')}`;
-                const topicId = `${subdomainId}-${counter.toString().padStart(2, '0')}`;
-                if(tier === "N/A")tier = getTier(breakdown);
+            if(text.text.match(/^[a-n]{1}.*/)){
                 topics.push({
-                    breakdown,
-                    topic: text,
-                    domainId,
-                    domain: domains[domainId],
-                    subdomain,
-                    subdomainId,
-                    topicId,
-                    tier: tier,
+                    domain: curDomain,
+                    domainId: curDomainId,
+                    subdomain: curSubDomain,
+                    subdomainId: curSubDomainId,
+                    domain: curDomain,
+                    topicId: `${curSubDomainId}-${topicCount}`,
+                    topic: text.text.substring(2, text.text.length),
+                    type: curType
                 });
-                counter++;
-            }
-            i++;
+                topicCount++;
+            }else if(topics.length >0){
+                // topics[topics.length].topic+=text.text;
+                console.log(topics[topicCount-1], text.text)
+            } 
         }
 
     }
-
+   
     return topics;
 }
 
@@ -218,7 +277,6 @@ function getTopicsCS(texts){
                 }
             }
                  
-
             if( texts[i].text[0] === "•" && i < texts.length && (texts[i].size === TOPICSIZE1 || texts[i].size === TOPICSIZE2 )){
                 text = texts[i].text.replace("•", "");
                 const subdomainId = `${domainId}-${subcounter.toString().padStart(2, '0')}`;
@@ -255,8 +313,11 @@ function getSubdomains(){
 
 async function parse(file, prog){
     const text = await getPDFText(file);
-    return topics = (prog === "CS") ? getTopicsCS(text) : getTopicsIT(text);
-    return topics;
+    // return (prog === "CS") ? getTopicsCS(text) : getTopicsIT(text);
+    return getSubDomainsIT(text);
+    // return topics;
+    // return getITDomains(text);
+    // return text;
 }
 
 
