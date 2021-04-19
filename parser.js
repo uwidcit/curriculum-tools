@@ -90,7 +90,7 @@ function isITTopic(string){
 function getItDomain(string){
     let obj = {};
     obj['domainId'] = string.substring(4, 7);
-    obj['domain'] = string.substring(4, 7) +' '+string.substring(7, string.length);
+    obj['domain'] = string.substring(7, string.length);
     obj['type'] = string.startsWith("ITE") ? "Essential" : "Supplementary";
     return obj;
 }
@@ -199,6 +199,7 @@ function getTopicsIT(texts){
     let curType = null;
     let topicCount = 1;
     let lastTopic = null;
+    let newTopic = null;
 
     for(let text of texts){
         
@@ -219,20 +220,22 @@ function getTopicsIT(texts){
         if(text.size === 11.04){
             
             if(text.text.match(/^[a-n]{1}.*/)){
-                topics.push({
+                newTopic = {
                     domain: curDomain,
                     domainId: curDomainId,
                     subdomain: curSubDomain,
                     subdomainId: curSubDomainId,
                     domain: curDomain,
-                    topicId: `${curSubDomainId}-${topicCount}`,
+                    topicId: `${curSubDomainId}-${(topicCount+"").padStart(2, '0')}`,
                     topic: text.text.substring(2, text.text.length),
                     type: curType
-                });
+                };
+                topics.push(newTopic);
+                lastTopic = newTopic;
                 topicCount++;
-            }else if(topics.length >0){
+            }else if(topics.length >0 && !text.text.startsWith("IT")){
                 // topics[topics.length].topic+=text.text;
-                console.log(topics[topicCount-1], text.text)
+                lastTopic.topic+= " "+text.text;
             } 
         }
 
@@ -311,10 +314,10 @@ function getSubdomains(){
 }
 
 
-async function parse(file, prog){
+async function parse(file, prog='IT'){
     const text = await getPDFText(file);
-    // return (prog === "CS") ? getTopicsCS(text) : getTopicsIT(text);
-    return getSubDomainsIT(text);
+    return (prog === "CS") ? getTopicsCS(text) : getTopicsIT(text);
+    // return getSubDomainsIT(text);
     // return topics;
     // return getITDomains(text);
     // return text;

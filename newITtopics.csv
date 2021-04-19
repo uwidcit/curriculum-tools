@@ -1,0 +1,825 @@
+topicId,topic,domainId,subdomain,subdomainId,domain,type
+CSP-01-01,Make sense of the hard problem areas in cybersecurity that continue to make cybersecurity a challenge to implement.,CSP,Perspectives and impact,CSP-01,Cybersecurity Principles,Essential
+CSP-01-02,Describe how a significant cybersecurity event has led to increasedorganizational focus on cybersecurity.,CSP,Perspectives and impact,CSP-01,Cybersecurity Principles,Essential
+CSP-01-03,Tell a story of a significant cybersecurity advance.,CSP,Perspectives and impact,CSP-01,Cybersecurity Principles,Essential
+CSP-01-04,"Evaluate when the Confidentiality, Integrity and Availability (CIA) of information has been or could be violated with regardsto providing trust of information.",CSP,Perspectives and impact,CSP-01,Cybersecurity Principles,Essential
+CSP-01-05,Compare and evaluate different approaches/implementations of digital currencies.,CSP,Perspectives and impact,CSP-01,Cybersecurity Principles,Essential
+CSP-02-01,Recognize when an organization focus is on compliance with standards vs. state of the practice vs. state of the art.,CSP,Policy goals and mechanisms,CSP-02,Cybersecurity Principles,Essential
+CSP-02-02,Be aware ofmultiple definitions for the word “policy” within a cybersecurity context.,CSP,Policy goals and mechanisms,CSP-02,Cybersecurity Principles,Essential
+CSP-02-03,Consider vulnerability notification and the issues associated with fixing or not fixing vulnerabilities and disclosing or notdisclosing vulnerabilities.,CSP,Policy goals and mechanisms,CSP-02,Cybersecurity Principles,Essential
+CSP-02-04,Contrast the implicationsof relying on open design or the secrecy of design for security.,CSP,Policy goals and mechanisms,CSP-02,Cybersecurity Principles,Essential
+CSP-02-05,Express why cybersecurity is a societal imperative.,CSP,Policy goals and mechanisms,CSP-02,Cybersecurity Principles,Essential
+CSP-03-01,"Analyze the tradeoffs of balancing key security properties (Confidentiality, Integrity, and Availability).",CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-02,"Make sense of the concepts of risk, threats, vulnerabilities and attack vectors (including the fact that there is no such thing as perfect security).",CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-03,Document an example of “countermeasures” for specific threats.,CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-04,Produce a list capabilities and tools that identify cybersecurity risks on an ongoing basis.,CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-05,Show the concept of identity management and how it is important.,CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-06,"Make meaning of the concepts of authentication, authorization, and access control.",CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-03-07,Argueforthe benefit of multi-factor authentication.,CSP,"Security services, mechanisms,and countermeasures",CSP-03,Cybersecurity Principles,Essential
+CSP-04-01,"Contrast the roles of prevention, deterrence, and detection mechanisms.",CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-04-02,"Recognize password guessing, port scanning, SQL injection probes, and other cyberattacks in log files.",CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-04-03,Make sense of the role and limitations of signature-based and behavioral-based anti-virus technology.,CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-04-04,Contrast host-based and network-based intrusion detection systems.,CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-04-05,Design several rules for a network-based intrusion detection system thatwill protect against specific known attacks.,CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-04-06,Describe how the use of deception by malware is used to evade security mechanisms.,CSP,Cyberattacks and detection,CSP-04,Cybersecurity Principles,Essential
+CSP-05-01,Make sense of the concepts of trust and trustworthiness.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-02,Describe how the principle of least privilege and isolationis applied to system design.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-03,Describe how the principles of fail-safe and deny-by-default fit high assurance systems.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-04,Describe how mediation and the Principle of Complete Mediation apply.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-05,Makesense of the concept of trusted computing including trusted computing base and attack surface and the principle of minimizing trusted computing base.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-06,"Describe how commercial approaches to delivering high-assurance services, including SE Linux, Security Enhanced hypervisors, role-",CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-07,"sed access systems, and digital signatures are applied to code and data.",CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-08,Document the role of formal methods in creating high assurance software and systems.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-05-09,Describe how Trusted Platform Modules (TPMs) are used in creating highassurance systems.,CSP,High assurance systems,CSP-05,Cybersecurity Principles,Essential
+CSP-06-01,"Express the differencesbetween vulnerabilities, threats,and risk.",CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-02,Describe how security mechanisms can contain vulnerabilities.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-03,Use a risk management framework.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-04,Usepenetration-testing tools to identify a vulnerability.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-05,"Derive several benefits of defense in depth,e.g.,having multiple layers of defenses.",CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-06,Describe how security issues arise at boundaries between components.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-07,Use theNational Vulnerability Databaseto determine if software installed on a server or network component has a known vulnerability.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-08,"Recognize vulnerabilities, threats and risks that are distinct to network infrastructure, cloud computing servers, desktop computers, and",CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-09,bile devices.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-10,Use a buffer-overflow attack against a server that reads an unbounded data into a fixed-size data structure.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-06-11,Use a cross-site scripting attack against a server that does not properly sanitize user input prior to displaying the results in a browser.,CSP,"Vulnerabilities, threats,and risk",CSP-06,Cybersecurity Principles,Essential
+CSP-07-01,Compare the limitations and strengths of anonymous communication and payment systems currently in use.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-02,Propose legitimate and illicit uses of anonymity systems.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-03,Model policies for prohibiting or using anonymity systems within an organization.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-04,"Use an anonymity system (e.g.,Tor).",CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-05,Document the kind of information not protected by ananonymous communicationsystem.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-06,Evaluate the impact of search queries on maintaining anonymity.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-07-07,Evaluate the implications of DNS queries on maintaining anonymity.,CSP,Anonymity systems,CSP-07,Cybersecurity Principles,Essential
+CSP-08-01,Describe how the concept of “psychological acceptability” and the importance of usability impact security mechanism design.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-02,Make sense of research studies that consistently demonstrate that a trust-oriented interface design can facilitate the development of more trustworthy systems.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-03,Design a user interface for a security mechanism.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-04,"Analyze a security policy and/or procedure to show where it considers, or fails to consider, human factors.",CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-05,Critique the abilityof complex password policies to achieve the desired goal of preventing unauthorized access to sensitive systems.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-06,"Recognize the differences between erasing pointers to information and overwriting the information as they apply to file systems,",CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-07,"tabases, andcloud storage.",CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-08,Judge the effectiveness of an authentication mechanism from the perspective of a person who is visually impaired.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-08-09,Design and develop software suite for a new digital currency.,CSP,Usable security,CSP-08,Cybersecurity Principles,Essential
+CSP-09-01,"Exhibitcomprehension of the terms encryption, decryption, key, public key cryptography, symmetric cryptography, algorithm, key",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-02,"ngth, key escrow, key recover, key splitting, random number generator, nonce, initialization vector, cryptographic mode, plaintext,",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-03,"pher text, S/MIME, PGP, IPsec, TLS.",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-04,"Contrast encryption, digital signatures, and hash functions.",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-05,Compare encryption for data at rest and data in motion.,CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-06,"Make sense of block-level encryption, file-level encryption, and application-level encryption for encrypted storage.",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-09-07,"Argueforwhy it is preferred to use validated, proven algorithms and implementations rather than developing new ones.",CSP,Cryptography overview,CSP-09,Cybersecurity Principles,Essential
+CSP-10-01,Tell a story of how malware is concealed and the impact that malware might haveon a system.,CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-10-02,Use signature-based or behavior detection malware countermeasures to address malware infection mechanisms.,CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-10-03,Propose where within the architectures of organization’s information systems it might be most effective to provide protectionfrom,CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-10-04,lware.,CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-10-05,"Debug a system (network, computer, or application) for the presence of malware.",CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-10-06,Use techniques for safely isolating malware samples from infected systems and classifying the sample.,CSP,Malware fundamentals,CSP-10,Cybersecurity Principles,Essential
+CSP-11-01,Discuss a riskmitigation and incident recovery plan.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-11-02,Perform a mitigation of a malware infection on an enterprise client and an enterprise server.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-11-03,Document the managerial and forensic steps for recovery after detecting a hostile insider.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-11-04,Contrast backup and recovery plans designed to protect against natural disasters from those designed to protect against hostile actors.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-11-05,Document examples of the steps taken after a credential is lost or compromised.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-11-06,Describe how supply chain risks could be reduced.,CSP,Mitigation and recovery,CSP-11,Cybersecurity Principles,Essential
+CSP-12-01,"Make sense of the terms Personal Information, Personally Identifiable Information, De-Identification, Anonymization, Pseudonym, Masking, and Unmasking.",CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-02,Describe how the Fair Information Practices apply to personal information andhowonline entities collect and use personal information.,CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-03,Classify several categories of personal information according to privacy and disclosure risk.,CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-04,"Contrast policies for collecting, processing, storing, sharing, and disposing of personal information.",CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-05,Illustrate the role and limitations of encryption for protecting personal information.,CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-06,Make sense of policies and technologies for isolating personal data from enterprise data.,CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-12-07,Analyze approaches for controlling access to personal information.,CSP,Personal information,CSP-12,Cybersecurity Principles,Essential
+CSP-13-01,Show how one determines the exposure and plans for the recovery of a lost laptop and mobile device.,CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-02,Document standards that apply to an organization’s information security posture.,CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-03,Evaluate potentialvendors with respect to their security offerings.,CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-04,"Make meaning of emerging threats, vulnerabilities,and mitigations.",CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-05,Design a continuing education program.,CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-06,Make sense of the challenges of recruitmentand retentionof security personnel.,CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-13-07,Suggest andimplement digital currency extensions using relevant scripting techniques (colored coins paradigm),CSP,Operational issues,CSP-13,Cybersecurity Principles,Essential
+CSP-14-01,Document legal and regulatory requirements for sharing of threat and breach information.,CSP,Reporting requirements,CSP-14,Cybersecurity Principles,Essential
+CSP-14-02,"Contrast differentvulnerability disclosure policies, including “full disclosure,” and “responsible disclosure.”",CSP,Reporting requirements,CSP-14,Cybersecurity Principles,Essential
+CSP-14-03,Make sense of the concept of privacy breach versus security breach and the governing rules that apply to both types of breach.,CSP,Reporting requirements,CSP-14,Cybersecurity Principles,Essential
+GPP-01-01,Describe the nature of professionalism and its place in the field of information technology.,GPP,Perspectives and impact,GPP-01,Global Professional Practice,Essential
+GPP-01-02,Contrast ethical and legal issues as related to information technology.,GPP,Perspectives and impact,GPP-01,Global Professional Practice,Essential
+GPP-01-03,Describe how IT uses or benefits from social and professional issues.,GPP,Perspectives and impact,GPP-01,Global Professional Practice,Essential
+GPP-02-01,Contrast the professional context of information technology and computing and adherence to ethical codes of conduct.,GPP,Professional issues and responsibilities,GPP-02,Global Professional Practice,Essential
+GPP-02-02,"Describe and critique several historical, professional, ethical, and legal aspects of computing.",GPP,Professional issues and responsibilities,GPP-02,Global Professional Practice,Essential
+GPP-03-01,Analyze the expanding role of IT governance and its effect onorganizations.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-02,Be aware of management issues in IT governance.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-03,Compare and contrastorganizational cultures and their impact on IT governance.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-04,Justify the appropriate resources needed to administer the system.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-05,Compare and contrastseveral alternative vendors of system resources.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-06,Develop naming conventions for the resources in asystem.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-03-07,Create and justify several appropriate policies and procedures to manage resources in a system.,GPP,IT governance and resource management,GPP-03,Global Professional Practice,Essential
+GPP-04-01,Analyze the role of risk to an organization and ways to identify key risk factors.,GPP,Risk identification and evaluation,GPP-04,Global Professional Practice,Essential
+GPP-04-02,Evaluate variousrisks and appropriate actions.,GPP,Risk identification and evaluation,GPP-04,Global Professional Practice,Essential
+GPP-04-03,Design and build a risk matrix.,GPP,Risk identification and evaluation,GPP-04,Global Professional Practice,Essential
+GPP-05-01,Analyze and critique ways to develop green IT policiesandstandards and learn to identify green IT.,GPP,Environmental issues,GPP-05,Global Professional Practice,Essential
+GPP-05-02,Contrast several frameworks for green computing.,GPP,Environmental issues,GPP-05,Global Professional Practice,Essential
+GPP-05-03,Describe several uses of green computing for improving energy efficiency.,GPP,Environmental issues,GPP-05,Global Professional Practice,Essential
+GPP-06-01,"Evaluate the role of legal, ethical,and privacy issues within IT as it relates toorganizations.",GPP,"Ethical, legal,and privacy issues",GPP-06,Global Professional Practice,Essential
+GPP-06-02,Reflect on whether existing laws need modification to keep up with technology.,GPP,"Ethical, legal,and privacy issues",GPP-06,Global Professional Practice,Essential
+GPP-06-03,"Model a computer use policy that includes privacy, legal,and ethical considerations for all employees.",GPP,"Ethical, legal,and privacy issues",GPP-06,Global Professional Practice,Essential
+GPP-06-04,Contrast ethical algorithms with algorithms that are ethically neutral.,GPP,"Ethical, legal,and privacy issues",GPP-06,Global Professional Practice,Essential
+GPP-07-01,Describe the foundations of intellectual property.,GPP,Intellectual property,GPP-07,Global Professional Practice,Essential
+GPP-07-02,Critique several transnational issues concerning intellectual property.,GPP,Intellectual property,GPP-07,Global Professional Practice,Essential
+GPP-07-03,"Distinguish among employees, contractors, and consultants andofferthe implications of eachhiring class.",GPP,Intellectual property,GPP-07,Global Professional Practice,Essential
+GPP-07-04,Compare software patents and contrast with other forms of intellectual property protection.,GPP,Intellectual property,GPP-07,Global Professional Practice,Essential
+GPP-08-01,Describe the key components of a project plan.,GPP,Project management principles,GPP-08,Global Professional Practice,Essential
+GPP-08-02,Show the importance of a cost/benefit analysis to the successful implementation of a project plan.,GPP,Project management principles,GPP-08,Global Professional Practice,Essential
+GPP-08-03,Evaluate appropriate project planning and tracking tools.,GPP,Project management principles,GPP-08,Global Professional Practice,Essential
+GPP-08-04,Illustrate how to identify the lessons learned in a project closeout and review session.,GPP,Project management principles,GPP-08,Global Professional Practice,Essential
+GPP-09-01,Evaluate several strategies for effective professional communication in writing and in speaking.,GPP,Communications,GPP-09,Global Professional Practice,Essential
+GPP-09-02,Create well-organized technical reports that are structured according to acceptable standards.,GPP,Communications,GPP-09,Global Professional Practice,Essential
+GPP-09-03,Analyze and describe the role of communications within IT as well as in buildingrelationships with theorganizations.,GPP,Communications,GPP-09,Global Professional Practice,Essential
+GPP-09-04,Illustrate several essential skills for communicating within a team environment.,GPP,Communications,GPP-09,Global Professional Practice,Essential
+GPP-10-01,Analyze several skillsets neededto function effectively in a team environment.,GPP,Teamwork and conflict management,GPP-10,Global Professional Practice,Essential
+GPP-10-02,Contrast several ways in whichindustry approaches teamwork toward a common goal.,GPP,Teamwork and conflict management,GPP-10,Global Professional Practice,Essential
+GPP-10-03,Describe and critique several ways that conflict management aids in building stronger teams.,GPP,Teamwork and conflict management,GPP-10,Global Professional Practice,Essential
+GPP-11-01,Evaluate viable skill sets essential to a career in IT.,GPP,Employability skills and careers in IT,GPP-11,Global Professional Practice,Essential
+GPP-11-02,Illustrate the elements of a successful technical resume.,GPP,Employability skills and careers in IT,GPP-11,Global Professional Practice,Essential
+GPP-11-03,Reflect on the need for industry experience within the IT field.,GPP,Employability skills and careers in IT,GPP-11,Global Professional Practice,Essential
+GPP-11-04,Comparethe important elements needed for a strong interview for an IT position.,GPP,Employability skills and careers in IT,GPP-11,Global Professional Practice,Essential
+GPP-12-01,Critique ways in which information systems supportsorganizationalrequirements.,GPP,Information systems principles,GPP-12,Global Professional Practice,Essential
+GPP-12-02,"Describe the system development life cycle, its phases, and models.",GPP,Information systems principles,GPP-12,Global Professional Practice,Essential
+GPP-12-03,Evaluate the effectiveness and efficiency of a system.,GPP,Information systems principles,GPP-12,Global Professional Practice,Essential
+GPP-12-04,Contrast several high-level IT strategies to avoid obstacles to achieveorganizationalgoals.,GPP,Information systems principles,GPP-12,Global Professional Practice,Essential
+IMA-01-01,Describe how data storage and retrieval has changed over time.,IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-02,Justify the advantages of a database approach compared to traditional file processing.,IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-03,Describe how the growth of theinternet and demands for information for users outside the organization (customers and suppliers),IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-04,pact data handling and processing.,IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-05,Tell a brief history of database models and their evolution.,IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-06,"Describe the role of data, information, and databases in organizations.",IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-07,"Compare and use key terms such as: information, data, database, database management system, metadata, and data mining.",IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-08,"Illustrate data quality, accuracy,and timeliness, and explain how their absence will impact organizations.",IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-09,"Describe mechanisms for data collection and their implications (automated data collection, input forms, sources).",IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-01-10,"Describe basic issues of data retention, including the need for retention, physical storage, backup,and security.",IMA,Perspectives and impact,IMA-01,Information Management,Essential
+IMA-03-01,Design EntityRelationship diagrams based on appropriateorganizationalrules for a given scenario.,IMA,Data modeling,IMA-03,Information Management,Essential
+IMA-03-02,Describe the relationship between a logical model and a physical model.,IMA,Data modeling,IMA-03,Information Management,Essential
+IMA-03-03,Evaluate importance of database constraints.,IMA,Data modeling,IMA-03,Information Management,Essential
+IMA-03-04,Design a physical model for the best performance including impact of normalization and indexes.,IMA,Data modeling,IMA-03,Information Management,Essential
+IMA-03-05,Compare and contrast the differences and similarities between the relational and the dimensional data modeling (OLTP vs.OLAP).,IMA,Data modeling,IMA-03,Information Management,Essential
+IMA-04-01,"Create, modify,and query database objects using the Structured Query Language (SQL).",IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-04-02,"Perform filtering and sorting data using various clauses including where, order by, between, like, group by,and having.",IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-04-03,Use joins to select data across multiple tables.,IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-04-04,Use embedded SQL queries.,IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-04-05,Perform calculations in a query using calculated fields and aggregate functions.,IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-04-06,Create updatable and non-updatable views.,IMA,Database query languages,IMA-04,Information Management,Essential
+IMA-05-01,"Demonstrate select, project, union, intersection, set difference, and natural join relational operations using simple example relations provided.",IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-02,"Contrast and comparerelational databases concepts and non-relational databases including object-oriented, XML, NewSQL and NoSQL databases.",IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-03,"Express the relationship between functional dependencies and keys,andgive examples.",IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-04,Evaluate data integrity and provide examples of entity and referential integrity.,IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-05,"Analyze how data fragmentation, replication and allocation affect database performance.",IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-06,"Describe major concepts ofobject oriented, XML, NewSQL,and NoSQL databases.",IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-07,Demonstrate an understanding of online analytical processing and data warehouse systems.,IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-05-08,Describe methods of data mining and what insights may be gained by these methods.,IMA,Data organization architecture,IMA-05,Information Management,Essential
+IMA-07-01,Contrast and compare data administration and database administration.,IMA,Managing the database environment,IMA-07,Information Management,Essential
+IMA-07-02,Describe tasks commonly performed by database administrators.,IMA,Managing the database environment,IMA-07,Information Management,Essential
+IMA-07-03,"Create and manage database users, roles,and privileges.",IMA,Managing the database environment,IMA-07,Information Management,Essential
+IMA-07-04,Consider the concept of database security and backupandrecovery.,IMA,Managing the database environment,IMA-07,Information Management,Essential
+IMA-07-05,Evaluate the importance of metadata in database environment.,IMA,Managing the database environment,IMA-07,Information Management,Essential
+IST-01-01,Describe how integrating various modules can produce a working system.,IST,Perspectives and impact,IST-01,Integrated Systems Technology,Essential
+IST-01-02,Describe how integration is an important function of all IT professionals.,IST,Perspectives and impact,IST-01,Integrated Systems Technology,Essential
+IST-02-01,Produce a definition for the term‘metadata.’,IST,Data mapping and exchange,IST-02,Integrated Systems Technology,Essential
+IST-02-02,"Describe how ASCII, EBCDIC, and Unicode are used to encode data, and show how each should be used.",IST,Data mapping and exchange,IST-02,Integrated Systems Technology,Essential
+IST-02-03,Describe how XML and the document object model are being used to integrate and exchange data between systems.,IST,Data mapping and exchange,IST-02,Integrated Systems Technology,Essential
+IST-02-04,"Use DTD to create a document definition for adata structure. Given a DTD for data structure, create an XML document with real data.",IST,Data mapping and exchange,IST-02,Integrated Systems Technology,Essential
+IST-02-05,"Describe how XSL, XSLT and XPath are used to transform data streams.",IST,Data mapping and exchange,IST-02,Integrated Systems Technology,Essential
+IST-03-01,Describe how different types of architectures must be considered for integrating systems.,IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-02,"Demonstrate the role of DCOM, CORBA, and RMI in distributed processing.",IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-03,"Describe how web services are used to integrate disparate applications in an organization. Describe the role of theWSDL, SOAP, and UDDIarchitectures in creating and using web services.",IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-04,Demonstrate the role of socket programming in communicating between systems. Contrast the protocols and uses of TCP/IP sockets,IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-05,d Datagram sockets.,IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-06,"Describe the purpose of message and queuing services and demonstrate how they work. Illustrate the protocol used by one messaging service (e.g.,JMS).",IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-03-07,"List the commonly used low level data communications protocols (e.g., RS232), describe how to know when each protocol shouldbe used, and illustrate the protocol forone low-level communication protocol.",IST,Intersystem communication protocols,IST-03,Integrated Systems Technology,Essential
+IST-04-01,Describe how design patterns are useful in integrative programming.,IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-04-02,"Evaluate the motivation for using each of the following design patterns: MVC, singleton, factory method, façade, proxy, decorator, and observer.",IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-04-03,"Describe how a programming interface is used in programming, and illustrate with an examplewhenthe use of a programming interface simplified the development of a system.",IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-04-04,Define the concept of inheritance and describe how it can be applied to encourage code reuse.,IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-04-05,Design an abstract class and use inheritance to create a class that extends the abstract class.,IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-04-06,"Design, develop,and test an application that uses the abstract class.",IST,Integrative programming,IST-04,Integrated Systems Technology,Essential
+IST-05-01,"Describe how scripting languages are used for web scripting, server-side scripting,and operating system scripting.",IST,Scripting techniques,IST-05,Integrated Systems Technology,Essential
+IST-05-02,"Write, debug,and test a script that includes selection, repetition,and parameter passing.",IST,Scripting techniques,IST-05,Integrated Systems Technology,Essential
+IST-06-01,Contrastevidence-based security vs. code access security.,IST,Defensible integration,IST-06,Integrated Systems Technology,Essential
+IST-06-02,Define and evaluate several goals of secure coding.,IST,Defensible integration,IST-06,Integrated Systems Technology,Essential
+IST-06-03,Justify the guidelines for authenticating and defining permissions to systems services and resources.,IST,Defensible integration,IST-06,Integrated Systems Technology,Essential
+IST-06-04,"For each of the following “best secure coding” practices, give an example of a problem that can occur when the practice is not followed",IST,Defensible integration,IST-06,Integrated Systems Technology,Essential
+IST-06-05,d then describe how to overcome the problem. 1.Preventing buffer overflow 2.Securing state data 3.Securing method access 4.Wrapper code 5.Unmanaged code 6.Validation of user input 7.Remoting considerations 8.Protected objects 9.Serialization 10.Robust error handling,IST,Defensible integration,IST-06,Integrated Systems Technology,Essential
+NET-01-01,Describe networking and the research scope of networking study.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-02,Identify some components of a network.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-03,Nameseveralnetwork devices and describe their purpose.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-04,Describe ways information technology uses or benefits from networks.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-05,Illustrate the role of networks in information technology.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-06,Identify people who influenced or contributed to the area of networks.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-01-07,Identifyseveralcontributors to networks and relate their achievements to the area.,NET,Perspectives and impact,NET-01,Networking,Essential
+NET-02-01,"Identifyseveralcurrent standards (e.g., RFC’s and IEEE 802) and describe how standards’bodies and thestandardization process impact",NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-02,tworking technology.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-03,Contrast the OSI and internet models as they apply to contemporary communicationprotocols.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-04,"Analyze why different technologies are deployed in different contexts of networking,such as topology, bandwidth, distance, and number ofusers.",NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-05,Express the basic components and media of network systems and distinguish between LANs andWANs.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-06,Describe how bandwidth and latency impact throughput in a data communications channel.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-07,Deploy a basic Ethernet LAN and compare it to other network topologies.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-08,"Exhibit the concept and allocation of addressing scheme which involves port numbers, IPv4 and IPv6 address.",NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-09,Configure a client and a server operating system and connect the client machine to the server over aLAN.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-10,Analyze and compare the characteristics of various communication protocols and how they supportapplication requirements.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-02-11,Demonstrate the ability to solve basic problems and perform basic troubleshooting operations onLANs and connected devices.,NET,Foundations of networking,NET-02,Networking,Essential
+NET-03-01,Show how thevariables of Shannon’s law impact channel capacity.,NET,Physical layer,NET-03,Networking,Essential
+NET-03-02,Compare the bandwidth characteristics of several types of physical communication media.,NET,Physical layer,NET-03,Networking,Essential
+NET-03-03,Contrast the historical evolution of the switched and routed infrastructures.,NET,Physical layer,NET-03,Networking,Essential
+NET-03-04,Analyze the physical challenges inherent in wireless-fixed and wireless-mobile communicationchannels.,NET,Physical layer,NET-03,Networking,Essential
+NET-03-05,"Compare methods of error detection and correction such as parity, cyclic redundancy check (CRC), and error detection and correction (EDC).",NET,Physical layer,NET-03,Networking,Essential
+NET-03-06,"Describe the development of modern communication standards, addressing both de jure and defacto standards.",NET,Physical layer,NET-03,Networking,Essential
+NET-03-07,Choose the appropriate compression methodology (lossy or lossless) for a given type of application.,NET,Physical layer,NET-03,Networking,Essential
+NET-03-08,"Analyze and compare four networking topologies in terms of robustness, expandability, andthroughput.",NET,Physical layer,NET-03,Networking,Essential
+NET-04-01,Describe the seven layers of the OSI model.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-02,Contrast the differences between circuit switching and packet switching.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-03,Contrast point-to-point network line configuration with multipoint configuration.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-04,"Illustrate some networking and internetworking devices such as repeaters, bridges, switches, routers, and gateways.",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-05,"Recognize network topologies such as mesh, star, tree, bus, ring, 3-D torus.",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-06,Contrast connection-oriented services with connectionless services.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-07,"Teach network protocol features such as syntax, semantics, and timing.",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-08,"Be aware of layered protocol software (stacks) such as physical-layer networking concepts, data-link layer concepts, internetworking,",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-09,d routing.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-10,"Contrast protocol suites such asIPv4, IPv6, IPvN, and TCP/UDP.",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-11,"Evaluate the operation principles of some main protocols, such as FTP and SNMP.",NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-04-12,Identify network standards and standardization bodies.,NET,Networking and interconnectivity,NET-04,Networking,Essential
+NET-05-01,"Describe data communications andtelecommunications models, digital signal processing, topologies, protocols, standards, and",NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-02,chitectures that are in use today.,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-03,Identify the basic concepts of LAN and WAN technologies and topologies.,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-04,Describe different components and requirements of network protocols.,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-05,"Discuss the concepts and the “building blocks” of today’s data communication networks such as switches, routers, and cabling.",NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-06,Describe the operation and function of 802.1 devices and protocols.,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-07,Describe the necessary hardware (switches and routers) and components (routing algorithms and protocols) used to establish,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-08,mmunication between multiple networks.,NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-05-09,"Analyze the effect of various topologies, applications,and devices on network performance topics such as latency, jitter, response time, window size, connection loss,and quality of service.",NET,"Routing, switching, and internetworking",NET-05,Networking,Essential
+NET-06-01,"Describe web software stack technologies such as LAMP solution stack (Linux, Apache HTTP server, MySQL, PHP/Perl/Python).",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-02,Describe the key components of a websolution stack using LAMP as an illustrative example.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-03,Illustrateseveralroles and responsibilities of clients and servers for a range of possible applications.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-04,Selectseveraltools that will ensure an efficient approach to implementing various client-server possibilities.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-05,"Design and implement a simple interactive web-based application (for example, a simple web form that collects information from the",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-06,ient and stores it in a file on the server).,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-07,"Contrast peer-to-peer, client-server, and cloud networks.",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-08,"Describeseveralweb technologies such as dynamic HTML and the client-side model, server-side model.",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-09,"Describe severalcharacteristics of web servers such as handling permissions, file management, capabilities of common server",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-10,chitectures.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-11,Use the support tools for website creation and web management.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-12,Design the architecture and services of email systems.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-13,Describe the role of networking in database and file service applications.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-14,"Demonstrate the working process of DNS, steps of a resolver looking up a remotename.",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-15,Analyze the impact on the world-wide web portion of the internet ifmost ofall routers ceased to function.,NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-06-16,"Solve the problem of distributing content, the architecture of content distribution network and peer-to-peer network.",NET,Applicationnetworking services,NET-06,Networking,Essential
+NET-07-01,Proposeseveralmain issues related to network management.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-02,"Discuss four typical architectures for network management including the management console,aggregators,and device agents.",NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-03,Demonstrate the management of a device such as an enterpriseswitch through a managementconsole.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-04,"Compare various network management techniques as they apply to wired and wireless networks such as topics on devices, users,quality of service, deployment, and configuration of these technologies.",NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-05,Discuss the address resolution protocol (ARP) for associating IP addresses with MAC addresses.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-06,Exhibitthe concepts of domain names and domain name systems (DNS).,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-07,Describe the dynamic host configuration protocol (DHCP).,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-08,Describeseveralissues related to internet service providers (ISPs).,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-09,Illustrateseveralquality-of-service issues such as performance and failure recovery.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-10,Describe ad hoc networks.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-11,Teach troubleshooting principles and techniques related to networks.,NET,Networkmanagement,NET-07,Networking,Essential
+NET-07-12,Describe managementfunctional areas related to networks.,NET,Networkmanagement,NET-07,Networking,Essential
+PFT-01-01,Describe how the historical development of hardware and operating system computing platforms produced the computing operating systems we havetoday.,PFT,Perspectives and impact,PFT-01,Platform Technologies,Essential
+PFT-02-01,Describe how the components and functions of an operating system work together to provide a computing platform.,PFT,Operating systems,PFT-02,Platform Technologies,Essential
+PFT-02-02,Demonstrate the ability to use both Windows and Unix-class systems.,PFT,Operating systems,PFT-02,Platform Technologies,Essential
+PFT-02-03,Describe how the similarities anddifferences between Windows and Unix-class systems provide different advantages for these,PFT,Operating systems,PFT-02,Platform Technologies,Essential
+PFT-02-04,mputing platforms.,PFT,Operating systems,PFT-02,Platform Technologies,Essential
+PFT-02-05,Demonstrate the main benefits of using scripts to perform operating systems tasks by automating a computing task.,PFT,Operating systems,PFT-02,Platform Technologies,Essential
+PFT-03-01,Analyze the power requirements for a computer system.,PFT,Computing infrastructures,PFT-03,Platform Technologies,Essential
+PFT-03-02,Justify the need for power and heat budgets within an IT environment.,PFT,Computing infrastructures,PFT-03,Platform Technologies,Essential
+PFT-03-03,Describe how the various types of servers meet different organizational requirements.,PFT,Computing infrastructures,PFT-03,Platform Technologies,Essential
+PFT-03-04,Justify the need for hardware and software integration.,PFT,Computing infrastructures,PFT-03,Platform Technologies,Essential
+PFT-04-01,Describe how numbers and characters are represented in a computer.,PFT,Architecture and organization,PFT-04,Platform Technologies,Essential
+PFT-04-02,"Produce a block diagram, including interconnections, of the main parts of a computer.",PFT,Architecture and organization,PFT-04,Platform Technologies,Essential
+PFT-04-03,Describe how a computer stores and retrieves information toandfrom memory and hard drives.,PFT,Architecture and organization,PFT-04,Platform Technologies,Essential
+PFT-04-04,"Produce a definition for each of these terms: bus, handshaking, serial, parallel, data rate.",PFT,Architecture and organization,PFT-04,Platform Technologies,Essential
+PFT-05-01,"Design a simple finite state machine with at leastsixstatesandfourconditional branches, then build and troubleshoot it.",PFT,Application execution environment,PFT-05,Platform Technologies,Essential
+PFT-05-02,Compare the performance of two different computers with two different operating systems.,PFT,Application execution environment,PFT-05,Platform Technologies,Essential
+PFT-05-03,Illustrate the advantages and disadvantages of the five main hardware implementation options.,PFT,Application execution environment,PFT-05,Platform Technologies,Essential
+SPA-01-01,Contrast system integration and system architecture.,SPA,Perspectives and impact,SPA-01,System Paradigms,Essential
+SPA-01-02,Explain the system integration from theorganizationalperspective.,SPA,Perspectives and impact,SPA-01,System Paradigms,Essential
+SPA-02-01,Compare the various requirements modelingtechniques.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-02,Contrast between non-functional and functional requirements.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-03,Demonstrate the structure of a detailed use case.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-04,Express a use case based on relating functional requirements.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-05,Illustrate the types of event flows in a use case and under which conditions they occur.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-06,Describe how requirements gathering complements a system development lifecycle.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-02-07,Describe how use cases drive testing throughout a system lifecycle.,SPA,Requirements,SPA-02,System Paradigms,Essential
+SPA-03-01,Demonstrate “architecture” in the context of system integration and architecture reflecting IEEE Standard 1471.,SPA,System architecture,SPA-03,System Paradigms,Essential
+SPA-03-02,Justify how complex systems can be represented using architectural views and how this facilitates system evolution over time.,SPA,System architecture,SPA-03,System Paradigms,Essential
+SPA-03-03,Describe how some specific architectural views relate to the systemlifecycle.,SPA,System architecture,SPA-03,System Paradigms,Essential
+SPA-03-04,"Contrast the SOA, Zachman Framework, ITIL, COBIT, and ISO 20,000 architectural frameworks.",SPA,System architecture,SPA-03,System Paradigms,Essential
+SPA-03-05,Describe how modeling tools support the description and management of architectural views with examples.,SPA,System architecture,SPA-03,System Paradigms,Essential
+SPA-04-01,Contrast between build and buy in software and hardware acquisition.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-02,Demonstrate the advantages and drawbacks of building and buying in general.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-03,Contrast between in-sourcing and out-sourcing for the acquisition of IT services and support.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-04,Contrast the advantages anddrawbacks of in-sourcing and out-sourcing in general.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-05,"Demonstrate the importance of testing, evaluation, and benchmarking in any IT sourcing decision.",SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-06,Demonstrate primary components in a request for proposal (RFP).,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-07,Contrast the advantages and drawbacks ofusing RFPs in an IT sourcing decision.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-08,Express the importance of a well-structured contract in any IT sourcing decision.,SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-04-09,"Given anRFP, justify one or more products that satisfy the criteria of the RFP.",SPA,Acquisition and sourcing,SPA-04,System Paradigms,Essential
+SPA-05-01,Express different ways for current testing standards.,SPA,Testing and quality assurance,SPA-05,System Paradigms,Essential
+SPA-05-02,Demonstrate the various components of usability testing.,SPA,Testing and quality assurance,SPA-05,System Paradigms,Essential
+SPA-05-03,Express different ways to execute and evaluate an acceptance test.,SPA,Testing and quality assurance,SPA-05,System Paradigms,Essential
+SPA-06-01,Express different ways for middlewareplatforms.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-02,Demonstrate the advantages and disadvantages of some middleware platforms.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-03,Justify major considerations for the selection of an enterprise integration platform.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-04,Express different ways of integration using the “wrapper” approach.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-05,Express different ways of integration using the “glue code” approach.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-06,Describe how a framework facilitates integration of components.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-07,Describe how the data warehouse concept relates to enterprise information integration.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-06-08,Describe how integration choices affect testing andevaluation.,SPA,Integration and deployment,SPA-06,System Paradigms,Essential
+SPA-07-01,Compare alternative vendors of systems resources and justify a selection.,SPA,System governance,SPA-07,System Paradigms,Essential
+SPA-07-02,"Develop policies for a networked system in an application domain (e.g., health care organization).",SPA,System governance,SPA-07,System Paradigms,Essential
+SPA-07-03,"Develop policies for a network that includes low capacity embedded devices (e.g., a smart home).",SPA,System governance,SPA-07,System Paradigms,Essential
+SPA-07-04,Develop a disaster recovery plan for a small enterprise.,SPA,System governance,SPA-07,System Paradigms,Essential
+SPA-08-01,Design and implement a user and group administrative structure that allows users to use system resources effectively.,SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-08-02,Design and construct development resources regarding administrative policies for different types of users.,SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-08-03,Develop and monitor project plans for major system administration activities.,SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-08-04,"Install, configure, and test appropriate software and other resources.",SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-08-05,"Install, configure, and test automated device management technologies.",SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-08-06,Design and implement a backup and restore strategy for a system.,SPA,    Operational activities,SPA-08,System Paradigms,Essential
+SPA-09-01,Describe the scope of each operational domain in a system.,SPA,Operational domains,SPA-09,System Paradigms,Essential
+SPA-09-02,Develop and justify policies for each domain that allow for smooth interaction between domains without sacrificing security.,SPA,Operational domains,SPA-09,System Paradigms,Essential
+SPA-09-03,Develop and justify resource allocation plans for various operational domains.,SPA,Operational domains,SPA-09,System Paradigms,Essential
+SPA-10-01,Design andimplement a backup and restore strategy for a system.,SPA,Performance analysis,SPA-10,System Paradigms,Essential
+SPA-10-02,Test the veracity of a disaster recovery plan for a small enterprise.,SPA,Performance analysis,SPA-10,System Paradigms,Essential
+SPA-10-03,Confirm the accuracy and completeness of a backup.,SPA,Performance analysis,SPA-10,System Paradigms,Essential
+SWF-01-01,Reflecton how the creation of software has changed our lives.,SWF,Perspectives and impact,SWF-01,Software Fundamentals,Essential
+SWF-01-02,"Synthesize how software has helped people, organizations, and society to solve problems.",SWF,Perspectives and impact,SWF-01,Software Fundamentals,Essential
+SWF-01-03,Describe several ways in whichsoftware has created new knowledge.,SWF,Perspectives and impact,SWF-01,Software Fundamentals,Essential
+SWF-02-01,"Comparemultiple levels of abstraction to write programs (constants, expressions, statements, procedures, parameterization, and",SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-02,braries).,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-03,"Select appropriate built-in data types and library data structures (abstract data types) to model, represent, and process program data.",SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-04,Use procedures and parameterization to reduce the complexity of writing and maintaining programs and to generalize solutions.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-05,"Explain multiple levels of hardware architecture abstractions (processor, special purpose cards, memory organization, and storage) and software abstractions (source code, integrated components, running processes) involved in developing complex programs.",SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-06,Create new programs by modifying and combining existing programs.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-07,Explain abstractions used to represent digital data.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-08,Develop abstractions when writing a program or an IT artifact.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-09,Apply decomposition strategy to design a solution to a complex problem.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-10,Explain appropriateness of iterative and recursive problem solutions.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-02-11,Write programs that use iterative and recursive techniques to solve computational problems.,SWF,Concepts and techniques,SWF-02,Software Fundamentals,Essential
+SWF-04-01,"Develop a correct program to solve problems by using an iterative process, documentation of program components, and consultation with program users.",SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-04-02,"Use appropriate abstractions to facilitate writing programs: collections, procedures, application programming interfaces, and libraries.",SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-04-03,"Evaluate how a program is written in terms of program style, intended behavior on specific inputs, correctness of program components,",SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-04-04,d descriptions of program functionality.,SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-04-05,"Develop a program by using tools relevant to current industry practices: version control, project hosting, and deployment services.",SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-04-06,"Demonstrate collaboration strategies thatconsidermultiple perspectives, diverse talents,andsociocultural experiences.",SWF,Program development,SWF-04,Software Fundamentals,Essential
+SWF-05-01,"Writeprograms that use data structures (built-in, library, and programmer-defined): strings, lists, and maps.",SWF,Fundamental data structures,SWF-05,Software Fundamentals,Essential
+SWF-05-02,Analyze the performance of different implementations of data structures.,SWF,Fundamental data structures,SWF-05,Software Fundamentals,Essential
+SWF-05-03,Decide on appropriate data structures for modeling a given problem.,SWF,Fundamental data structures,SWF-05,Software Fundamentals,Essential
+SWF-05-04,Explainappropriateness of selected data structures.,SWF,Fundamental data structures,SWF-05,Software Fundamentals,Essential
+SWF-06-01,Describe why and how algorithms solve computational problems.,SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-06-02,Create algorithms to solve a computational problem.,SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-06-03,"Explain how programs implement algorithms interms of instruction processing, program execution, and running processes.",SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-06-04,"Apply appropriate mathematical concepts in programing: expressions, abstract data types, recurrence relations, and formal reasoning on",SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-06-05,gorithm’s efficiency and correctness.,SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-06-06,Evaluate empirically the efficiency of an algorithm.,SWF,Algorithm principles and development,SWF-06,Software Fundamentals,Essential
+SWF-07-01,"Create web and mobile apps with effective interfaces that respond to events generated by rich user interactions, sensors, andother",SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-02,pabilities of the computingdevice.,SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-03,"Analyze usability, functionality, and suitability of an app program.",SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-04,Collaborate in the creation of interesting and relevant apps.,SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-05,"Build and debug app programs using standard libraries, unit testing tools, and debuggers.",SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-06,"Evaluate readability andclarity of app programs based on program style, documentation, pre-and post-conditions, and procedural",SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+SWF-07-07,stractions.,SWF,Modern app programming practices,SWF-07,Software Fundamentals,Essential
+UXD-01-01,Show when human factors first became an issue in computer hardware and software design.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-02,Define the meaning of human-computer interaction or HCI.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-03,Define the meaning of user experience design or UXD.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-04,Describe the evolution from human factors to User Experience Design (UX).,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-05,Contrast the physical and non-physical aspects of UXD.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-06,Identify several modern high-tech computing technologies that present UXD challenges.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-01-07,Describe several reasons for making UXD an essential part of the information technology discipline.,UXD,Perspectives and impact,UXD-01,User Experience Design,Essential
+UXD-02-01,"Explain the conceptual terms for analyzing human interaction with products (e.g., affordance and feedback).",UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-02,Analyze several different user populations or user culturesregardingtheir abilities to use software and hardware products.,UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-03,Explain the importance of user abilities and characteristics in the usability of products.,UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-04,Illustrate several ways cognitive and social principles apply to product design.,UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-05,Illustrate several ways thatphysical aspects of product design affect usability.,UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-06,"Identify several goals, activities,and tasks related to an UX project.",UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-02-07,Describe how creative innovation techniques such as brainstorming can lead to optimal user interfaces.,UXD,Human factors in design,UXD-02,User Experience Design,Essential
+UXD-03-01,Explain how the user interface (UI) and interaction affect usability.,UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-02,Design an interface that effectively employs localization and globalization technologies.,UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-03,"Adapt an interface to more effectively relate to users’ characteristics(e.g.,age,education, cultural differences).",UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-04,Design a user experience using storyboarding techniques.,UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-05,Design and justify a low-fidelity prototype for a system or product.,UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-06,Design and justify a high-fidelity prototype for a system or product.,UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-03-07,"Demonstrate the advantagesof user interface modalities other than windows, icons, menus and pointers in some situations.",UXD,Effective interfaces,UXD-03,User Experience Design,Essential
+UXD-04-01,Describe different types of interactive environments.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-02,Describe several differences in developing user interfaces for different application environments and types of services.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-03,Represent the connection between the design of a user interface and a model of user domain expertise.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-04,Compare descriptions of cognitive models with the model names.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-05,Propose cognitive models to the design of application user interfaces.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-06,Argue for social psychology in the design of a user interface,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-07,"Show how contextual, societal, cultural, and organizational factors can be applied in the design of a user interface.",UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-04-08,Analyze an IT mediated service with several different user types and various stakeholders including a service provider.,UXD,Application domain aspects,UXD-04,User Experience Design,Essential
+UXD-05-01,"Illustrate how a user develops an emotional reaction to or attachment to a product, service, or system.",UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-02,Describe how a user’s emotional reaction to an interface can interfere with product or service acceptance.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-03,Describe how a user’s emotional reaction to a product can advance product or service acceptance.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-04,Demonstrate several general principlesused in the heuristic evaluation of a user interface design.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-05,"Teach usability performance and preference metrics: learning, task time, task completion, effectiveness, and user satisfaction.",UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-06,Describe common usability guidelines and standards.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-07,Demonstrate several ways of measuring application usability employing a heuristic evaluation.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-08,Produce documentation for an existing system or product with storyboarding techniques.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-09,Create an appropriate usability test plan.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-05-10,Propose several ways to measure productusability from performance and preference metrics.,UXD,Affective user experiences,UXD-05,User Experience Design,Essential
+UXD-07-01,Describe several main principles for universal design.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-02,Illustrate the advantages and disadvantages of biometric access control.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-03,Describe the symptomsof repetitive stress syndrome; list some of the approaches that can ameliorate the problem.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-04,Use accessibility guidelines and standards in the design of a user interface.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-05,Design a user interface to effectively use accessibility features such as an automatednarrator.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-06,Describe a criterion for choosing a biometric access system for a given application.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-07,"Propose an assistive technology computer device for persons with visual, hearing, cognitive, or motor difficulties.",UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-08,Describe a possible interface that allows auser with severe physical disabilities to use a website.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-07-09,Describe the structure and components of an assistive technology.,UXD,Assistive technologies and accessibility,UXD-07,User Experience Design,Essential
+UXD-08-01,Express the advantages and disadvantages for using a human-centered software development approach.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+UXD-08-02,Analyze and model the user environment and context of use before designing a software application.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+UXD-08-03,Analyze user groups and develop appropriate personas to represent them in design.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+UXD-08-04,Propose appropriate user tasks for an application under consideration.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+UXD-08-05,Describe the effect of socialization on the effectiveness of an application interface.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+UXD-08-06,Demonstrate the importance of evaluating the impact of proposed system changes on the user experience.,UXD,User advocacy,UXD-08,User Experience Design,Essential
+WMS-01-01,Describe how the world-wide web has impacted people’s lives over time.,WMS,Perspectives andimpact,WMS-01,Web and Mobile Systems,Essential
+WMS-01-02,Illustrate the growth and changes in mobile devices and applications over time.,WMS,Perspectives andimpact,WMS-01,Web and Mobile Systems,Essential
+WMS-02-01,Describe the role of HTTP and HTTPS in the context of web applications.,WMS,Technologies,WMS-02,Web and Mobile Systems,Essential
+WMS-02-02,"Build a simple web site that •organizes information effectively, •uses valid HTML and CSS,and •applies appropriate web standards from standards bodies such as W3C.",WMS,Technologies,WMS-02,Web and Mobile Systems,Essential
+WMS-02-03,"Develop a web or mobile application that •uses industry-standard technologies, •integratesserialized data in a structured format such as XML or JSON both synchronously and asynchronously, •validates data inputs on the client-and server-side as appropriate, •uses cookies, •reads or modifies data in a server-side database,and •uses JavaScript.",WMS,Technologies,WMS-02,Web and Mobile Systems,Essential
+WMS-02-04,"Express the constraints involved in state management (cookies, query strings, sessions) in the web and mobile context.",WMS,Technologies,WMS-02,Web and Mobile Systems,Essential
+WMS-02-05,Contrast client-side with server-side security issues.,WMS,Technologies,WMS-02,Web and Mobile Systems,Essential
+WMS-03-01,"Compare characteristics such as color depth, compression, codec, and server requirements for •graphic media file formatsand •streaming media formats.",WMS,Digital media,WMS-03,Web and Mobile Systems,Essential
+WMS-03-02,Propose a graphic file type for a given set of image characteristics.,WMS,Digital media,WMS-03,Web and Mobile Systems,Essential
+WMS-03-03,Provide metaphors for issues involved in deploying and serving media content.,WMS,Digital media,WMS-03,Web and Mobile Systems,Essential
+WMS-04-01,"Express constraints that mobile platforms put on developers, including the performance vs. power tradeoff.",WMS,Applications concepts,WMS-04,Web and Mobile Systems,Essential
+WMS-04-02,"Contrast mobile programming, web programming, and general-purpose programming.",WMS,Applications concepts,WMS-04,Web and Mobile Systems,Essential
+WMS-04-03,Apply principles of UXD to enhance the user experience of a web site or mobile application.,WMS,Applications concepts,WMS-04,Web and Mobile Systems,Essential
+WMS-04-04,"Evaluate the design and architecture of a web or mobile system, including issues such as design patterns (including MVC), layers, tradeoffs between redundancy and scalability, state management, and search engineoptimization.",WMS,Applications concepts,WMS-04,Web and Mobile Systems,Essential
+WMS-05-01,Use industry-standard tools and technologies for web and mobile development.,WMS,Development tools and frameworks,WMS-05,Web and Mobile Systems,Essential
+WMS-05-02,Argueforthe advantages and disadvantages of development frameworks for web and mobile development.,WMS,Development tools and frameworks,WMS-05,Web and Mobile Systems,Essential
+WMS-05-03,"Use a development framework such as jQuery, Angular, Laravel, ASP.NET MVC, Django, or WordPress.",WMS,Development tools and frameworks,WMS-05,Web and Mobile Systems,Essential
+WMS-05-04,Use collaboration tools such as GitHub to work with a team on a web or mobile application.,WMS,Development tools and frameworks,WMS-05,Web and Mobile Systems,Essential
+WMS-06-01,Illustrate browser security models including same-origin policy and thread models in web security.,WMS,Vulnerabilities,WMS-06,Web and Mobile Systems,Essential
+WMS-06-02,"Describe how authentication, secure certificates, and secure communication can be used in web sessions.",WMS,Vulnerabilities,WMS-06,Web and Mobile Systems,Essential
+WMS-06-03,"Instruct others on common types of vulnerabilities and attacks in web and mobile applications, such as •using webpage graphics as web beacons, •using cookies to compromise privacy, •denial of service attacks, •cross-site scripting attacks,and •SQL injection attacks.",WMS,Vulnerabilities,WMS-06,Web and Mobile Systems,Essential
+WMS-06-04,"Secure a web or mobile application and defend against common attacks using techniques such as •client-side security capabilities, •public key encryption, •security certificates,and •safelypersisting user logins (such as “remember me” functionality).",WMS,Vulnerabilities,WMS-06,Web and Mobile Systems,Essential
+WMS-06-05,Use accepted standards to ensure that user input on web pages doesnot affect server-side processes.,WMS,Vulnerabilities,WMS-06,Web and Mobile Systems,Essential
+WMS-07-01,Illustrate the difference between asynchronous and synchronous communication on the web.,WMS,Social software,WMS-07,Web and Mobile Systems,Essential
+WMS-07-02,Contrast the characteristics of various web-and mobile-based communication media.,WMS,Social software,WMS-07,Web and Mobile Systems,Essential
+ANE-01-01,Describe several proprietary network protocols.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-02,Describe the advantages and disadvantages of building upon proprietary networks.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-03,Compare proprietary network protocols versus open standard protocols.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-04,"Describe principalcomponents and technologiesofthe system network architecture(SNA), which is IBM’s proprietary networking",ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-05,chitecture.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-06,Analyze proprietary network management schemes.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-01-07,Design and maintain a proprietary network protocol.,ANE,Proprietary networks,ANE-01,Applied Networks,Supplementary
+ANE-02-01,Describe the role of socket programming in communicating between systems.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-02,Contrast theprotocols and uses of TCP/IP sockets and datagram sockets.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-03,Use various solutions to perform inter-process communications.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-04,Demonstrate knowledge of protocols and languages used in web and multimedia delivery.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-05,Demonstrate advanced knowledge of programming for network communications.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-06,Write your own socket-based network application programs.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-07,Describe several major technologies used in network communications.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-08,"Design, develop,and test a socket program that communicates between several different services usingboth TCP/IP sockets and",ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-09,tagram sockets.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-10,"Design, develop,and test a program that uses a messaging service to send asynchronous messages toanother application across the",ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-02-11,twork.,ANE,Network programming,ANE-02,Applied Networks,Supplementary
+ANE-03-01,Describe the meaning of a routing protocol.,ANE,Routing protocols,ANE-03,Applied Networks,Supplementary
+ANE-03-02,Contrast an IPv4 subnet with an IPv6 subnet.,ANE,Routing protocols,ANE-03,Applied Networks,Supplementary
+ANE-03-03,Demonstrate the advantages of using an enhanced interior gateway routing protocol (EIGRP) over an interior gateway routing protocol (IGRP).,ANE,Routing protocols,ANE-03,Applied Networks,Supplementary
+ANE-03-04,Contrast dynamic routing with static routing.,ANE,Routing protocols,ANE-03,Applied Networks,Supplementary
+ANE-03-05,Illustrate how traffic is routed using a mobile IP.,ANE,Routing protocols,ANE-03,Applied Networks,Supplementary
+ANE-04-01,Use a basic mobile network architecture.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-02,Analyze new developments in the field of mobile communications andmobile internet.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-03,"Assess new developments in the field of mobile communications and internet using principles, techniques,and tools developed throughout the course.",ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-04,"Demonstrate an understanding of existing technologies for mobile internet and how they canbe used, optimized, and enhanced for practical situations using concepts and techniques presented.",ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-05,Describe several main characteristics of mobile IP and show how it differs from IPregardingmobility management and location,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-06,nagement as well as performance.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-07,"Describe areas of interest that lie within mobile networks including multimedia, wireless, mobile computing, and distributed",ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-08,mputing.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-09,Contrast mobile networks of varying quality.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-10,Describe the extension of client-server model to accommodate mobility and client cache management.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-11,Illustrate several security issues related to mobile computing.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-04-12,Describe performance issues related to mobile computing.,ANE,Mobile networks,ANE-04,Applied Networks,Supplementary
+ANE-05-01,"Provide an overview of the history, evolution, and compatibility of wireless standards.",ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-02,Identify several special problems related to wireless and mobile computing.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-03,Contrast between wireless LANs and cellular networks.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-04,Demonstrate several specific differences between physical networking and wireless networking.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-05,Compare several different solutions for communications at each network layer.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-06,Identify several protocols used in wireless communications.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-07,Perform simulations of wireless networking.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-08,Describe security issues related to wireless networks.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-05-09,Describe performance issues related towireless networks.,ANE,Wireless networks,ANE-05,Applied Networks,Supplementary
+ANE-06-01,Describe a storage area network (SAN).,ANE,Storage area networks,ANE-06,Applied Networks,Supplementary
+ANE-06-02,Describe a network-attached storage (NAS).,ANE,Storage area networks,ANE-06,Applied Networks,Supplementary
+ANE-06-03,Contrast advantages of SAN and NAS over direct-access storage (DAS).,ANE,Storage area networks,ANE-06,Applied Networks,Supplementary
+ANE-06-04,Enumerate several benefits gained from using storage area networks.,ANE,Storage area networks,ANE-06,Applied Networks,Supplementary
+ANE-06-05,Describe storage advantages of internet small computer systems interface (iSCSI) over small computer systems interface (SCSI).,ANE,Storage area networks,ANE-06,Applied Networks,Supplementary
+ANE-07-01,Describe a network application.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-02,Distinguish between a network application and a network-based application.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-03,Contrast peer-to-peer (P2P) architectures with client-server architectures.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-04,Describe differences between instant messaging and email.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-05,Express the underlying architecture utilized for multi-user network games.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-06,Contrast land-line telephone communication with internet communication.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+ANE-07-07,Describe the challenges of real-time video conferencing.,ANE,Applications for networks,ANE-07,Applied Networks,Supplementary
+CCO-01-01,Recognize what it means when IT is defined as “in the cloud.”,CCO,Perspectives and impact,CCO-01,Cloud Computing,Supplementary
+CCO-01-02,Decide when cloud computing first became a service delivery model.,CCO,Perspectives and impact,CCO-01,Cloud Computing,Supplementary
+CCO-01-03,"Contrast the different categories of cloud computing services (e.g.,SaaS, IaaS, PaaS,BusinessProcess-BPaaS).",CCO,Perspectives and impact,CCO-01,Cloud Computing,Supplementary
+CCO-01-04,Discussthe reasons why cloud computing is an essential part of information technology.,CCO,Perspectives and impact,CCO-01,Cloud Computing,Supplementary
+CCO-02-01,Demonstrate the conceptual terms of cloud computing.,CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-02-02,Categorize the different servicetypeswithin cloud service delivery.,CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-02-03,Compare the responsibilities of service providers vs. cloud service consumers/customers.,CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-02-04,Be aware of several privacy legislation examples as they relate to cloud computing.,CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-02-05,Contrast private-sector and public-sector requirements.,CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-02-06,"Analyze the organizationaldrivers for using cloud services including risk/benefit assessment(e.g.,cloud first).",CCO,Concepts and fundamentals,CCO-02,Cloud Computing,Supplementary
+CCO-03-01,"Consider how contract negotiation relates to cloud computing (e.g., the right to audit).",CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-03-02,"Demonstrate why organizational accountabilityfor data and system security still exists in a cloud service, delivery model.",CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-03-03,Imagine several scenarios in which a breach of security may occur.,CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-03-04,"Recommend what safe guards and security models should be in place to reduce organizationalrisk (e.g.,consent/notice requirements,",CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-03-05,ta classification).,CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-03-06,Use security tools and design techniques to ensure security is builtinto cloud services.,CCO,Security and data considerations,CCO-03,Cloud Computing,Supplementary
+CCO-04-01,Compare the differences between an internal application and a cloud application.,CCO,Using cloud computing applications,CCO-04,Cloud Computing,Supplementary
+CCO-04-02,Contrast the advantages and disadvantages of cloud applications.,CCO,Using cloud computing applications,CCO-04,Cloud Computing,Supplementary
+CCO-04-03,Match descriptions of cloud service types with cloud service names.,CCO,Using cloud computing applications,CCO-04,Cloud Computing,Supplementary
+CCO-04-04,Propose several samples of risk/benefit assessments when selecting applications.,CCO,Using cloud computing applications,CCO-04,Cloud Computing,Supplementary
+CCO-04-05,"Decide which application characteristics will not, or should not, run in the cloud.",CCO,Using cloud computing applications,CCO-04,Cloud Computing,Supplementary
+CCO-05-01,Be aware of architecture principles of cloud computing service delivery.,CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-05-02,"Contrast cloud architectures to outsourcing (i.e.,hosted) and sharedservices models.",CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-05-03,Critique common change control guidelines and standards as they relate to cloud services.,CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-05-04,Propose several ways of measuring cloud service performance and the importance of service level agreements.,CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-05-05,Recognize the challengesof ‘big data’ analytics in the cloud.,CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-05-06,Contrast single cloud vs.multiple cloud deployment models.,CCO,Architecture,CCO-05,Cloud Computing,Supplementary
+CCO-06-01,Compare developing systems in cloud environments compared tothose intraditional environments.,CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-06-02,"Document on-demand, self-servicedesign requirements.",CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-06-03,Contrast the use of synchronous vs. asynchronous transactions.,CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-06-04,Analyze criteria for choosing coupled or de-coupled system integration.,CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-06-05,Build and deploy several basic cloud applications.,CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-06-06,Design an interface for a cloud application to beused on a smartphone.,CCO,Developmentin the cloud,CCO-06,Cloud Computing,Supplementary
+CCO-07-01,"Compare theinfrastructuredifferences between public cloud computing, private cloud computing,and hybrid models.",CCO,Cloud infrastructure and data,CCO-07,Cloud Computing,Supplementary
+CCO-07-02,Argueforhow virtualization is a driving principle behind cloud computing.,CCO,Cloud infrastructure and data,CCO-07,Cloud Computing,Supplementary
+CCO-07-03,Illustrate how rapid elasticity is a characteristic of cloud computing infrastructure.,CCO,Cloud infrastructure and data,CCO-07,Cloud Computing,Supplementary
+CCO-07-04,Contrast the desirable and undesirable characteristics of cloud data management.,CCO,Cloud infrastructure and data,CCO-07,Cloud Computing,Supplementary
+CCO-07-05,"Reflect on how emerging technologies could change the design of cloud services (e.g.,IoT).",CCO,Cloud infrastructure and data,CCO-07,Cloud Computing,Supplementary
+CEC-01-01,Describe how the deployment of a new technology impacts cybersecurity.,CEC,Case studies and lessons learned,CEC-01,Cybersecurity Emerging Challenges,Supplementary
+CEC-01-02,Describe how lawenforcement is impacted by the introduction of new cybersecurity technologies.,CEC,Case studies and lessons learned,CEC-01,Cybersecurity Emerging Challenges,Supplementary
+CEC-01-03,"Show how a cybersecurity event had global reach, such as the DigiNotar incident or the SSL Heartbleed vulnerability.",CEC,Case studies and lessons learned,CEC-01,Cybersecurity Emerging Challenges,Supplementary
+CEC-01-04,Tell a story of a cybersecurity case studies describingthe impact and lessons learned from the case.,CEC,Case studies and lessons learned,CEC-01,Cybersecurity Emerging Challenges,Supplementary
+CEC-02-01,Use tools to identify information that can be examined in a network.,CEC,Network forensics,CEC-02,Cybersecurity Emerging Challenges,Supplementary
+CEC-02-02,Perform a network inventory.,CEC,Network forensics,CEC-02,Cybersecurity Emerging Challenges,Supplementary
+CEC-02-03,Compare active and passive approaches to network forensics.,CEC,Network forensics,CEC-02,Cybersecurity Emerging Challenges,Supplementary
+CEC-02-04,Describe how a man-in-the-middle attack can reveal the contents of an encrypted network communication.,CEC,Network forensics,CEC-02,Cybersecurity Emerging Challenges,Supplementary
+CEC-02-05,Employ surveillance mechanisms to discover network intrusion.,CEC,Network forensics,CEC-02,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-01,Show where data is stored in a complex system.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-02,Use a criminalinvestigative technique in a computer forensic investigation scenario.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-03,Exhibit digital evidences for presentation in court.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-04,Find contraband information on a desktop computer.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-05,Prepare an inventory of the files on a desktop computer.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-06,Reconstruct a timelinefrom information on a device being analyzed.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-07,Perform a logical file extraction.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-08,Perform a physical extraction of evidence.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-09,Extract a memory dump from a running computer.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-03-10,Compare commercial and open source forensic tools.,CEC,Stored data forensics,CEC-03,Cybersecurity Emerging Challenges,Supplementary
+CEC-04-01,"Prepare an inventory of the files on a mobile device (e.g., a phone, tablet, or embedded system).",CEC,Mobile forensics,CEC-04,Cybersecurity Emerging Challenges,Supplementary
+CEC-04-02,Prepare a list of the applications and remote services used by a mobile device.,CEC,Mobile forensics,CEC-04,Cybersecurity Emerging Challenges,Supplementary
+CEC-04-03,Use forensic tools specific to major mobile operating systems.,CEC,Mobile forensics,CEC-04,Cybersecurity Emerging Challenges,Supplementary
+CEC-04-04,Unlock and rootmobile devices.,CEC,Mobile forensics,CEC-04,Cybersecurity Emerging Challenges,Supplementary
+CEC-04-05,Describe how to detect or reveal encrypted contents.,CEC,Mobile forensics,CEC-04,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-01,"Make sense of the different security issues stemming from the use of platform as a service, infrastructure as a service, andsoftware as a service.",CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-02,Argueforthe value of Risk and Authorization Management programs (like FedRAMP) and the key processes used in those programs.,CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-03,Contrast the security benefits and risks of cloud storage systems.,CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-04,Describe how authentication strategies are implemented for users of cloud systems.,CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-05,Propose forensic options for analyzing cloud-based systems.,CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-05-06,Analyze auditing and recovery options for cloud servers.,CEC,Cloud security,CEC-05,Cybersecurity Emerging Challenges,Supplementary
+CEC-06-01,Document requirements of security metrics.,CEC,Security metrics,CEC-06,Cybersecurity Emerging Challenges,Supplementary
+CEC-06-02,Propose data that supports the creation of metrics.,CEC,Security metrics,CEC-06,Cybersecurity Emerging Challenges,Supplementary
+CEC-06-03,Perform a security measurement to a network resource.,CEC,Security metrics,CEC-06,Cybersecurity Emerging Challenges,Supplementary
+CEC-06-04,Analyze the role of continuous monitoring in a security practice.,CEC,Security metrics,CEC-06,Cybersecurity Emerging Challenges,Supplementary
+CEC-06-05,Describe how security metrics can be used to detect compliance and risk issues.,CEC,Security metrics,CEC-06,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-01,Use a Binary analysis tool.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-02,Use a Disassemblers tool.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-03,Use a Debugger tool.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-04,Use a sandbox.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-05,Compare static and dynamic analysis.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-06,Illustrate proper laboratory procedures for handling malware.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-07-07,Analyze whether a specific malware detector would identify a malware sample.,CEC,Malware analysis,CEC-07,Cybersecurity Emerging Challenges,Supplementary
+CEC-08-01,Illustrate a hardware supply chain.,CEC,Supply chain and software assurance,CEC-08,Cybersecurity Emerging Challenges,Supplementary
+CEC-08-02,Illustrate a software supply chain.,CEC,Supply chain and software assurance,CEC-08,Cybersecurity Emerging Challenges,Supplementary
+CEC-08-03,Propose security considerations that should be evaluated for each stage in the lifecycle of a product.,CEC,Supply chain and software assurance,CEC-08,Cybersecurity Emerging Challenges,Supplementary
+CEC-08-04,"Be aware of secure softwaredevelopment including the use of safe language, static analysis of software, and dynamic software testing.",CEC,Supply chain and software assurance,CEC-08,Cybersecurity Emerging Challenges,Supplementary
+CEC-08-05,"Exhibit several common defects, bugs, and logic flaws in software.",CEC,Supply chain and software assurance,CEC-08,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-01,Describe how an insider can intentionally and unintentionally reduce or affect an organization’s security posture.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-02,Make sense of the limits a background check in screening an organization’s employees.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-03,Illustrate how to recognize phishing and spear phishing.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-04,Compare the benefits with the risks of a ‘bring your own device’ (BYOD) program.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-05,Tell a story about dangerous places on the web and how surfing one of them can have a negative impact on privacy or security.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-09-06,Tell a story about how a social engineering attack can be designed using data posted on social media.,CEC,Personnel and human security,CEC-09,Cybersecurity Emerging Challenges,Supplementary
+CEC-10-01,"Discuss the trade-off between utility and risk of cloud computing, file sharing, and peer-to-peer services.",CEC,Social dimensions,CEC-10,Cybersecurity Emerging Challenges,Supplementary
+CEC-10-02,Make sense of the impact of IT systems on privacy.,CEC,Social dimensions,CEC-10,Cybersecurity Emerging Challenges,Supplementary
+CEC-10-03,"Make meaning of the inherent tension between the concepts of personal privacy, accountability, and deterrence related to cybersecurity",CEC,Social dimensions,CEC-10,Cybersecurity Emerging Challenges,Supplementary
+CEC-10-04,ents.,CEC,Social dimensions,CEC-10,Cybersecurity Emerging Challenges,Supplementary
+CEC-10-05,"Describe how crowdsourcing techniques such as big data mining impacts data confidentiality, integrity, and availability.",CEC,Social dimensions,CEC-10,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-01,Analyze the options for enterprise malware detection.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-02,Contrast the effectiveness and costs of malware detection with application whitelisting.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-03,Make sense of the limitations of penetration testing.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-04,Contrast the security implications of homogeneousand heterogeneous networks.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-05,"Model the cost of defense, recovery andremediation for a smallorganizationand a large-scale enterprise.",CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-06,Recognize “security containers” and identify their limitations and usability failings with respect to mobile devices.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-07,Provide a thorough security analysis of digital currency implementation.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-08,"Design and develop digital currency e-commerce applications using relevant development tools and protocols (e.g.,",CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-09,"tpay̳insight,̳bitcore, cosign)",CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-10,Make meaning of the terms CPS and IoT and why they are often used interchangeably and identify definitions that indicate the,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-11,fferences between them.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-12,Recognize the protocols and networks typically used to connect CPS and IoT devices to networks.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-13,Describe how security mechanisms are used to address IT challenges that may not be viable in the world of CPS or IoT.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-14,"Design, create, and deploy a IoT device using open source andlow-costcomputing platforms.",CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+CEC-11-15,Describe how the handling and storageof data delivered by IoT devices offers challenges to securityandprivacy.,CEC,Security implementations,CEC-11,Cybersecurity Emerging Challenges,Supplementary
+DSA-01-01,Discuss the emerging field of data science.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-02,Identify sources of large volumes of data.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-03,Recognizechallenges in analytics of very large volumes of data.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-04,Describe how analytics can be used in major functional areas of an organization.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-05,"Define and describe large-scale data challengesofvolume, variety, velocity,and veracity.",DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-06,"Define and describechallenges of large scale data analytics in diverse sectors such assensor networks, finance, retail, genomics,and social media.",DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-07,Compare different data platforms that can be used for processing and generating large datasets.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-01-08,Useastatistical programming language such as R or Python.,DSA,Perspectives and impact,DSA-01,Data Scalability and Analytics,Supplementary
+DSA-03-01,Discuss common Extract Transform Load scenarios.,DSA,Data management,DSA-03,Data Scalability and Analytics,Supplementary
+DSA-03-02,"Apply data preprocessing techniques—data integration, data cleansing, data transformation and data reduction.",DSA,Data management,DSA-03,Data Scalability and Analytics,Supplementary
+DSA-03-03,Discuss how to extract knowledge and insights from large and complex collections of digital data.,DSA,Data management,DSA-03,Data Scalability and Analytics,Supplementary
+DSA-03-04,Use data mining software to perform data mining.,DSA,Data management,DSA-03,Data Scalability and Analytics,Supplementary
+DSA-04-01,Explain technical foundations of the commonly used data analysismethods.,DSA,"Methods, tools and techniques",DSA-04,Data Scalability and Analytics,Supplementary
+DSA-04-02,Apply appropriate data analysis methods to solve real-world problems.,DSA,"Methods, tools and techniques",DSA-04,Data Scalability and Analytics,Supplementary
+DSA-04-03,"Use tools such as R and RStudio, MapReduce/Hadoop and SAS.",DSA,"Methods, tools and techniques",DSA-04,Data Scalability and Analytics,Supplementary
+DSA-04-04,Communicate the results of data analysis to technical and management audience.,DSA,"Methods, tools and techniques",DSA-04,Data Scalability and Analytics,Supplementary
+DSA-04-05,Effectively communicate the results ofdata analysis using visualization.,DSA,"Methods, tools and techniques",DSA-04,Data Scalability and Analytics,Supplementary
+DSA-05-01,Identify the importance of data governance for managing large-scale data.,DSA,Data governance,DSA-05,Data Scalability and Analytics,Supplementary
+DSA-05-02,Identify logical and physical access security controls to protect data.,DSA,Data governance,DSA-05,Data Scalability and Analytics,Supplementary
+DSA-05-03,"Identify current social, ethical, legal,and policy issues caused by the large-scale data analytics.",DSA,Data governance,DSA-05,Data Scalability and Analytics,Supplementary
+DSA-05-04,Define data ethics.,DSA,Data governance,DSA-05,Data Scalability and Analytics,Supplementary
+DSA-05-05,List regulatory compliance rules and regulations applicable to data management.,DSA,Data governance,DSA-05,Data Scalability and Analytics,Supplementary
+DSA-06-01,Define anorganizational problem as an analytics problem.,DSA,Application,DSA-06,Data Scalability and Analytics,Supplementary
+DSA-06-02,Describe how to best apply large-scale analytics methods and techniquesin addressing strategicorganizationalproblems.,DSA,Application,DSA-06,Data Scalability and Analytics,Supplementary
+DSA-06-03,Apply a data analytics lifecycle to a case study scenario.,DSA,Application,DSA-06,Data Scalability and Analytics,Supplementary
+DSA-06-04,Implement data-intensive computations on cluster and cloud infrastructures,DSA,Application,DSA-06,Data Scalability and Analytics,Supplementary
+DSA-06-05,Examine theimpact of large-scale data analytics onorganizationalperformance using case studies.,DSA,Application,DSA-06,Data Scalability and Analytics,Supplementary
+IOT-01-01,"Contrast the internet of things with the web of things, with industrial internet, with pervasivecomputing, and with smart systems.",IOT,Perspectives and impact,IOT-01,Internet of Things,Supplementary
+IOT-01-02,Expressthe historical stages and growing evolution of the IoT concept.,IOT,Perspectives and impact,IOT-01,Internet of Things,Supplementary
+IOT-02-01,Contrast IoTarchitecturaldomains.,IOT,IOT architecture,IOT-02,Internet of Things,Supplementary
+IOT-02-02,Designan architectural framework for an IoT environment.,IOT,IOT architecture,IOT-02,Internet of Things,Supplementary
+IOT-02-03,Illustrate thechallenges in defining the architecture for different IoT applications.,IOT,IOT architecture,IOT-02,Internet of Things,Supplementary
+IOT-03-01,Compare strategic approaches to develop elements for a multimedia IoT system.,IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-03-02,Illustrate theeffectof signal processing concepts onspeechapplications and in basic sound generationapplications.,IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-03-03,"Contrast the differences betweenanalog signal processing, continuous-time signal processing, discrete-time signal processing,and",IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-03-04,gital signal processing.,IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-03-05,"Contrast signal processingdevices toincludefilters, samplers, signal compressors,anddigital signal processors.",IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-03-06,Illustrate ways to interface an IoT component to sensors and actuators.,IOT,Sensor and actuator interfacing,IOT-03,Internet of Things,Supplementary
+IOT-04-01,Contrastdata acquisition and signal conditioning.,IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-04-02,Illustrate theeffectofIoT on multiplexing and sampling theory.,IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-04-03,"Express severalways to use IoT sensors forelectrical, temperature,and strain measurements.",IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-04-04,Express severalwaysto reduce and isolatesignalnoise.,IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-04-05,"Illustrate themachine-to-machine(M2M) communication, which isa major component of the IoT portfolio of technologies.",IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-04-06,Demonstrate severalsecurity issues and challenges of collaborative data acquisition in IoT.,IOT,Data acquisition,IOT-04,Internet of Things,Supplementary
+IOT-05-01,Demonstratewirelesssensor networks (WSNs) vis-à-vistheirprotocols and algorithmsfromahistoricalperspective.,IOT,Wireless sensor networks,IOT-05,Internet of Things,Supplementary
+IOT-05-02,Contrast stack-based approaches and topology-based approaches for the integration of wireless sensor networks.,IOT,Wireless sensor networks,IOT-05,Internet of Things,Supplementary
+IOT-05-03,"Illustratethe IoT commonalities between health-care issues, assisted-and enhanced-living issues, industrial and production monitoring",IOT,Wireless sensor networks,IOT-05,Internet of Things,Supplementary
+IOT-05-04,"sues, and control network issues.",IOT,Wireless sensor networks,IOT-05,Internet of Things,Supplementary
+IOT-06-01,Expressthedesign and implementation issuesrelated to ad hoc networksandsuggestavailable solutions.,IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-02,"Contrast the difference betweenthe followingrouting techniques:proactive routing, reactive routing, hybrid routing,and position-",IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-03,sed routing.,IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-04,Demonstrateseveralclustering mechanisms in ad hoc networks.,IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-05,Analyze quality-of-service and scalability issues in the context of ad-hocnetworks.,IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-06,"For mobile ad hoc networks (MANET), contrast between vehicular ad hoc networks (VANETs), smart phone ad hoc networks (SPANs),",IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-06-07,d internet based mobile adhoc networks (iMANETs).,IOT,Adhoc networks,IOT-06,Internet of Things,Supplementary
+IOT-07-01,Illustratethe elements of classicalcontrol theory as applied to the control of aircraft and spacecraft.,IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-07-02,Contrastthepropertiesofpositivefeedbackwith negative feedback.,IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-07-03,"For the functionsof automatic control, contrast the differences betweenmeasurement, comparison, computation,and correction.",IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-07-04,"Represent severalcommon elements of automatic controlin systems as applied tomeasurement, error detection,and final control",IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-07-05,ement.,IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-07-06,Demonstrate severalbasic linear design techniques as applied to spacecraft and aircraft.,IOT,Automatic control,IOT-07,Internet of Things,Supplementary
+IOT-08-01,Expressthe intelligent information processing anditsapplication in industry.,IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-08-02,"Expressintelligent information discovery, retrieval,and mining on IoT.",IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-08-03,Demonstrateknowledge expression and context-aware systems.,IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-08-04,"Demonstratesensor selection, information mashup and integration.",IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-08-05,Expressinformation quality management in sensor networks.,IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-08-06,"Demonstratereal-time scene reconstruction, information visualization.",IOT,Intelligent information processing,IOT-08,Internet of Things,Supplementary
+IOT-09-01,"Demonstratethe relevance applications for IoT in smart cities, smart environment, eHealth, and in other areas.",IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-02,Illustrate the impact of IoT on existing organizational models and organizationaluse cases.,IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-03,"Expressthe IoT in conjunction with big data, applications, and mobility.",IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-04,Demonstratethe components required for the IoT.,IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-05,Expresstools that are using in designing IoT.,IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-06,Represent list ofcapabilities that a technology specialist can dial up or down depending on tradeoffs and decisions made in IoT,IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-07,sign.,IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-08,"Expresssmart manufacturing, such as flow optimization, real time inventory, asset tracking, employee safety.",IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-09,"Demonstratewearables, such as entertainment, fitness, smart watch and tracking.",IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+IOT-09-10,"DemonstrateIoT design considerations: domain, requirement, cost, remote, network.",IOT,IoT application and design,IOT-09,Internet of Things,Supplementary
+MAP-01-01,Describe the history of mobile development and mobile applications.,MAP,Perspectives and impact,MAP-01,Mobile Application,Supplementary
+MAP-01-02,Demonstrate the global scope of the processes ofimplementinga mobile application.,MAP,Perspectives and impact,MAP-01,Mobile Application,Supplementary
+MAP-01-03,Describe and compareseveraldevelopment environments for mobile applications.,MAP,Perspectives and impact,MAP-01,Mobile Application,Supplementary
+MAP-02-01,Describe the global scope of architectures for different mobilesystems.,MAP,Architectures,MAP-02,Mobile Application,Supplementary
+MAP-02-02,Recognize the UI elements and the concepts glossary for mobile phones.,MAP,Architectures,MAP-02,Mobile Application,Supplementary
+MAP-02-03,Illustrate each element of the mobile architecture framework.,MAP,Architectures,MAP-02,Mobile Application,Supplementary
+MAP-03-01,"Contrast iOS, Android, Windows Phone, BlackBerry, andSymbian platforms.",MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-03-02,Design and implement a simple mobile application for a given mobile platform.,MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-03-03,Build a mobile web application within a browser.,MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-03-04,Illustrate hybrid web applications through an application programming interface (API).,MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-03-05,Describe aplatform-independent interpreted web application.,MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-03-06,Describe the importance of applications generated by cross-compilation.,MAP,Multiplatform mobile application development,MAP-03,Mobile Application,Supplementary
+MAP-04-01,Describeprotocol suites.,MAP,Servers and notifications,MAP-04,Mobile Application,Supplementary
+MAP-04-02,Illustrate the mechanism for notification delivery.,MAP,Servers and notifications,MAP-04,Mobile Application,Supplementary
+MAP-04-03,Provide techniques forserver-side programming.,MAP,Servers and notifications,MAP-04,Mobile Application,Supplementary
+MAP-04-04,Design and implement a server-side application.,MAP,Servers and notifications,MAP-04,Mobile Application,Supplementary
+MAP-05-01,Describeseveralmetrics and methods to evaluate performance of mobile applications.,MAP,Performance issues,MAP-05,Mobile Application,Supplementary
+MAP-05-02,Evaluate the performance of a mobile applicationand give its result.,MAP,Performance issues,MAP-05,Mobile Application,Supplementary
+MAP-05-03,Describeseveralways to improve mobile performance.,MAP,Performance issues,MAP-05,Mobile Application,Supplementary
+MAP-06-01,Describe text and typesetting units.,MAP,Views and gestures,MAP-06,Mobile Application,Supplementary
+MAP-06-02,Expressand compareseveralways to improve picture presentation.,MAP,Views and gestures,MAP-06,Mobile Application,Supplementary
+MAP-06-03,Demonstrateseveralmethods to improve gesture definition and its application.,MAP,Views and gestures,MAP-06,Mobile Application,Supplementary
+MAP-07-01,Design afriendlyinterface framework.,MAP,Interface implementations,MAP-07,Mobile Application,Supplementary
+MAP-07-02,Demonstrateseveralways to improve user experience through color adjustment and other resources.,MAP,Interface implementations,MAP-07,Mobile Application,Supplementary
+MAP-07-03,Identifyseveralmodern UI design tools.,MAP,Interface implementations,MAP-07,Mobile Application,Supplementary
+MAP-07-04,Contrast SDKs to access device features.,MAP,Interface implementations,MAP-07,Mobile Application,Supplementary
+MAP-07-05,Demonstrateseveralways to improve cross-platform accommodation and support.,MAP,Interface implementations,MAP-07,Mobile Application,Supplementary
+MAP-08-01,Describeseveralconcepts of basic service and functions.,MAP,"Camera, state, and documents interaction",MAP-08,Mobile Application,Supplementary
+MAP-08-02,Manipulate streams from camera and microphones.,MAP,"Camera, state, and documents interaction",MAP-08,Mobile Application,Supplementary
+MAP-08-03,Describe and contrastseveraltechniquesfor implementing applications about mobile states.,MAP,"Camera, state, and documents interaction",MAP-08,Mobile Application,Supplementary
+MAP-08-04,Demonstrate the usefulness of document interaction control.,MAP,"Camera, state, and documents interaction",MAP-08,Mobile Application,Supplementary
+MAP-09-01,Expressseveralbasic concepts of2D graphic and animation.,MAP,2D graphic and animation,MAP-09,Mobile Application,Supplementary
+MAP-09-02,Create graphics on different mobile platforms.,MAP,2D graphic and animation,MAP-09,Mobile Application,Supplementary
+MAP-09-03,Design a dynamic graphic transformation for animation.,MAP,2D graphic and animation,MAP-09,Mobile Application,Supplementary
+MAP-09-04,Design2D graphicsand animation onseveralmobile devices using different operating systems.,MAP,2D graphic and animation,MAP-09,Mobile Application,Supplementary
+SDM-01-01,Illustrate the software development process.,SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-02,Differentiate among phases in software development.,SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-03,"Compare software process models based on size, functional requirements, anddesign qualities of the software system and team and",SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-04,frastructure resources.,SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-05,"Describe how modern user experiences,beyond the browser,influence software development for mobile devices, touch screens, gesture",SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-06,"d voice-controlled interactions, 3D immersion or virtual reality, sensor industrial networks, and game platforms.",SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-07,"Develop a software application by using library and other service interfaces (e.g., APIs) specific to the user’splatform.",SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-08,Explain the differences among platform-specific development andgeneral-purposeprogramming.,SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-01-09,Test some constraints thatplatformsimpose on development.,SDM,Process models and activities,SDM-01,Software Development and Management,Supplementary
+SDM-03-01,Show howmodern tools and services improve efficiency and effectiveness of developers working in teams and on systems with various,SDM,Tools and services,SDM-03,Software Development and Management,Supplementary
+SDM-03-02,"allenges (e.g., size, constrained by time or resources, legacy code).",SDM,Tools and services,SDM-03,Software Development and Management,Supplementary
+SDM-03-03,"Select and use appropriate tools for requirements tracking, design modeling, implementation, build automation, and bug tracking.",SDM,Tools and services,SDM-03,Software Development and Management,Supplementary
+SDM-03-04,"Conduct inspections, code reviews, audits and indicate the results of the evaluation.",SDM,Tools and services,SDM-03,Software Development and Management,Supplementary
+SDM-03-05,Describe the use of version control to manage software configuration and release management.,SDM,Tools and services,SDM-03,Software Development and Management,Supplementary
+SDM-04-01,Argueforthe importance of project management as it relates to software development.,SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-04-02,Engage in team building and team management in a software development project.,SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-04-03,"Plan, monitor, and track progresses for a project activity using projectmanagement tools.",SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-04-04,"Assess, mitigate, and manage risks that affect decisions in the software development process.",SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-04-05,Assess development effort and participate in process improvement by tracking commitments and managing project quality.,SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-04-06,Use project metrics to monitor a project’s progress.,SDM,Management,SDM-04,Software Development and Management,Supplementary
+SDM-05-01,"Use appropriate tools to deploy, operate, and maintain a software system.",SDM,"Deployment, operations, and maintenance",SDM-05,Software Development and Management,Supplementary
+SDM-05-02,"Practice version tracking, automated building, and release of software systems.",SDM,"Deployment, operations, and maintenance",SDM-05,Software Development and Management,Supplementary
+SDM-05-03,Explain the difference between pre-production and production software operation environments.,SDM,"Deployment, operations, and maintenance",SDM-05,Software Development and Management,Supplementary
+SDM-05-04,"Extend the software process with phases that are more relevant in IT: deployment, operations, and maintainability.",SDM,"Deployment, operations, and maintenance",SDM-05,Software Development and Management,Supplementary
+SRE-01-01,Show the importance of the social context of IT and adherence to ethical codes of conduct.,SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-01-02,Describe the importance of green computing strategies.,SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-01-03,"Contrastseveralhistorical, social, professional, ethical,and legal aspects of e-computing.",SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-01-04,Describeseveralways teamwork integrates throughout IT and supports an organization.,SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-01-05,Describe ways in whichcomputing alters the modes of interaction between people.,SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-01-06,Describe some parameters needed to design an ethical algorithm.,SRE,Social Contextof Computing,SRE-01,Social Responsibility,Supplementary
+SRE-02-01,Evaluateseveralcomputer IT projects where teamwork approaches are important.,SRE,"Goals, plans,tasks, deadlines and risks",SRE-02,Social Responsibility,Supplementary
+SRE-02-02,Illustrateseveralways in which industry approaches teamwork toward a common goal.,SRE,"Goals, plans,tasks, deadlines and risks",SRE-02,Social Responsibility,Supplementary
+SRE-02-03,Critique the skill sets necessary to function effectively in a team environment.,SRE,"Goals, plans,tasks, deadlines and risks",SRE-02,Social Responsibility,Supplementary
+SRE-02-04,Implement severalplanning team goals.,SRE,"Goals, plans,tasks, deadlines and risks",SRE-02,Social Responsibility,Supplementary
+SRE-03-01,Demonstrate the role of government regulations on organizations as well as on a global scale.,SRE,Government role and regulations,SRE-03,Social Responsibility,Supplementary
+SRE-03-02,Analyze the role of the government and how it affectssoftware projects.,SRE,Government role and regulations,SRE-03,Social Responsibility,Supplementary
+SRE-03-03,Contrast the different national approaches to green computing policy creation and implementation.,SRE,Government role and regulations,SRE-03,Social Responsibility,Supplementary
+SRE-03-04,Evaluatethe importance of regulation in the control of efficient waste reduction and recycling.,SRE,Government role and regulations,SRE-03,Social Responsibility,Supplementary
+SRE-04-01,Critique IT approaches to reduce energy consumption such as thin client solutions as well asthoseon a global scale.,SRE,Global challenges and approaches,SRE-04,Social Responsibility,Supplementary
+SRE-04-02,Describe the employment of environmental computing practices in the life cycle of IT applications and system design.,SRE,Global challenges and approaches,SRE-04,Social Responsibility,Supplementary
+SRE-04-03,"Evaluateorganizational green computing performance metrics, recycling practices, energy use,and e-waste reduction.",SRE,Global challenges and approaches,SRE-04,Social Responsibility,Supplementary
+SRE-04-04,Describe reasons for havingethicalalgorithms in robotics and artificial intelligence.,SRE,Global challenges and approaches,SRE-04,Social Responsibility,Supplementary
+SRE-05-01,Evaluate the aspects of anorganizationthat may be impacted by a security breach or interruption of operation.,SRE,Risk management,SRE-05,Social Responsibility,Supplementary
+SRE-05-02,Quantify the financial losses associated with potential security breaches and interruption of operations.,SRE,Risk management,SRE-05,Social Responsibility,Supplementary
+SRE-05-03,Analyze and describe steps to assess risks associated with security specified by acceptedsecuritystandards.,SRE,Risk management,SRE-05,Social Responsibility,Supplementary
+SRE-05-04,Describe the costs associated with actions that can be taken to mitigate security risks.,SRE,Risk management,SRE-05,Social Responsibility,Supplementary
+SRE-06-01,"Be aware of common energy saving guidelines and standards (e.g.,Energy Star international standard) and be aware of sensor and",SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-02,nitoring software used to track energy use.,SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-03,"Be aware of industry standards (e.g.,advanced configuration and power (ACP) interface design and manufacturing of computer",SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-04,mponents for power savings).,SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-05,"Describeseveraltechniques for the use of renewable energy sources (i.e.,solar and wind power).",SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-06,Show how workplace incentives will increase the implementation of green computing and computer hazardousmaterial management.,SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+SRE-06-07,Analyze and critique capital investment projects needed to continue stable energy delivery.,SRE,Sustainable Computing,SRE-06,Social Responsibility,Supplementary
+VSS-01-01,Describe how virtualization creates an improved solution.,VSS,Perspectives and impact,VSS-01,Virtual Systems and Services,Supplementary
+VSS-01-02,Compare a virtual machine to virtualization.,VSS,Perspectives and impact,VSS-01,Virtual Systems and Services,Supplementary
+VSS-01-03,Compare a host machine to a virtual machine.,VSS,Perspectives and impact,VSS-01,Virtual Systems and Services,Supplementary
+VSS-01-04,Demonstrate the role of the hypervisor.,VSS,Perspectives and impact,VSS-01,Virtual Systems and Services,Supplementary
+VSS-01-05,"Compare hypervisor on bare metal (VMware) and hypervisor running in an OS (Hyper-V, RHEV, OracleVM).",VSS,Perspectives and impact,VSS-01,Virtual Systems and Services,Supplementary
+VSS-02-01,Analyze the types of situations where virtualization is an appropriate solution.,VSS,Implementationof virtualization,VSS-02,Virtual Systems and Services,Supplementary
+VSS-02-02,Contrast the advantages and disadvantages of virtualization in different application areas.,VSS,Implementationof virtualization,VSS-02,Virtual Systems and Services,Supplementary
+VSS-02-03,"Document the different virtualization licensing issues forWindows, Linux,and Max OSx operating systems.",VSS,Implementationof virtualization,VSS-02,Virtual Systems and Services,Supplementary
+VSS-02-04,Contrast virtualization of applications with clustering applications.,VSS,Implementationof virtualization,VSS-02,Virtual Systems and Services,Supplementary
+VSS-03-01,"Critique different user platform (i.e., desktops and devices) virtualization frameworks.",VSS,User Platform virtualization,VSS-03,Virtual Systems and Services,Supplementary
+VSS-03-02,Contrast the operational advantages and disadvantages of a virtualized device.,VSS,User Platform virtualization,VSS-03,Virtual Systems and Services,Supplementary
+VSS-03-03,Install a virtual machine on a host machine.,VSS,User Platform virtualization,VSS-03,Virtual Systems and Services,Supplementary
+VSS-03-04,Install and configure different operating systems on a virtual machine.,VSS,User Platform virtualization,VSS-03,Virtual Systems and Services,Supplementary
+VSS-04-01,Critique servervirtualization platforms and licensing differences.,VSS,Server virtualization,VSS-04,Virtual Systems and Services,Supplementary
+VSS-04-02,Contrast the operational advantages and disadvantages of a virtualized server.,VSS,Server virtualization,VSS-04,Virtual Systems and Services,Supplementary
+VSS-04-03,Install a virtual machine on a host server.,VSS,Server virtualization,VSS-04,Virtual Systems and Services,Supplementary
+VSS-04-04,Install and configure different server systems on a virtual computer.,VSS,Server virtualization,VSS-04,Virtual Systems and Services,Supplementary
+VSS-04-05,Evaluate the performance of virtualized servers against industry benchmarks.,VSS,Server virtualization,VSS-04,Virtual Systems and Services,Supplementary
+VSS-05-01,Compare the differences between a physical and virtualized network.,VSS,Network virtualization,VSS-05,Virtual Systems and Services,Supplementary
+VSS-05-02,Contrast the operational advantages and disadvantages of a virtualized network.,VSS,Network virtualization,VSS-05,Virtual Systems and Services,Supplementary
+VSS-05-03,Evaluate different network management strategies using a virtual network.,VSS,Network virtualization,VSS-05,Virtual Systems and Services,Supplementary
+VSS-06-01,Contrastseveraldifferentservercluster designs.,VSS,Cluster design and administration,VSS-06,Virtual Systems and Services,Supplementary
+VSS-06-02,Describe how tools and techniques are used for cluster administration.,VSS,Cluster design and administration,VSS-06,Virtual Systems and Services,Supplementary
+VSS-06-03,"Design,install,and configure a cluster in the lab.",VSS,Cluster design and administration,VSS-06,Virtual Systems and Services,Supplementary
+VSS-06-04,Adjust cluster configurations to accomplish different operational objectives.,VSS,Cluster design and administration,VSS-06,Virtual Systems and Services,Supplementary
+VSS-07-01,Explain how clustering software functions.,VSS,Softwareclustering application,VSS-07,Virtual Systems and Services,Supplementary
+VSS-07-02,Contrast high availability vs.high performanceclustering.,VSS,Softwareclustering application,VSS-07,Virtual Systems and Services,Supplementary
+VSS-07-03,Research and evaluate the suitability of cluster software and middleware tools in different operational contexts.,VSS,Softwareclustering application,VSS-07,Virtual Systems and Services,Supplementary
+VSS-07-04,"Illustrate application cluster concepts such as load balancing, failover, and node monitoring.",VSS,Softwareclustering application,VSS-07,Virtual Systems and Services,Supplementary
+VSS-08-01,Contrast the different storage environments and describe how they function.,VSS,Storage,VSS-08,Virtual Systems and Services,Supplementary
+VSS-08-02,Contrast the operational advantages and disadvantages of the storage alternatives.,VSS,Storage,VSS-08,Virtual Systems and Services,Supplementary
+VSS-08-03,Installand configure a storage environment and file system.,VSS,Storage,VSS-08,Virtual Systems and Services,Supplementary
+VSS-08-04,Evaluate the performance ofstorage and file systems against industry benchmarks.,VSS,Storage,VSS-08,Virtual Systems and Services,Supplementary
