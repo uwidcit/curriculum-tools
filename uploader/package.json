@@ -1,8 +1,8 @@
 {
-  "name": "topics",
+  "name": "uploader",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv": "^5.5.0",
     "csv-parser": "^3.0.0",
-    "csv-writer": "^1.6.0",
-    "firebase-admin": "^9.11.1",
-    "pdf2json": "^1.2.0",
-    "urldecode": "^1.0.1"
+    "firebase-admin": "^9.8.0"
   }
 }
