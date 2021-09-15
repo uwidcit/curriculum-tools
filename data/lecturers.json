@@ -1,0 +1,353 @@
+[
+  {
+    "fname": "Cynthia",
+    "lname": "Cudjoe",
+    "email": "cynthia.cudjoe@sta.uwi.edu",
+    "course": "COMP 1600",
+    "Course Title": "Introduction to Computing Concepts",
+    "Course #": 1,
+    "Semester": ""
+  },
+  {
+    "fname": "Permanand",
+    "lname": "Mohan",
+    "email": "permanand.mohan@sta.uwi.edu",
+    "course": "COMP 1601",
+    "Course Title": "Computer Programming I",
+    "Course #": 2,
+    "Semester": ""
+  },
+  {
+    "fname": "Permanand",
+    "lname": "Mohan",
+    "email": "permanand.mohan@sta.uwi.edu",
+    "course": "COMP 1602",
+    "Course Title": "Computer Programming II",
+    "Course #": 3,
+    "Semester": ""
+  },
+  {
+    "fname": "Michael",
+    "lname": "Hosein",
+    "email": "michael.hosein@sta.uwi.edu",
+    "course": "COMP 1603",
+    "Course Title": "Computer Programming III",
+    "Course #": 4,
+    "Semester": ""
+  },
+  {
+    "fname": "Akhenaton",
+    "lname": "Daaga",
+    "email": "akhenaton.daaga@sta.uwi.edu",
+    "course": "COMP 1604",
+    "Course Title": "Mathematics for Computing",
+    "Course #": 5,
+    "Semester": ""
+  },
+  {
+    "fname": "Diana",
+    "lname": "Ragbir",
+    "email": "diana.rabir@gmail.com",
+    "course": "COMP 2601",
+    "Course Title": "Computer Architecture",
+    "Course #": 6,
+    "Semester": ""
+  },
+  {
+    "fname": "Michael",
+    "lname": "Hosein",
+    "email": "michael.hosein@sta.uwi.edu",
+    "course": "COMP 2602",
+    "Course Title": "Computer Networks",
+    "Course #": 7,
+    "Semester": ""
+  },
+  {
+    "fname": "Phaedra",
+    "lname": "Mohammed",
+    "email": "phaedra.mohammed@sta.uwi.edu",
+    "course": "COMP 2603",
+    "Course Title": "Object Oriented Programming I",
+    "Course #": 8,
+    "Semester": ""
+  },
+  {
+    "fname": "Diana",
+    "lname": "Ragbir",
+    "email": "diana.rabir@gmail.com",
+    "course": "COMP 2604",
+    "Course Title": "Operating Systems",
+    "Course #": 9,
+    "Semester": ""
+  },
+  {
+    "fname": "Koffka",
+    "lname": "Khan",
+    "email": "koffka.khan@sta.uwi.edu",
+    "course": "COMP 2605",
+    "Course Title": "Enterprise Database Systems",
+    "Course #": 10,
+    "Semester": ""
+  },
+  {
+    "fname": "Shareeda",
+    "lname": "Mohammed",
+    "email": "shareeda.mohammed@sta.uwi.edu",
+    "course": "COMP 2606",
+    "Course Title": "Software Engineering I",
+    "Course #": 11,
+    "Semester": ""
+  },
+  {
+    "fname": "Permanand",
+    "lname": "Mohan",
+    "email": "permanand.mohan@sta.uwi.edu",
+    "course": "COMP 2611",
+    "Course Title": "Data Structures",
+    "Course #": 12,
+    "Semester": ""
+  },
+  {
+    "fname": "Duc The",
+    "lname": "Kieu",
+    "email": "duc.kieu@sta.uwi.edu",
+    "course": "COMP 3601",
+    "Course Title": "Design and Analysis of Algorithms",
+    "Course #": 13,
+    "Semester": ""
+  },
+  {
+    "fname": "Kris",
+    "lname": "Manohar",
+    "email": "kris.manohar@sta.uwi.edu",
+    "course": "COMP 3602",
+    "Course Title": "Theory of Computing",
+    "Course #": 14,
+    "Semester": ""
+  },
+  {
+    "fname": "Cynthia",
+    "lname": "Cudjoe",
+    "email": "cynthia.cudjoe@sta.uwi.edu",
+    "course": "COMP 3603",
+    "Course Title": "Human Computer Interaction",
+    "Course #": 15,
+    "Semester": ""
+  },
+  {
+    "fname": "Duc The",
+    "lname": "Kieu",
+    "email": "duc.kieu@sta.uwi.edu",
+    "course": "COMP 3605",
+    "Course Title": "Introduction to Data Analytics",
+    "Course #": 16,
+    "Semester": ""
+  },
+  {
+    "fname": "Michael",
+    "lname": "Hosein",
+    "email": "michael.hosein@sta.uwi.edu",
+    "course": "COMP 3606",
+    "Course Title": "Wireless and Mobile Programming",
+    "Course #": 17,
+    "Semester": ""
+  },
+  {
+    "fname": "Phaedra",
+    "lname": "Mohammed",
+    "email": "phaedra.mohammed@sta.uwi.edu",
+    "course": "COMP 3607",
+    "Course Title": "Object Oriented Programming II",
+    "Course #": 18,
+    "Semester": ""
+  },
+  {
+    "fname": "Kris",
+    "lname": "Manohar",
+    "email": "kris.manohar@sta.uwi.edu",
+    "course": "COMP 3608",
+    "Course Title": "Intelligent Systems",
+    "Course #": 19,
+    "Semester": ""
+  },
+  {
+    "fname": "Permanand",
+    "lname": "Mohan",
+    "email": "permanand.mohan@sta.uwi.edu",
+    "course": "COMP 3609",
+    "Course Title": "Game Programming",
+    "Course #": 20,
+    "Semester": ""
+  },
+  {
+    "fname": "Patrick",
+    "lname": "Hosein",
+    "email": "patrick.hosein@sta.uwi.edu",
+    "course": "COMP 3610",
+    "Course Title": "Big Data Analytics",
+    "Course #": 21,
+    "Semester": ""
+  },
+  {
+    "fname": "Kris",
+    "lname": "Manohar",
+    "email": "kris.manohar@sta.uwi.edu",
+    "course": "COMP 3611",
+    "Course Title": "Modeling and Simulation",
+    "Course #": 22,
+    "Semester": ""
+  },
+  {
+    "fname": "Shareeda",
+    "lname": "Mohammed",
+    "email": "shareeda.mohammed@sta.uwi.edu",
+    "course": "COMP 3613",
+    "Course Title": "Software Engineering II",
+    "Course #": 23,
+    "Semester": ""
+  },
+  {
+    "fname": "Cynthia",
+    "lname": "Cudjoe",
+    "email": "cynthia.cudjoe@sta.uwi.edu",
+    "course": "INFO 1600",
+    "Course Title": "Introduction to Information Technology Concepts",
+    "Course #": 24,
+    "Semester": ""
+  },
+  {
+    "fname": "Nicholas",
+    "lname": "Mendez",
+    "email": "nicholas.mendez@sta.uwi.edu",
+    "course": "INFO 1601",
+    "Course Title": "Introduction to WWW Programming",
+    "Course #": 25,
+    "Semester": ""
+  },
+  {
+    "fname": "MIchael",
+    "lname": "Hosein",
+    "email": "michael.hosein@sta.uwi.edu",
+    "course": "INFO 2600",
+    "Course Title": "Information Systems Development",
+    "Course #": 26,
+    "Semester": ""
+  },
+  {
+    "fname": "Kris",
+    "lname": "Manohar",
+    "email": "kris.manohar@sta.uwi.edu",
+    "course": "INFO 2601",
+    "Course Title": "Networking Technologies Fundamentals",
+    "Course #": 27,
+    "Semester": ""
+  },
+  {
+    "fname": "Nicholas",
+    "lname": "Mendez",
+    "email": "nicholas.mendez@sta.uwi.edu",
+    "course": "INFO 2602",
+    "Course Title": "Web Programming and Technologies I",
+    "Course #": 28,
+    "Semester": ""
+  },
+  {
+    "fname": "Phaedra",
+    "lname": "Mohammed",
+    "email": "phaedra.mohammed@sta.uwi.edu",
+    "course": "INFO 2603",
+    "Course Title": "Platform Technologies I",
+    "Course #": 29,
+    "Semester": ""
+  },
+  {
+    "fname": "Wayne",
+    "lname": "Goodridge",
+    "email": "wayne.goodridge@sta.uwi.edu",
+    "course": "INFO 2604",
+    "Course Title": "Information Systems Security",
+    "Course #": 30,
+    "Semester": ""
+  },
+  {
+    "fname": "Cynthia",
+    "lname": "Cudjoe",
+    "email": "cynthia.cudjoe@sta.uwi.edu",
+    "course": "INFO 2605",
+    "Course Title": "Professional Ethics and Law",
+    "Course #": 31,
+    "Semester": ""
+  },
+  {
+    "fname": "Shareeda",
+    "lname": "Mohammed",
+    "email": "shareeda.mohammed@sta.uwi.edu",
+    "course": "INFO 3600",
+    "Course Title": "Business Information Systems",
+    "Course #": 32,
+    "Semester": ""
+  },
+  {
+    "fname": "Nicholas",
+    "lname": "Mendez",
+    "email": "nicholas.mendez@sta.uwi.edu",
+    "course": "INFO 3601",
+    "Course Title": "Platform Technologies II",
+    "Course #": 33,
+    "Semester": ""
+  },
+  {
+    "fname": "Phaedra",
+    "lname": "Mohammed",
+    "email": "phaedra.mohammed@sta.uwi.edu",
+    "course": "INFO 3602",
+    "Course Title": "Web Systems & Technologies II",
+    "Course #": 34,
+    "Semester": ""
+  },
+  {
+    "fname": "Cynthia",
+    "lname": "Cudjoe",
+    "email": "cynthia.cudjoe@sta.uwi.edu",
+    "course": "INFO 3604",
+    "Course Title": "Project",
+    "Course #": 35,
+    "Semester": ""
+  },
+  {
+    "fname": "Wayne",
+    "lname": "Goodridge",
+    "email": "wayne.goodridge@sta.uwi.edu",
+    "course": "INFO 3605",
+    "Course Title": "Fundamentals of LAN Technologies",
+    "Course #": 36,
+    "Semester": ""
+  },
+  {
+    "fname": "Koffka",
+    "lname": "Khan",
+    "email": "koffka.khan@sta.uwi.edu",
+    "course": "INFO 3606",
+    "Course Title": "Cloud Computing",
+    "Course #": 37,
+    "Semester": ""
+  },
+  {
+    "fname": "Naresh",
+    "lname": "Seegobin",
+    "email": "naresh.seegobin@sta.uwi.edu",
+    "course": "INFO 3607",
+    "Course Title": "Fundamentals of WAN Technologies",
+    "Course #": 38,
+    "Semester": ""
+  },
+  {
+    "fname": "Selris",
+    "lname": "Mahabir",
+    "email": "selris.mahabir@sta.uwi.edu",
+    "course": "INFO 3608",
+    "Course Title": "E-Commerce",
+    "Course #": 39,
+    "Semester": ""
+  }
+]
