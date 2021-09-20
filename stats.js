@@ -53,8 +53,10 @@ async function getTopics(filename){
             for( let text of courses[course]){
                 let topicId = getTopicId(text);
                 let topic = topicList[topicId];
-                if(!topic)throw 'Topic ID not found Error';
-                topic.courses ??= [];
+                if(topic === undefined)`Topic for Topic ID ${topicId} not found Error`;
+                console.log(topic);
+                if(! ('courses' in topic))
+                    topic.courses = [];
                 topic.courses.push(course)
             }
         }
