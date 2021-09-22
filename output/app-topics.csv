@@ -1,0 +1,448 @@
+Topic ID,Topic,Courses
+AL-02-03,Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies),"COMP 1600,COMP 3601"
+AL-03-01,"Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, ","COMP 1600,COMP 3601"
+AL-03-02,Sequential and binary search algorithms,"COMP 1600,COMP 3601"
+AR-01-01,Overview and history of computer architecture,COMP 1600
+AR-01-03,Multiple representations/layers of interpretation (hardware is just another layer),"COMP 1600,COMP 2601"
+AR-02-01,"Bits, bytes, and words","COMP 1600,COMP 2601"
+AR-02-02,Numeric data representation and number bases,"COMP 1600,COMP 2601"
+AR-02-03,Fixed- and floating-point systems,"COMP 1600,COMP 2601"
+AR-02-04,Signed and twos-complement representations,"COMP 1600,COMP 2601"
+AR-02-05,"Representation of non-numeric data (character codes, graphical data)","COMP 1600,COMP 2601"
+AR-02-06,Representation of records and arrays,COMP 1600
+AR-03-01,Basic organization of the von Neumann machine,"COMP 1600,COMP 2601"
+AR-03-02,"Control unit; instruction fetch, decode, and execution","COMP 1600,COMP 2601"
+AR-03-03,"Instruction sets and types (data manipulation, control, I/O)","COMP 1600,COMP 2601"
+AR-03-04,Assembly/machine language programming,"COMP 1600,COMP 2601"
+AR-03-05,Instruction formats,"COMP 1600,COMP 2601"
+AR-03-06,Addressing modes,"COMP 1600,COMP 2601"
+AR-03-07,Subroutine call and return mechanisms (cross-referencePL/Language Translation and Execution),"COMP 1600,COMP 2601"
+AR-03-08,I/O and interrupts,"COMP 1600,COMP 2601"
+AR-03-10,Shared memory multiprocessors/multicore organization,"COMP 1600,COMP 2601"
+AR-03-11,Introduction to SIMD vs. MIMD and the Flynn Taxonomy,"COMP 1600,COMP 2601"
+AR-04-01,Storage systems and their technology,"COMP 1600,COMP 2601"
+AR-04-02,Memory hierarchy: importance of temporal and spatial locality,"COMP 1600,COMP 2601"
+AR-04-03,Main memory organization and operations,"COMP 1600,COMP 2601"
+AR-04-04,"Latency, cycle time, bandwidth, and interleaving","COMP 1600,COMP 2601"
+AR-04-05,"Cache memories (address mapping, block size, replacement and store policy)","COMP 1600,COMP 2601"
+AR-04-07,"Virtual memory (page table, TLB)","COMP 1600,COMP 2601"
+AR-05-01,"I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O","COMP 1600,COMP 2601"
+AR-05-03,"External storage, physical organization, and drives","COMP 1600,COMP 2601"
+AR-05-04,"Buses: bus protocols, arbitration, direct-memory access (DMA)","COMP 1600,COMP 2601"
+AR-06-03,Instruction pipelining,"COMP 1600,COMP 2601"
+AR-07-02,Example SIMD and MIMD instruction sets and architectures,"COMP 1600,COMP 2601"
+CN-03-01,Fundamental programming concepts:,COMP 1600
+OS-01-01,Role and purpose of the operating system,"COMP 1600,COMP 2604"
+OS-01-02,Functionality of a typical operating system,"COMP 1600,COMP 2604"
+OS-02-01,"Structuring methods (monolithic, layered, modular, micro-kernel models)","COMP 1600,COMP 2604"
+OS-02-05,Device organization,"COMP 1600,COMP 2604"
+OS-02-07,"Concept of user/system state and protection, transition to kernel mode","COMP 1600,COMP 2604"
+OS-03-01,States and state diagrams (cross-reference SF/Stateand State Machines),COMP 1600
+OS-03-02,"Structures (ready list, process control blocks, and so forth)","COMP 1600,COMP 2604"
+OS-03-03,Dispatching and context switching,"COMP 1600,COMP 2604"
+OS-05-01,Review of physical memory and memory management hardware,"COMP 1600,COMP 2601,COMP 2604"
+OS-05-02,Working sets and thrashing,"COMP 1600,COMP 2604"
+OS-06-01,Overview of system security,"COMP 1600,COMP 2604"
+OS-06-02,Policy/mechanism separation,"COMP 1600,COMP 2604"
+OS-07-02,Paging and virtual memory,"COMP 1600,COMP 2604"
+OS-08-01,Characteristics of serial and parallel devices,"COMP 1600,COMP 2604"
+OS-08-04,Direct memory access,"COMP 1600,COMP 2604"
+OS-09-01,"Files: data, metadata, operations, organization, buffering, sequential, nonsequential","COMP 1600,COMP 2604"
+PL-06-01,Interpretation vs. compilation to native code vs. compilation toportable intermediate representation,COMP 1600
+PL-06-05,Memory management,COMP 1600
+HCI-01-01,"Contexts for HCI (anything with a user interface, e.g.,webpage, business applications, mobile applications, ",COMP 3603
+HCI-01-02,"Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design",COMP 3603
+HCI-01-03,"Different measures for evaluation, e.g.,utility, efficiency, learnability, user satisfaction",COMP 3603
+HCI-01-04,Usability heuristics and the principles of usability testing,COMP 3603
+HCI-01-05,"Physical capabilities that inform interaction design, e.g.,color perception, ergonomics",COMP 3603
+HCI-01-06,"Cognitive models that inform interaction design, e.g.,attention, perception and recognition, movement, and ",COMP 3603
+HCI-01-07,"Social models that inform interaction design, e.g.,culture, communication, networks and organizations",COMP 3603
+HCI-01-08,Principles of good design and good designers; engineering tradeoffs,"COMP 3603,COMP 2603"
+HCI-01-09,"Accessibility, e.g.,interfaces for differently-abled populations (e.g.,blind, motion-impaired)",COMP 3603
+HCI-01-10,"Interfaces for differently-aged population groups (e.g., children, 80+)",COMP 3603
+HCI-02-01,Principles of graphical user interfaces (GUIs),"COMP 3603,INFO 1601"
+HCI-02-02,"Elements of visual design (layout, color, fonts, labeling)","COMP 3603,COMP 2603,INFO 1601"
+HCI-02-03,"Task analysis, including qualitative aspects of generating task analytic models",COMP 3603
+HCI-02-04,Low-fidelity (paper) prototyping,COMP 3603
+HCI-02-05,"Quantitative evaluation techniques, e.g., keystroke-level evaluation",COMP 3603
+HCI-02-06,Help and documentation,COMP 3603
+HCI-02-07,Handling human/system failure,COMP 3603
+HCI-02-08,User interface standards ,COMP 3603
+HCI-03-01,"Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross  ","COMP 3603,COMP 3607,COMP 2603,INFO 2602"
+HCI-03-02,"Interaction Design Patterns: visual hierarchy, navigational distance",COMP 3603
+HCI-03-03,Event management and user interaction ,"COMP 3603,COMP 2603"
+HCI-03-05,Choosing interaction styles and interaction techniques ,COMP 3603
+HCI-03-06,"Presenting information: navigation, representation, manipulation","COMP 3603,INFO 2602"
+HCI-03-07,"Interface animation techniques (e.g., scene graphs) ",COMP 3603
+HCI-03-09,"Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross-","COMP 3603,COMP 3607,COMP 2603,INFO 1601"
+HCI-03-10,Declarative Interface Specification: Stylesheets and DOMs ,"COMP 3603,INFO 1601,INFO 2602"
+HCI-03-11,Data-driven applications (database-backed web pages) ,"COMP 3603,INFO 2602"
+HCI-03-12,Cross-platform design ,"COMP 3603,INFO 2602"
+HCI-03-13,"Design for resource-constrained devices(e.g. small, mobile devices)","COMP 3603,INFO 1601,INFO 2602"
+HCI-04-01,"Approaches to, and characteristics of, the design process",COMP 3603
+HCI-04-02,Functionality and usability requirements (cross-reference to SE/Requirements Engineering),COMP 3603
+HCI-04-03,"Techniques for gathering requirements, e.g.,interviews, surveys, ethnographic and contextual enquiry",COMP 3603
+HCI-04-04,"Techniques and tools for the analysis and presentation of requirements, e.g.,reports, personas",COMP 3603
+HCI-04-05,"Prototyping techniques and tools, e.g.,sketching, storyboards, low-fidelity prototyping, wireframes ","COMP 3603,INFO 2602"
+HCI-04-06,"Evaluation without users, using both qualitative and quantitative techniques, e.g.,walkthroughs, GOMS, ",COMP 3603
+HCI-04-07,"Evaluation with users, e.g.,observation, think-aloud, interview, survey, experiment",COMP 3603
+HCI-04-08,"Challenges to effective evaluation, e.g.,sampling, generalization",COMP 3603
+HCI-04-09,Reporting the results of evaluations,COMP 3603
+HCI-04-10,"Internationalization, designing for users fromother cultures, cross-cultural",COMP 3603
+HCI-06-01,"Asynchronous group communication, e.g., e-mail, forums, social networks",COMP 3603
+HCI-06-02,"Synchronous group communication, e.g.,chat rooms, conferencing, online games",COMP 3603
+HCI-06-03,"Social media, social computing, and social network analysis",COMP 3603
+HCI-06-04,"Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies",COMP 3603
+HCI-06-05,Online communities,COMP 3603
+HCI-06-06,"Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)",COMP 3603
+HCI-06-07,Social psychology,COMP 3603
+HCI-08-05,Usability design and security,COMP 3603
+HCI-09-01,Intellectual styles and perspectives to technology andits interfaces,COMP 3603
+HCI-09-02,Consideration of HCI as a designdiscipline,COMP 3603
+HCI-09-03,Critically reflective HCI,COMP 3603
+AR-01-02,Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + ,COMP 2601
+AR-03-09,Heap vs. Static vs. Stack vs. Code segments,COMP 2601
+AR-04-06,Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory ,COMP 2601
+AR-04-08,Fault handling and reliability,COMP 2601
+AR-04-09,"Error coding, data compression, and data integrity (cross-referenceSF/Reliability through Redundancy)",COMP 2601
+AR-05-02,"Interrupt structures: vectoredand prioritized, interrupt acknowledgment",COMP 2601
+AR-05-07,RAID architectures,COMP 2601
+AR-06-01,"Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution",COMP 2601
+AR-06-02,Control unit: hardwired realization vs. microprogrammed realization,COMP 2601
+AR-06-04,Introduction to instruction-level parallelism (ILP),COMP 2601
+AR-07-01,Power Law,COMP 2601
+AR-07-04,Shared multiprocessor memory systems and memory consistency,COMP 2601
+AR-07-05,Multiprocessor cache coherence,COMP 2601
+OS-05-03,Caching(cross-reference AR/Memory System Organization and Architecture),"COMP 2601,COMP 2604"
+PD-05-03,Symmetric multiprocessing (SMP),COMP 2601
+PD-05-04,"SIMD, vector processing ",COMP 2601
+PD-05-05,"GPU, co-processing",COMP 2601
+PD-05-06,Flynn’s taxonomy,COMP 2601
+SF-05-01,Performance figures of merit,COMP 2601
+SF-05-02,"Workloadsand representative benchmarks, and methods of collecting and analyzing performance figures of ",COMP 2601
+SF-05-03,"CPI (Cycles per Instruction) equationas tool for understanding tradeoffs in the design of instruction sets, ",COMP 2601
+SF-05-04,Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,COMP 2601
+OS-01-03,"Mechanisms to support client-server models, hand-held devices",COMP 2604
+OS-01-04,"Design issues (efficiency, robustness, flexibility, portability, security, compatibility)",COMP 2604
+OS-01-05,"Influences of security,networking, multimedia, windowing systems",COMP 2604
+OS-02-02,"Abstractions, processes, and resources",COMP 2604
+OS-02-03,Concepts of application program interfaces (APIs),COMP 2604
+OS-02-04,The evolution of hardware/software techniquesand application needs,COMP 2604
+OS-02-06,Interrupts: methods and implementations,COMP 2604
+OS-03-04,The role of interrupts,COMP 2604
+OS-03-05,Managing atomic access to OS objects,COMP 2604
+OS-03-06,Implementing synchronization primitives,COMP 2604
+OS-03-07,"Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)",COMP 2604
+OS-04-01,"Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling, ",COMP 2604
+OS-04-02,"Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel ",COMP 2604
+OS-04-03,Processes and threads (cross-reference SF/ C omputational paradigms),COMP 2604
+OS-04-04,Deadlines and real-time issues,COMP 2604
+OS-06-03,Security methods and devices,COMP 2604
+OS-06-04,"Protection, access control, and authentication",COMP 2604
+OS-07-01,"Types of virtualization (including Hardware/Software, OS, Server, Service, Network) ",COMP 2604
+OS-07-03,Virtual file systems,COMP 2604
+OS-07-04,Hypervisors ,COMP 2604
+OS-08-02,Abstracting device differences,COMP 2604
+OS-08-03,Buffering strategies,COMP 2604
+OS-08-05,Recovery from failures,COMP 2604
+OS-09-02,Directories: contents and structure,COMP 2604
+OS-09-03,"File systems: partitioning, mount/unmount, virtual file systems",COMP 2604
+OS-09-04,Standard implementation techniques,COMP 2604
+OS-09-05,Memory-mapped files,COMP 2604
+OS-09-06,Special-purpose file systems,COMP 2604
+OS-09-07,"Naming, searching, access, backups",COMP 2604
+OS-10-01,Process and task scheduling,COMP 2604
+SF-06-02,"Kinds of scheduling (e.g., first-come, priority) ",COMP 2604
+SF-06-03,"Advantages of fair scheduling, preemptive scheduling",COMP 2604
+IM-10-01,Usesof data mining,"COMP 3605,COMP 3610"
+IM-10-02,Data mining algorithms,"COMP 3605,COMP 3610"
+IM-10-03,Associative and sequential patterns,"COMP 3605,COMP 3610"
+IM-10-04,Data clustering,"COMP 3605,COMP 3610"
+IM-10-05,Market basket analysis,COMP 3605
+IM-10-06,Data cleaning,"COMP 3605,COMP 3610"
+IS-04-03,"Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees","COMP 3605,COMP 3608"
+IS-04-04,The over-fitting problem,"COMP 3605,COMP 3608"
+IS-04-05,Measuring classifier accuracy,"COMP 3605,COMP 3608"
+AL-01-01,"Differences among best, expected, and worst case behaviors of an algorithm ",COMP 3601
+AL-01-02,Asymptotic analysis of upper and expected complexity bounds,COMP 3601
+AL-01-03,Big O  notation: formal definition,COMP 3601
+AL-01-04,"Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential",COMP 3601
+AL-01-05,Empirical measurements of performance,COMP 3601
+AL-01-06,Time and space trade-offs in algorithms,COMP 3601
+AL-01-07,Big O notation: use,COMP 3601
+AL-01-08,"Little o, big omega and big theta notation",COMP 3601
+AL-01-09,Recurrence relations,COMP 3601
+AL-01-10,Analysis of iterative and recursive algorithms,COMP 3601
+AL-01-11,Some version of a Master Theorem,COMP 3601
+AL-02-01,Brute-force algorithms,COMP 3601
+AL-02-02,Greedy algorithms,COMP 3601
+AL-02-04,Recursive backtracking,COMP 3601
+AL-02-05,Dynamic Programming,COMP 3601
+AL-02-06,Branch-and-bound,COMP 3601
+AL-02-08,Reduction: transform-and-conquer,COMP 3601
+AL-03-03,"Worst case quadratic sorting algorithms (selection, insertion)",COMP 3601
+AL-03-04,"Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)",COMP 3601
+AL-03-07,Graphs and graph algorithms,COMP 3601
+AL-03-08,Heaps,COMP 3601
+AL-03-10,"Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest ",COMP 3601
+AL-07-06,"Linear Programming (e.g.,duality, simplex method, interior point algorithms)",COMP 3601
+IM-01-02,Basic information storage and retrieval(IS&R) concepts,COMP 2605
+IM-01-03,Information capture and representation,COMP 2605
+IM-02-01,Approaches to and evolution of database systems,COMP 2605
+IM-02-02,Components of database systems ,COMP 2605
+IM-02-03,"Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, ",COMP 2605
+IM-02-04,Database architecture and data independence,COMP 2605
+IM-02-05,Use of a declarative query language,COMP 2605
+IM-02-06,Systems supporting structured and/or stream content,COMP 2605
+IM-03-01,Data modeling,"COMP 2605,INFO 2602"
+IM-03-02,"Conceptual models (e.g., entity-relationship, UML diagrams) ","COMP 2605,COMP 3607,INFO 2602"
+IM-03-04,Relational data models,COMP 2605
+IM-03-05,Object-oriented models(cross-reference PL/Object-Oriented Programming),"COMP 2605,COMP 3607,INFO 2602"
+IM-03-06,"Semi-structured data model (expressed using DTD or XML Schema, for example)",COMP 2605
+IM-04-01,The impact of indices on query performance,COMP 2605
+IM-04-02,The basic structure of an index,COMP 2605
+IM-04-03,Keeping a buffer of data in memory,COMP 2605
+IM-04-04,Creating indexes with SQL,COMP 2605
+IM-04-05,Indexing text,COMP 2605
+IM-05-01,Mapping conceptual schema to a relational schema,COMP 2605
+IM-05-02,Entity and referential integrity,COMP 2605
+IM-05-03,Relational algebra and relational calculus,COMP 2605
+IM-05-04,Relational Database design,COMP 2605
+IM-05-05,Functional dependency,COMP 2605
+IM-05-07,"Candidate keys, superkeys,and closure of a set of attributes",COMP 2605
+IM-05-08,Normal forms (BCNF),COMP 2605
+IM-06-01,Overview of database languages,COMP 2605
+IM-06-02,"SQL (data definition, query formulation, update sublanguage, constraints, integrity)",COMP 2605
+IM-06-03,Selections,COMP 2605
+IM-06-04,Projections,COMP 2605
+IM-06-05,Select-project-join,COMP 2605
+IM-06-06,Aggregates andgroup-by ,COMP 2605
+IM-06-07,Subqueries,COMP 2605
+IM-06-10,"Introduction to other major query languages (e.g., XPATH, SPARQL)",COMP 2605
+IM-06-11,Stored procedures,COMP 2605
+IM-07-01,Transactions ,COMP 2605
+IM-07-02,Failure and recovery,COMP 2605
+IM-07-03,Concurrency control,COMP 2605
+IM-09-01,Storage and file structure,COMP 2605
+IM-09-02,Indexed files,COMP 2605
+IM-09-03,Hashed files,COMP 2605
+IM-11-01,"Documents, electronic publishing, markup, and markup languages",COMP 2605
+IM-11-15,Metadata and cataloging,COMP 2605
+IM-11-16,"Naming,repositories, archives",COMP 2605
+AL-04-01,Finite-state machines,COMP 3602
+AL-04-02,Regular expressions,COMP 3602
+AL-04-03,The halting problem,COMP 3602
+AL-04-04,Context-free grammars (cross-reference PL/Syntax Analysis),COMP 3602
+AL-04-05,Introduction to the P and NP classes and the P vs. NP problem,COMP 3602
+AL-06-01,Sets and languages,COMP 3602
+AL-06-02,Context-free languages,COMP 3602
+AL-06-03,"Turing machines, or an equivalent formal model of universal computation",COMP 3602
+AL-06-04,Nondeterministic Turing machines,COMP 3602
+AL-06-05,Chomsky hierarchy,COMP 3602
+AL-06-06,The Church-Turing thesis,COMP 3602
+AL-06-07,Computability,COMP 3602
+AL-06-09,Examples of uncomputable functions,COMP 3602
+AL-06-10,Implications of uncomputability,COMP 3602
+IS-01-01,"Overview of AI problems, examples of successful recent AI applications",COMP 3608
+IS-01-02,What is intelligent behavior? ,COMP 3608
+IS-01-03,Problem characteristics,COMP 3608
+IS-01-04,Nature of agents,COMP 3608
+IS-01-05,Philosophical and ethical issues. [elective],COMP 3608
+IS-02-01,"Problem spaces (states, goals and operators),  problem solving by search",COMP 3608
+IS-02-02,Factored representation (factoring state into variables),COMP 3608
+IS-02-03,"Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)  ",COMP 3608
+IS-02-04,"Heuristics and informed search (hill-climbing, generic best-first, A*)  ",COMP 3608
+IS-02-05,Space and time efficiency of search  ,COMP 3608
+IS-02-07,Constraint satisfaction (backtracking and local search methods) ,COMP 3608
+IS-03-03,"Forward chaining, backward chaining",COMP 3608
+IS-03-04,"Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)",COMP 3608
+IS-04-01,"Definition and examples of broad variety of machine learning tasks, including classification ",COMP 3608
+IS-04-02,Inductive learning,COMP 3608
+IS-05-03,"Implementation of A* search, beam search",COMP 3608
+IS-07-01,Review of basic probability (cross-reference DS/Discrete Probability),COMP 3608
+IS-07-02,Random variables and probability distributions,COMP 3608
+IS-07-03,Conditional Independence,COMP 3608
+IS-07-04,Knowledge representations,COMP 3608
+IS-10-01,Definition and examples of broad variety of machine learning tasks,"COMP 3608,COMP 3610"
+IS-10-02,"General statistical-based learning, parameter estimation (maximum likelihood)",COMP 3608
+IS-10-04,Supervised learning  ,COMP 3608
+IS-10-05,Ensembles,COMP 3608
+IS-10-06,Nearest-neighbor algorithms,COMP 3608
+IS-10-07,Unsupervised Learning and clustering,COMP 3608
+IS-10-08,Semi-supervised learning,COMP 3608
+IS-10-09,Learning graphical models (Cross-reference IS/Reasoning under Uncertainty)  ,COMP 3608
+IS-10-10,"Performance evaluation (such as cross-validation, area under ROC curve)",COMP 3608
+IS-10-11,Learning theory,COMP 3608
+IS-10-12,"The problem of overfitting, the curse of dimensionality  ",COMP 3608
+IS-10-13,Reinforcement learning ,COMP 3608
+IS-10-14,Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining),"COMP 3608,COMP 3610"
+CN-01-01,Models as abstractions of situations,"COMP 3611,COMP 3607"
+CN-01-02,Simulations as dynamic modeling,COMP 3611
+CN-01-03,"Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and ",COMP 3611
+CN-01-04,"Foundational approaches to validating models(e.g., comparing a simulation’s output to real data or the ",COMP 3611
+CN-01-05,Presentation of results in a form relevant to the system being modeled,COMP 3611
+CN-02-01,"Purpose of modeling and simulation including optimization; supporting decision making, forecasting, ",COMP 3611
+CN-02-02,"Tradeoffs including performance, accuracy, validity, and complexity",COMP 3611
+CN-02-03,"The simulation process; identification ofkey characteristics or behaviors, simplifying assumptions; ",COMP 3611
+CN-02-04,"Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and ",COMP 3611
+CN-02-05,Formal models and modeling techniques:  mathematical descriptions involving simplifying assumptions ,COMP 3611
+CN-02-06,Assessing and evaluating models and simulations in a variety of contexts; verification and validation of ,COMP 3611
+CN-02-07,"Important application areas including health care and diagnostics, economics and finance, city and urban ",COMP 3611
+CN-02-08,"Software in support of simulation and modeling; packages, languages",COMP 3611
+DS-06-01,"Finite probability space, events",COMP 3611
+DS-06-02,Axioms of probability and probability measures,COMP 3611
+DS-06-03,"Conditional probability, Bayes’ theorem",COMP 3611
+DS-06-04,Independence,COMP 3611
+DS-06-05,"Integer random variables (Bernoulli, binomial)",COMP 3611
+DS-06-07,Variance,COMP 3611
+DS-06-08,Conditional Independence,COMP 3611
+NC-01-01,"Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)","COMP 2602,INFO 1601,INFO 2602"
+NC-01-02,"Distributed applications (client/server, peer-to-peer, cloud, etc.)","COMP 2602,INFO 2602"
+NC-01-03,HTTP as an application layer protocol,"COMP 2602,INFO 1601,INFO 2602"
+NC-01-04,Multiplexing with TCP and UDP,COMP 2602
+NC-01-05,Socket APIs,"COMP 2602,INFO 1601"
+NC-02-01,"Error control (retransmission techniques, timers)",COMP 2602
+NC-02-02,"Flow control (acknowledgements, sliding window)",COMP 2602
+NC-02-03,Performance issues (pipelining),COMP 2602
+NC-02-04,TCP,COMP 2602
+NC-03-01,Routing versus forwarding,COMP 2602
+NC-03-02,Static routing,COMP 2602
+NC-03-03,Internet Protocol (IP),COMP 2602
+NC-03-04,Scalability issues (hierarchical addressing),COMP 2602
+NC-04-01,Multiple Access Problem,COMP 2602
+NC-04-02,"Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)",COMP 2602
+NC-04-03,Local Area Networks,COMP 2602
+NC-04-04,Ethernet,COMP 2602
+NC-04-05,Switching,COMP 2602
+NC-05-01,Need for resource allocation,COMP 2602
+NC-05-02,"Fixed allocation (TDM, FDM, WDM) versus dynamic allocation",COMP 2602
+NC-05-03,End-to-end versus network assisted approaches,COMP 2602
+NC-05-04,Fairness,COMP 2602
+NC-05-05,Principles of congestion control,COMP 2602
+NC-05-06,"Approaches to Congestion (e.g., Content Distribution Networks) ",COMP 2602
+NC-06-01,Principles of cellular networks,"COMP 2602,COMP 3606"
+NC-06-02,802.11 networks,"COMP 2602,COMP 3606"
+NC-06-03,Issues in supporting mobile nodes (home agents),"COMP 2602,COMP 3606"
+SDF-03-01,Arrays,"COMP 1603,COMP 2603,INFO 1601"
+SDF-03-02,Records/structs (heterogeneous aggregates),"COMP 1603,INFO 1601"
+SDF-03-03,Strings and string processing,"COMP 1603,COMP 2603"
+SDF-03-04,Abstract data types and their implementation,"COMP 1603,COMP 2603"
+SDF-03-05,References and aliasing,"COMP 1603,INFO 1601"
+SDF-03-06,Linked lists,COMP 1603
+SDF-03-07,Strategies for choosing the appropriate data structure,"COMP 1603,COMP 2603,INFO 1601"
+SDF-04-01,Program comprehension,"COMP 1603,COMP 3607"
+SDF-04-02,Program correctness,"COMP 1603,COMP 3607"
+SDF-04-03,Simple refactoring,"COMP 1603,COMP 3607"
+SDF-04-04,Modern programming environments,"COMP 1603,COMP 3607,INFO 1601"
+SDF-04-05,Debugging strategies,"COMP 1603,COMP 3607"
+SDF-04-06,Documentation and program style,"COMP 1603,COMP 3607"
+CN-04-01,Principles of data visualization,COMP 3610
+CN-04-02,Graphing and visualization algorithms,COMP 3610
+CN-04-04,Scalability concerns,COMP 3610
+GV-06-01,"Visualization of 2D/3D scalar fields: colormapping, isosurfaces",COMP 3610
+GV-06-05,Visualization design,COMP 3610
+GV-06-07,Applications of visualization,"COMP 3610,INFO 2602"
+IM-10-07,Data visualization(cross-reference GV/Visualization and CN/Interactive Visualization),COMP 3610
+PD-08-01,Internet-Scale computing,COMP 3610
+PD-08-02,Cloud services,COMP 3610
+PD-08-03,Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines),COMP 3610
+PD-08-04,Cloud-based data storage,COMP 3610
+PL-01-01,Object-oriented design ,"COMP 3607,COMP 2603"
+PL-01-03,"Subclasses, inheritance, and method overriding ","COMP 3607,COMP 2603"
+PL-04-03,Type safety and errors caused by using values inconsistently giventheir intended types,"COMP 3607,COMP 2603,INFO 1601"
+PL-04-04,Goals and limitations of static typing ,"COMP 3607,COMP 2603,INFO 1601"
+PL-04-05,Generic types (parametric polymorphism),COMP 3607
+SDF-01-04,Fundamental design concepts and principles,"COMP 3607,COMP 2603,INFO 1601"
+SE-03-04,Testing tools including static and dynamic analysis tools,"COMP 3607,COMP 3613"
+SE-03-05,"Programming environments that automate parts of program construction processes (e.g., automated builds)","COMP 3607,INFO 2602"
+SE-04-01,"Describing functional requirements using, for example, use cases or users stories","COMP 3607,COMP 2606"
+SE-05-01,"System design principles:  levels of abstraction (architectural design and detailed design), separation of ","COMP 3607,COMP 2603,COMP 2606,INFO 2602"
+SE-05-02,"Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis ",COMP 3607
+SE-05-03,Structural and behavioral models of software designs,"COMP 3607,COMP 2606"
+SE-05-04,Design patterns,COMP 3607
+SE-05-07,Refactoring designs using design patterns,COMP 3607
+SE-05-14,"Middleware:  the object-oriented paradigm within middleware, object request brokers and marshalling, ",COMP 3607
+SE-06-02,Coding standards,COMP 3607
+SE-07-08,Test-driven development,"COMP 3607,COMP 2606,INFO 1601,INFO 2602"
+SE-07-10,Object-oriented testing; systems testing,"COMP 3607,COMP 3613"
+PL-01-02,"Definition of classes: fields, methods, and constructors ","COMP 2603,INFO 2602"
+PL-01-04,Dynamic dispatch: definition of method-call ,COMP 2603
+PL-01-05,Subtyping (cross-reference PL/Type Systems),COMP 2603
+PL-01-06,Object-oriented idioms for encapsulation ,COMP 2603
+PL-01-07,"Using collection classes, iterators, and other common library components",COMP 2603
+PL-03-01,Events and event handlers ,"COMP 2603,INFO 2602"
+PL-03-05,"Separation of model, view, and controller","COMP 2603,INFO 2602"
+SDF-02-01,Basic syntax and semantics of a higher-level language,"COMP 2603,INFO 1601"
+SDF-02-02,"Variables and primitive data types (e.g., numbers, characters, Booleans)","COMP 2603,INFO 1601"
+SDF-02-03,Expressions and assignments,"COMP 2603,INFO 1601"
+SDF-02-04,Simple I/O including file I/O,COMP 2603
+SDF-02-05,Conditional and iterative control structures,"COMP 2603,INFO 1601"
+SDF-02-06,Functions and parameter passing,"COMP 2603,INFO 1601"
+IM-01-01,Information systems as socio-technical systems,INFO 3600
+IM-01-05,Information management applications ,INFO 3600
+IM-01-08,"Quality issues: reliability, scalability, efficiency, and effectiveness",INFO 3600
+SE-01-01,"Systems level considerations, i.e., the interaction of software with its intended environment (cross-","COMP 2606,INFO 1601"
+SE-01-02,"Introduction to software process models (e.g., waterfall, incremental, agile)",COMP 2606
+SE-01-03,Programming in the large vs. individual programming,"COMP 2606,COMP 3613"
+SE-01-04,Evaluation of software process models,"COMP 2606,COMP 3613"
+SE-01-05,Software quality concepts,"COMP 2606,COMP 3613,INFO 2602"
+SE-02-01,Team participation,"COMP 2606,COMP 3613,INFO 2602"
+SE-02-03,Risk(cross reference IAS/Secure Software Engineering) ,"COMP 2606,COMP 3613"
+SE-02-04,Team management,"COMP 2606,COMP 3613"
+SE-02-05,Project management,"COMP 2606,COMP 3613,INFO 2602"
+SE-02-08,Risk,"COMP 2606,COMP 3613"
+SE-04-02,"Properties of requirements including consistency, validity, completeness, and feasibility",COMP 2606
+SE-04-03,Software requirements elicitation,COMP 2606
+SE-04-04,"Describing system data using, for example, class diagrams or entity-relationship diagrams",COMP 2606
+SE-04-05,Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure ,COMP 2606
+SE-04-06,Evaluation and use of requirements specifications,COMP 2606
+SE-04-07,Requirements analysis modeling techniques,COMP 2606
+SE-04-09,Prototyping,"COMP 2606,INFO 2602"
+SE-04-10,Basic concepts of formal requirements specification,"COMP 2606,COMP 3613"
+SE-04-11,Requirements specification,"COMP 2606,COMP 3613"
+SE-04-12,Requirements validation,"COMP 2606,COMP 3613"
+SE-05-06,"Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, ","COMP 2606,INFO 2602"
+SE-07-01,Verification and validation concepts,COMP 2606
+SE-07-02,"Inspections, reviews, audits",COMP 2606
+SE-07-03,"Testing types, including human computer interface, usability,reliability, security, conformance to ",COMP 2606
+SE-08-03,Characteristics of maintainable software,"COMP 2606,COMP 3613"
+SE-08-05,Software reuse,"COMP 2606,COMP 3613"
+SE-01-06,Process improvement,COMP 3613
+SE-01-07,Software process capability maturity models,COMP 3613
+SE-01-08,Software process measurements,COMP 3613
+SE-02-06,Software measurement and estimation techniques ,COMP 3613
+SE-03-01,Software configuration management and version control,"COMP 3613,INFO 2602"
+SE-03-02,Release management,COMP 3613
+SE-04-13,Requirements tracing,COMP 3613
+SE-05-08,"The use of components in design:  component selection, design, adaptation and assembly of components, ","COMP 3613,INFO 1601"
+SE-05-12,Tradeoffs between different aspects of quality,COMP 3613
+SE-06-01,"Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference ",COMP 3613
+SE-06-04,Development context: “green field” vs. existing code base,COMP 3613
+SE-08-04,Reengineering systems,COMP 3613
+SE-09-01,Software reliability engineering concepts,COMP 3613
+SE-09-02,"Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through ",COMP 3613
+SE-09-04,Software reliability models,COMP 3613
+GV-05-06,Key-frame animation,INFO 1601
+PD-01-01,Multiple simultaneous computations,INFO 1601
+PD-01-02,"Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)",INFO 1601
+PD-01-03,"Parallelism, communication, and coordination ",INFO 1601
+PL-04-01,A type as a set of values together with a set of operations ,INFO 1601
+PL-04-02,"Association of types to variables, arguments, results, and fields ",INFO 1601
+SF-01-04,"Simple application-level parallel processing: request level (web services/client-server/distributed), single ",INFO 1601
+HCI-10-08,"Authentication and authorization, access control (mandatory vs. discretionary)",INFO 2602
+IAS-02-01,Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness),INFO 2602
+IAS-02-03,Examples of input validation and data sanitization errors (cross-reference SDF/Development ,INFO 2602
+IAS-02-04,Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared ,INFO 2602
+IAS-02-05,Correct handling of exceptions and unexpectedbehaviors (cross-reference SDF/Development ,INFO 2602
+IAS-02-06,Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness ,INFO 2602
+IAS-02-07,Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and ,INFO 2602
+IAS-02-08,Information flow control,INFO 2602
+IAS-06-02,"Session management, authentication",INFO 2602
+IAS-06-04,Client-side security,INFO 2602
+PBD-02-01,"Web programming languages (e.g., HTML5, Java Script, PHP, CSS) ",INFO 2602
+PBD-02-02,Web platform constraints ,INFO 2602
+PBD-02-04,Web standards,INFO 2602
+PL-03-03,Using a reactive framework,INFO 2602
+SP-08-04,History oftheInternet,INFO 2602
+SE-02-02,Effort Estimation (at the personal level),INFO 2602
+SE-05-13,Application frameworks,INFO 2602

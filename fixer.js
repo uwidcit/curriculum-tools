@@ -3,6 +3,7 @@ const { readCSV, writeCSV, readJSON, writeJSON} = require('./util');
 const domains = require('./data/CSdomains.json');
 const subdomains = require('./data/CSsubdomains.json');
 const topics = require('./data/parsed-topics.json');
+var stringSimilarity = require("string-similarity");
 
 const fs = require('fs');
 
@@ -183,8 +184,52 @@ async function fixTopics(){
     // writeJSON('./data/topics.json', topics);
 }
 
+async function getCourseMappings(){
+    const data = await readCSV('./data/topics.csv');
+    let count = 0;
+    
+    for(let rec of data){
+        let flag = false;
+        let max = 0;
+        let match;
+
+        for(let topic of topics){
+            let sim = stringSimilarity.compareTwoStrings(rec.topic, topic.topic);
+            if(sim > max)
+                match = topic.topic;
+        }
+        if(!flag){
+            console.log(rec.topic);
+            count++
+        }   
+    }
+
+    console.log(count);
+
+}
+
 // fixTopics().catch(console.error);
 
 // main().catch(console.error);
 
-createNestedTopics();
+// createNestedTopics();
+
+// getCourseMappings();
+
+async function convert(){
+    // const data = await readCSV('./data/topics.csv');
+    console.log(topics);
+
+    writeCSV('./data/parsed-topics.csv', topics, [
+        {id:'topicId', title:'Topic ID'},
+        {id:'topic', title:'topic'},
+        {id:'domainId', title:'domainId'},
+        {id:'subdomain', title:'subdomain'},
+        {id:'subdomainId', title:'subdomainId'},
+        {id:'domain', title:'domain'},
+        {id:'tier', title:'tier'},
+        {id:'breakdown', title:'breakdown'}
+    ]);
+}
+
+convert();
