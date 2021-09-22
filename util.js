@@ -1,4 +1,4 @@
-const { createReadStream } = require('fs');
+const { createReadStream, writeFileSync, readFileSync } = require('fs');
 const csv = require('csv-parser');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
@@ -28,9 +28,19 @@ function writeCSV(path, data, header){
     csvWriter.writeRecords(data);
 }
 
+function writeJSON(path, data){
+    return writeFileSync(path, JSON.stringify(data, null, 2));
+}
+
+async function readJSON(path){
+    const text = readFileSync(path, {encoding:'utf8', flag:'r'});
+    return JSON.parse(text);
+}
 
 
 module.exports = {
     readCSV,
-    writeCSV
+    writeCSV,
+    writeJSON,
+    readJSON
 }

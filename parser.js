@@ -1,51 +1,8 @@
 const PDFParser = require("pdf2json"); //https://www.npmjs.com/package/pdf2json
 const decode = require("urldecode");
-const subdomains = require("./subdomains.json");
-
-
-const domains = {
-    'AL':'Algorithms and Complexity',
-    'AR':'Architecture and Organization',
-    'CN':'Computational Science',
-    'DS':'Discrete Structures',
-    'GV':'Graphics and Visualization',
-    'HCI':'Human-Computer Interaction',
-    'IAS':'Information Assurance and Security',
-    'IM':'Information Management',
-    'IS':'Intelligent Systems',
-    'NC':'Net Centric Computing',
-    'OS':'Operating System',
-    'PD':'Parallel and Distributed Computing',
-    'PBD':'Platform-based Development',
-    'PL':'Programming Languages',
-    'SP':'Social Issues and Professional Practice',
-    'SDF':'Software Development Fundamentals',
-    'SE':'Software Engineering',
-    'SF':'System Fundamentals'
-};
-
-const ITdomains = {
-    "CSP": "Cybersecurity Principles",
-    "GPP": "Global Professional Practice",
-    "IMA": "Information Management",
-    "IST": "Integrated Systems Technology",
-    "NET": "Networking",
-    "PFT": "Platform Technologies",
-    "SPA": "System Paradigms",
-    "SWF": "Software Fundamentals",
-    "UXD": "User Experience Design",
-    "WMS": "Web and Mobile Systems",
-    "ANE": "Applied Networks",
-    "CCO": "Cloud Computing",
-    "CEC": "Cybersecurity Emerging Challenges",
-    "DSA": "Data Scalability and Analytics",
-    "IOT": "Internet of Things",
-    "MAP": "Mobile Application",
-    "SDM": "Software Development and Management",
-    "SRE": "Social Responsibility",
-    "VSS": "Virtual Systems and Services"
-  };
-
+const subdomains = require("./data/CSsubdomains.json");
+const domains = require("./data/CSdomains.json");
+const { createReadStream, writeFileSync, readFileSync } = require('fs');
 
 const HEADINGSIZE = 18.04;
 const TOPICSIZE1 = 12.96;
@@ -75,45 +32,7 @@ function getObj(text, run){
     };
 }
 
-function isITDomain(string){
-    return ((string.startsWith("ITE") || string.startsWith("ITS")) && string.split('-').length === 2 )
-}
 
-function isITSubDomain(string){
-    return ((string.startsWith("ITE") || string.startsWith("ITS")) && string.split('-').length === 3 )
-}
-
-function isITTopic(string){
-    return !(string.startsWith("ITE") || string.startsWith("ITS"))
-}
-
-function getItDomain(string){
-    let obj = {};
-    obj['domainId'] = string.substring(4, 7);
-    obj['domain'] = string.substring(7, string.length);
-    obj['type'] = string.startsWith("ITE") ? "Essential" : "Supplementary";
-    return obj;
-}
-
-function getITSubDomain(string){
-    let obj = {};
-    obj['subdomainId'] = string.substring(4, 10);
-    obj['subdomain'] = string.substring(10, string.length);
-    obj['domainId'] = string.substring(4, 7);
-    obj['type'] = string.startsWith("ITE") ? "Essential" : "Supplementary";
-    return obj;
-}
-
-function getITDomains(texts){
-    return texts.filter(item=>isITDomain(item.text))
-    .map(item=>{
-        return getItDomain(item.text);
-    }).reduce((acc, cur)=>{
-        const key = Object.keys(cur)[0];
-        acc[key] = cur[key];
-        return acc;
-    }, {});
-}
 
 /**
  * @description receives the location of a pdf file and returns a promise which resolves with the parsed json data 
@@ -156,111 +75,35 @@ function isSubdomain(text){
     return text.size === HEADINGSIZE && text.text.includes('/');
 }
 
-function getSubDomainsIT(texts){
-    const subDomains = [];
-    let curDomain = null;
-    let curDomainId = null;
-    let curType = null;
-
-    for(let text of texts){
-        
-        if(isITDomain(text.text)){
-            const { type, domainId, domain} = getItDomain(text.text);
-            curDomain = domain;
-            curDomainId = domainId;
-            curType = type;
-        }
-
-        if(isITSubDomain(text.text)){
-            const { subdomainId, subdomain } = getITSubDomain(text.text);
-          
-            subDomains.push({
-                domain: curDomain,
-                domainId: curDomainId,
-                subdomain,
-                subdomainId,
-                type: curType
-            })
-        }
-
-        
-    }
-   
-    return subDomains;
-}
-
-function getTopicsIT(texts){
-  
-    const topics = [];
-    let curDomain = null;
-    let curDomainId = null;
-    let curSubDomain = null;
-    let curSubDomainId = null;
-    let curType = null;
-    let topicCount = 1;
-    let lastTopic = null;
-    let newTopic = null;
-
-    for(let text of texts){
-        
-        if(isITDomain(text.text)){
-            const { type, domainId, domain} = getItDomain(text.text);
-            curDomain = domain;
-            curDomainId = domainId;
-            curType = type;
-        }
-
-        if(isITSubDomain(text.text)){
-            const { subdomainId, subdomain } = getITSubDomain(text.text);
-            topicCount = 1;
-            curSubDomain = subdomain;
-            curSubDomainId = subdomainId;
-        }
-
-        if(text.size === 11.04){
-            
-            if(text.text.match(/^[a-n]{1}.*/)){
-                newTopic = {
-                    domain: curDomain,
-                    domainId: curDomainId,
-                    subdomain: curSubDomain,
-                    subdomainId: curSubDomainId,
-                    domain: curDomain,
-                    topicId: `${curSubDomainId}-${(topicCount+"").padStart(2, '0')}`,
-                    topic: text.text.substring(2, text.text.length),
-                    type: curType
-                };
-                topics.push(newTopic);
-                lastTopic = newTopic;
-                topicCount++;
-            }else if(topics.length >0 && !text.text.startsWith("IT")){
-                // topics[topics.length].topic+=text.text;
-                lastTopic.topic+= " "+text.text;
-            } 
-        }
-
-    }
-   
-    return topics;
-}
-
-
 function getTopicsCS(texts){
     const topics = [];
        
     let i = 0;
     let cursub = null;
+    let lastsub = null;
     let subcounter = 0;
+    let curdomain = null;
+    let lastdomain = null;
 
 
     while(i < texts.length){
         while(!isSubdomain(texts[i]))i++;
-  
+        
+        lastsub = cursub;
         cursub = texts[i];
+     
         const [domainId, subdomain] = cursub.text.split('/');
+        lastdomain = curdomain;
+        curdomain = domainId;
+
+        if(lastdomain !== curdomain)
+            subcounter = 0;
+
         topics[cursub.text] = [];
         let counter = 1;
-        subcounter++;
+
+        if(lastsub !== cursub)
+            subcounter++;
 
         i++;
 
@@ -275,10 +118,12 @@ function getTopicsCS(texts){
             if(texts[i].size === TIERSIZE && texts[i].x > 4 && texts[i].x < 4.5){
                 tier = getTier(texts[i].text)
                 if(tier === "Both"){
-                    console.log(texts[i].text);
+                    // console.log(texts[i].text);
                     tier = 'N/A';
                 }
             }
+
+           
                  
             if( texts[i].text[0] === "•" && i < texts.length && (texts[i].size === TOPICSIZE1 || texts[i].size === TOPICSIZE2 )){
                 text = texts[i].text.replace("•", "");
@@ -290,11 +135,13 @@ function getTopicsCS(texts){
                     topic: text,
                     domainId,
                     domain: domains[domainId],
-                    subdomain,
+                    subdomain: subdomain.trim(),
                     subdomainId,
                     topicId,
                     tier: tier,
                 });
+
+                console.log(topicId, domains[domainId], subdomain);
                 counter++;
             }
             i++;
@@ -314,13 +161,10 @@ function getSubdomains(){
 }
 
 
-async function parse(file, prog='IT'){
-    const text = await getPDFText(file);
-    return (prog === "CS") ? getTopicsCS(text) : getTopicsIT(text);
-    // return getSubDomainsIT(text);
-    // return topics;
-    // return getITDomains(text);
-    // return text;
+async function parse(file){
+    const buffer = await readFileSync(file);
+    const text = await getPDFText(buffer);
+    return getTopicsCS(text)
 }
 
 

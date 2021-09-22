@@ -28,12 +28,12 @@ AL-03-07,Graphs and graph algorithms,AL,Fundamental Data Structures and Algorith
 AL-03-08,Heaps,AL,Fundamental Data Structures and Algorithms ,AL-03,Algorithms and Complexity,Tier 2,COMP 2611
 AL-03-09,Graphs and graph algorithms,AL,Fundamental Data Structures and Algorithms ,AL-03,Algorithms and Complexity,Tier 2,COMP 2611
 AL-03-10,"Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest ",AL,Fundamental Data Structures and Algorithms ,AL-03,Algorithms and Complexity,Tier 2,COMP 3601
-AL-04-01,Finite-state machines,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 1,COMP 3602
-AL-04-02,Regular expressions,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 1,COMP 3602
-AL-04-03,The halting problem,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 1,
-AL-04-04,Context-free grammars (cross-reference PL/Syntax Analysis),AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,COMP 3602
-AL-04-05,Introduction to the P and NP classes and the P vs. NP problem,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,
-AL-04-06,"Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,
+AL-04-01,Finite-state machines,AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 1,COMP 3602
+AL-04-02,Regular expressions,AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 1,COMP 3602
+AL-04-03,The halting problem,AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 1,
+AL-04-04,Context-free grammars (cross-reference PL/Syntax Analysis),AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 2,COMP 3602
+AL-04-05,Introduction to the P and NP classes and the P vs. NP problem,AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 2,
+AL-04-06,"Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",AL,"Basic Automata, Computability and Complexity",AL-04,Algorithms and Complexity,Tier 2,
 AL-05-01,Review of the classes P and NP; introduce P-space and EXP,AL,Advanced Computational Complexity,AL-05,Algorithms and Complexity,Elective,
 AL-05-02,Polynomial hierarchy,AL,Advanced Computational Complexity,AL-05,Algorithms and Complexity,Elective,
 AL-05-03,NP-completeness (Cook’s theorem),AL,Advanced Computational Complexity,AL-05,Algorithms and Complexity,Elective,
@@ -49,20 +49,20 @@ AL-06-07,Computability,AL,Advanced Automata Theory and Computability ,AL-06,Algo
 AL-06-08,Rice’s Theorem,AL,Advanced Automata Theory and Computability ,AL-06,Algorithms and Complexity,Elective,
 AL-06-09,Examples of uncomputable functions,AL,Advanced Automata Theory and Computability ,AL-06,Algorithms and Complexity,Elective,
 AL-06-10,Implications of uncomputability,AL,Advanced Automata Theory and Computability ,AL-06,Algorithms and Complexity,Elective,
-AL-07-01,"Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-02,"Graphs (e.g., topological sort, finding strongly connected components, matching)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-03,"Advanced data structures (e.g., B-trees, Fibonacci heaps)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-04,"String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-05,"Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite ",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-06,"Linear Programming (e.g.,duality, simplex method, interior point algorithms)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-07,"Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-08,"Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, ",AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-09,Randomized algorithms,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-10,Stochastic algorithms,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-11,Approximation algorithms,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-12,Amortized analysis,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-13,Probabilistic analysis,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
-AL-07-14,Online algorithms and competitive analysis,AL,Advanced Data Structures Algorithms and Analysis ,AL-07,Algorithms and Complexity,Elective,
+AL-07-01,"Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-02,"Graphs (e.g., topological sort, finding strongly connected components, matching)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-03,"Advanced data structures (e.g., B-trees, Fibonacci heaps)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-04,"String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-05,"Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite ",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-06,"Linear Programming (e.g.,duality, simplex method, interior point algorithms)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-07,"Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-08,"Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, ",AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-09,Randomized algorithms,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-10,Stochastic algorithms,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-11,Approximation algorithms,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-12,Amortized analysis,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-13,Probabilistic analysis,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
+AL-07-14,Online algorithms and competitive analysis,AL,"Advanced Data Structures, Algorithms, and Analysis" ,AL-07,Algorithms and Complexity,Elective,
 AR-01-01,Overview and history of computer architecture,AR,Digital Logic and Digital Systems ,AR-01,Architecture and Organization,Tier 2,"COMP 2601,INFO 2603"
 AR-01-02,Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + ,AR,Digital Logic and Digital Systems ,AR-01,Architecture and Organization,Tier 2,COMP 2601
 AR-01-03,Multiple representations/layers of interpretation (hardware is just another layer),AR,Digital Logic and Digital Systems ,AR-01,Architecture and Organization,Tier 2,COMP 2601

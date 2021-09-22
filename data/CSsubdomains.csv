@@ -1,0 +1,164 @@
+subdomainId,domain,subdomain
+AL-01,Algorithms and Complexity,Basic Analysis
+AL-02,Algorithms and Complexity,Algorithmic Strategies
+AL-03,Algorithms and Complexity,Fundamental Data Structures and Algorithms
+AL-04,Algorithms and Complexity,"Basic Automata, Computability and Complexity"
+AL-05,Algorithms and Complexity,Advanced Computational Complexity
+AL-06,Algorithms and Complexity,Advanced Automata Theory and Computability
+AL-07,Algorithms and Complexity,"Advanced Data Structures, Algorithms, and Analysis"
+AR-01,Architecture and Organization,Digital Logic and Digital Systems
+AR-02,Architecture and Organization,Machine Level Representation of Data
+AR-03,Architecture and Organization,Assembly Level Machine Organization
+AR-04,Architecture and Organization,Memory System Organization and Architecture
+AR-05,Architecture and Organization,Interfacing and Communication
+AR-06,Architecture and Organization,Functional Organization
+AR-07,Architecture and Organization,Multiprocessing and Alternative Architectures
+AR-08,Architecture and Organization,Performance Enhancements
+CN-01,Computational Science,Introduction to Modeling and Simulation
+CN-02,Computational Science,Modeling and Simulation
+CN-03,Computational Science,Processing
+CN-04,Computational Science,Interactive Visualization
+CN-05,Computational Science,"Data, Information, and Knowledge"
+CN-06,Computational Science,Numerical Analysis
+DS-01,Discrete Structures,"DS/Sets, Relations, and Functions"
+DS-02,Discrete Structures,DS/Basic Logic
+DS-03,Discrete Structures,DS/Proof Techniques
+DS-04,Discrete Structures,DS/Basics of Counting
+DS-05,Discrete Structures,DS/Graphs and Trees
+DS-06,Discrete Structures,DS/Discrete Probability
+GV-01,Graphics and Visualization,Fundamental Concepts
+GV-02,Graphics and Visualization,Basic Rendering
+GV-03,Graphics and Visualization,Geometric Modeling
+GV-04,Graphics and Visualization,Advanced Rendering
+GV-05,Graphics and Visualization,Computer Animation
+GV-06,Graphics and Visualization,Visualization
+HCI-01,Human-Computer Interaction,Foundations
+HCI-02,Human-Computer Interaction,Designing Interaction
+HCI-03,Human-Computer Interaction,Programming Interactive Systems
+HCI-04,Human-Computer Interaction,User-Centered Design & Testing
+HCI-05,Human-Computer Interaction,New Interactive Technologies
+HCI-06,Human-Computer Interaction,Collaboration & Communication
+HCI-07,Human-Computer Interaction,Statistical Methods for HCI
+HCI-08,Human-Computer Interaction,Human Factors & Security
+HCI-09,Human-Computer Interaction,Design-Oriented HCI
+HCI-10,Human-Computer Interaction,"Mixed, Augmented and Virtual Reality"
+IAS-01,Information Assurance and Security,Foundational Concepts in Security
+IAS-02,Information Assurance and Security,Principles of Secure Design
+IAS-03,Information Assurance and Security,Defensive Programming
+IAS-04,Information Assurance and Security,Threats and Attacks
+IAS-05,Information Assurance and Security,Network Security
+IAS-06,Information Assurance and Security,Cryptography
+IAS-07,Information Assurance and Security,Web Security
+IAS-08,Information Assurance and Security,Platform Security
+IAS-09,Information Assurance and Security,Security Policy and Governance
+IAS-10,Information Assurance and Security,Digital Forensics
+IAS-11,Information Assurance and Security,Secure Software Engineering
+IM-01,Information Management,Information Management Concepts
+IM-02,Information Management,Database Systems
+IM-03,Information Management,Data Modeling
+IM-04,Information Management,Indexing
+IM-05,Information Management,Relational Databases
+IM-06,Information Management,Query Languages
+IM-07,Information Management,Transaction Processing
+IM-08,Information Management,Distributed Databases
+IM-09,Information Management,Physical Database Design
+IM-10,Information Management,Data Mining
+IM-11,Information Management,Information Storage And Retrieval
+IM-12,Information Management,MultiMedia Systems
+IS-01,Intelligent Systems,Fundamental Issues
+IS-02,Intelligent Systems,Basic Search Strategies
+IS-03,Intelligent Systems,Basic Knowledge Representation and Reasoning
+IS-04,Intelligent Systems,Basic Machine Learning
+IS-05,Intelligent Systems,Advanced Search
+IS-06,Intelligent Systems,Advanced Representation and Reasoning
+IS-07,Intelligent Systems,Reasoning Under Uncertainty
+IS-08,Intelligent Systems,Agents
+IS-09,Intelligent Systems,Natural Language Processing
+IS-10,Intelligent Systems,Advanced Machine Learning
+IS-11,Intelligent Systems,Robotics
+IS-12,Intelligent Systems,Perception and Computer Vision
+NC-01,Net Centric Computing,Introduction
+NC-02,Net Centric Computing,Networked Applications
+NC-03,Net Centric Computing,Reliable Data Delivery
+NC-04,Net Centric Computing,Routing And Forwarding
+NC-05,Net Centric Computing,Local Area Networks
+NC-06,Net Centric Computing,Resource Allocation
+NC-07,Net Centric Computing,Mobility
+NC-08,Net Centric Computing,Social Networking
+OS-01,Operating System,Overview of Operating Systems
+OS-02,Operating System,Operating System Principles
+OS-03,Operating System,Concurrency
+OS-04,Operating System,Scheduling and Dispatch
+OS-05,Operating System,Memory Management
+OS-06,Operating System,Security and Protection
+OS-07,Operating System,Virtual Machines
+OS-08,Operating System,Device Management
+OS-09,Operating System,File Systems
+OS-10,Operating System,Real Time and Embedded Systems
+OS-11,Operating System,Fault Tolerance
+OS-12,Operating System,System Performance Evaluation
+PBD-01,Platform-based Development,Introduction
+PBD-02,Platform-based Development,Web Platforms
+PBD-03,Platform-based Development,Mobile Platforms
+PBD-04,Platform-based Development,Industrial Platforms
+PBD-05,Platform-based Development,Game Platforms
+PD-01,Parallel and Distributed Computing,Parallelism Fundamentals 
+PD-02,Parallel and Distributed Computing,Parallel Decomposition
+PD-03,Parallel and Distributed Computing,Communication and Coordination
+PD-04,Parallel and Distributed Computing,"Parallel Algorithms, Analysis, and Programming"
+PD-05,Parallel and Distributed Computing,Parallel Architecture
+PD-06,Parallel and Distributed Computing,Parallel Performance
+PD-07,Parallel and Distributed Computing,Distributed Systems
+PD-08,Parallel and Distributed Computing,Cloud Computing
+PD-09,Parallel and Distributed Computing,Formal Models and Semantics
+PL-01,Programming Languages,Object-Oriented Programming
+PL-02,Programming Languages,Functional Programming
+PL-03,Programming Languages,Event-Driven and Reactive Programming
+PL-04,Programming Languages,Basic Type Systems
+PL-05,Programming Languages,Program Representation
+PL-06,Programming Languages,Language Translation and Execution
+PL-07,Programming Languages,Syntax Analysis
+PL-08,Programming Languages,Compiler Semantic Analysis
+PL-09,Programming Languages,Code Generation
+PL-10,Programming Languages,Runtime Systems
+PL-11,Programming Languages,Static Analysis
+PL-12,Programming Languages,Advanced Programming Constructs
+PL-13,Programming Languages,Concurrency and Parallelism
+PL-14,Programming Languages,Type Systems
+PL-15,Programming Languages,Formal Semantics
+PL-16,Programming Languages,Language Pragmatics
+PL-17,Programming Languages,Logic Programming
+SDF-01,Software Development Fundamentals,Algorithms and Design
+SDF-02,Software Development Fundamentals,Fundamental Programming Concepts
+SDF-03,Software Development Fundamentals,Fundamental Data Structures
+SDF-04,Software Development Fundamentals,Development Methods
+SE-01,Software Engineering,Software Processes
+SE-02,Software Engineering,Software Project Management
+SE-03,Software Engineering,Tools and Environments
+SE-04,Software Engineering,Requirements Engineering
+SE-05,Software Engineering,Software Design
+SE-06,Software Engineering,Software Construction
+SE-07,Software Engineering,Software Verification and Validation
+SE-08,Software Engineering,Software Evolution
+SE-09,Software Engineering,Software Reliability
+SE-10,Software Engineering,Formal Methods
+SF-01,Systems Fundamentals,Computational Paradigms
+SF-02,Systems Fundamentals,Cross-Layer Communications
+SF-03,Systems Fundamentals,State and State Machines
+SF-04,Systems Fundamentals,Parallelism
+SF-05,Systems Fundamentals,Evaluation
+SF-06,Systems Fundamentals,Resource Allocation and Scheduling
+SF-07,Systems Fundamentals,Proximity
+SF-08,Systems Fundamentals,Virtualization and Isolation
+SF-09,Systems Fundamentals,Reliability through Redundancy
+SF-10,Systems Fundamentals,Quantitative Evaluation
+SP-01,Social Issues and Professional Practice,Social Context
+SP-02,Social Issues and Professional Practice,Analytical Tools
+SP-03,Social Issues and Professional Practice,Professional Ethics
+SP-04,Social Issues and Professional Practice,Intellectual Property
+SP-05,Social Issues and Professional Practice,Privacy and Civil Liberties
+SP-06,Social Issues and Professional Practice,Professional Communication
+SP-07,Social Issues and Professional Practice,Sustainability
+SP-08,Social Issues and Professional Practice,History
+SP-09,Social Issues and Professional Practice,Economies of Computing
+SP-10,Social Issues and Professional Practice,"Security Policies, Laws and Computer Crimes"
