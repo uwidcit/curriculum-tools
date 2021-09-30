@@ -32,7 +32,7 @@ AL-04-01,Finite-state machines,AL,Basic Automata Computability and Complexity,AL
 AL-04-02,Regular expressions,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 1,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",COMP 3602
 AL-04-03,The halting problem,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 1,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",",COMP 3602"
 AL-04-04,Context-free grammars (cross-reference PL/Syntax Analysis),AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",COMP 3602
-AL-04-05,Introduction to the P and NP classes and the P vs.NP problem,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+AL-04-05,Introduction to the P and NP classes and the P vs.NP problem,AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",",COMP 3602"
 AL-04-06,"Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",AL,Basic Automata Computability and Complexity,AL-04,Algorithms and Complexity,Tier 2,"[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
 AL-05-01,Review of the classes P and NP; introduce P-space and EXP,AL,Advanced Computational Complexity,AL-05,Algorithms and Complexity,Elective,[Elective],
 AL-05-02,Polynomial hierarchy,AL,Advanced Computational Complexity,AL-05,Algorithms and Complexity,Elective,[Elective],
@@ -71,7 +71,7 @@ AR-01-05,Register transfer notation/Hardware Description Language (Verilog/VHDL)
 AR-01-06,"Physical constraints (gate delays, fan-in, fan-out, energy/power)",AR,DigitalLogic andDigitalSystems,AR-01,Architecture and Organization,Tier 2,[3 Core-Tier2hours],COMP 2601
 AR-02-01,"Bits, bytes, and words",AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 1600,COMP 2601"
 AR-02-02,Numeric data representation and number bases,AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 1600,COMP 2601"
-AR-02-03,Fixed-and floating-point systems,AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],COMP 2601
+AR-02-03,Fixed-and floating-point systems,AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 2601,COMP 1600"
 AR-02-04,Signed and twos-complement representations,AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 2601,COMP 1600"
 AR-02-05,"Representation of non-numeric data (character codes, graphical data)",AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 2601,COMP 1600"
 AR-02-06,Representation of records and arrays,AR,Machine Level Representation of Data,AR-02,Architecture and Organization,Tier 2,[3 Core-Tier2hours],"COMP 2601,COMP 1600"
@@ -104,7 +104,7 @@ AR-05-06,Multimedia support,AR,Interfacing andCommunication,AR-05,Architecture a
 AR-05-07,RAID architectures,AR,Interfacing andCommunication,AR-05,Architecture and Organization,Tier 2,[1 Core-Tier2hour],COMP 2601
 AR-06-01,"Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution",AR,Functional Organization,AR-06,Architecture and Organization,Elective,[Elective],COMP 2601
 AR-06-02,Control unit: hardwired realization vs. microprogrammed realization,AR,Functional Organization,AR-06,Architecture and Organization,Elective,[Elective],COMP 2601
-AR-06-03,Instructionpipelining,AR,Functional Organization,AR-06,Architecture and Organization,Elective,[Elective],COMP 2601
+AR-06-03,Instructionpipelining,AR,Functional Organization,AR-06,Architecture and Organization,Elective,[Elective],"COMP 2601,COMP 1600"
 AR-06-04,Introduction to instruction-level parallelism (ILP),AR,Functional Organization,AR-06,Architecture and Organization,Elective,[Elective],COMP 2601
 AR-07-01,Power Law,AR,Multiprocessing and AlternativeArchitectures,AR-07,Architecture and Organization,Elective,[Elective],",COMP 2601"
 AR-07-02,Example SIMD and MIMD instruction sets and architectures,AR,Multiprocessing and AlternativeArchitectures,AR-07,Architecture and Organization,Elective,[Elective],"COMP 2601,COMP 1600"
@@ -184,7 +184,7 @@ DS-05-05,Spanning trees/forests,DS,Graphs and Trees,DS-05,Discrete Structures,Ti
 DS-05-06,Graph isomorphism,DS,Graphs and Trees,DS-05,Discrete Structures,Tier 2,"[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
 DS-06-01,"Finite probability space, events",DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]","MATH 2250,COMP 3611"
 DS-06-02,Axioms of probability and probability measures,DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]","MATH 2250,COMP 3611"
-DS-06-03,"Conditional probability, Bayesâ€™ theorem",DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]",MATH 2250
+DS-06-03,"Conditional probability, Bayesâ€™ theorem",DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]","MATH 2250,COMP 3611"
 DS-06-04,Independence,DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]","MATH 2250,COMP 3611"
 DS-06-05,"Integer random variables (Bernoulli, binomial)",DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]","MATH 2250,COMP 3611"
 DS-06-06,"Expectation, including Linearity of Expectation",DS,Discrete Probability,DS-06,Discrete Structures,Tier 1,"[6 Core-Tier1 hours, 2 Core-Tier2 hour]",MATH 2250
@@ -264,22 +264,22 @@ HCI-01-06,"Cognitive models that informinteraction design, e.g.,attention, perce
 HCI-01-07,"Social models that inform interaction design, e.g.,culture, communication, networks and organizations",HCI,Foundations,HCI-01,Human-Computer Interaction,Tier 1,[4Core-Tier1 hours],COMP 3603
 HCI-01-08,Principles of good design and good designers; engineering tradeoffs,HCI,Foundations,HCI-01,Human-Computer Interaction,Tier 1,[4Core-Tier1 hours],"COMP 2603,COMP 3603"
 HCI-01-09,"Accessibility, e.g.,interfaces for differently-abled populations (e.g.,blind, motion-impaired)",HCI,Foundations,HCI-01,Human-Computer Interaction,Tier 1,[4Core-Tier1 hours],",COMP 3603"
-HCI-01-10,"Interfaces for differently-aged population groups (e.g.,children, 80+)",HCI,Foundations,HCI-01,Human-Computer Interaction,Tier 1,[4Core-Tier1 hours],
+HCI-01-10,"Interfaces for differently-aged population groups (e.g.,children, 80+)",HCI,Foundations,HCI-01,Human-Computer Interaction,Tier 1,[4Core-Tier1 hours],",COMP 3603"
 HCI-02-01,Principles of graphical user interfaces (GUIs),HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],"COMP 3603,INFO 1601"
-HCI-02-02,"Elements of visualdesign (layout, color, fonts, labeling)",HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],"COMP 2603,COMP 3603"
+HCI-02-02,"Elements of visualdesign (layout, color, fonts, labeling)",HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],"COMP 2603,COMP 3603,INFO 1601"
 HCI-02-03,"Task analysis, including qualitative aspects of generating task analytic models",HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],COMP 3603
 HCI-02-04,Low-fidelity (paper) prototyping,HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],",COMP 3603"
 HCI-02-05,"Quantitative evaluation techniques, e.g., keystroke-level evaluation",HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],",COMP 3603"
 HCI-02-06,Help and documentation,HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],",COMP 3603"
 HCI-02-07,Handling human/system failure,HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],COMP 3603
 HCI-02-08,User interface standards,HCI,Designing Interaction,HCI-02,Human-Computer Interaction,Tier 2,[4 Core-Tier2 hours],COMP 3603
-HCI-03-01,"Software Architecture Patterns, e.g.,Model-View controller; command objects, online, offline (cross",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],"COMP 2603,COMP 3607"
+HCI-03-01,"Software Architecture Patterns, e.g.,Model-View controller; command objects, online, offline (cross",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],"COMP 2603,COMP 3607,COMP 3603,INFO 2602"
 HCI-03-02,"Interaction Design Patterns: visual hierarchy, navigational distance",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],COMP 3603
 HCI-03-03,Event management and user interaction,HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],"COMP 2603,COMP 3603"
 HCI-03-04,Geometry management (cross-reference GV/GeometricModelling),HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],
 HCI-03-05,Choosing interaction styles and interaction techniques,HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-03-06,"Presenting information: navigation, representation, manipulation",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],",COMP 3603,INFO 2602"
-HCI-03-07,"Interface animation techniques (e.g.,scene graphs)",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],
+HCI-03-07,"Interface animation techniques (e.g.,scene graphs)",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-03-08,Widget classes and libraries,HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],
 HCI-03-09,"Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross-",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],"COMP 2603,COMP 3603,COMP 3607,INFO 1601"
 HCI-03-10,Declarative Interface Specification: Stylesheets and DOMs,HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],",COMP 3603,INFO 1601,INFO 2602"
@@ -287,7 +287,7 @@ HCI-03-11,Data-driven applications (database-backed web pages),HCI,Programming I
 HCI-03-12,Cross-platform design,HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],",COMP 3603,INFO 2602"
 HCI-03-13,"Design for resource-constrained devices(e.g. small, mobile devices)",HCI,Programming Interactive Systems,HCI-03,Human-Computer Interaction,Elective,[Elective],"COMP 3603,INFO 1601,INFO 2602"
 HCI-04-01,"Approaches to, and characteristics of, the design process",HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
-HCI-04-02,Functionality and usability requirements (cross-reference toSE/Requirements Engineering),HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],
+HCI-04-02,Functionality and usability requirements (cross-reference toSE/Requirements Engineering),HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-04-03,"Techniques for gathering requirements, e.g.,interviews, surveys, ethnographic and contextual enquiry",HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-04-04,"Techniques and tools forthe analysisand presentation of requirements, e.g.,reports, personas",HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],COMP 3603
 HCI-04-05,"Prototyping techniques and tools, e.g.,sketching, storyboards, low-fidelity prototyping, wireframes",HCI,User-Centered Design and Testing,HCI-04,Human-Computer Interaction,Elective,[Elective],",COMP 3603,INFO 2602"
@@ -299,12 +299,12 @@ HCI-04-10,"Internationalization, designing for users fromother cultures, cross-c
 HCI-05-01,Choosing interaction styles and interaction techniques,HCI,New Interactive Technologies,HCI-05,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-05-02,"Representing information to users: navigation, representation, manipulation",HCI,New Interactive Technologies,HCI-05,Human-Computer Interaction,Elective,[Elective],
 HCI-05-03,"Approaches to design, implementation and evaluation of non-mouse interaction",HCI,New Interactive Technologies,HCI-05,Human-Computer Interaction,Elective,[Elective],
-HCI-06-01,"Asynchronous group communication, e.g.,e-mail, forums,social networks",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],
+HCI-06-01,"Asynchronous group communication, e.g.,e-mail, forums,social networks",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-06-02,"Synchronous group communication, e.g.,chat rooms, conferencing, online games",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
-HCI-06-03,"Social media, social computing, andsocial network analysis",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],
+HCI-06-03,"Social media, social computing, andsocial network analysis",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-06-04,"Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-06-05,Online communities,HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
-HCI-06-06,"Software characters and intelligent agents, virtual worlds and avatars(cross-reference IS/Agents)",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],
+HCI-06-06,"Software characters and intelligent agents, virtual worlds and avatars(cross-reference IS/Agents)",HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-06-07,Social psychology,HCI,Collaboration andCommunication,HCI-06,Human-Computer Interaction,Elective,[Elective],",COMP 3603"
 HCI-07-01,t-tests,HCI,Statistical Methods for HCI,HCI-07,Human-Computer Interaction,Elective,[Elective],
 HCI-07-02,ANOVA,HCI,Statistical Methods for HCI,HCI-07,Human-Computer Interaction,Elective,[Elective],
@@ -349,11 +349,11 @@ IAS-01-10,"Economy of mechanism (reducing trusted computing base,minimize attack
 IAS-01-11,Usable security(cross-reference HCI/Foundations/Cognitive models that inform interaction design),IAS,Principles of Secure Design,IAS-01,Information Assurance and Security,Tier 2,"[1 Core-Tier1 hour,1 Core-Tier2 hour]",
 IAS-01-12,Security composability,IAS,Principles of Secure Design,IAS-01,Information Assurance and Security,Tier 2,"[1 Core-Tier1 hour,1 Core-Tier2 hour]",
 IAS-01-13,"Prevention,detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction",IAS,Principles of Secure Design,IAS-01,Information Assurance and Security,Tier 2,"[1 Core-Tier1 hour,1 Core-Tier2 hour]",
-IAS-02-01,Input validation and data sanitization (cross-referenceSDF/Development Methods/Program Correctness),IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",INFO 2604
+IAS-02-01,Input validation and data sanitization (cross-referenceSDF/Development Methods/Program Correctness),IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]","INFO 2604,INFO 2602"
 IAS-02-02,Choice of programming languageand type-safe languages,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
-IAS-02-03,Examples of input validation anddata sanitization errors (cross-referenceSDF/Development,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
-IAS-02-04,Race conditions (cross-referenceSF/Parallelism/Parallel programming andPD/Parallel Architecture/Shared,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
-IAS-02-05,Correct handling of exceptions and unexpectedbehaviors (cross-referenceSDF/Development,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",INFO 2604
+IAS-02-03,Examples of input validation anddata sanitization errors (cross-referenceSDF/Development,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",INFO 2602"
+IAS-02-04,Race conditions (cross-referenceSF/Parallelism/Parallel programming andPD/Parallel Architecture/Shared,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",INFO 2602"
+IAS-02-05,Correct handling of exceptions and unexpectedbehaviors (cross-referenceSDF/Development,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 1,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]","INFO 2604,INFO 2602"
 IAS-02-06,Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 2,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",INFO 2602"
 IAS-02-07,Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Tier 2,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",INFO 2602"
 IAS-02-08,Information flow control,IAS,Defensive Programming,IAS-02,Information Assurance and Security,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",INFO 2602"
@@ -548,7 +548,7 @@ IS-03-03,"Forward chaining, backward chaining",IS,Basic Knowledge Representation
 IS-03-04,"Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)",IS,Basic Knowledge Representation and Reasoning,IS-03,Intelligent Systems,Tier 2,[3 Core-Tier2 hours],COMP 3608
 IS-04-01,"Definition and examples of broad variety of machine learning tasks, including classification",IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],COMP 3608
 IS-04-02,Inductive learning,IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],COMP 3608
-IS-04-03,"Simple statistical-based learning,such as Naive Bayesian Classifier,decision trees",IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],COMP 3608
+IS-04-03,"Simple statistical-based learning,such as Naive Bayesian Classifier,decision trees",IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],"COMP 3608,COMP 3605"
 IS-04-04,The over-fitting problem,IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],"COMP 3608,COMP 3605"
 IS-04-05,Measuring classifier accuracy,IS,Basic Machine Learning,IS-04,Intelligent Systems,Tier 2,[2 Core-Tier2 hours],"COMP 3608,COMP 3605"
 IS-05-01,"Constructing search trees, dynamic search space, combinatorial explosion of search space",IS,Advanced Search,IS-05,Intelligent Systems,Elective,[Elective],
@@ -641,7 +641,7 @@ NC-05-02,"Fixed allocation (TDM, FDM, WDM) versus dynamic allocation",NC,Resourc
 NC-05-03,End-to-end versus network assisted approaches,NC,Resource Allocation,NC-05,Net Centric Computing,Tier 2,[1Core-Tier2 hours],"COMP 3606,COMP 2602"
 NC-05-04,Fairness,NC,Resource Allocation,NC-05,Net Centric Computing,Tier 2,[1Core-Tier2 hours],"COMP 3606,COMP 2602"
 NC-05-05,Principles of congestion control,NC,Resource Allocation,NC-05,Net Centric Computing,Tier 2,[1Core-Tier2 hours],",COMP 2602"
-NC-05-06,"Approaches to Congestion (e.g.,Content Distribution Networks)",NC,Resource Allocation,NC-05,Net Centric Computing,Tier 2,[1Core-Tier2 hours],
+NC-05-06,"Approaches to Congestion (e.g.,Content Distribution Networks)",NC,Resource Allocation,NC-05,Net Centric Computing,Tier 2,[1Core-Tier2 hours],",COMP 2602"
 NC-06-01,Principles of cellular networks,NC,Mobility,NC-06,Net Centric Computing,Tier 2,[1 Core-Tier2hours],",COMP 2602,COMP 3606"
 NC-06-02,802.11 networks,NC,Mobility,NC-06,Net Centric Computing,Tier 2,[1 Core-Tier2hours],",COMP 2602,COMP 3606"
 NC-06-03,Issues in supporting mobile nodes (home agents),NC,Mobility,NC-06,Net Centric Computing,Tier 2,[1 Core-Tier2hours],",COMP 2602,COMP 3606"
@@ -661,11 +661,11 @@ OS-02-04,The evolution of hardware/software techniquesand application needs,OS,O
 OS-02-05,Device organization,OS,Operating System Principles,OS-02,Operating System,Tier 1,[2Core-Tier1 hours],",COMP 1600,COMP 2604"
 OS-02-06,Interrupts: methods and implementations,OS,Operating System Principles,OS-02,Operating System,Tier 1,[2Core-Tier1 hours],COMP 2604
 OS-02-07,"Concept of user/system state and protection, transition to kernel mode",OS,Operating System Principles,OS-02,Operating System,Tier 1,[2Core-Tier1 hours],"COMP 2604,COMP 1600"
-OS-03-01,States and state diagrams (cross-reference SF/StateandState Machines),OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],
+OS-03-01,States and state diagrams (cross-reference SF/StateandState Machines),OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],",COMP 1600"
 OS-03-02,"Structures (ready list, process control blocks, and so forth)",OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],",COMP 1600,COMP 2604"
 OS-03-03,Dispatching and context switching,OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],"COMP 2604,COMP 1600"
 OS-03-04,The role of interrupts,OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],COMP 2604
-OS-03-05,Managingatomic access to OS objects,OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],
+OS-03-05,Managingatomic access to OS objects,OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],",COMP 2604"
 OS-03-06,Implementing synchronization primitives,OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],COMP 2604
 OS-03-07,"Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)",OS,Concurrency,OS-03,Operating System,Tier 2,[3Core-Tier2 hours],",COMP 2604"
 OS-04-01,"Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling,",OS,Scheduling and Dispatch,OS-04,Operating System,Tier 2,[3Core-Tier2 hours],COMP 2604
@@ -677,7 +677,7 @@ OS-05-02,Working sets and thrashing,OS,Memory Management,OS-05,Operating System,
 OS-05-03,Caching(cross-reference AR/Memory System Organization and Architecture),OS,Memory Management,OS-05,Operating System,Tier 2,[3Core-Tier2 hours],"COMP 2604,COMP 2601"
 OS-06-01,Overview of system security,OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],",COMP 1600,COMP 2604"
 OS-06-02,Policy/mechanism separation,OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],",COMP 1600,COMP 2604"
-OS-06-03,Securitymethods and devices,OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],
+OS-06-03,Securitymethods and devices,OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],",COMP 2604"
 OS-06-04,"Protection, access control, and authentication",OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],",COMP 2604"
 OS-06-05,Backups,OS,Security and Protection,OS-06,Operating System,Tier 2,[2Core-Tier2 hours],
 OS-07-01,"Types of virtualization (includingHardware/Software, OS, Server, Service, Network)",OS,Virtual Machines,OS-07,Operating System,Elective,[Elective],"COMP 2604,INFO 2603"
@@ -762,7 +762,7 @@ PD-05-02,Shared vs. distributed memory,PD,Parallel Architecture,PD-05,Parallel a
 PD-05-03,Symmetric multiprocessing (SMP),PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Tier 2,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]","COMP 3610,COMP 2601"
 PD-05-04,"SIMD, vector processing",PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Tier 2,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]","COMP 3610,COMP 2601"
 PD-05-05,"GPU, co-processing",PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]","COMP 3610,COMP 2601"
-PD-05-06,Flynnâ€™s taxonomy,PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+PD-05-06,Flynnâ€™s taxonomy,PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",",COMP 2601"
 PD-05-07,Instruction level support for parallel programming,PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
 PD-05-08,Memory issues,PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
 PD-05-09,Topologies,PD,Parallel Architecture,PD-05,Parallel and Distributed Computing,Elective,"[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
@@ -807,7 +807,7 @@ PL-03-04,Externally-generated events and program-generated events,PL,Event-Drive
 PL-03-05,"Separation of model, view, and controller",PL,Event-Driven and Reactive Programming,PL-03,Programming Languages,Tier 2,[2 Core-Tier2 hours],"COMP 2603,COMP 3606,INFO 2602"
 PL-04-01,A type as a set of values together with a set of operations,PL,Basic Type Systems,PL-04,Programming Languages,Tier 1,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]",",INFO 1601"
 PL-04-02,"Association of types to variables, arguments, results, and fields",PL,Basic Type Systems,PL-04,Programming Languages,Tier 1,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]",",INFO 1601"
-PL-04-03,Type safety and errors caused by using values inconsistentlygiventheir intended types,PL,Basic Type Systems,PL-04,Programming Languages,Tier 1,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]","COMP 2603,COMP 3607"
+PL-04-03,Type safety and errors caused by using values inconsistentlygiventheir intended types,PL,Basic Type Systems,PL-04,Programming Languages,Tier 1,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]","COMP 2603,COMP 3607,INFO 1601"
 PL-04-04,Goals and limitations of static typing,PL,Basic Type Systems,PL-04,Programming Languages,Tier 1,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]","COMP 2603,COMP 3607,INFO 1601"
 PL-04-05,Generic types (parametric polymorphism),PL,Basic Type Systems,PL-04,Programming Languages,Tier 2,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]",COMP 3607
 PL-04-06,Complementary benefits of static and dynamic typing,PL,Basic Type Systems,PL-04,Programming Languages,Tier 2,"[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
@@ -896,14 +896,14 @@ SDF-03-03,Strings and string processing,SDF,Fundamental Data Structures,SDF-03,S
 SDF-03-04,Abstract data types and their implementation,SDF,Fundamental Data Structures,SDF-03,Software Development Fundamentals,Tier 1,[12 Core-Tier1 hours],"COMP 2603,COMP 1603"
 SDF-03-05,References and aliasing,SDF,Fundamental Data Structures,SDF-03,Software Development Fundamentals,Tier 1,[12 Core-Tier1 hours],",COMP 1603,INFO 1601"
 SDF-03-06,Linked lists,SDF,Fundamental Data Structures,SDF-03,Software Development Fundamentals,Tier 1,[12 Core-Tier1 hours],COMP 1603
-SDF-03-07,Strategies for choosing the appropriatedata structure,SDF,Fundamental Data Structures,SDF-03,Software Development Fundamentals,Tier 1,[12 Core-Tier1 hours],"COMP 2603,COMP 1603"
+SDF-03-07,Strategies for choosing the appropriatedata structure,SDF,Fundamental Data Structures,SDF-03,Software Development Fundamentals,Tier 1,[12 Core-Tier1 hours],"COMP 2603,COMP 1603,INFO 1601"
 SDF-04-01,Program comprehension,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603"
 SDF-04-02,Program correctness,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603"
 SDF-04-03,Simple refactoring,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603"
 SDF-04-04,Modern programming environments,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603,INFO 1601"
 SDF-04-05,Debugging strategies,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603"
 SDF-04-06,Documentation and program style,SDF,Development Methods,SDF-04,Software Development Fundamentals,Tier 1,[10Core-Tier1 hours],"COMP 3607,COMP 1603"
-SE-01-01,"Systems level considerations, i.e., the interaction of software withits intended environment (cross-",SE,SoftwareProcesses,SE-01,Software Engineering,Tier 1,[2 Core-Tier1 hours; 1 Core-Tier2 hour],
+SE-01-01,"Systems level considerations, i.e., the interaction of software withits intended environment (cross-",SE,SoftwareProcesses,SE-01,Software Engineering,Tier 1,[2 Core-Tier1 hours; 1 Core-Tier2 hour],",COMP 2606,INFO 1601"
 SE-01-02,"Introduction to software process models (e.g., waterfall, incremental, agile)",SE,SoftwareProcesses,SE-01,Software Engineering,Tier 1,[2 Core-Tier1 hours; 1 Core-Tier2 hour],COMP 2606
 SE-01-03,Programming in the large vs. individual programming,SE,SoftwareProcesses,SE-01,Software Engineering,Tier 1,[2 Core-Tier1 hours; 1 Core-Tier2 hour],"COMP 2606,COMP 3613"
 SE-01-04,Evaluation of software process models,SE,SoftwareProcesses,SE-01,Software Engineering,Tier 2,[2 Core-Tier1 hours; 1 Core-Tier2 hour],"COMP 2606,COMP 3613"
@@ -939,14 +939,14 @@ SE-04-10,Basic concepts of formal requirements specification,SE,RequirementsEngi
 SE-04-11,Requirements specification,SE,RequirementsEngineering,SE-04,Software Engineering,Elective,[1 Core-Tier1 hour; 3 Core-Tier2 hours],"COMP 2606,COMP 3613,INFO 3604"
 SE-04-12,Requirements validation,SE,RequirementsEngineering,SE-04,Software Engineering,Elective,[1 Core-Tier1 hour; 3 Core-Tier2 hours],"COMP 2606,COMP 3613"
 SE-04-13,Requirements tracing,SE,RequirementsEngineering,SE-04,Software Engineering,Elective,[1 Core-Tier1 hour; 3 Core-Tier2 hours],",COMP 3613"
-SE-05-01,"System design principles: levels of abstraction (architectural design and detailed design), separation of",SE,SoftwareDesign,SE-05,Software Engineering,Tier 1,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 2603,COMP 3607,COMP 2606"
+SE-05-01,"System design principles: levels of abstraction (architectural design and detailed design), separation of",SE,SoftwareDesign,SE-05,Software Engineering,Tier 1,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 2603,COMP 3607,COMP 2606,INFO 2602"
 SE-05-02,"Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis",SE,SoftwareDesign,SE-05,Software Engineering,Tier 1,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 3607,COMP 2606"
 SE-05-03,Structural and behavioral models of software designs,SE,SoftwareDesign,SE-05,Software Engineering,Tier 1,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 3607,COMP 2606,COMP 3613,INFO 3604"
 SE-05-04,Design patterns,SE,SoftwareDesign,SE-05,Software Engineering,Tier 1,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3607
 SE-05-05,"Relationships between requirements and designs: transformation of models,design of contracts, invariants",SE,SoftwareDesign,SE-05,Software Engineering,Tier 2,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 3613,INFO 3604"
 SE-05-06,"Software architecture concepts and standard architectures (e.g. client-server, n-layer, transformcentered,",SE,SoftwareDesign,SE-05,Software Engineering,Tier 2,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 2606,INFO 2602"
 SE-05-07,Refactoring designs using design patterns,SE,SoftwareDesign,SE-05,Software Engineering,Tier 2,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3607
-SE-05-08,"The use of components in design: component selection, design, adaptation and assembly of components,",SE,SoftwareDesign,SE-05,Software Engineering,Tier 2,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3613
+SE-05-08,"The use of components in design: component selection, design, adaptation and assembly of components,",SE,SoftwareDesign,SE-05,Software Engineering,Tier 2,[3 Core-Tier1 hours; 5 Core-Tier2 hours],"COMP 3613,INFO 1601"
 SE-05-09,"Internal design qualities, and models for them: efficiency and performance, redundancy and fault",SE,SoftwareDesign,SE-05,Software Engineering,Elective,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3613
 SE-05-10,"External design qualities, and models for them: functionality, reliability, performance and efficiency,",SE,SoftwareDesign,SE-05,Software Engineering,Elective,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3613
 SE-05-11,Measurementand analysis of design quality,SE,SoftwareDesign,SE-05,Software Engineering,Elective,[3 Core-Tier1 hours; 5 Core-Tier2 hours],COMP 3613
@@ -957,7 +957,7 @@ SE-05-15,Principles ofsecure design and coding (cross-reference IAS/Principles o
 SE-06-01,"Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference",SE,SoftwareConstruction,SE-06,Software Engineering,Tier 2,[2 Core-Tier2 hours],",COMP 3613"
 SE-06-02,Coding standards,SE,SoftwareConstruction,SE-06,Software Engineering,Tier 2,[2 Core-Tier2 hours],COMP 3607
 SE-06-03,Integration strategies,SE,SoftwareConstruction,SE-06,Software Engineering,Tier 2,[2 Core-Tier2 hours],COMP 3613
-SE-06-04,Development context: â€œgreen fieldâ€ vs.existing code base,SE,SoftwareConstruction,SE-06,Software Engineering,Tier 2,[2 Core-Tier2 hours],
+SE-06-04,Development context: â€œgreen fieldâ€ vs.existing code base,SE,SoftwareConstruction,SE-06,Software Engineering,Tier 2,[2 Core-Tier2 hours],",COMP 3613"
 SE-06-05,Potential security problems in programs,SE,SoftwareConstruction,SE-06,Software Engineering,Elective,[2 Core-Tier2 hours],
 SE-07-01,Verification and validation concepts,SE,SoftwareVerificationand Validation,SE-07,Software Engineering,Tier 2,[4Core-Tier2 hours],"COMP 2606,INFO 2602"
 SE-07-02,"Inspections, reviews, audits",SE,SoftwareVerificationand Validation,SE-07,Software Engineering,Tier 2,[4Core-Tier2 hours],COMP 2606
@@ -1011,9 +1011,9 @@ SF-04-05,Multicore architectures and hardware support for synchronization,SF,Par
 SF-05-01,Performance figures of merit,SF,Evaluation,SF-05,Systems Fundamentals,Tier 1,[3 Core-Tier1hours],",COMP 2601"
 SF-05-02,"Workloadsand representative benchmarks, and methods of collecting and analyzing performance figures of",SF,Evaluation,SF-05,Systems Fundamentals,Tier 1,[3 Core-Tier1hours],",COMP 2601"
 SF-05-03,"CPI (Cycles per Instruction) equationas tool for understanding tradeoffs in the design of instruction sets,",SF,Evaluation,SF-05,Systems Fundamentals,Tier 1,[3 Core-Tier1hours],",COMP 2601"
-SF-05-04,Amdahlâ€™s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,SF,Evaluation,SF-05,Systems Fundamentals,Tier 1,[3 Core-Tier1hours],
+SF-05-04,Amdahlâ€™s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,SF,Evaluation,SF-05,Systems Fundamentals,Tier 1,[3 Core-Tier1hours],",COMP 2601"
 SF-06-01,"Kinds of resources (e.g.,processor share, memory, disk, net bandwidth)",SF,Resource Allocation and Scheduling,SF-06,Systems Fundamentals,Tier 2,[2 Core-Tier2hours],
-SF-06-02,"Kinds of scheduling (e.g.,first-come, priority)",SF,Resource Allocation and Scheduling,SF-06,Systems Fundamentals,Tier 2,[2 Core-Tier2hours],
+SF-06-02,"Kinds of scheduling (e.g.,first-come, priority)",SF,Resource Allocation and Scheduling,SF-06,Systems Fundamentals,Tier 2,[2 Core-Tier2hours],",COMP 2604"
 SF-06-03,"Advantages of fair scheduling, preemptive scheduling",SF,Resource Allocation and Scheduling,SF-06,Systems Fundamentals,Tier 2,[2 Core-Tier2hours],",COMP 2604"
 SF-07-01,Speed of light and computers (one foot per nanosecond vs. one GHz clocks),SF,Proximity,SF-07,Systems Fundamentals,Tier 2,[3 Core-Tier2hours],
 SF-07-02,Latencies in computer systems: memory vs. disk latencies vs. across the network memory,SF,Proximity,SF-07,Systems Fundamentals,Tier 2,[3 Core-Tier2hours],

@@ -229,7 +229,7 @@ async function getCourseMappings(){
             const bestMatchIdx = findBestMatch(rec.topic, texts).bestMatchIndex;
             let keytopic = candidates[bestMatchIdx];
 
-            console.log(`Matched: ${rec.topic} \nWith: ${keytopic.topic}`);
+            // console.log(`Matched: ${rec.topic} \nWith: ${keytopic.topic}`);
             for(let course of rec.courses){
                 if(!keytopic.courses.includes(course))
                     keytopic.courses.push(course);
