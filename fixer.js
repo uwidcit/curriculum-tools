@@ -200,7 +200,7 @@ function splitCourses(topics){
 async function getCourseMappings(){
     const appTopics = await readCSV('./output/app-topics.csv');
     const airTableTopics = await readCSV('./data/airtable-topics.csv');
-    let res = new Set();
+    // let res = new Set();
     const candidates = [];
 
     splitCourses(appTopics);
@@ -223,27 +223,31 @@ async function getCourseMappings(){
         }
 
         if(!flag){
-            res.add(rec);
+          
             const texts = candidates.map(item=>item.topic);
 
             const bestMatchIdx = findBestMatch(rec.topic, texts).bestMatchIndex;
             let keytopic = candidates[bestMatchIdx];
 
             console.log(`Matched: ${rec.topic} \nWith: ${keytopic.topic}`);
+            for(let course of rec.courses){
+                if(!keytopic.courses.includes(course))
+                    keytopic.courses.push(course);
+            }
         }
 
     }
 
-    let unmatched = [];
-    res.forEach(element=>unmatched.push(element));
+    // let unmatched = [];
+    // res.forEach(element=>unmatched.push(element));
 
-    writeCSV('./output/unmatched2.csv', unmatched, [
-        {id:'topicId', title:'topicId'},
-        {id:'topic', title:'topic'},
-        {id:'courses', title:'courses'}
-    ])
+    // writeCSV('./output/unmatched2.csv', unmatched, [
+    //     {id:'topicId', title:'topicId'},
+    //     {id:'topic', title:'topic'},
+    //     {id:'courses', title:'courses'}
+    // ])
 
-    console.log(airTableTopics);
+    // console.log(airTableTopics);
 
     writeCSV('./output/merged-topics.csv', airTableTopics, [
         {id:'topicId', title:'topicId'},
