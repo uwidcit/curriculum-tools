@@ -1,7 +1,7 @@
 var admin = require("firebase-admin");
 var serviceAccount = require("./sa.json");
 const fs = require('fs');
-const { writeCSV } = require("./util.js");
+const { writeCSV, readCSV } = require("./util.js");
 const topicList = require("./data/parsed-topics.json");
 
 
@@ -41,29 +41,39 @@ function getTopicId(string){
     return string.split(" - ")[0].trim();
 }
 
-
-function addCourse(res, course, topic, topicId){
-    let flag = false;
-    for(let rec of res){
+/**
+ * Adds the specified course to the courses array of the specified topic in the topics array
+ * @param {Object[]} topics 
+ * @param {String} topics[].topic - textual representation of the topic
+ * @param {String} topics[].topicId - the id of the topic
+ * @param {String[]} topics[].courses - the array of course codes that are mapped to the topic
+ * @param {String} course - the course id
+ * @param {String} topicText - textual representation of the topic
+ * @param {String} topicId - the id of the topic
+ */
+function addCourse(topics, course, topicText, topicId){
+    let topicIdFound = false;
+    for(let rec of topics){
         if(rec.topicId === topicId){
-            flag = true;
+            topicIdFound = true;
             rec.courses.push(course);
         }
     }
-    if(!flag){
-        res.push({
-            topic,
+    if(!topicIdFound){
+        topics.push({
+            topic: topicText,
             topicId,
             courses: [course]
         });
     }
 }
 
-
-
-async function getTopics(){
+/**
+ * Converts topics dumped from app to csv file
+ */
+async function appTopicsToCSV(){
     
-    const dump = require('./output/dump.json');
+    const dump = await pullAppMappingsV1()
 
     let res = [];
 
@@ -74,19 +84,9 @@ async function getTopics(){
                 let topic = text.split(' - ')[1];
 
                 addCourse(res, course, topic, topicId);
-
-                // let topicId = getTopicId(text);
-                // let topic = topicList[topicId];
-                // if(topic === undefined)`Topic for Topic ID ${topicId} not found Error`;
-                // console.log(topic);
-                // if(! ('courses' in topic))
-                //     topic.courses = [];
-                // topic.courses.push(course)
-                // console.log(course, topicId, topic);
             }
         }
     }
-    // console.log(res);
     
     await writeCSV(`./output/app-topics.csv`, res, [
         { id:'topicId', title:'Topic ID' },
@@ -121,17 +121,62 @@ async function getTopicsDump(){
 
 }
 
-async function backupData(){
+/**
+ * Downloads the topics mappings from the app (version 1 database)
+ */
+async function pullAppMappingsV1(){
     const snapshot = await db.collection('users').get();
     let res = [];
     snapshot.forEach(doc => {
         res.push(doc.data());
     });
+}
+
+/**
+ * Downloads the topping mapping from the app (version 1) and dumps it to dump.json
+ */
+async function backupData(){
+    let res = await pullAppMappingsV1();
     await fs.writeFileSync('./output/dump.json', JSON.stringify(res, null, 2));
     console.log('dump.json created');
+}
 
+function groupByCourse(topics){
+    let courses = {};
+
+    for(let topic of topics){
+  
+        for(let course of topic.courses){
+            courses[course] ??= [];
+            courses[course].push(topic.topicId);
+        }
+    }
+
+    return courses;
+}
+
+
+async function migrateTopicsToApp(){
+    const topics = await readCSV('./output/merged-topics.csv');
+    const promises = [];
+    
+    for (let topic of topics){
+        topic.courses = topic.courses.split(',');
+        if(topic.courses[0] == [""])
+            topic.courses = [];
+        promises.push(db.collection('topics').doc(topic.topicId).set(topic));
+    }
+
+    const courses = groupByCourse(topics);
+    for( let [course, topics] of Object.entries(courses)){
+        promises.push(db.collection('courses').doc(course).set({topics}));
+    }   
+    
+    Promise.all(promises);
+    console.log('Database Updated');
 }
 
 
 // backupData()
-getTopics();
+// getTopics();
+// migrateTopicsToApp()
