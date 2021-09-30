@@ -1,4 +1,4 @@
-Topic ID,Topic,Courses
+topicId,topic,courses
 AL-02-03,Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies),"COMP 1600,COMP 3601"
 AL-03-01,"Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, ","COMP 1600,COMP 3601"
 AL-03-02,Sequential and binary search algorithms,"COMP 1600,COMP 3601"

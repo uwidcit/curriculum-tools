@@ -10,7 +10,12 @@ function readCSV(path){
   
       createReadStream(path)
         .pipe(csv())
-        .on('data', (data) => results.push(data))
+        .on('data', (data) =>{
+            // const key = Object.keys(data)[0];
+            // const val = data[key];
+            // data[`${key}`] = val;
+            results.push(data)
+        })
         .on('end', () => {
           resolve(results);
         });

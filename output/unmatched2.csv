@@ -1,0 +1,51 @@
+topicId,topic,courses
+AR-02-03,Fixed- and floating-point systems,"COMP 1600,COMP 2601"
+AR-06-03,Instruction pipelining,"COMP 1600,COMP 2601"
+OS-03-01,States and state diagrams (cross-reference SF/Stateand State Machines),COMP 1600
+HCI-01-01,"Contexts for HCI (anything with a user interface, e.g.,webpage, business applications, mobile applications, ",COMP 3603
+HCI-01-02,"Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design",COMP 3603
+HCI-01-06,"Cognitive models that inform interaction design, e.g.,attention, perception and recognition, movement, and ",COMP 3603
+HCI-01-10,"Interfaces for differently-aged population groups (e.g., children, 80+)",COMP 3603
+HCI-02-02,"Elements of visual design (layout, color, fonts, labeling)","COMP 3603,COMP 2603,INFO 1601"
+HCI-03-01,"Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross  ","COMP 3603,COMP 3607,COMP 2603,INFO 2602"
+HCI-03-07,"Interface animation techniques (e.g., scene graphs) ",COMP 3603
+HCI-04-02,Functionality and usability requirements (cross-reference to SE/Requirements Engineering),COMP 3603
+HCI-04-04,"Techniques and tools for the analysis and presentation of requirements, e.g.,reports, personas",COMP 3603
+HCI-06-01,"Asynchronous group communication, e.g., e-mail, forums, social networks",COMP 3603
+HCI-06-03,"Social media, social computing, and social network analysis",COMP 3603
+HCI-06-06,"Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)",COMP 3603
+PD-05-06,Flynn’s taxonomy,COMP 2601
+SF-05-04,Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,COMP 2601
+OS-03-05,Managing atomic access to OS objects,COMP 2604
+OS-04-02,"Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel ",COMP 2604
+OS-04-03,Processes and threads (cross-reference SF/ C omputational paradigms),COMP 2604
+OS-06-03,Security methods and devices,COMP 2604
+OS-07-01,"Types of virtualization (including Hardware/Software, OS, Server, Service, Network) ",COMP 2604
+SF-06-02,"Kinds of scheduling (e.g., first-come, priority) ",COMP 2604
+IS-04-03,"Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees","COMP 3605,COMP 3608"
+AL-01-03,Big O  notation: formal definition,COMP 3601
+AL-04-05,Introduction to the P and NP classes and the P vs. NP problem,COMP 3602
+IS-01-01,"Overview of AI problems, examples of successful recent AI applications",COMP 3608
+IS-02-01,"Problem spaces (states, goals and operators),  problem solving by search",COMP 3608
+IS-02-03,"Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)  ",COMP 3608
+IS-02-07,Constraint satisfaction (backtracking and local search methods) ,COMP 3608
+IS-05-03,"Implementation of A* search, beam search",COMP 3608
+CN-01-04,"Foundational approaches to validating models(e.g., comparing a simulation’s output to real data or the ",COMP 3611
+CN-02-04,"Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and ",COMP 3611
+CN-02-05,Formal models and modeling techniques:  mathematical descriptions involving simplifying assumptions ,COMP 3611
+DS-06-03,"Conditional probability, Bayes’ theorem",COMP 3611
+NC-05-06,"Approaches to Congestion (e.g., Content Distribution Networks) ",COMP 2602
+SDF-03-07,Strategies for choosing the appropriate data structure,"COMP 1603,COMP 2603,INFO 1601"
+PL-04-03,Type safety and errors caused by using values inconsistently giventheir intended types,"COMP 3607,COMP 2603,INFO 1601"
+SE-05-01,"System design principles:  levels of abstraction (architectural design and detailed design), separation of ","COMP 3607,COMP 2603,COMP 2606,INFO 2602"
+SE-05-14,"Middleware:  the object-oriented paradigm within middleware, object request brokers and marshalling, ",COMP 3607
+SE-01-01,"Systems level considerations, i.e., the interaction of software with its intended environment (cross-","COMP 2606,INFO 1601"
+SE-04-05,Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure ,COMP 2606
+SE-05-06,"Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, ","COMP 2606,INFO 2602"
+SE-05-08,"The use of components in design:  component selection, design, adaptation and assembly of components, ","COMP 3613,INFO 1601"
+SE-06-04,Development context: “green field” vs. existing code base,COMP 3613
+IAS-02-01,Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness),INFO 2602
+IAS-02-03,Examples of input validation and data sanitization errors (cross-reference SDF/Development ,INFO 2602
+IAS-02-04,Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared ,INFO 2602
+IAS-02-05,Correct handling of exceptions and unexpectedbehaviors (cross-reference SDF/Development ,INFO 2602
+PBD-02-01,"Web programming languages (e.g., HTML5, Java Script, PHP, CSS) ",INFO 2602

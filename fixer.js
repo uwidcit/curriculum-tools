@@ -3,7 +3,7 @@ const { readCSV, writeCSV, readJSON, writeJSON} = require('./util');
 const domains = require('./data/CSdomains.json');
 const subdomains = require('./data/CSsubdomains.json');
 const topics = require('./data/parsed-topics.json');
-var stringSimilarity = require("string-similarity");
+var { findBestMatch } = require("string-similarity");
 
 const fs = require('fs');
 
@@ -184,44 +184,88 @@ async function fixTopics(){
     // writeJSON('./data/topics.json', topics);
 }
 
-async function getCourseMappings(){
-    const data = await readCSV('./data/topics.csv');
-    let count = 0;
-    
-    for(let rec of data){
-        let flag = false;
-        let max = 0;
-        let match;
+// const mergeCourses(topicId, airTableTopics, courses){
+//     for(let topic of airTableTopics){
+//         if(topicId === topic.topicId)
+//     }
+// }
 
-        for(let topic of topics){
-            let sim = stringSimilarity.compareTwoStrings(rec.topic, topic.topic);
-            if(sim > max)
-                match = topic.topic;
+function splitCourses(topics){
+    return topics.map(element=>{
+        element.courses= element.courses.split(',')
+        return element;
+    });
+}
+
+async function getCourseMappings(){
+    const appTopics = await readCSV('./output/app-topics.csv');
+    const airTableTopics = await readCSV('./data/airtable-topics.csv');
+    let res = new Set();
+    const candidates = [];
+
+    splitCourses(appTopics);
+    splitCourses(airTableTopics);
+    
+    
+    for(let rec of appTopics){
+        let flag = false;
+
+        for(let topic of airTableTopics){
+            candidates.push(topic);
+            if( topic.topic.trim() === rec.topic.trim()){
+                flag=true;
+                
+                for(let course of rec.courses){
+                    if(!topic.courses.includes(course))
+                        topic.courses.push(course);
+                }
+            }         
         }
+
         if(!flag){
-            console.log(rec.topic);
-            count++
-        }   
+            res.add(rec);
+            const texts = candidates.map(item=>item.topic);
+
+            const bestMatchIdx = findBestMatch(rec.topic, texts).bestMatchIndex;
+            let keytopic = candidates[bestMatchIdx];
+
+            console.log(`Matched: ${rec.topic} \nWith: ${keytopic.topic}`);
+        }
+
     }
 
-    console.log(count);
+    let unmatched = [];
+    res.forEach(element=>unmatched.push(element));
+
+    writeCSV('./output/unmatched2.csv', unmatched, [
+        {id:'topicId', title:'topicId'},
+        {id:'topic', title:'topic'},
+        {id:'courses', title:'courses'}
+    ])
+
+    console.log(airTableTopics);
+
+    writeCSV('./output/merged-topics.csv', airTableTopics, [
+        {id:'topicId', title:'topicId'},
+        {id:'topic', title:'topic'},
+        {id:'domainId', title:'domainId'},
+        {id:'subdomain', title:'subdomain'},
+        {id:'subdomainId', title:'subdomainId'},
+        {id:'domain', title:'domain'},
+        {id:'tier', title:'tier'},
+        {id:'breakdown', title:'breakdown'},
+        {id:'courses', title:'courses'}
+    ])
 
 }
 
-// fixTopics().catch(console.error);
-
-// main().catch(console.error);
-
-// createNestedTopics();
-
-// getCourseMappings();
 
 async function convert(){
     // const data = await readCSV('./data/topics.csv');
     console.log(topics);
 
     writeCSV('./data/parsed-topics.csv', topics, [
-        {id:'topicId', title:'Topic ID'},
+        {id:'topicId', title:'topicId'},
         {id:'topic', title:'topic'},
         {id:'domainId', title:'domainId'},
         {id:'subdomain', title:'subdomain'},
@@ -232,4 +276,13 @@ async function convert(){
     ]);
 }
 
-convert();
+// fixTopics().catch(console.error);
+
+// main().catch(console.error);
+
+// createNestedTopics();
+
+getCourseMappings();
+
+
+// convert();
