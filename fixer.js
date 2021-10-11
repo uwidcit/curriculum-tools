@@ -184,11 +184,7 @@ async function fixTopics(){
     // writeJSON('./data/topics.json', topics);
 }
 
-// const mergeCourses(topicId, airTableTopics, courses){
-//     for(let topic of airTableTopics){
-//         if(topicId === topic.topicId)
-//     }
-// }
+
 
 function splitCourses(topics){
     return topics.map(element=>{
@@ -263,7 +259,6 @@ async function getCourseMappings(){
 
 }
 
-
 async function convert(){
     // const data = await readCSV('./data/topics.csv');
     console.log(topics);
@@ -280,13 +275,16 @@ async function convert(){
     ]);
 }
 
+
+
 // fixTopics().catch(console.error);
 
 // main().catch(console.error);
 
 // createNestedTopics();
 
-getCourseMappings();
+//getCourseMappings();
+
 
 
 // convert();

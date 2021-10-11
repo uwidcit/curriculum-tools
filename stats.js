@@ -1,7 +1,7 @@
 var admin = require("firebase-admin");
 var serviceAccount = require("./sa.json");
 const fs = require('fs');
-const { writeCSV, readCSV } = require("./util.js");
+const { writeCSV, readCSV, readJSON, writeJSON } = require("./util.js");
 const topicList = require("./data/parsed-topics.json");
 
 
@@ -177,6 +177,241 @@ async function migrateTopicsToApp(){
 }
 
 
+async function uploadDomains(){
+    const domains = await readJSON('./data/topics-nested.json');
+    let promises = [];
+    for(let [key, value] of Object.entries(domains)){
+        promises.push(db.collection('domains').doc(key).set(value));
+    }
+    Promise.all(promises);
+}
+
+async function createStatObj(){
+    let res = {};
+    const nested = await readJSON('./data/topics-nested.json');
+    for(let domainId in nested){
+        res[domainId]=0;
+        for(let subdomainId in nested[domainId]){
+            res[subdomainId] = 0;
+        }
+    }
+    writeJSON('./data/course-stats.json', res);
+}
+
+
+function updateStats(db, doc){
+    const stats = {
+        "total":0,
+        "AL": 0,
+        "AL-01": 0,
+        "AL-02": 0,
+        "AL-03": 0,
+        "AL-04": 0,
+        "AL-05": 0,
+        "AL-06": 0,
+        "AL-07": 0,
+        "AR": 0,
+        "AR-01": 0,
+        "AR-02": 0,
+        "AR-03": 0,
+        "AR-04": 0,
+        "AR-05": 0,
+        "AR-06": 0,
+        "AR-07": 0,
+        "AR-08": 0,
+        "CN": 0,
+        "CN-01": 0,
+        "CN-02": 0,
+        "CN-03": 0,
+        "CN-04": 0,
+        "CN-05": 0,
+        "CN-06": 0,
+        "DS": 0,
+        "DS-01": 0,
+        "DS-02": 0,
+        "DS-03": 0,
+        "DS-04": 0,
+        "DS-05": 0,
+        "DS-06": 0,
+        "GV": 0,
+        "GV-01": 0,
+        "GV-02": 0,
+        "GV-03": 0,
+        "GV-04": 0,
+        "GV-05": 0,
+        "GV-06": 0,
+        "HCI": 0,
+        "HCI-01": 0,
+        "HCI-02": 0,
+        "HCI-03": 0,
+        "HCI-04": 0,
+        "HCI-05": 0,
+        "HCI-06": 0,
+        "HCI-07": 0,
+        "HCI-08": 0,
+        "HCI-09": 0,
+        "HCI-10": 0,
+        "IAS": 0,
+        "IAS-01": 0,
+        "IAS-02": 0,
+        "IAS-03": 0,
+        "IAS-04": 0,
+        "IAS-05": 0,
+        "IAS-06": 0,
+        "IAS-07": 0,
+        "IAS-08": 0,
+        "IAS-09": 0,
+        "IAS-10": 0,
+        "IM": 0,
+        "IM-01": 0,
+        "IM-02": 0,
+        "IM-03": 0,
+        "IM-04": 0,
+        "IM-05": 0,
+        "IM-06": 0,
+        "IM-07": 0,
+        "IM-08": 0,
+        "IM-09": 0,
+        "IM-10": 0,
+        "IM-11": 0,
+        "IM-12": 0,
+        "IS": 0,
+        "IS-01": 0,
+        "IS-02": 0,
+        "IS-03": 0,
+        "IS-04": 0,
+        "IS-05": 0,
+        "IS-06": 0,
+        "IS-07": 0,
+        "IS-08": 0,
+        "IS-09": 0,
+        "IS-10": 0,
+        "IS-11": 0,
+        "IS-12": 0,
+        "NC": 0,
+        "NC-01": 0,
+        "NC-02": 0,
+        "NC-03": 0,
+        "NC-04": 0,
+        "NC-05": 0,
+        "NC-06": 0,
+        "NC-07": 0,
+        "OS": 0,
+        "OS-01": 0,
+        "OS-02": 0,
+        "OS-03": 0,
+        "OS-04": 0,
+        "OS-05": 0,
+        "OS-06": 0,
+        "OS-07": 0,
+        "OS-08": 0,
+        "OS-09": 0,
+        "OS-10": 0,
+        "OS-11": 0,
+        "OS-12": 0,
+        "PD": 0,
+        "PD-01": 0,
+        "PD-02": 0,
+        "PD-03": 0,
+        "PD-04": 0,
+        "PD-05": 0,
+        "PD-06": 0,
+        "PD-07": 0,
+        "PD-08": 0,
+        "PD-09": 0,
+        "PBD": 0,
+        "PBD-01": 0,
+        "PBD-02": 0,
+        "PBD-03": 0,
+        "PBD-04": 0,
+        "PBD-05": 0,
+        "PL": 0,
+        "PL-01": 0,
+        "PL-02": 0,
+        "PL-03": 0,
+        "PL-04": 0,
+        "PL-05": 0,
+        "PL-06": 0,
+        "PL-07": 0,
+        "PL-08": 0,
+        "PL-09": 0,
+        "PL-10": 0,
+        "PL-11": 0,
+        "PL-12": 0,
+        "PL-13": 0,
+        "PL-14": 0,
+        "PL-15": 0,
+        "PL-16": 0,
+        "PL-17": 0,
+        "SP": 0,
+        "SP-01": 0,
+        "SP-02": 0,
+        "SP-03": 0,
+        "SP-04": 0,
+        "SP-05": 0,
+        "SP-06": 0,
+        "SP-07": 0,
+        "SP-08": 0,
+        "SP-09": 0,
+        "SP-10": 0,
+        "SDF": 0,
+        "SDF-01": 0,
+        "SDF-02": 0,
+        "SDF-03": 0,
+        "SDF-04": 0,
+        "SE": 0,
+        "SE-01": 0,
+        "SE-02": 0,
+        "SE-03": 0,
+        "SE-04": 0,
+        "SE-05": 0,
+        "SE-06": 0,
+        "SE-07": 0,
+        "SE-08": 0,
+        "SE-09": 0,
+        "SE-10": 0,
+        "SF": 0,
+        "SF-01": 0,
+        "SF-02": 0,
+        "SF-03": 0,
+        "SF-04": 0,
+        "SF-05": 0,
+        "SF-06": 0,
+        "SF-07": 0,
+        "SF-08": 0,
+        "SF-09": 0,
+        "SF-10": 0
+    };
+
+    const {mapping} = doc.data();
+
+    for(let [topic, status] of Object.entries(mapping)){
+        const domainId = topic.split('-')[0];
+        const subdomainId = domainId+"-"+topic.split('-')[1];
+
+        if(status === 'taught'){
+            stats[domainId]++;
+            stats[subdomainId]++;
+            stats['total']++;
+        }
+            
+    }
+
+    return db.collection('courses').doc(doc.id).update({mapping, stats});
+}
+
+async function updateCourseStats(){
+    const courses = await db.collection('courses').get();
+    let promises = [];
+    courses.forEach(doc => promises.push(updateStats(db, doc) ));
+    Promise.all(promises);
+}
+
+
+updateCourseStats().then(_=>console.log('done'));
+
+// uploadDomains().then(()=>console.log('done'));
+// updateCourseStats().then(()=>console.log('done'));
 // backupData()
 // getTopics();
 // migrateTopicsToApp()
