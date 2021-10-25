@@ -1,4 +1,4 @@
-Topic ID,topic,domainId,subdomain,subdomainId,domain,tier,breakdown
+topicId,topic,domainId,subdomain,subdomainId,domain,tier,breakdown
 AL-01-01,"Differences among best, expected, and worst case behaviors of an algorithm",AL,Basic Analysis,AL-01,Algorithms and Complexity,Tier 1,"[2 Core-Tier1 hours, 2 Core-Tier2 hours]"
 AL-01-02,Asymptotic analysis of upper and expected complexity bounds,AL,Basic Analysis,AL-01,Algorithms and Complexity,Tier 1,"[2 Core-Tier1 hours, 2 Core-Tier2 hours]"
 AL-01-03,Big O  notation: formal definition,AL,Basic Analysis,AL-01,Algorithms and Complexity,Tier 1,"[2 Core-Tier1 hours, 2 Core-Tier2 hours]"

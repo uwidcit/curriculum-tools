@@ -1,0 +1,162 @@
+{
+  "COMP 1600": {
+    "course": "COMP 1600",
+    "title": "Introduction to Computing Concepts"
+  },
+  "COMP 1601": {
+    "course": "COMP 1601",
+    "title": "Computer Programming I"
+  },
+  "COMP 1602": {
+    "course": "COMP 1602",
+    "title": "Computer Programming II"
+  },
+  "COMP 1603": {
+    "course": "COMP 1603",
+    "title": "Computer Programming III"
+  },
+  "COMP 1604": {
+    "course": "COMP 1604",
+    "title": "Mathematics for Computing"
+  },
+  "COMP 2601": {
+    "course": "COMP 2601",
+    "title": "Computer Architecture"
+  },
+  "COMP 2602": {
+    "course": "COMP 2602",
+    "title": "Computer Networks"
+  },
+  "COMP 2603": {
+    "course": "COMP 2603",
+    "title": "Object Oriented Programming I"
+  },
+  "COMP 2604": {
+    "course": "COMP 2604",
+    "title": "Operating Systems"
+  },
+  "COMP 2605": {
+    "course": "COMP 2605",
+    "title": "Enterprise Database Systems"
+  },
+  "COMP 2606": {
+    "course": "COMP 2606",
+    "title": "Software Engineering I"
+  },
+  "COMP 2611": {
+    "course": "COMP 2611",
+    "title": "Data Structures"
+  },
+  "COMP 3601": {
+    "course": "COMP 3601",
+    "title": "Design and Analysis of Algorithms"
+  },
+  "COMP 3602": {
+    "course": "COMP 3602",
+    "title": "Theory of Computing"
+  },
+  "COMP 3603": {
+    "course": "COMP 3603",
+    "title": "Human Computer Interaction"
+  },
+  "COMP 3605": {
+    "course": "COMP 3605",
+    "title": "Introduction to Data Analytics"
+  },
+  "COMP 3606": {
+    "course": "COMP 3606",
+    "title": "Wireless and Mobile Programming"
+  },
+  "COMP 3607": {
+    "course": "COMP 3607",
+    "title": "Object Oriented Programming II"
+  },
+  "COMP 3608": {
+    "course": "COMP 3608",
+    "title": "Intelligent Systems"
+  },
+  "COMP 3609": {
+    "course": "COMP 3609",
+    "title": "Game Programming"
+  },
+  "COMP 3610": {
+    "course": "COMP 3610",
+    "title": "Big Data Analytics"
+  },
+  "COMP 3611": {
+    "course": "COMP 3611",
+    "title": "Modeling and Simulation"
+  },
+  "COMP 3613": {
+    "course": "COMP 3613",
+    "title": "Software Engineering II"
+  },
+  "INFO 1600": {
+    "course": "INFO 1600",
+    "title": "Introduction to Information Technology Concepts"
+  },
+  "INFO 1601": {
+    "course": "INFO 1601",
+    "title": "Introduction to WWW Programming"
+  },
+  "INFO 2600": {
+    "course": "INFO 2600",
+    "title": "Information Systems Development"
+  },
+  "INFO 2601": {
+    "course": "INFO 2601",
+    "title": "Networking Technologies Fundamentals"
+  },
+  "INFO 2602": {
+    "course": "INFO 2602",
+    "title": "Web Programming and Technologies I"
+  },
+  "INFO 2603": {
+    "course": "INFO 2603",
+    "title": "Platform Technologies I"
+  },
+  "INFO 2604": {
+    "course": "INFO 2604",
+    "title": "Information Systems Security"
+  },
+  "INFO 2605": {
+    "course": "INFO 2605",
+    "title": "Professional Ethics and Law"
+  },
+  "INFO 3600": {
+    "course": "INFO 3600",
+    "title": "Business Information Systems"
+  },
+  "INFO 3601": {
+    "course": "INFO 3601",
+    "title": "Platform Technologies II"
+  },
+  "INFO 3602": {
+    "course": "INFO 3602",
+    "title": "Web Systems & Technologies II"
+  },
+  "INFO 3604": {
+    "course": "INFO 3604",
+    "title": "Project"
+  },
+  "INFO 3605": {
+    "course": "INFO 3605",
+    "title": "Fundamentals of LAN Technologies"
+  },
+  "INFO 3606": {
+    "course": "INFO 3606",
+    "title": "Cloud Computing"
+  },
+  "INFO 3607": {
+    "course": "INFO 3607",
+    "title": "Fundamentals of WAN Technologies"
+  },
+  "INFO 3608": {
+    "course": "INFO 3608",
+    "title": "E-Commerce"
+  },
+  "MATH 2250": {
+    "course": "MATH 2250",
+    "title": "Industrial Statistics"
+  }
+}

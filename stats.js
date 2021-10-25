@@ -1,8 +1,11 @@
-var admin = require("firebase-admin");
-var serviceAccount = require("./sa.json");
+let admin = require("firebase-admin");
+const serviceAccount = require("./sa.json");
 const fs = require('fs');
 const { writeCSV, readCSV, readJSON, writeJSON } = require("./util.js");
 const topicList = require("./data/parsed-topics.json");
+const courseDetails = require('./data/courses.json');
+let createHTML = require('create-html');
+let htmlToRtf = require('html-to-rtf');
 
 
 admin.initializeApp({
@@ -175,7 +178,6 @@ async function migrateTopicsToApp(){
     Promise.all(promises);
     console.log('Database Updated');
 }
-
 
 async function uploadDomains(){
     const domains = await readJSON('./data/topics-nested.json');
@@ -400,6 +402,35 @@ function updateStats(db, doc){
     return db.collection('courses').doc(doc.id).update({mapping, stats});
 }
 
+function parseCourses(courseString){
+    if (courseString === '')return [];
+    return courseString.split(',').map(ele=>ele.trim()).filter(ele => ele!== '');
+}
+
+function groupMappingsByCourse(mappings){
+    let courseMap = {};
+    for(let topic of mappings){
+        
+        const courses = parseCourses(topic.courses);
+        for(let course of courses){   
+           
+            const { title } = courseDetails[course];
+            courseMap[course] ??= { course, title, topics: []};
+            courseMap[course].topics.push(topic.topicId);
+
+        }
+    }
+    return courseMap;
+}
+
+async function syncDBtoFile(file){
+    const mappings = await readCSV(file);
+    const courseMap = groupMappingsByCourse(mappings);
+
+    // console.log(courseMap);
+    // console.log(mappings);
+}
+
 async function updateCourseStats(){
     const courses = await db.collection('courses').get();
     let promises = [];
@@ -407,11 +438,107 @@ async function updateCourseStats(){
     Promise.all(promises);
 }
 
+async function writeCourseReport(file, output){
+    const mappings = await readCSV(file);
+    const courses = await groupMappingsByCourse(mappings);
 
-updateCourseStats().then(_=>console.log('done'));
+    const recs = Object.values(courses);
+
+    // console.log(recs);
+    writeCSV(output, recs, [
+        {id:'course', title:'course'},
+        {id:'title', title:'title'},
+        {id:'topics', title:'topics'}
+    ]);
+}
+
+// syncDBtoFile('./data/final-topics.csv').then(_=>console.log('done'));
+// updateCourseStats().then(_=>console.log('done'));
 
 // uploadDomains().then(()=>console.log('done'));
 // updateCourseStats().then(()=>console.log('done'));
 // backupData()
 // getTopics();
 // migrateTopicsToApp()
+
+function saveToDoc(file, html){
+    htmlToRtf.saveRtfInFile(file, htmlToRtf.convertHtmlToRtf(html))
+}
+
+async function writeReport(file){
+    let body = ``;
+
+    const recs = await readCSV(file);
+    const topicMap = topicList.reduce((acc, cur)=>{
+        acc[cur.topicId] = cur;
+        return acc;
+    }, {});
+
+    for(let {course, title, topics} of recs){
+
+        const topicsList = parseCourses(topics).reduce( (acc, cur)=>{ acc+=`\t\t\t\t<li>${cur} - ${topicMap[cur].topic }</li>\n`; return acc; }, '');
+
+        body+=`
+        <div style="page-break-after: always">
+            <h1 style="font-size: x-large;font-weight: bold;">${course} - ${title}</h1>
+
+            <h2 style="font-size: 32pt;font-weight: 700;">Content</h2>
+            
+            <h2 style="font-size: 26pt;font-weight: 700;">Learning Outcomes</h2>
+            <ol>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+                <li>Outcome</li>
+            </ol>
+
+            <h2 style="font-size: 26pt;font-weight: 700;">Assessments</h2>
+
+            <h2 style="font-size: 26pt;font-weight: 700;">Topics</h2>
+
+            <ol>
+                ${topicsList}
+            </ol>
+
+            <h2 style="font-size: 26pt;font-weight: 700;">Calendar</h2>
+
+
+        </div>
+        `;
+    }
+
+    // let html = `<!DOCTYPE html>
+    // <html lang="en">
+    //     <head>
+    //         <meta charset="UTF-8">
+    //         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    //         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //         <title>DCIT COurses</title>
+    //     </head>
+    //     <body>
+    //         ${body}
+    //     </body>
+    // </html>`;
+
+    // const html = createHTML({
+    //     title: 'DCIT Courses',
+    //     lang: 'en',
+    //     head: '<meta name="description" content="example">',
+    //     body
+    // })
+
+    // return fs.writeFileSync('./output/report.html', html);
+        
+    saveToDoc('./output/report.rtf', body);
+}
+
+// writeCourseReport('./data/final-topics.csv', './output/course-topics.csv').then(_=>{console.log('done')});
+writeReport('./output/course-topics.csv').then(_=>{console.log('done')});
