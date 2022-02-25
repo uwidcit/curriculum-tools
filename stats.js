@@ -487,17 +487,6 @@ async function writeReport(file){
             <h2 style="font-size: 26pt;font-weight: 700;">Learning Outcomes</h2>
             <ol>
                 <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
-                <li>Outcome</li>
             </ol>
 
             <h2 style="font-size: 26pt;font-weight: 700;">Assessments</h2>

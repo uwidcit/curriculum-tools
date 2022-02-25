@@ -17,6 +17,7 @@
     "html-to-rtf": "^1.3.3",
     "pdf2json": "^1.2.0",
     "string-similarity": "^4.0.4",
-    "urldecode": "^1.0.1"
+    "urldecode": "^1.0.1",
+    "xlsx": "^0.18.2"
   }
 }
