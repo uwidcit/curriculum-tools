@@ -189,7 +189,8 @@ function makeTableFromMatrix(numLC, matrix){
 }
 
 async function render(){
-    return makeTableFromMatrix(11,parsedData.Matrix);
+    return makeTableFromMatrix(parsedData['Course Learning Outcomes'].length,
+                               parsedData.Matrix);
 }
 
 
