@@ -61,8 +61,11 @@ async function main(){
             '@@@credits': "Credits",
             '@@@courseDescription' : "Course Description",
             '@@@rationale' : "Rationale",
-            '@@@courseAims' : "Course Aims"
+            '@@@courseAims' : "Course Aims",
+            '@@@courseContent' : "Course Content"
         }
+
+        parsedData['Course Content'] = parsedData['Course Content'].replace(/\r\n/g,'<br/>');
 
         for(var key in templateMap){
             out = out.replace(key,parsedData[templateMap[key]]);
@@ -71,7 +74,7 @@ async function main(){
         
         var cc = renderCourseLOC(parsedData['Course Learning Outcomes']);
         out = out.replace(/@@@courseLOC/g,cc);
-        
+
         try {
             fs.writeFileSync('./render_output/Template.htm', out, 'latin1');
             //file written successfully
