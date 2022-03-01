@@ -1,4 +1,4 @@
-const { render, renderCourseLOC } = require('./render');
+const { render, renderCourseLOC, renderContactHours } = require('./render');
 const fs = require('fs')
 
 const {writeJSON} = require('./util');
@@ -74,6 +74,9 @@ async function main(){
         
         var cc = renderCourseLOC(parsedData['Course Learning Outcomes']);
         out = out.replace(/@@@courseLOC/g,cc);
+
+        var ch = renderContactHours(parsedData['Contact and Credit hours']);
+        out = out.replace(/@@@contactHours/g,ch);
 
         try {
             fs.writeFileSync('./render_output/Template.htm', out, 'latin1');
