@@ -43,18 +43,18 @@ async function main(){
         }
 
         var root = HTMLParser.parse(data.toString());
+
+        //console.log(root.querySelector("img").toString());
+
         //console.log(root.toString());
         //var out = root.toString();
         
-        //write html
-
-        //Write head
+        
         var headHTML = root.querySelector("head").toString();
         
         //deep copy
         var sectionTemplate = root.querySelector("div");//first div should have the template...
         
-
         var htmlTagHTML = `<html xmlns:v="urn:schemas-microsoft-com:vml"
         xmlns:o="urn:schemas-microsoft-com:office:office"
         xmlns:w="urn:schemas-microsoft-com:office:word"
@@ -96,7 +96,8 @@ async function main(){
             '@@@courseAims' : "Course Aims",
             '@@@courseContent' : "Course Content",
             '@@@courseAssessment': "Course Assessments Description",
-            '@@@staff' : "Staffing Requirements"
+            '@@@staff' : "Staffing Requirements",
+            '@@@mode': "Mode of Delivery"
         }
 
         
@@ -147,6 +148,7 @@ async function main(){
         } catch (err) {
             console.error(err)
         }
+        
 
         /*
         try {
@@ -156,6 +158,8 @@ async function main(){
             console.error(err)
         }
         */
+
+    
 
     });
 }
