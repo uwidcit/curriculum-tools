@@ -375,6 +375,11 @@ function renderLearningResource(lr){
     return lrHTML;
 }
 
+const replaceBlankWithX = x => {
+    if (x == "") return "X";
+    return x;
+};
+
 const calRow = info => `<tr style="mso-yfti-irow:2;height:30.6pt">
 <td width="48" valign="top" style="width:.5in;border:solid black 1.0pt;
 border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
@@ -412,7 +417,7 @@ border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-al
 solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
 height:30.6pt">
 <p class="MsoNormal" style="mso-pagination:none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
-color:black">${info["Assessment"]}<o:p></o:p></span></p>
+color:black">${info["Assessment"] }<o:p></o:p></span></p>
 </td>
 <td width="72" valign="top" style="width:53.7pt;border-top:none;border-left:none;
 border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
