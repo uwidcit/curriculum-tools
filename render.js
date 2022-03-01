@@ -511,7 +511,7 @@ function renderCourseCalendar(cal){
     return calHTML;
 }
 
-async function render(parsedData){
+function render(parsedData){
     //The first line of course learning outcome is always
     //Upon the successful completion of this course, the student will be able to:
     return makeTableFromMatrix(parsedData['Course Learning Outcomes'].length-1,
