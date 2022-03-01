@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 1601 Computer Programming I",
+  "Semester and Level": "Semester 1  Level 1",
+  "Pre-requisites": "None",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ❑      Blended ❑      Online ❑",
+  "Course Description": "This course uses an appropriate programming language as a tool to teach fundamental programming concepts. The main concepts covered are sequence, selection and repetition logic, character and string manipulation, functions, and a basic introduction to arrays and their applications.",
+  "Rationale": "This course equips students to solve problems on computer based systems. It identifies what type of problems can be solved by such systems and which cannot. It guides students on methods of developing structured algorithms. The focus on this course is problem description and presentation using either flowcharting or pseudocode tools. The selected programming language is used as a vehicle to show the basics of programming algorithms.",
+  "Course Aims": "",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Discuss the importance of algorithms in the problem-solving process.",
+    "Discuss how a problem may be solved by multiple algorithms, each with different properties.",
+    "Create algorithms for solving simple problems.",
+    "Use a programming language to implement, test, and debug algorithms for solving simple problems.",
+    "Analyse and explain the behaviour of simple programs involving the fundamental programming constructs variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and recursion.",
+    "Identify and describe uses of primitive data types.",
+    "Write programs that use primitive data types.",
+    "Modify and expand short programs that use standard conditional and iterative control structures and functions.",
+    "Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing.",
+    "Write a program that uses file I/O to provide persistence across multiple executions.",
+    "Choose appropriate conditional and iteration constructs for a given programming task.",
+    "Describe the concept of recursion and give examples of its use.",
+    "Identify the base case and the general case of a recursively-defined problem."
+  ],
+  "Course Content": "<t>1. The concept and properties of algorithms\r\n2. Informal comparison of algorithm efficiency (e.g., operation counts)\r\n3. The role of algorithms in the problem-solving process\r\n4. Basic syntax and semantics of a higher-level language \r\n5. Variables and primitive data types (e.g., numbers, characters, Booleans, strings)\r\n6. Expressions and assignments\r\n7. Conditional and iterative control structures\r\n8. Simple I/O including file I/O\r\n9. Functions and parameter passing\r\n10. One dimensional arrays\r\n11. The concept of recursion</t>",
+  "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly"
+    },
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Quizzes"
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": ""
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Readings from text book. \r\nVideo lectueres by the author of the essential textbook"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Interactive tutorial sessions - students solve problems on the board"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Apply programming concepts to real world problems"
+    },
+    {
+      "Name": "Groupwork",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assingment 1",
+      "Learning Outcomes": "1, 2, 3",
+      "Assessment Description": "Take home problems",
+      "Weighting %": "5",
+      "Duration": "10 days"
+    },
+    {
+      "Assessment": "Assingment 2",
+      "Learning Outcomes": "3, 4, 5, 7, 8, 11",
+      "Assessment Description": "Take home problems",
+      "Weighting %": "6",
+      "Duration": "10 days"
+    },
+    {
+      "Assessment": "Assingment 3 ",
+      "Learning Outcomes": "",
+      "Assessment Description": "Take home problems",
+      "Weighting %": "6",
+      "Duration": "10 days "
+    },
+    {
+      "Assessment": "Quiz 1 ",
+      "Learning Outcomes": "1, 2, 3, 4, 5",
+      "Assessment Description": "Online quiz, multiple choice",
+      "Weighting %": "1",
+      "Duration": "30 min"
+    },
+    {
+      "Assessment": "Quiz 2",
+      "Learning Outcomes": "3, 4, 5, 6, 7, 11",
+      "Assessment Description": "Online quiz, multiple choice",
+      "Weighting %": "1",
+      "Duration": "30 min"
+    },
+    {
+      "Assessment": "Quiz 3",
+      "Learning Outcomes": "5, 6, 9, 11",
+      "Assessment Description": "Online quiz, multiple choice",
+      "Weighting %": "1",
+      "Duration": "30 min"
+    },
+    {
+      "Assessment": "Coursework Exam 1",
+      "Learning Outcomes": "3, 4, 5, 7, 8, 11",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "10",
+      "Duration": "1.5 hours"
+    },
+    {
+      "Assessment": "Coursework Exam 2",
+      "Learning Outcomes": "3, 4, 5, 6, 7, 8, 9, 10 11",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "20",
+      "Duration": "1.5 hours"
+    },
+    {
+      "Assessment": "Final Examinaiton",
+      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10 11",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "50",
+      "Duration": "2 hours"
+    }
+  ],
+  "Learning Resources": [
+    "Noel Kalicharan.  C Programming - A Beginner's Course. 2005.  CreateSpace Independent Publishing Platform.",
+    "",
+    ""
+  ],
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "1, 2",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "2",
+      "Topics": "2, 3",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 1",
+      "Date": "WK2"
+    },
+    {
+      "Week": "3",
+      "Topics": "4",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "5",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 2 and  6",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Quiz 1",
+      "Date": "WK4"
+    },
+    {
+      "Week": "5",
+      "Topics": "6",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "7",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 3",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 2",
+      "Date": "WK6"
+    },
+    {
+      "Week": "7",
+      "Topics": "8",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 6",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "8",
+      "Topics": "CWE1, 9",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 7",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Coursework Exam 1",
+      "Date": "WK8"
+    },
+    {
+      "Week": "9",
+      "Topics": "9",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 7",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Quiz 2",
+      "Date": "WK9"
+    },
+    {
+      "Week": "10",
+      "Topics": "10",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 3",
+      "Date": "WK10"
+    },
+    {
+      "Week": "11",
+      "Topics": "10, 11",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Quiz 3",
+      "Date": "WK11"
+    },
+    {
+      "Week": "12",
+      "Topics": "11, CWE2",
+      "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Crousework Exam 2",
+      "Date": "WK12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

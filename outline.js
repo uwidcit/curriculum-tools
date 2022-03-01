@@ -1,5 +1,6 @@
 const { utils, readFile } = require('xlsx');
-
+const { readdirSync, writeFileSync } = require('fs');
+const path = require('path');
 
 function $(cell, key){
     if(!cell)return ""
@@ -306,13 +307,26 @@ function parseExcelOutline(sheet){
     };
 }
 
-
 function readOutline(path){
     const workbook = readFile(path);
     const currentSheet = 'Revised Course Outline Template';
-    const data = parseExcelOutline(workbook.Sheets[currentSheet]);
-    console.log(data);
-
+    return parseExcelOutline(workbook.Sheets[currentSheet]);
 }
 
-readOutline('./outlines/COMP 1601.xlsx');
+function dumpToFile(filename, data){
+    return writeFileSync(filename, JSON.stringify(data, null, 2));
+}
+
+async function parseAll(dir){
+    const directoryPath = path.join(__dirname, dir);
+ 
+    const addrs = await readdirSync(directoryPath);
+    let data = addrs.map(addr=>readOutline(path.join(directoryPath, addr)));
+    dumpToFile('./outlines.json', data);
+}
+
+
+
+// readOutline('./outlines/COMP 1601.xlsx');
+
+parseAll('./outlines');

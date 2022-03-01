@@ -1,0 +1,797 @@
+[
+  {
+    "Campus and Faculty": "FST, STA",
+    "Department": "DCIT",
+    "Course Code & title": "COMP 1601 Computer Programming I",
+    "Semester and Level": "Semester 1  Level 1",
+    "Pre-requisites": "None",
+    "Co-requisites": "",
+    "Anti-requisites": "",
+    "Course Type": "Core",
+    "Credits": "3",
+    "Projected Enrolment": "",
+    "Project Start Date": "",
+    "Mode of Delivery": "Face-to-Face ❑      Blended ❑      Online ❑",
+    "Course Description": "This course uses an appropriate programming language as a tool to teach fundamental programming concepts. The main concepts covered are sequence, selection and repetition logic, character and string manipulation, functions, and a basic introduction to arrays and their applications.",
+    "Rationale": "This course equips students to solve problems on computer based systems. It identifies what type of problems can be solved by such systems and which cannot. It guides students on methods of developing structured algorithms. The focus on this course is problem description and presentation using either flowcharting or pseudocode tools. The selected programming language is used as a vehicle to show the basics of programming algorithms.",
+    "Course Aims": "",
+    "Course Learning Outcomes": [
+      "On successful completion of this course, students will be able to:",
+      "Discuss the importance of algorithms in the problem-solving process.",
+      "Discuss how a problem may be solved by multiple algorithms, each with different properties.",
+      "Create algorithms for solving simple problems.",
+      "Use a programming language to implement, test, and debug algorithms for solving simple problems.",
+      "Analyse and explain the behaviour of simple programs involving the fundamental programming constructs variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and recursion.",
+      "Identify and describe uses of primitive data types.",
+      "Write programs that use primitive data types.",
+      "Modify and expand short programs that use standard conditional and iterative control structures and functions.",
+      "Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing.",
+      "Write a program that uses file I/O to provide persistence across multiple executions.",
+      "Choose appropriate conditional and iteration constructs for a given programming task.",
+      "Describe the concept of recursion and give examples of its use.",
+      "Identify the base case and the general case of a recursively-defined problem."
+    ],
+    "Course Content": "<t>1. The concept and properties of algorithms\r\n2. Informal comparison of algorithm efficiency (e.g., operation counts)\r\n3. The role of algorithms in the problem-solving process\r\n4. Basic syntax and semantics of a higher-level language \r\n5. Variables and primitive data types (e.g., numbers, characters, Booleans, strings)\r\n6. Expressions and assignments\r\n7. Conditional and iterative control structures\r\n8. Simple I/O including file I/O\r\n9. Functions and parameter passing\r\n10. One dimensional arrays\r\n11. The concept of recursion</t>",
+    "Teaching Methods": [
+      {
+        "Name": "Interactive Lectures",
+        "Description": "Live lectures delivered twice weekly"
+      },
+      {
+        "Name": "Online Activities (myElearning)",
+        "Description": "Quizzes"
+      },
+      {
+        "Name": "Laboratory Work",
+        "Description": ""
+      },
+      {
+        "Name": "Flipped Classroom",
+        "Description": "Readings from text book. \r\nVideo lectueres by the author of the essential textbook"
+      },
+      {
+        "Name": "Inquiry-based Learning",
+        "Description": "Interactive tutorial sessions - students solve problems on the board"
+      },
+      {
+        "Name": "Problem-based Learning",
+        "Description": "Apply programming concepts to real world problems"
+      },
+      {
+        "Name": "Groupwork",
+        "Description": ""
+      }
+    ],
+    "Contact and Credit hours": [
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      }
+    ],
+    "Course Assessments Description": "",
+    "Matrix": [
+      {
+        "Assessment": "Assingment 1",
+        "Learning Outcomes": "1, 2, 3",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "5",
+        "Duration": "10 days"
+      },
+      {
+        "Assessment": "Assingment 2",
+        "Learning Outcomes": "3, 4, 5, 7, 8, 11",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "6",
+        "Duration": "10 days"
+      },
+      {
+        "Assessment": "Assingment 3 ",
+        "Learning Outcomes": "",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "6",
+        "Duration": "10 days "
+      },
+      {
+        "Assessment": "Quiz 1 ",
+        "Learning Outcomes": "1, 2, 3, 4, 5",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Quiz 2",
+        "Learning Outcomes": "3, 4, 5, 6, 7, 11",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Quiz 3",
+        "Learning Outcomes": "5, 6, 9, 11",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Coursework Exam 1",
+        "Learning Outcomes": "3, 4, 5, 7, 8, 11",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "10",
+        "Duration": "1.5 hours"
+      },
+      {
+        "Assessment": "Coursework Exam 2",
+        "Learning Outcomes": "3, 4, 5, 6, 7, 8, 9, 10 11",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "20",
+        "Duration": "1.5 hours"
+      },
+      {
+        "Assessment": "Final Examinaiton",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10 11",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "50",
+        "Duration": "2 hours"
+      }
+    ],
+    "Learning Resources": [
+      "Noel Kalicharan.  C Programming - A Beginner's Course. 2005.  CreateSpace Independent Publishing Platform.",
+      "",
+      ""
+    ],
+    "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
+    "Additional Cost": "",
+    "Collaboration": "",
+    "Course Coordinator": "",
+    "Course Calendar": [
+      {
+        "Week": "1",
+        "Topics": "1, 2",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 1",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "2",
+        "Topics": "2, 3",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 1",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 1",
+        "Date": "WK2"
+      },
+      {
+        "Week": "3",
+        "Topics": "4",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 2",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "4",
+        "Topics": "5",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 2 and  6",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 1",
+        "Date": "WK4"
+      },
+      {
+        "Week": "5",
+        "Topics": "6",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 2",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "6",
+        "Topics": "7",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 3",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 2",
+        "Date": "WK6"
+      },
+      {
+        "Week": "7",
+        "Topics": "8",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 6",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "8",
+        "Topics": "CWE1, 9",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Coursework Exam 1",
+        "Date": "WK8"
+      },
+      {
+        "Week": "9",
+        "Topics": "9",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 2",
+        "Date": "WK9"
+      },
+      {
+        "Week": "10",
+        "Topics": "10",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 3",
+        "Date": "WK10"
+      },
+      {
+        "Week": "11",
+        "Topics": "10, 11",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 3",
+        "Date": "WK11"
+      },
+      {
+        "Week": "12",
+        "Topics": "11, CWE2",
+        "Required Readings": "C Programming - A Beginner's Course: Chapter 8",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Crousework Exam 2",
+        "Date": "WK12"
+      },
+      {
+        "Week": "13",
+        "Topics": "Course Review\r\n (No introduction of new subject matter)",
+        "Required Readings": "",
+        "Learning Activities": "",
+        "Assessment": "",
+        "Date": ""
+      }
+    ]
+  },
+  {
+    "Campus and Faculty": "FST, STA",
+    "Department": "DCIT",
+    "Course Code & title": "COMP 2611 Data Structures",
+    "Semester and Level": "Semester 1  Level 2",
+    "Pre-requisites": "COMP 1603",
+    "Co-requisites": "",
+    "Anti-requisites": "",
+    "Course Type": "Core",
+    "Credits": "3",
+    "Projected Enrolment": "",
+    "Project Start Date": "",
+    "Mode of Delivery": "Face-to-Face ❑      Blended ❑      Online ❑",
+    "Course Description": "A data structure is a way of storing data in a computer so that it can be used efficiently. Data structures is an important part of the equation; Programs = Algorithms + Data structures. Often a carefully chosen data structure will allow the most efficient algorithm to be used. A well-designed data structure allows a variety of critical operations to be performed, minimizing the use of execution time and memory space.\r\nThis course covers some fundamental data structures—stacks, queues, linked lists, binary trees, heaps and graphs—which are required for programming the solutions to a wide variety of real-world and theoretical problems.",
+    "Rationale": "A critical aspect of solving any problem on a computer is its representation. Knowledge of data structures gives one a better chance of choosing an appropriate representation for a given problem.",
+    "Course Aims": "This course aimes to introduce students to fundamental concepts in data structures.This course teaches students the foudations of working with data structures, how infomration can be structured for time and space efficiency, and re-use of code. Mastery of these essenatil topics in Computer Science allow students to design aind implement memory and time effictent solutions specific to the needs of a problem.",
+    "Course Learning Outcomes": [
+      "On successful completion of this course, students will be able to:",
+      "Implement simple search algorithms and explain the differences in their time complexities.",
+      "Implement common quadratic, O(N log N), and integer sorting algorithms.",
+      "Implement and solve problems using hash tables, including collision avoidance and resolution.",
+      "Discuss the runtime and memory efficiency of principal algorithms for sorting, searching, and hashing.",
+      "Explain how tree balance affects the efficiency of various binary search tree operations.",
+      "Show how concepts from graphs and trees appear in data structures, algorithms, proof techniques (structural induction), and counting.",
+      "Describe and implement different traversal methods for trees and graphs, including pre-, post-, and in-order traversal of trees.",
+      "Describe and implement the heap property, and priority queues with heaps.",
+      "Implement and solve problems using fundamental graph algorithms, including depth-first, breadth-first search, single-source, all-pairs shortest paths, and at least one minimum spanning tree algorithm.",
+      "Model a variety of real-world problems in computer science using appropriate forms of graphs and trees, such as representing a network topology or the organization of a hierarchical file system.",
+      "Demonstrate the ability to evaluate algorithms, to select from a range of possible options, to provide justification for that selection, and to implement the algorithm in a particular context.",
+      "",
+      "1. Sorting\r\n1.1. Worst case quadratic sorting algorithms (selection, insertion) \r\n1.2. Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)\r\n1.3. Integer sorting algorithms average case O(N)\r\n2. Sequential and binary search algorithms \r\n3. Hash tables, including strategies for avoiding and resolving collisions e.g. linear, quadratic, chaining, double hashing\r\n4. Trees. Properties and traversal strategies\r\n5. Binary search trees. Common operations on binary search trees such as select min, max, insert, delete, iterate over tree \r\n6. Heaps. Priority queues.\r\n7. Graphs and graph algorithms\r\n7.1. Directed, undirected, and weighted graphs\r\n7.2. Representations of graphs (e.g., adjacency list, adjacency matrix)\r\n7.3. Shortest-path algorithms (Dijkstra’s and Floyd’s algorithms)\r\n7.4. Minimum spanning tree (Prim’s and Kruskal’s algorithms)\r\n7.5. Graph isomorphism\r\n8. Efficiently storing and manipulating matrices with special properties, e.g. symmetric, triangular, band, sparse and others"
+    ],
+    "Course Content": "",
+    "Teaching Methods": [
+      {
+        "Name": "Online Activities (myElearning)",
+        "Description": "Quizzes"
+      },
+      {
+        "Name": "Laboratory Work",
+        "Description": ""
+      },
+      {
+        "Name": "Flipped Classroom",
+        "Description": "Readings from text book. \r\nVideo lectueres by the author of the essential textbook"
+      },
+      {
+        "Name": "Inquiry-based Learning",
+        "Description": "Interactive tutorial sessions - students solve problems on the board"
+      },
+      {
+        "Name": "Problem-based Learning",
+        "Description": "Write programs to solve problems. Can make use of online-judges for practice."
+      },
+      {
+        "Name": "Groupwork",
+        "Description": ""
+      },
+      {
+        "Name": "",
+        "Description": ""
+      }
+    ],
+    "Contact and Credit hours": [
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      }
+    ],
+    "Course Assessments Description": "",
+    "Matrix": [
+      {
+        "Assessment": "Assingment 2",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 11",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "6",
+        "Duration": "10 days"
+      },
+      {
+        "Assessment": "Assingment 3 ",
+        "Learning Outcomes": "5, 8, 9, 10, 11",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "6",
+        "Duration": "10 days "
+      },
+      {
+        "Assessment": "Quiz 1 ",
+        "Learning Outcomes": "",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Quiz 2",
+        "Learning Outcomes": "4, 5, 6, 7, 11",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Quiz 3",
+        "Learning Outcomes": "8, 9, 10, 11",
+        "Assessment Description": "Online quiz, multiple choice",
+        "Weighting %": "1",
+        "Duration": "30 min"
+      },
+      {
+        "Assessment": "Coursework Exam 1",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 11",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "10",
+        "Duration": "1.5 hours"
+      },
+      {
+        "Assessment": "Coursework Exam 2",
+        "Learning Outcomes": "5, 6, 7, 8, 9, 10, 11 ",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "20",
+        "Duration": "1.5 hours"
+      },
+      {
+        "Assessment": "Final Examinaiton",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "50",
+        "Duration": "2 hours"
+      },
+      {
+        "Assessment": "",
+        "Learning Outcomes": "",
+        "Assessment Description": "",
+        "Weighting %": "",
+        "Duration": ""
+      }
+    ],
+    "Learning Resources": [
+      "",
+      "",
+      "Recommended"
+    ],
+    "Staffing Requirements": "",
+    "Additional Cost": "",
+    "Collaboration": "",
+    "Course Coordinator": "",
+    "Course Calendar": [
+      {
+        "Week": "2",
+        "Topics": "1.2, 1.3",
+        "Required Readings": "Data Structures in C - Chapter 6",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 1",
+        "Date": "WK2"
+      },
+      {
+        "Week": "3",
+        "Topics": "2, 3",
+        "Required Readings": "Data Structures in C - Chapter 5, 8",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "4",
+        "Topics": "3, 4",
+        "Required Readings": "Data Structures in C - Chapter 5, 8",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 1",
+        "Date": "WK4"
+      },
+      {
+        "Week": "5",
+        "Topics": "4, 5",
+        "Required Readings": "Data Structures in C - Chapter 5",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 2",
+        "Date": "WK5"
+      },
+      {
+        "Week": "6",
+        "Topics": "5, 6",
+        "Required Readings": "Data Structures in C - Chapter 5, 6",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "7",
+        "Topics": "6, 7.1",
+        "Required Readings": "Data Structures in C - Chapter 6, 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "8",
+        "Topics": "CWE1, 7.2",
+        "Required Readings": "Data Structures in C - Chapter 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Coursework Exam 1",
+        "Date": "WK8"
+      },
+      {
+        "Week": "9",
+        "Topics": "7.3",
+        "Required Readings": "Data Structures in C - Chapter 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 2",
+        "Date": "WK9"
+      },
+      {
+        "Week": "10",
+        "Topics": "7.4",
+        "Required Readings": "Data Structures in C - Chapter 7",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment 3",
+        "Date": "WK10"
+      },
+      {
+        "Week": "11",
+        "Topics": "7.5, 8",
+        "Required Readings": "Data Structures in C - Chapter 7, 9",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Quiz 3",
+        "Date": "WK11"
+      },
+      {
+        "Week": "12",
+        "Topics": "8, CWE2",
+        "Required Readings": "Data Structures in C - Chapter 9",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Crousework Exam 2",
+        "Date": "WK12"
+      },
+      {
+        "Week": "13",
+        "Topics": "Course Review\r\n (No introduction of new subject matter)",
+        "Required Readings": "",
+        "Learning Activities": "",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "",
+        "Topics": "",
+        "Required Readings": "",
+        "Learning Activities": "",
+        "Assessment": "",
+        "Date": ""
+      }
+    ]
+  },
+  {
+    "Campus and Faculty": "FST, STA",
+    "Department": "DCIT",
+    "Course Code & title": "COMP 3609 Game Programming",
+    "Semester and Level": "Semester 1  Level 3",
+    "Pre-requisites": "COMP 2603 AND COMP 2606",
+    "Co-requisites": "",
+    "Anti-requisites": "",
+    "Course Type": "Elective",
+    "Credits": "3",
+    "Projected Enrolment": "",
+    "Project Start Date": "",
+    "Mode of Delivery": "Face-to-Face ❑      Blended ✓      Online ❑",
+    "Course Description": "The Game Programming course will allow students to combine concepts taught in order courses together with the new game programming concepts taught in this course, in order to build games. The students will be introduced to an appropriate 2D programming API (e.g., Java), the game loop, game entities, images, sound, animations, game physics and user input. At the end of the course students will have a good grasp on the concepts of game programming and will be able to produce games for multiple platforms.  The course covers the fundamental aspects of images, sounds, animations and sprites and shows how to develop a two-dimensional game using these elements. Mathematics and Physics principles are discussed throughout the course whenever they are pertinent to the topics being presented (e.g. collision detection of sprites).",
+    "Rationale": "Game programming involves the application of a wide range of skills and concepts from different areas of Computer Science and other disciplines. These include programming, data structures, computer architecture, operating systems, human computer interaction, and software engineering. Thus, the Game Programming course is intended to give students an introduction to the Computer Science aspects of game programming using an object-oriented programming language.",
+    "Course Aims": "This course aims to introduce students to the foundational concepts in Game Programming. This course teaches students how to apply core concepts in computer science with game design, in order to build games. This course allows students to design and implement, single screen, platformer, and top down games from scratch as well with an appropriate game engine.",
+    "Course Learning Outcomes": [
+      "On successful completion of this course, students will be able to:",
+      "Use an appropriate 2D API to draw and colour various shapes.",
+      "During the execution of a game manipulate identified characteristics of images and sounds",
+      "Implement user interaction with the keyboard and mouse",
+      "Create a 2D platform game",
+      "Implement a specific set of basic game design principles",
+      "Implement some basic principles of game design",
+      "Develop by course end at least one game illustrating the design principles, image characteristics and sounds games outlined.",
+      "Use an appropriate game engine to implement a basic 2D game",
+      "",
+      "",
+      "",
+      "",
+      "1. Review of Object-oriented design\r\n1.1 Inheritance \r\n1.2 Interfaces \r\n1.3 Inner Classes \r\n1.4 Using the 2D API Documentation \r\n2. Introduction to 2D Graphical API \r\n2.1 Creating and drawing shapes \r\n2.2 Drawing Text to screen \r\n3. Basic Game Programming Concepts \r\n3.1 The basic game loop \r\n3.2 Drawing and Updating \r\n3.3 Game Entities \r\n4. Movement and User Input\r\n4.1 Events and event handlers \r\n4.2 Moving a simple 2D shape \r\n4.3 Getting input from the user\r\n4.4 Using a reactive framework\r\n5. Collision detection and response\r\n5.1 Bounding rectangles \r\n5.2 Rectangle intersection \r\n5.3 Screen boundaries \r\n6. Design Concepts \r\n6.1 Singleton Design Pattern \r\n6.2 Composite Design Pattern \r\n6.3 Hash tables \r\n6.4 Array Lists \r\n7. Images and Sprites \r\n7.1 Loading images \r\n7.2 The Sprite class \r\n7.3 Flickering, double buffering, tearing, and page flipping \r\n7.4 Image Characteristics (Opaque, Transparent, Translucent, etc.) \r\n7.5 Asset Manager \r\n8. Animation \r\n8.1 Animation as a sequence of still images\r\n8.2 Loading and manipulating Sprite sheets \r\n8.3 AnimatedSprite class \r\n9. Sound \r\n9.1 A Sound API \r\n9.2 MIDI \r\n9.3 Loading and playing sound file in Java \r\n9.4 Sound Effects \r\n9.5 SoundManager class \r\n10. Parallax Backgrounds \r\n10.1 Simulating movement and distance in games \r\n10.2 ParallaxBackground class \r\n11. Movement and User Input \r\n11.1 Managing user input \r\n11.2 KeyboardInputService class \r\n12. Design Concepts \r\n12.1 Object Pool design pattern \r\n12.2 Game States \r\n12.3 Managing game screens \r\n13. 2D Platformer \r\n13.1 Side Scroller Concept \r\n13.2 Creating a game camera \r\n13.3 Tiled Map Editor \r\n13.4 Loading and displaying tile maps \r\n13.5 Map collision detection \r\n14. Simple Game Physics \r\n14.1 Smooth jump motion and Gravity \r\n14.2 Projectile motion \r\n15. Special Topics in Game Programming \r\n15.1 Implementing games in a game engine\r\n15.1 Simulating 3D Using 2D \r\n15.2 Real time strategy games \r\n15.3 Multi-player games"
+    ],
+    "Course Content": "",
+    "Teaching Methods": [
+      {
+        "Name": "Online Activities (myElearning)",
+        "Description": ""
+      },
+      {
+        "Name": "Laboratory Work",
+        "Description": ""
+      },
+      {
+        "Name": "Flipped Classroom",
+        "Description": "Readings from text book. \r\nVideo lectueres by the author of the essential textbook"
+      },
+      {
+        "Name": "Inquiry-based Learning",
+        "Description": "Interactive tutorial sessions - students solve problems on the board"
+      },
+      {
+        "Name": "Problem-based Learning",
+        "Description": "Apply game design concepts to build games"
+      },
+      {
+        "Name": "Groupwork",
+        "Description": ""
+      },
+      {
+        "Name": "",
+        "Description": ""
+      }
+    ],
+    "Contact and Credit hours": [
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      }
+    ],
+    "Course Assessments Description": "",
+    "Matrix": [
+      {
+        "Assessment": "Assignment #2",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "5",
+        "Duration": "14 days"
+      },
+      {
+        "Assessment": "Assignment #3",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "5",
+        "Duration": "14 days"
+      },
+      {
+        "Assessment": "Assignment #4",
+        "Learning Outcomes": "",
+        "Assessment Description": "Take home problems",
+        "Weighting %": "6",
+        "Duration": "14 days"
+      },
+      {
+        "Assessment": "Presentations",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8",
+        "Assessment Description": "Present game design and implementation to the class",
+        "Weighting %": "5",
+        "Duration": "20 mins"
+      },
+      {
+        "Assessment": "Practical Exam",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "25",
+        "Duration": "1.5 hours"
+      },
+      {
+        "Assessment": "Final Examination",
+        "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8",
+        "Assessment Description": "Problems & short answer questions",
+        "Weighting %": "50",
+        "Duration": "2 hours"
+      },
+      {
+        "Assessment": "",
+        "Learning Outcomes": "",
+        "Assessment Description": "",
+        "Weighting %": "",
+        "Duration": ""
+      },
+      {
+        "Assessment": "",
+        "Learning Outcomes": "",
+        "Assessment Description": "",
+        "Weighting %": "",
+        "Duration": ""
+      },
+      {
+        "Assessment": "",
+        "Learning Outcomes": "",
+        "Assessment Description": "",
+        "Weighting %": "",
+        "Duration": ""
+      }
+    ],
+    "Learning Resources": [
+      "Davison, A., Killer Game Programming in Java. Sebastopol, California: O’Reilly Media Inc. 2005. Book Web Site: http://fivedots.coe.psu.ac.th/~ad/jg/",
+      "Lecture Notes",
+      ""
+    ],
+    "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
+    "Additional Cost": "",
+    "Collaboration": "",
+    "Course Coordinator": "",
+    "Course Calendar": [
+      {
+        "Week": "1",
+        "Topics": "1, 2, 3",
+        "Required Readings": "Developing Games in Java: Chapter 1, 2",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "2",
+        "Topics": "4, 5",
+        "Required Readings": "Developing Games in Java: Chapter 2, 3",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment #1",
+        "Date": "WK2"
+      },
+      {
+        "Week": "3",
+        "Topics": "6, 7",
+        "Required Readings": "Developing Games in Java: Chapter 4, 5",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "4",
+        "Topics": "8, 9",
+        "Required Readings": "Developing Games in Java: Chapter 2, 4",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "5",
+        "Topics": "10, 11",
+        "Required Readings": "Developing Games in Java: Chapter 3, 5",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment #2",
+        "Date": "WK5"
+      },
+      {
+        "Week": "6",
+        "Topics": "12",
+        "Required Readings": "Developing Games in Java: Chapter 5",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "7",
+        "Topics": "13",
+        "Required Readings": "Developing Games in Java: Chapter 5",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "8",
+        "Topics": "14",
+        "Required Readings": "Lecture Notes",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment #3",
+        "Date": "WK8"
+      },
+      {
+        "Week": "9",
+        "Topics": "15.1",
+        "Required Readings": "Lecture Notes",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "10",
+        "Topics": "15.2, 15.3",
+        "Required Readings": "Developing Games in Java: Chapter 9",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "11",
+        "Topics": "15.4",
+        "Required Readings": "Developing Games in Java: Chapter 6",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Assignment #4",
+        "Date": "WK11"
+      },
+      {
+        "Week": "12",
+        "Topics": "Course Review\r\n (No introduction of new subject matter)",
+        "Required Readings": "",
+        "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+        "Assessment": "Presentation, Practical Exam",
+        "Date": "WK12"
+      },
+      {
+        "Week": "13",
+        "Topics": "Course Review\r\n (No introduction of new subject matter)",
+        "Required Readings": "",
+        "Learning Activities": "",
+        "Assessment": "",
+        "Date": ""
+      }
+    ]
+  }
+]
