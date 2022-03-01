@@ -1,4 +1,4 @@
-const { render, renderCourseLOC, renderContactHours,renderTeachingMethods, renderLearningResource } = require('./render');
+const { render, renderCourseLOC, renderContactHours,renderTeachingMethods, renderLearningResource, renderCourseCalendar } = require('./render');
 const fs = require('fs')
 
 const {writeJSON} = require('./util');
@@ -85,7 +85,10 @@ async function main(){
 
         var lr = renderLearningResource(parsedData['Learning Resources']);
         out = out.replace(/@@@learningResources/g,lr);
-        
+
+        var cal = renderCourseCalendar(parsedData['Course Calendar']);
+        out = out.replace(/@@@courseCal/g,cal);
+
         try {
             fs.writeFileSync('./render_output/Template.htm', out, 'latin1');
             //file written successfully

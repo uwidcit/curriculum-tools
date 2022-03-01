@@ -375,6 +375,137 @@ function renderLearningResource(lr){
     return lrHTML;
 }
 
+const calRow = info => `<tr style="mso-yfti-irow:2;height:30.6pt">
+<td width="48" valign="top" style="width:.5in;border:solid black 1.0pt;
+border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+height:30.6pt">
+<p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+mso-pagination:none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">${info["Week"]}. <o:p></o:p></span></p>
+</td>
+<td width="174" valign="top" style="width:130.5pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+padding:5.0pt 5.0pt 5.0pt 5.0pt;height:30.6pt">
+<p class="MsoNormal" style="margin-left:5.65pt;line-height:normal;mso-pagination:
+none"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">${info["Topics"]}<o:p></o:p></span></p>
+</td>
+<td width="160" valign="top" style="width:119.75pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+padding:5.0pt 5.0pt 5.0pt 5.0pt;height:30.6pt">
+<p class="MsoNormal" style="margin-left:5.0pt;line-height:normal;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${info["Required Readings"]}<o:p></o:p></span></p>
+</td>
+<td width="122" valign="top" style="width:91.85pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+padding:5.0pt 5.0pt 5.0pt 5.0pt;height:30.6pt">
+<p class="MsoNormal" style="margin-left:5.2pt;line-height:normal;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${info["Learning Activities"]}<o:p></o:p></span></p>
+</td>
+<td width="84" valign="top" style="width:63.2pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+height:30.6pt">
+<p class="MsoNormal" style="mso-pagination:none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:black">${info["Assessment"]}<o:p></o:p></span></p>
+</td>
+<td width="72" valign="top" style="width:53.7pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+height:30.6pt">
+<p class="MsoNormal" style="mso-pagination:none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:black">${info["Date"]}<o:p></o:p></span></p>
+</td>
+</tr>`.replace(/^\s+|\s+$/gm, '').split('\n').join('');
+
+function renderCourseCalendar(cal){
+    var calHTML = `<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="660" style="margin-left:13.0pt;border-collapse:collapse;mso-table-layout-alt:fixed;
+    border:none;mso-border-alt:solid black 1.0pt;mso-yfti-tbllook:1536;mso-padding-alt:
+    5.0pt 5.0pt 5.0pt 5.0pt;mso-border-insideh:1.0pt solid black;mso-border-insidev:
+    1.0pt solid black">
+    <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:37.3pt">
+     <td width="48" rowspan="2" valign="top" style="width:.5in;border:solid black 1.0pt;
+     padding:5.0pt 5.0pt 5.0pt 5.0pt;height:37.3pt">
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Week <o:p></o:p></span></b></p>
+     </td>
+     <td width="174" rowspan="2" valign="top" style="width:130.5pt;border:solid black 1.0pt;
+     border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:37.3pt">
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Topics<o:p></o:p></span></b></p>
+     </td>
+     <td width="160" rowspan="2" valign="top" style="width:119.75pt;border:solid black 1.0pt;
+     border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:37.3pt">
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Required<o:p></o:p></span></b></p>
+     <p class="MsoNormal" align="center" style="margin-right:9.95pt;text-align:center;
+     line-height:normal;mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Readings<o:p></o:p></span></b></p>
+     <p class="MsoNormal" align="center" style="margin-right:9.95pt;text-align:center;
+     line-height:normal;mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Learning<o:p></o:p></span></b></p>
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Resources<o:p></o:p></span></b></p>
+     </td>
+     <td width="122" rowspan="2" valign="top" style="width:91.85pt;border:solid black 1.0pt;
+     border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:37.3pt">
+     <p class="MsoNormal" style="margin-top:0in;margin-right:4.25pt;margin-bottom:
+     0in;margin-left:8.1pt;margin-bottom:.0001pt;text-indent:.1pt;line-height:
+     90%;mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;line-height:90%;font-family:&quot;Times New Roman&quot;,serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Learning<o:p></o:p></span></b></p>
+     <p class="MsoNormal" style="margin-top:0in;margin-right:4.25pt;margin-bottom:
+     0in;margin-left:8.1pt;margin-bottom:.0001pt;text-indent:.1pt;line-height:
+     90%;mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;line-height:90%;font-family:&quot;Times New Roman&quot;,serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Activities<o:p></o:p></span></b></p>
+     </td>
+     <td width="156" colspan="2" valign="top" style="width:116.9pt;border:solid black 1.0pt;
+     border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:37.3pt">
+     <p class="MsoNormal" align="center" style="text-align:center;mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;
+     line-height:115%;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Assessment<o:p></o:p></span></b></p>
+     </td>
+    </tr>
+    <tr style="mso-yfti-irow:1;height:23.5pt">
+     <td width="84" valign="top" style="width:63.2pt;border-top:none;border-left:none;
+     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+     solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:23.5pt">
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Name <o:p></o:p></span></b></p>
+     </td>
+     <td width="72" valign="top" style="width:53.7pt;border-top:none;border-left:none;
+     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+     solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+     height:23.5pt">
+     <p class="MsoNormal" align="center" style="text-align:center;line-height:normal;
+     mso-pagination:none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:black">Date<o:p></o:p></span></b></p>
+     </td>
+    </tr>`;
+
+    for(var i in cal){
+        calHTML+= calRow(cal[i]);
+    }
+
+    calHTML+= "</tbody></table>";
+
+    return calHTML;
+}
+
 async function render(parsedData){
     //The first line of course learning outcome is always
     //Upon the successful completion of this course, the student will be able to:
@@ -383,4 +514,4 @@ async function render(parsedData){
 }
 
 
-module.exports = {render, renderCourseLOC, renderContactHours, renderTeachingMethods, renderLearningResource}
+module.exports = {render, renderCourseLOC, renderContactHours, renderTeachingMethods, renderLearningResource, renderCourseCalendar}
