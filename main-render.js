@@ -4,20 +4,11 @@ var HTMLParser = require('node-html-parser');
 
 const {writeJSON} = require('./util');
 
-const parsedData = require("./output.json");
+//const parsedData = require("./output.json");
+const outlines = require("./outlines.json");
 
 async function main(){
     
-    /*
-
-        VS-Code or JS doing something weird with this text
-
-        <span style='mso-spacerun:yes'>  </span><o:p></o:p></span>
-
-        when saveing as a template literal string....
-        It rpelaces with garbage values...
-    */
-    const res = await render(parsedData);
 
     /*
     try {
@@ -108,9 +99,13 @@ async function main(){
             '@@@staff' : "Staffing Requirements"
         }
 
-        parsedData['Course Content'] = parsedData['Course Content'].replace(/\r\n/g,'<br/>');
         
-        for(_i = 1; _i <=2; _i++){
+        
+        for(_i = 0; _i < outlines.length; _i++){
+
+            var parsedData = outlines[_i];
+
+            parsedData['Course Content'] = parsedData['Course Content'].replace(/\r\n/g,'<br/>');
             var out = sectionTemplate.toString();    
             //var out = data.toString().replace(/@@@tableHTML/,res);
             
