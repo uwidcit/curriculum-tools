@@ -305,6 +305,76 @@ none"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size
     return chHTML;
 }
 
+
+const teachingMethodsRow = info => `<tr style="mso-yfti-irow:1;height:3.0pt">
+<td width="207" valign="top" style="width:155.3pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+padding:0in 5.4pt 0in 5.4pt;height:3.0pt">
+<p class="MsoNormal" style="margin-top:11.15pt;margin-right:.5pt;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;line-height:90%;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${info["Name"]}</span><o:p></o:p></p>
+</td>
+<td width="360" valign="top" style="width:3.75in;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:3.0pt">
+<p class="MsoNormal" style="margin-top:11.15pt;margin-right:.5pt;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;line-height:90%;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${info["Description"]}</span><o:p></o:p></p>
+</td>
+</tr>`.replace(/^\s+|\s+$/gm, '').split('\n').join('');
+
+function renderTeachingMethods(tm){
+    const tmHeader = `<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="margin-left:51.45pt;border-collapse:collapse;border:none;mso-border-alt:
+    solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt">
+    <tbody>
+    <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+    <td width="207" valign="top" style="width:155.3pt;border:solid windowtext 1.0pt;
+    mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt">
+    <p class="MsoNormal" style="margin-top:11.15pt;margin-right:.5pt;margin-bottom:
+    0in;margin-left:0in;margin-bottom:.0001pt;line-height:90%;mso-pagination:
+    none"><b><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Teaching Method<o:p></o:p></span></b></p>
+    </td>
+    <td width="360" valign="top" style="width:3.75in;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt">
+    <p class="MsoNormal" style="margin-top:11.15pt;margin-right:.5pt;margin-bottom:
+    0in;margin-left:0in;margin-bottom:.0001pt;line-height:90%;mso-pagination:
+    none"><b><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Description<o:p></o:p></span></b></p>
+    </td>
+    </tr>`;
+
+    var tmHTML = ""
+    tmHTML += tmHeader;
+    for(var i in tm){
+        tmHTML+= teachingMethodsRow(tm[i]);
+    }
+
+    tmHTML+= "</tbody></table>";
+
+    return tmHTML;
+}
+
+const learningResourceRow = book => `<p class="MsoNormal" style="margin-top:5.15pt;margin-right:43.35pt;margin-bottom:
+0in;margin-left:52.7pt;margin-bottom:.0001pt;line-height:90%;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${book}<o:p></o:p></span></p>`.replace(/^\s+|\s+$/gm, '').split('\n').join('');
+
+
+function renderLearningResource(lr){
+    var lrHTML = "";
+    for(var i in lr){
+        if(lr[i] != ""){
+            lrHTML += learningResourceRow(lr[i]);
+        }
+    }
+    return lrHTML;
+}
+
 async function render(parsedData){
     //The first line of course learning outcome is always
     //Upon the successful completion of this course, the student will be able to:
@@ -313,4 +383,4 @@ async function render(parsedData){
 }
 
 
-module.exports = {render, renderCourseLOC, renderContactHours}
+module.exports = {render, renderCourseLOC, renderContactHours, renderTeachingMethods, renderLearningResource}
