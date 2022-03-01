@@ -1,4 +1,4 @@
-const parsedData = require("./output.json");
+//const parsedData = require("./output.json");
 
 function makeList(n){
     _ = []
@@ -188,7 +188,7 @@ function makeTableFromMatrix(numLC, matrix){
 	return table;
 }
 
-async function render(){
+async function render(parsedData){
     return makeTableFromMatrix(parsedData['Course Learning Outcomes'].length,
                                parsedData.Matrix);
 }

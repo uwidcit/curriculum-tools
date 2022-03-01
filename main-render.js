@@ -3,6 +3,8 @@ const fs = require('fs')
 
 const {writeJSON} = require('./util');
 
+const parsedData = require("./output.json");
+
 async function main(){
     
     /*
@@ -14,7 +16,7 @@ async function main(){
         when saveing as a template literal string....
         It rpelaces with garbage values...
     */
-    const res = await render();
+    const res = await render(parsedData);
 
     /*
     try {
@@ -49,6 +51,24 @@ async function main(){
         }
         
         var out = data.toString().replace(/@@@tableHTML/,res);
+        
+        var templateMap = {
+            '@@@codeAndTitle': "Course Code & title",
+            '@@@semesterAndLevel': "Semester and Level",
+            '@@@prereq': "Pre-requisites",
+            '@@@coreq' : "Co-requisites",
+            '@@@courseType' : "Course Type",
+            '@@@credits': "Credits",
+            '@@@courseDescription' : "Course Description",
+            '@@@rationale' : "Rationale",
+            '@@@courseAims' : "Course Aims"
+        }
+
+        for(var key in templateMap){
+            out = out.replace(key,parsedData[templateMap[key]]);
+        }
+        //out = out.replace(/@@@codeAndTitle/g,parsedData['Semester and Level']);
+        
         
         try {
             fs.writeFileSync('./render_output/Template.htm', out, 'latin1');
