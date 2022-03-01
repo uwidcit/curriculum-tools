@@ -188,10 +188,31 @@ function makeTableFromMatrix(numLC, matrix){
 	return table;
 }
 
+const ccRow = (i,text) => `<p class="MsoNormal" style="margin-top:10.15pt;margin-right:0in;margin-bottom:
+0in;margin-left:67.35pt;margin-bottom:.0001pt;line-height:normal;mso-pagination:
+none"><span lang="EN-GB" style="font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:black">${i}. ${text}<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></span></p>`.replace(/^\s+|\s+$/gm, '').split('\n').join('');
+
+function renderCourseLOC(courseContent){
+    var cc = "";
+    
+    //The first line is always
+    //Upon the successful completion of this course, the student will be able to:
+    for(var i = 1; i < courseContent.length; i++){
+        var text = courseContent[i];
+        cc += ccRow(i,text);
+    }
+    
+    return cc;
+    
+}
+
 async function render(parsedData){
-    return makeTableFromMatrix(parsedData['Course Learning Outcomes'].length,
+    //The first line of course learning outcome is always
+    //Upon the successful completion of this course, the student will be able to:
+    return makeTableFromMatrix(parsedData['Course Learning Outcomes'].length-1,
                                parsedData.Matrix);
 }
 
 
-module.exports = {render}
+module.exports = {render, renderCourseLOC}
