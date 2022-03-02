@@ -308,9 +308,14 @@ function parseExcelOutline(sheet){
 }
 
 function readOutline(path){
-    const workbook = readFile(path);
-    const currentSheet = 'Revised Course Outline Template';
-    return parseExcelOutline(workbook.Sheets[currentSheet]);
+    try {
+        const workbook = readFile(path);
+        const currentSheet = 'Revised Course Outline Template';
+        return parseExcelOutline(workbook.Sheets[currentSheet]);
+    }catch(e){
+        console.log(`Error parsing ${path}`);
+        console.error(e);
+    }
 }
 
 function dumpToFile(filename, data){
