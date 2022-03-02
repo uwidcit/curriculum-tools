@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 1604 Mathematics for Computing",
+  "Semester and Level": "Semester 2  Level 1",
+  "Pre-requisites": "None",
+  "Co-requisites": "None",
+  "Anti-requisites": "None",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course introduces students to the basic mathematical structures and computational techniques that are considered to be the foundation for courses in Computer Science and Information Technology. Students are also taught how to reason logically and how to solve problems using various proof techniques. The main mathematical structures covered are logic, sets, relations, functions and counting techniques.",
+  "Rationale": "The material in this course is pervasive in many areas in computing such as data structures, algorithms, security, databases and programming languages. The ability to reason logically is important in order to write correct computer programs and students are also expected to create and understand proofs in courses such as data structures, algorithms, intelligent systems and information security.",
+  "Course Aims": "This course has the following primary learning goals. These goals are developed in almost all the course topics.\r\nFamiliarity with the role logical reasoning plays in mathematics: Students should become aware of the basic principles of logical reasoning. They should come to understand the role of precise definitions for deciding whether a given object satisfies a given mathematical term, appreciate the importance of knowing both examples and non-examples of mathematical terms in order to explore statements about them, and know how to use definitions effectively in proofs. They should be familiar with the basic structures of direct proofs, indirect proofs, and proofs by mathematical induction and be able to apply them in a variety of situations. They should be able both to follow elementary mathematical arguments and to identify mistakes in them.\r\nExperience with mathematical exploration and conjecture: Students should experience the challenge and pleasure of exploring new concepts, looking for patterns, making conjectures, and trying to decide whether they are true or false.\r\nCommunication: Students should be able to discuss mathematical ideas coherently and express themselves clearly when giving a proof or counterexample.\r\nConnections with applications: Students should come to appreciate connections between mathematical concepts (such as those between general relations on sets and functions or between propositional logic and set properties) and between abstract mathematical ideas and concrete applications.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Simplify and evaluate basic logic statements including compound statements, implications,\r\ninverses, converses, contrapositives and quantifiers using truth tables and the properties of logic",
+    "Apply the concepts of standard mathematical logic to produce proofs or refutations of well-formed propositions or arguments, and to determine the validity of arguments",
+    "Demonstrate the ability to write and evaluate a proof or outline the basic structure of and give\r\nexamples of each proof technique described.",
+    "Explain the relationship between weak and strong induction and give examples of the appropriate use of each.",
+    "Use and analyse recursive relations",
+    "Explain the parallels between ideas of mathematical and/or structural induction to recursion and recursively defined structures.",
+    "Formulate problems in the language of sets, functions & relations and perform the associated\r\noperations",
+    "Use elementary number theory including the divisibility properties of numbers to determine\r\nprime numbers and composites, the greatest common divisor, and the least common multiple;\r\nperform modulo arithmetic and computer arithmetic.",
+    "Solve counting problems by applying elementary counting techniques using the product and\r\nsum rules, permutations, combinations, the pigeon-hole principle, and binomial expansion.",
+    "",
+    "",
+    "",
+    "1. Propositional logic\r\n1.1. Logical connectives\r\n1.2. Truth tables\r\n1.3. Normal forms (conjunctive and disjunctive)\r\n1.4. Validity of well-formed formula\r\n1.5. Propositional inference rules (concepts of modus ponens and modus tollens) \r\n1.6. Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction\r\n1.7. Limitations of propositional logic \r\n2. Predicate logic\r\n2.1. Universal and existential quantification\r\n2.2. Limitations of predicate logic \r\n3. Basic Proof Techniques \r\n3.1.The structure of mathematical proofs\r\n3.2.Direct proofs\r\n3.3.Disproving by counterexample \r\n3.4.Proofs by contradiction and contraposition (i.e. Indirect Proofs)\r\n3.5.Proofs of Elementary Number Theory Results\r\n3.6. Results on Rational and Irrational Numbers \r\n4. Principles of Mathematical Induction and Recursive Definitions\r\n4.1. Weak and strong induction (i.e., First and Second Principle of Induction)\r\n4.2. Recursive mathematical definitions\r\n4.3. Sequences\r\n4.4. Structural induction \r\n5. Sets: Union,Intersection, complement, Cartesian product\r\n5.1. Power sets\r\n5.2. Cardinality of finite sets \r\n6. Relations and Modular Arithmetic\r\n6.1. Graphs\r\n6.2. Reflexivity, Symmetry, Transitivity, Equivalence relations \r\n6.3. Basic Modular Arithmetic\r\n6.4. Partial orders \r\n7. Functions: Surjections, Injections, Bijections, Inverses, Composition \r\n8. Counting\r\n8.1. Set cardinality and Counting\r\n8.2. Sum and Product rules\r\n8.3. Inclusion-Exclusion principle\r\n8.4. Pigeonhole principle\r\n8.5. Permutations and combinations\r\n8.6. Pascal’s identity\r\n8.7. Binomial theorem\r\n8.8. Recurrence Relations"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Interactive Tutorials",
+      "Description": "Live tutorial held once per weekly (for each tutorial group)"
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "1, 2, 3, 4, 5",
+      "Assessment Description": "Short Answer and Problem Solving Exercises",
+      "Weighting %": "3",
+      "Duration": "10-14 days"
+    },
+    {
+      "Assessment": "Assignment 3",
+      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8",
+      "Assessment Description": "Short Answer and Problem Solving Exercises",
+      "Weighting %": "4",
+      "Duration": "10-14 days"
+    },
+    {
+      "Assessment": "Coursework Exam 1",
+      "Learning Outcomes": "None",
+      "Assessment Description": "MCQ, Short Answer Questions and Problem Solving Exercises",
+      "Weighting %": "20",
+      "Duration": "60-90 minutes"
+    },
+    {
+      "Assessment": "Coursework Exam 2",
+      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7",
+      "Assessment Description": "MCQ, Short Answer Questions and Problem Solving Exercises",
+      "Weighting %": "20",
+      "Duration": "60-90 minutes"
+    },
+    {
+      "Assessment": "Final Exam",
+      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+      "Assessment Description": "Short Answer and Problem Solving Exercises",
+      "Weighting %": "50",
+      "Duration": "2 hours"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "Propositional Logic",
+      "Required Readings": "Sec 2.2 - 2.4, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 1 Given",
+      "Date": "X"
+    },
+    {
+      "Week": "3",
+      "Topics": "Predicate Logic",
+      "Required Readings": "Sec 3.1 - 3.2, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 1 Due",
+      "Date": "Week 2 - Week 3"
+    },
+    {
+      "Week": "4",
+      "Topics": "Predicate logic and Basic Proof Techniques",
+      "Required Readings": "Sec 3.4, 4.1, 4.2 Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "X",
+      "Date": "X"
+    },
+    {
+      "Week": "5",
+      "Topics": "Basic Proof Techniques",
+      "Required Readings": "Sec 4.3, 4.6, 4.7 Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 2 Given",
+      "Date": "X"
+    },
+    {
+      "Week": "6",
+      "Topics": "Principles of Mathematical Induction",
+      "Required Readings": "Sec 5.1 - 5.3, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 2 Due",
+      "Date": "Week 5 - Week 6"
+    },
+    {
+      "Week": "7",
+      "Topics": "Recursive Definitions, Sets",
+      "Required Readings": "Sec 5.6, 5.7, 6.1, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "X",
+      "Date": "X"
+    },
+    {
+      "Week": "8",
+      "Topics": "Sets, Relations",
+      "Required Readings": "Sec 6.2, 6.3, 8.1  Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Coursework Exam 1",
+      "Date": "Week 8"
+    },
+    {
+      "Week": "9",
+      "Topics": "Relations and Modular Arithmetic",
+      "Required Readings": "Sec 8.1 - 8.4, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 3 Given",
+      "Date": "X"
+    },
+    {
+      "Week": "10",
+      "Topics": "Relations, Functions",
+      "Required Readings": "Sec 7.1 - 7.3 Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Assignment 3 Due",
+      "Date": "Week 9 - Week 10"
+    },
+    {
+      "Week": "11",
+      "Topics": "Counting",
+      "Required Readings": "Sec 9.1 - 9.3  Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "X",
+      "Date": "X"
+    },
+    {
+      "Week": "12",
+      "Topics": "Counting",
+      "Required Readings": "Sec 9.4, 9.5, 9.7 Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "Coursework Exam 2 ",
+      "Date": "Week 12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": " ",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "X",
+      "Date": "X"
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

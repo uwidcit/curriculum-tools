@@ -326,8 +326,12 @@ async function parseAll(dir){
     const directoryPath = path.join(__dirname, dir);
  
     const addrs = await readdirSync(directoryPath);
-    let data = addrs.map(addr=>readOutline(path.join(directoryPath, addr)));
-    dumpToFile('./outlines.json', data);
+
+    for(let addr of addrs){
+        let data = readOutline(path.join(directoryPath, addr));
+        let filename = addr.split('.')[0]+'.json';
+        dumpToFile(`./json_outlines/${filename}`, data);
+    }
 }
 
 

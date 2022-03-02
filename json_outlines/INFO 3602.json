@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "INFO 3602 Web Programming and Technologies II",
+  "Semester and Level": "Semester 2  Level 3",
+  "Pre-requisites": "INFO 2602",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course focuses on the development of web services and the evaluation and utilization of software tools to provide solutions to common business problems within the market place. Students are exposed to technologies involved in the development of web services and using industry relevant tools for designing, developing and managing web systems. The course will be delivered using a combination of interactive lectures, eLearning, case studies and online resources. Assignments will take the form of lab examinations, group projects and presentations.",
+  "Rationale": "This course provides students with the tools and techniques needed to operate effectively within the ICT and wider industry. The course provides an environment to develop practical skills and techniques used in the development and maintenance of web systems within enterprise environments.",
+  "Course Aims": "INFO3602 aims to develop practical web programming skills in undergraduate students while promoting an understanding of the theoretical concepts and design considerations behind these systems. The course also aims to expose students to the development tools and programming APIs commonly used in the field.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Install OS-level, native web server and database on a local development environment",
+    "Write programs using a contemporary, server-side programming language",
+    "Manage the execution and administration of server-side programs and sites ",
+    "Customise themes and templates for dynamic sites hosted on a Content Management System",
+    "Control front-end features (appearance, menus, content, navigation) from back-end files",
+    "Construct custom queries to display and control front-end content",
+    "Import/export site files, database, config files across development environments",
+    "Apply permissions, restrictions and authentication for users based on roles",
+    "Define web service endpoints for headless queries of CMS sites.",
+    "Deploy sites from local to production/live servers on the web using automated workflows",
+    "Manage web projects and documentation using distributed version control tools   ",
+    "",
+    "1.Web Platforms\r\n1.1 Web programming languages (e.g., HTML5, Java Script, PHP, CSS) \r\n1.2 Web platform constraints \r\n1.3 Software as a Service (SaaS)\r\n1.4 Web standards\r\n2. Platform Based Developemnt\r\n2.1 Programming via platform-specific APIs\r\n2.2 Content Management System (CMS) software \r\n3. Information Management Concepts\r\n3.1 Information systems as socio-technical systems\r\n3.2 Information capture and representation\r\n3.3 Declarative and navigational queries, use of links\r\n3.4 Supporting human needs: searching, retrieving, linking, browsing, navigating\r\n3.5 Analysis and indexing\r\n4.Database Systems\r\n4.1 Use of a declarative query language\r\n5.Information Storage and Retrieval\r\n5.1 Faceted search (e.g., using citations, keywords, classification schemes)\r\n5.2 Naming,repositories, archives\r\n6.Data, Information and Knowledge\r\n6.1 Content management models, frameworks, systems, design methods\r\n6.2 Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g.,QuickTime, MPEG2, MPEG4), audio (e.g., written score, MIDI, sampled digitized sound track) and animations; complex/composite/aggregate objects; FRB\r\n6.3 Content structure / management,\r\n6.4 Evaluate the requirements for data retention and processing for an application.\r\n7.Programming Interactive Systems\r\n7.1 Choosing interaction styles and interaction techniques\r\n8.Data, Information and Knowledge\r\n8.1 Widget classes and libraries\r\n8.2 Data-driven applications (database-backed web pages)\r\n8.3 Design for resource-constrained devices (e.g. small, mobile devices)\r\n9.Web Security\r\n9.1 Session management, authentication\r\n9.1 Server-side security tools, plugins\r\n10. Privacy and Civil Liberties\r\n10.1 Privacy implications of widespread data collection for transactional databases, data warehouses,\r\n10.2 Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on\r\n10.3 Assess the quality, accuracy, and timeliness of data or meta-data and its utility for creating information."
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Forum activities, Quizzes, Wiki, Surveys, Polls"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Practical lab sessions and activities tied to teaching content"
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Video Tutorials, Reading Assignments, Worksheets"
+    },
+    {
+      "Name": "Collaborative Learning",
+      "Description": "Groupwork, collaborative activities, "
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "2,3,6",
+      "Assessment Description": "Programming problems/Theory Questions (CMS Queries)",
+      "Weighting %": "5",
+      "Duration": "10-14 days"
+    },
+    {
+      "Assessment": "Coursework Examination 1",
+      "Learning Outcomes": "2,3,4,5,7",
+      "Assessment Description": "Practical CMS Tasks, Configuration, Customisation, Troubleshooting",
+      "Weighting %": "25",
+      "Duration": "120-150 minutes"
+    },
+    {
+      "Assessment": "Coursework Examination 2",
+      "Learning Outcomes": "",
+      "Assessment Description": "Practical CMS Tasks, Configuration, Customisation, Troubleshooting",
+      "Weighting %": "25",
+      "Duration": "120-150 minutes"
+    },
+    {
+      "Assessment": "Group Project",
+      "Learning Outcomes": "1,2,3,4,5,6,7,8,9,10,11",
+      "Assessment Description": "Website Design, Coded Solution, Live Deployment, Presentation (10 mins), Online documentation (max 5 pages), Peer Reviews, Group size: 3 members",
+      "Weighting %": "40",
+      "Duration": "Released in Week 3, Due in Week 12"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "Content Management Systems - WordPress",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "3",
+      "Topics": "Installing and Configuring Themes, Pages, Blogs",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "Group Project released",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "Dynamic Naviagation, Content Hierarchies and Types",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "Assignment 1 Due",
+      "Date": "Week 4"
+    },
+    {
+      "Week": "5",
+      "Topics": "Responsive websites, Blog Content, Archives",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "Custom Post Types, Relationships, Queries",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture",
+      "Assessment": "Coursework Examination 1",
+      "Date": "Week 6"
+    },
+    {
+      "Week": "7",
+      "Topics": "Custom Post Types, Relationships, Queries",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "8",
+      "Topics": "User Management Plugins, Roles, Permissions",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "Assignment 2 Due",
+      "Date": "Week 8"
+    },
+    {
+      "Week": "9",
+      "Topics": "WordPress REST API",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "10",
+      "Topics": "Backup, Restoring and Going Live",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "",
+      "Assessment": "Coursework Examination 2",
+      "Date": "Week 10"
+    },
+    {
+      "Week": "11",
+      "Topics": "Live Search, User Generated Content",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "12",
+      "Topics": "General Data Protection, Data Management Policies",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": "Week 12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Project Presentations (no new content matter)",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Presentations",
+      "Assessment": "Group Presentations ",
+      "Date": "Week 13"
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

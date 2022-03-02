@@ -1,0 +1,244 @@
+{
+    "Campus and Faculty": "FST, STA",
+    "Department": "DCIT",
+    "Course Code & title": "COMP 1600 Introduction to Computing Concepts",
+    "Semester and Level": "Semester 1  Level 1",
+    "Pre-requisites": "None",
+    "Co-requisites": "",
+    "Anti-requisites": "",
+    "Course Type": "Core",
+    "Credits": "3",
+    "Projected Enrolment": "",
+    "Project Start Date": "",
+    "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+    "Course Description": "This course presents an overview of computing technology and the field of computer science. Discussion topics will include the organization of modern computers, operating systems, algorithms, programming languages and database systems.",
+    "Rationale": "This course provides a fundamental understanding of the Computer Science discipline by focusing on the computer’s role in representing, storing, manipulating, organizing and communicating data and information.  It will provide students with a foundation for future courses in Computer Science and Information Technology. In order to understand the capabilities of computer systems, students must recognize how the various forms of data are stored digitally, how the major hardware components store and operate on such data, and how software is developed and used to control the various subsystems. Students will therefore be introduced to many areas of Computer Science such as computer architecture, operating systems, algorithms, programming languages and database systems.",
+    "Course Aims": "This course aims to provide a general introduction of essential computing concepts, techniques and foundations. The course teaches students how to think algorithmically and solve problems efficiently. Students are exposed to core topics, programming languages and system covered by the courses in Computer science and Information Technology in the undergraduate degree programmes.",
+    "Course Learning Outcomes": [
+      "On successful completion of this course, students will be able to:",
+      "Analyse a simple circuit involving AND, OR and NOT gates to determine what input bit pattern will produce a specified output. ",
+      "Convert numerical data from one format to various other format",
+      "Describe the storage hierarchy of data across memory and devices",
+      "Determine the internal representation of an integer, a character or a floating-point number",
+      "Describe the execution of an instruction in a classical computer architecture",
+      "Trace a given simple machine language program to determine the task performed",
+      "Differentiate between the various ways a processor can communicate with I/O devices",
+      "Explain operating system concepts such as scheduling, swapping, paging and virtual memory",
+      "Trace through simple iterative and recursive algorithms",
+      "Distinguish between procedural, object-oriented and declarative programming paradigms",
+      "Perform relational operations such as select, join and project on database tables",
+      "Demonstrate the role of digital logic, control flow and sequencing in computer design"
+    ],
+    "Course Content": "1.Algorithmic Strategies\r\n1.1 Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies)\r\n2.Assembly Level Machine Organization\r\n2.1 Basic organization of the von Neumann machine\r\n2.2 Control unit; instruction fetch, decode, and execution\r\n2.3 Instruction sets and types (data manipulation, control, I/O)\r\n2.4 Assembly/machine language programming\r\n2.5 Instruction formats\r\n2.6 Addressing modes\r\n2.7 Subroutine call and return mechanisms (cross-referencePL/Language Translation and Execution)\r\n2.8 I/O and interrupts\r\n2.9 Shared memory multiprocessors/multicore organization\r\n2.10 Introduction to SIMD vs. MIMD and the Flynn Taxonomy\r\n3.Basic Analysis\r\n3.1 Analysis of iterative and recursive algorithms\r\n4.Computational Paradigms\r\n4.1 Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;\r\n5.Concurrency\r\n5.1 States and state diagrams (cross-reference SF/StateandState Machines)\r\n5.2 Structures (ready list, process control blocks, and so forth)\r\n5.3 Dispatching and context switching\r\n6.Device Management\r\n6.1 Characteristics of serial and parallel devices\r\n6.2 Direct memory access\r\n7.DigitalLogic andDigitalSystems\r\n7.1 Overview and history of computer architecture\r\n7.2 Multiple representations/layers of interpretation (hardware is just another layer)\r\n8.File Systems\r\n8.1 Files: data, metadata, operations, organization, buffering, sequential, nonsequential\r\n9.Functional Organization\r\n9.1 Instruction pipelining\r\n10.Fundamental Data Structures and Algorithms\r\n10.1 Sequential and binary search algorithms\r\n10.1 Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max,\r\n11.History\r\n11.1 History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/\r\n12.Interfacing andCommunication\r\n12.1 I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O\r\n12.2 External storage, physical organization, and drives\r\n12.3 Buses: bus protocols, arbitration, direct-memory access (DMA)\r\n13.Language Translation and Execution\r\n13.1 Interpretation vs. compilation to native code vs. compilation to portable intermediate representation\r\n13.2 Memory management\r\n13.3 Programming paradigms: Procedural, Object-oriented and declarative programming\r\n14.Machine Level Representation of Data\r\n14.1 Bits, bytes, and words\r\n14.2 Numeric data representation and number bases\r\n14.3 Fixed-and floating-point systems\r\n14.4 Signed and twos-complement representations\r\n14.5 Representation of non-numeric data (character codes, graphical data)\r\n14.6 Representation of records and arrays\r\n14.7 Data representation: characters, integers, floating-point numbers\r\n15.Memory Management\r\n15.1 Review of physical memory and memory management hardware\r\n15.2 Working sets and thrashing\r\n16.Memory System Organization and Architecture\r\n16.1 Storage systems and their technology\r\n16.2 Memory hierarchy: importance of temporal and spatial locality\r\n16.3 Main memory organization and operations\r\n16.4 Latency, cycle time, bandwidth, and interleaving\r\n16.5 Cache memories (address mapping, block size, replacement and store policy)\r\n16.6 Virtual memory (page table, TLB)\r\n17.Multiprocessing and Alternative Architectures\r\n17.1 Example SIMD and MIMD instruction sets and architectures\r\n18.Operating System Principles\r\n18.1 Structuring methods (monolithic, layered, modular, micro-kernel models)\r\n18.2 Device organization\r\n18.3 Concept of user/system state and protection, transition to kernel mode\r\n19.Overview of Operating Systems\r\n19.1 Role and purpose of the operating system\r\n19.2 Functionality of a typical operating system\r\n20.Processing\r\n20.1 Fundamental programming concepts:\r\n21.Query Languages\r\n21.1 Select-project-join\r\n22.Security and Protection\r\n22.1 Overview of system security\r\n22.2 Policy/mechanism separation\r\n23.State and State Machines\r\n23.1 Simple logic gates, logical expressions, Boolean logic simplification\r\n24.Virtual Machines\r\n24.1 Paging and virtual memory",
+    "Teaching Methods": [
+      {
+        "Name": "Interactive Lectures",
+        "Description": "Lectures with pauses for students to answer MCQ based on preceeding content."
+      },
+      {
+        "Name": "Online Activities (myElearning)",
+        "Description": "Unit Review Quizzes - formative"
+      },
+      {
+        "Name": "Laboratory Work",
+        "Description": "Problem Solution: Algorithms, Flowcharts and Deskchecking (Tracing)"
+      },
+      {
+        "Name": "Flipped Classroom",
+        "Description": "Case Studies to solve and present solution to the class"
+      },
+      {
+        "Name": "Inquiry-based Learning",
+        "Description": "Structured problems to strengthen concept understanding"
+      },
+      {
+        "Name": "Problem-based Learning",
+        "Description": "Groups of students placed in breakout rooms for set time period to work on cases/problems; present solution to class; discussion should follow."
+      },
+      {
+        "Name": "Groupwork",
+        "Description": "Conducted during live lectures; Use of breakout rooms"
+      }
+    ],
+    "Contact and Credit hours": [
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      },
+      {
+        "Type": "",
+        "Duration": "",
+        "Contact Hours": "",
+        "Credit Hours": ""
+      }
+    ],
+    "Course Assessments Description": "",
+    "Matrix": [
+      {
+        "Assessment": "Assignment 1 Number Systems and Logic circuit problems to solve.",
+        "Learning Outcomes": "1, 2, 3, 4",
+        "Assessment Description": "Problem Solving: structured questions",
+        "Weighting %": "15 %",
+        "Duration": "10-14 days"
+      },
+      {
+        "Assessment": "Assignment 2 Machine Language Program trace; Operating Systems Problems",
+        "Learning Outcomes": "5, 6, 7, 8",
+        "Assessment Description": "Problem Solving: structured questions",
+        "Weighting %": "20%",
+        "Duration": "10-14 days"
+      },
+      {
+        "Assessment": "Assignment 3 Algorithms: Sequence & Selection ",
+        "Learning Outcomes": "9, 10",
+        "Assessment Description": "Problem Solving: Algorithms, Flowcharts and Deskchecking (Tracing)",
+        "Weighting %": "20%",
+        "Duration": "10-14 days"
+      },
+      {
+        "Assessment": "Assignment 4 Algorithms: Iteration  & Recursion; Programming Languages",
+        "Learning Outcomes": "",
+        "Assessment Description": "Problem Solving: Algorithms, Flowcharts and Deskchecking (Tracing)",
+        "Weighting %": "20%",
+        "Duration": "10-14 days"
+      },
+      {
+        "Assessment": "Project: Database - SQL; Case study: Computer System Design",
+        "Learning Outcomes": "11, 12",
+        "Assessment Description": "Case Studies to review, scenario analysis, solution design and implementation",
+        "Weighting %": "25%",
+        "Duration": "14 days"
+      }
+    ],
+    "Learning Resources": [
+      "Lecture notes, handouts, content provided on myElearning LMS",
+      "",
+      "Recommended"
+    ],
+    "Staffing Requirements": "",
+    "Additional Cost": "",
+    "Collaboration": "",
+    "Course Coordinator": "",
+    "Course Calendar": [
+      {
+        "Week": "1",
+        "Topics": "Data Storage: Data representation.",
+        "Required Readings": "Chapter  1 - Data Structure",
+        "Learning Activities": "1, 2",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "2",
+        "Topics": "Data Storage: Primary and secondary storage",
+        "Required Readings": "",
+        "Learning Activities": "5, 6",
+        "Assessment": "Assignment 1",
+        "Date": "Week 3"
+      },
+      {
+        "Week": "3",
+        "Topics": "Data manipulation: Parts of CPU. Machine language and machine cycle. ",
+        "Required Readings": "Chapter 2. Data Manipulation",
+        "Learning Activities": "1, 2",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "4",
+        "Topics": "Data manipulation: Program execution. Arithmetic and logic instructions.",
+        "Required Readings": "",
+        "Learning Activities": "5, 6",
+        "Assessment": "Assignment 2",
+        "Date": "Week 5"
+      },
+      {
+        "Week": "5",
+        "Topics": "Main memory and communication of CPU with other devices. Other machine architectures.",
+        "Required Readings": "Chapter 3. Operating Systems",
+        "Learning Activities": "1, 2",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "6",
+        "Topics": "Operating Systems: Introduction to the theory of operating systems and basic concepts.",
+        "Required Readings": "",
+        "Learning Activities": "6, 7",
+        "Assessment": "Assignment 3",
+        "Date": "Week 7"
+      },
+      {
+        "Week": "7",
+        "Topics": "Algorithms: Basic concepts. Algorithm representation.",
+        "Required Readings": "Chapter 5 Algorithms",
+        "Learning Activities": "1, 2",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "8",
+        "Topics": "Algorithms: Practice Exercises",
+        "Required Readings": "Handout",
+        "Learning Activities": "3, 5, 6",
+        "Assessment": "Assignment 4",
+        "Date": "Week 10"
+      },
+      {
+        "Week": "9",
+        "Topics": "Database Basic concepts. Relational model and SQL.",
+        "Required Readings": "Chapter 9  Databases",
+        "Learning Activities": "1, 2",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "10",
+        "Topics": "Database:  Practice Exercises",
+        "Required Readings": "Handout",
+        "Learning Activities": "3, 5, 6",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "11",
+        "Topics": "Programming Languages",
+        "Required Readings": "Chapter  6  - Programming Languages",
+        "Learning Activities": "1, 2, 4",
+        "Assessment": " Project ",
+        "Date": "Week 12"
+      },
+      {
+        "Week": "12",
+        "Topics": "Programming Languages",
+        "Required Readings": "Handout",
+        "Learning Activities": "5, 6",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "13",
+        "Topics": "Course Review\r\n (No introduction of new subject matter)",
+        "Required Readings": "",
+        "Learning Activities": "5, 6",
+        "Assessment": "",
+        "Date": ""
+      },
+      {
+        "Week": "",
+        "Topics": "",
+        "Required Readings": "",
+        "Learning Activities": "",
+        "Assessment": "",
+        "Date": ""
+      }
+    ]
+  }
