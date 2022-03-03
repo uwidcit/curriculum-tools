@@ -7,6 +7,13 @@ function makeList(n){
     return _;
 }
 
+function makeBlankList(n){
+    _ = []
+    for(var i = 1; i <= n; i++)
+        _[i] = '';
+    return _;
+}
+
 function mapLCToStr(x, lc){
     if(lc.includes(x))
         return 'X';
@@ -154,7 +161,14 @@ function makeRowData(numLC,name,lcMaps,weight, desc,duration){
 		}	
 	}
 	else{
-		lcMaps = makeList(numLC).map(x => mapLCToStr(x,lcMaps.match(/\d+/g).map(x => parseInt(x,10))  ));
+
+        var matches = lcMaps.match(/\d+/g);
+        if(matches !=null){
+            matches = matches.map(x => parseInt(x,10));
+            lcMaps = makeList(numLC).map(x => mapLCToStr(x,matches));
+        } 
+        else
+            lcMaps = makeBlankList(numLC);
 	}
 	
     return [name].concat(lcMaps).concat([weight,desc,duration]);
@@ -175,7 +189,7 @@ function makeTableFromMatrix(numLC, matrix){
 	
 	for(var i in matrix){
 		var row = matrix[i];
-		console.log(row['Assessment'], row['Learning Outcomes'], row['Weighting %'], row['Assessment Description'], row['Duration'] );
+		//console.log(row['Assessment'], row['Learning Outcomes'], row['Weighting %'], row['Assessment Description'], row['Duration'] );
 		table+= makeAssessmentRowHTML(makeRowData(numLC, row['Assessment'], row['Learning Outcomes'], row['Weighting %'], row['Assessment Description'], row['Duration'] ));
 	}
 	

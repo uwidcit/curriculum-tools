@@ -6,33 +6,47 @@ const {writeJSON} = require('./util');
 
 //const parsedData = require("./output.json");
 const outlines = require("./outlines.json");
+const { parse } = require('path');
+
+function removeItemAll(fn, arr, value) {
+    var i = 0;
+    while (i < arr.length) {
+      if (arr[i] === value) {
+        arr.splice(i, 1);
+        console.log(fn,'...','blank course learning outcome removed');
+      } else {
+        ++i;
+      }
+    }
+    return arr;
+}
+
+function detectAndTryToFixNoCourseContent(fn, parsedData){
+    
+    
+    var loc = parsedData["Course Learning Outcomes"];
+    removeItemAll(fn, loc,"");
+    var i = loc.length-1;
+    
+    if(parsedData["Course Content"] == ""){
+        //likey the last entry in loc should be the course content
+        parsedData["Course Content"] = loc[i];
+        //remove potential course content entry form course learning outcomes 
+        loc.splice(i, 1);
+        console.log(fn,'...','blank course content detected attempted to fix');
+    }
+
+    return parsedData;
+}
+
 
 async function main(){
+
+    
     
 
-    /*
-    try {
-        fs.writeFileSync('./render_output/course.htm', before_table_HTML, 'utf-8');
-        //file written successfully
-    } catch (err) {
-        console.error(err);
-    }
 
-    try {
-        fs.appendFileSync('./render_output/course.htm', res, 'utf-8');
-        //file written successfully
-    } catch (err) {
-        console.error(err);
-    }
     
-    try {
-        fs.appendFileSync('./render_output/course.htm', after_table_HTML, 'utf-8');
-        //file written successfully
-    } catch (err) {
-        console.error(err);
-    }
-    */
-
     //Word saves files using windows-1252 character set
     //which is based on latin1 
     //https://stackoverflow.com/questions/62557890/reading-a-windows-1252-file-in-node-js
@@ -100,11 +114,14 @@ async function main(){
             '@@@mode': "Mode of Delivery"
         }
 
+        const json_files = fs.readdirSync('./json_outlines');
         
-        
-        for(_i = 0; _i < outlines.length; _i++){
+        for(var file of json_files){
+            var fn = "./json_outlines/"+file+"";
+            console.log(file,fn);
+            var parsedData = require(fn);
 
-            var parsedData = outlines[_i];
+            parsedData = detectAndTryToFixNoCourseContent(fn, parsedData);
 
             parsedData['Course Content'] = parsedData['Course Content'].replace(/\r\n/g,'<br/>');
             var out = sectionTemplate.toString();    
@@ -148,20 +165,10 @@ async function main(){
         } catch (err) {
             console.error(err)
         }
-        
-
-        /*
-        try {
-            fs.writeFileSync('./render_output/Template.htm', out, 'latin1');
-            //file written successfully
-        } catch (err) {
-            console.error(err)
-        }
-        */
-
-    
 
     });
+
+     
 }
 
 main().catch(console.error);
