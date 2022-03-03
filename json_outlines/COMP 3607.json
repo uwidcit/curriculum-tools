@@ -63,16 +63,16 @@
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "4 hours",
+      "Credit Hours": "4 hours"
     },
     {
       "Type": "",
@@ -147,11 +147,22 @@
       "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "Martin Fowler (2018). Refactoring: Improving the Design of Existing Code (2nd Edition), Addison-Wesley Professional; 2nd edition",
-    "Craig Larman (2008). Applying UML and Patterns: An Introduction to Object-oriented Analysis and Design and Iterative Development, Dorling Kindersley Pvt Ltd",
-    "Recommended"
-  ],
+  "Learning Resources": {
+    "Required": [
+      "Martin Fowler (2018). Refactoring: Improving the Design of Existing Code (2nd Edition), Addison-Wesley Professional; 2nd edition",
+      "Craig Larman (2008). Applying UML and Patterns: An Introduction to Object-oriented Analysis and Design and Iterative Development, Dorling Kindersley Pvt Ltd",
+      "Recommended"
+    ],
+    "Recommended": [
+      "",
+      "Benjamin J. Evans and, David Flanagan (2019). Java in a Nutshell: A Desktop Quick Reference. : ‎ O'Reilly Media; 7th Edition ",
+      "Other: (Special Equipment/Tools)"
+    ],
+    "Other": [
+      "Visual Studio Code: https://code.visualstudio.com/",
+      "11. Staffing Requirements"
+    ]
+  },
   "Staffing Requirements": "",
   "Additional Cost": "",
   "Collaboration": "",

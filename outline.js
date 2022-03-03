@@ -16,7 +16,9 @@ function parseExcelOutline(sheet){
         B30, B31, B35, C35, B36, C36, B37, C37, B38, 
         C38, B39, C39, B40, C40, B41, C41, 
         B45, C45, D45, E45,
-        B46, C46, D46, E46, B50,
+        B46, C46, D46, E46, 
+        B47, C47, D47, E47,
+        B50,
         A55, B55, C55, D55, E55,
         A56, B56, C56, D56, E56,
         A57, B57, C57, D57, E57,  
@@ -26,7 +28,8 @@ function parseExcelOutline(sheet){
         A61, B61, C61, D61, E61,
         A62, B62, C62, D62, E62,
         A63, B63, C63, D63, E63,
-        A68, A69, A70, B78,
+        A68, A69, A70, A72, A73,
+        A74, A75, A76, A77, A78, B78,
         A84, B84, C84, D84, E84, F84,
         A85, B85, C85, D85, E85, F85,
         A86, B86, C86, D86, E86, F86,
@@ -109,25 +112,25 @@ function parseExcelOutline(sheet){
         ],
         'Contact and Credit hours':[
             {
-                "Type":"",
-                "Duration":"",
-                "Contact Hours":"",
-                "Credit Hours":""
+                "Type": $(B45, 'w'),
+                "Duration": $(C45, 'w'),
+                "Contact Hours": $(D45, 'w'),
+                "Credit Hours": $(E45, 'w')
             },
             {
-                "Type":"",
-                "Duration":"",
-                "Contact Hours":"",
-                "Credit Hours":""
+                "Type": $(B46, 'w'),
+                "Duration": $(C46, 'w'),
+                "Contact Hours": $(D46, 'w'),
+                "Credit Hours": $(E46, 'w')
             },
             {
-                "Type":"",
-                "Duration":"",
-                "Contact Hours":"",
-                "Credit Hours":""
+                "Type": $(B47, 'w'),
+                "Duration": $(C47, 'w'),
+                "Contact Hours": $(D47, 'w'),
+                "Credit Hours": $(E47, 'w')
             }
         ],
-        'Course Assessments Description':'',
+        'Course Assessments Description': $(B50, 'w'),
         'Matrix':[
             {
                 "Assessment": $(A55, 'w'),
@@ -193,7 +196,11 @@ function parseExcelOutline(sheet){
                 "Duration": $(E63, 'w')
             }
         ],
-        'Learning Resources':[ $(A68, 'w'), $(A69, 'w'), $(A70, 'w')],
+        'Learning Resources':{
+            "Required": [ $(A68, 'w'), $(A69, 'w'), $(A70, 'w')],
+            "Recommended": [$(A72, 'w'), $(A73, 'w'), $(A74, 'w')],
+            "Other": [$(A76, 'w'), $(A77, 'w')]
+        },
         'Staffing Requirements': $(B78, 'w'),
         'Additional Cost':'',
         'Collaboration':'',

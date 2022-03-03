@@ -63,16 +63,16 @@
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Tutorial",
+      "Duration": "13",
+      "Contact Hours": "1 hours",
+      "Credit Hours": "1 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "3 hours",
+      "Credit Hours": "3 hours"
     },
     {
       "Type": "",
@@ -147,11 +147,22 @@
       "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "",
-    "",
-    "Recommended"
-  ],
+  "Learning Resources": {
+    "Required": [
+      "",
+      "",
+      "Recommended"
+    ],
+    "Recommended": [
+      "Rosen, Kenneth - Discrete Mathematics and Its Applications 8th Edition. 2018. McGraw Hill.",
+      "Grimaldi, Ralph P. - Discrete and Combinatorial Mathematics: An Applied Introduction, 5th Edition. 2003. Pearson.",
+      "Other: (Special Equipment/Tools)"
+    ],
+    "Other": [
+      "",
+      "11. Staffing Requirements"
+    ]
+  },
   "Staffing Requirements": "",
   "Additional Cost": "",
   "Collaboration": "",

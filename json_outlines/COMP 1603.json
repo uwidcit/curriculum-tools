@@ -63,16 +63,16 @@
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "4 hours",
+      "Credit Hours": "4 hours"
     },
     {
       "Type": "",
@@ -147,11 +147,22 @@
       "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "Robert Sedgewick. Algorithms. 1983. Addison-Wesley.",
-    "",
-    "Recommended"
-  ],
+  "Learning Resources": {
+    "Required": [
+      "Robert Sedgewick. Algorithms. 1983. Addison-Wesley.",
+      "",
+      "Recommended"
+    ],
+    "Recommended": [
+      "",
+      "",
+      "Other: (Special Equipment/Tools)"
+    ],
+    "Other": [
+      "",
+      "11. Staffing Requirements"
+    ]
+  },
   "Staffing Requirements": "",
   "Additional Cost": "",
   "Collaboration": "",
