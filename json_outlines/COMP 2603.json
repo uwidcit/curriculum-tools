@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 2603 Object-Oriented Programming I",
+  "Semester and Level": "Semester 2  Level 2",
+  "Pre-requisites": "COMP 1603",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course provides a comprehensive introduction to the concepts and techniques of object oriented programming. Students will be taught fundamental object oriented constructs such as classes, methods and objects and core concepts such as encapsulation, abstraction, inheritance and composition. Students will learn how to develop user interfaces using an object oriented toolkit (e.g. Swing in Java) and the course gives a preliminary introduction to object oriented design. At the end of the course, students will be able to develop object oriented programs. The course will be delivered using a combination of face-to-face lectures and interactive hands-on computer lab sessions, along with eLearning activities using various online resources. Assessments will take the form of written examinations and individual programming assignments.",
+  "Rationale": "An object oriented programming paradigm essentially aims to model real world artefacts in a manner that is modular, reusable and flexible. This course shows students how to break down large modelling problems into sub-problems and develop solutions that feature self contained, modular code.",
+  "Course Aims": "COMP2603 aims to develop practical object oriented programming skills in undergraduate students while promoting an understanding of the theoretical concepts and design considerations behind these techniques. The course also aims to expose students to the development tools and programming APIs commonly used in the field.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Describe the fundamental concepts and vocabulary of an object-oriented approach.",
+    "Analyze a real-world situation in an object oriented way.",
+    "Understand and interpret designs expressed in UML diagrams .",
+    "Design object oriented solutions containing multiple classes and collaborations.",
+    "Implement object oriented models using an appropriate programming language.",
+    "Develop graphical user interfaces using objects within a programming framework.",
+    "Generate event-driven code for making graphical user interfaces interactive and functional.",
+    "Explain the impact of small design changes on object oriented program behaviour/outcomes.",
+    "Apply basic object oriented techniques to real-world programming problems.",
+    "Use appropriate collections for data storage and manipulation.",
+    "",
+    "",
+    "1.Object-Oriented Programming\r\n1.1.Object-oriented design\r\n1.1.1.Decomposition into objects carrying state and having behaviour\r\n1.1.2.Class-hierarchy design for modelling\r\n1.2.Definition of classes: fields, methods, and constructors\r\n1.3.Subclasses, inheritance, and method overriding\r\n1.4.Dynamic dispatch: definition of method-call\r\n1.5.Subtyping (cross-reference PL/Type Systems)\r\n1.5.1.Subtype polymorphism; implicit upcasts in typed languages\r\n1.5.2.Notions of behavioural replacement:subtypes acting like supertypes\r\n1.5.3.Relationship between subtyping and inheritance\r\n1.6.Object-oriented idioms for encapsulation and information hiding\r\n1.6.1.Privacy and visibility of class members\r\n1.6.2.Interfaces revealing only method signatures\r\n1.6.3.Abstract base classes\r\n1.7.Using collection classes, iterators, and other common library components\r\n1.8.Overloading, overriding of methods, constructors\r\n1.9.Method types: accessors, mutators, static methods, instance methods\r\n2.Basic Type Systems\r\n2.1.Type safety and errors caused by using values inconsistently given their intended types\r\n2.2.Goals and limitations of static typing\r\n2.3.Generic types (parametric polymorphism)\r\n2.4.Complementary benefits of static and dynamic typing\r\n3.Algorithms and Design\r\n3.1.Fundamental design concepts and principles\r\n4.Fundamental Programming Concepts\r\n4.1.Basic syntax and semantics of a higher-level language\r\n4.2.Variables and primitive data types (e.g., numbers, characters, Booleans)\r\n4.3.Expressions and assignments\r\n4.4.Simple I/O including file I/O\r\n4.5.Conditional and iterative control structures\r\n4.6.Functions and parameter passing\r\n5.Fundamental Data Structures\r\n5.1.Arrays\r\n5.2.Strings and string processing\r\n5.3.Abstract data types and their APIs\r\n5.4.Strategies for choosing the appropriate abstract data structure\r\n6.Event-Driven and Reactive Programming\r\n6.1.Events and event handlers\r\n6.2.Separation of model, view, and controller\r\n7.SoftwareDesign\r\n7.1.System design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion, re-use of standard structures\r\n7.2.Design Paradigms such as structured design (top-down functional decomposition), object-oriented design, event driven design, function oriented, service oriented\r\n8.Designing Interaction and HCI Foundations\r\n8.1.Elements of visual design (layout, color, fonts, labeling)\r\n8.2.Principles of good design and good designers; engineering tradeoffs\r\n9. Programming Interactive Systems\r\n9.1.Software Architecture Patterns, e.g.,Model-View controller; command objects, online, offline (cross\r\n9.2.Event management and user interaction\r\n9.3.Modern GUI libraries (e.g. JavaFX) GUIbuilders and UI programming environments"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Weekly activities: short quiz, design task/programming task/ forum posting task"
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Early release of lecture content, lab exercises with extra activities for debate/discussion/exploration"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Interactive code writing/ demonstrations / problem solving during lab sessions"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Exercises/activities/tasks from lectures, labs and worksheets"
+    },
+    {
+      "Name": "Directed Discussions",
+      "Description": "Online and during lectures and lab sessions"
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "2,3,4,5",
+      "Assessment Description": "Programming exercises",
+      "Weighting %": "",
+      "Duration": "2 weeks, released in Week 5, due in Week 7"
+    },
+    {
+      "Assessment": "Assignment 3",
+      "Learning Outcomes": "3,5,6,7,10",
+      "Assessment Description": "Programming exercises",
+      "Weighting %": "",
+      "Duration": "2 weeks, released in Week 10, due in Week 12"
+    },
+    {
+      "Assessment": "Coursework Exam 1",
+      "Learning Outcomes": "",
+      "Assessment Description": "Short answer theory questions, programming code exercises, problem-solving tasks, code analysis",
+      "Weighting %": "15",
+      "Duration": "1 hour, Held in Week 5"
+    },
+    {
+      "Assessment": "Coursework Exam 2",
+      "Learning Outcomes": "1,2,3,5,7,8,9,10",
+      "Assessment Description": "Short answer theory questions, programming code exercises, problem-solving tasks, code analysis",
+      "Weighting %": "15",
+      "Duration": "1 hour, Held in Week 10"
+    },
+    {
+      "Assessment": "Final Examination",
+      "Learning Outcomes": "1,2,3,4,5,7,8,9,10",
+      "Assessment Description": "Short answer theory questions, programming code exercises, problem-solving tasks, code analysis",
+      "Weighting %": "50",
+      "Duration": "2 hours, written"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "Encapsulation, Information Hiding, Classes and Methods",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "3",
+      "Topics": "Object Relationships and Equality",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 1",
+      "Date": "Due in Week 4"
+    },
+    {
+      "Week": "4",
+      "Topics": "Inheritance, Polymorphism",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "5",
+      "Topics": "Polymorphism, Abstract Classes",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "CW Exam 1",
+      "Date": "Week 5"
+    },
+    {
+      "Week": "6",
+      "Topics": "Interfaces and Abstractions",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "7",
+      "Topics": "Graphical User Interfaces",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 2",
+      "Date": "Due in Week 7"
+    },
+    {
+      "Week": "8",
+      "Topics": "Event Driven Programming",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "9",
+      "Topics": "Design Fundamentals",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "10",
+      "Topics": "Container Classes",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "CW Exam 2",
+      "Date": "Week 10"
+    },
+    {
+      "Week": "11",
+      "Topics": "Container Classes",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "12",
+      "Topics": "Packages, Build Environments",
+      "Required Readings": "",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 3",
+      "Date": "Due in Week 12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "Review",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

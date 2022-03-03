@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "INFO 3608  E-Commerce",
+  "Semester and Level": "Semester 2  Level 3",
+  "Pre-requisites": "INFO 2600 OR COMP 2606",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Elective",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "The course E-Commerce provides comprehensive coverage of topics from E-Commerce strategy, business models types and categories. It examines the various eCommerce payment systems and surrounding security issues. The course also covers E-commerce technology infrastructure, business concepts, marketing/revenue models, social issues and real world experiences. It explorers the tools and application that goes to creating a E-Commerce solutions. ",
+  "Rationale": "Firms and institutions of all types and sizes are revaluating their strategies and transforming their mode of operations. Recent global challenges and local pressures have created a need for all organisations to adopt and implement an e-commerce solution that would reap the benefits from the tools / techniques available by the current and progressive technologies. The course challenges participants to explore the realities and implications of e-commerce in a contemporary global business environment. The non-adoption of an e-commerce solution has proven to be the detriment to most, if not all, businesses. E-commerce has therefore been an essential component in all business strategy and operations.  ",
+  "Course Aims": "This course aims to examines the strategies, models and principles of e-commerce. Critical surrounding factors and issues are explored and applied into the process of the design, development, recommendation and implementation of an e-commerce solution.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Differentiate between e-commerce and e-business,  technological building blocks and major current themes in e-commerce.",
+    "Describe major B2C and B2B business models, concepts and applicable strategies.",
+    "Articulate how the Web, Internet, web features and services support e-commerce.",
+    "Explain the process that should be followed in building an e-commerce presence.",
+    "Identify the key security threats in the e-commerce environment.",
+    "Discuss major e-commerce payment systems in use today.",
+    "Identify basic digital commerce marketing and advertising strategies and tools.",
+    "Contrast traditional online marketing and the new social-mobile-local marketing platforms in terms of key features and the relationships between social, mobile, and local marketing.",
+    "Examine basic concepts related to privacy and information rights, the practices of e-commerce companies that threaten privacy, and the different methods that can be used to protect online privacy.",
+    "Describe the major features of the online service sector and business models of on-demand service companies.",
+    "Interpret major trends in the consumption of media and online content, the major revenue models for digital content delivery, digital rights management, and the concept of media convergence.",
+    "Analyse how procurement and supply chains relate to B2B e-commerce.",
+    "Course Topics:\r\n1. Introduction to E-commerce\r\n1.1.The Difference between E-commerce and E-business\r\n1.2.Unique Features of E-commerce Technology\r\n1.3.Types of E-commerce\r\n1.4.E-commerce: A Brief History\r\n1.5.Understanding E-commerce: Organizing Themes\r\n1.6.Academic Disciplines Concerned with E-commerce\r\n2.E-commerce Business Models and Concepts\r\n2.1.E-commerce Business Models\r\n2.2.Major Business-to-Consumer (B2C) Business Models\r\n2.3.Major Business-to-Business (B2B) Business Models\r\n2.4.E-commerce Changes Business: Strategy, Structure, and Process\r\n3.E-commerce Infrastructure: The Internet, Web, and Mobile Platform\r\n3.1.Internet Backbone, Internet Exchange Points, Tier 3 ISP\r\n3.2.The Internet and the Web: Features and Services\r\n3.3.Platforms for Mobile Application Development\r\n3.4.E-commerce Changes Business: Strategy, Structure, and Process\r\n4.Building an E-commerce Presence: Websites, Mobile Sites, and Apps\r\n4.1.Building an E-commerce Presence: A Systematic Approach\r\n4.2.Determination of Software\r\n4.3.Determination of Hardware\r\n4.4.E-Commerce Site Tools\r\n4.5.Developing a Mobile Website and Building Mobile Applications\r\n5.E-commerce Security and Payment Systems\r\n5.1.Security Threats in the E-commerce Environment\r\n5.2.Technology Solutions\r\n5.3.Management Policies, Business Procedures, and Public Laws\r\n5.4.A Security Plan: Management Policies\r\n5.5.E-commerce Payment Systems\r\n5.6.Electronic Billing Presentment and Payment\r\n6.E-commerce Marketing and Advertising Concepts\r\n6.1.Digital Commerce Marketing and Advertising Strategies and Tools\r\n6.2.Internet Marketing Technologies\r\n6.3.Understanding the Costs and Benefits of Online Marketing Communications\r\n7.Social, Mobile, and Local Marketing\r\n7.1.Social Marketing\r\n7.2.Mobile Marketing\r\n7.3.Local and Location-Based Mobile Marketing\r\n8.Ethical, Social, and Political Issues in E-commerce\r\n8.1.Ethical, Social, and Political Issues in E-commerce\r\n8.2.Privacy and Information Rights\r\n8.3.Intellectual Property Rights\r\n8.4.Governance\r\n8.5.Net Neutrality\r\n8.6.Antitrust, Monopoly, and Market Competition in the Internet Era\r\n8.7.Public Safety and Welfare\r\n9.Online Retail and Services\r\n9.1.Analyzing the Viability of Online Firms\r\n9.2.E-commerce in Action: E-tailing Business Models\r\n9.3.The Service Sector: Offline and Online\r\n9.4.Online Financial Services\r\n9.5.Online Travel Services\r\n9.6.Online Career Services\r\n10.Online Content and Media\r\n10.1.Content Market: Entertainment and Media Industry Revenues\r\n10.2.Online Content: Consumption, Revenue Models, and Revenue\r\n10.3.The Online Publishing Industry\r\n10.4.The Online Entertainment Industry\r\n11.Social Networks, Auctions, and Portals\r\n11.1.Social Networks and Online Communities\r\n11.2.Online Auctions\r\n11.3.E-commerce Portals\r\n11.4.The Growth and Evolution of Portals\r\n11.5.Types of Portals: General-Purpose and Vertical Market\r\n11.6.Portal Business Models\r\n12.B2B E-commerce: Supply Chain Management and Collaborative Commerce\r\n12.1.An Overview of B2B E-commerce\r\n12.2.The Procurement Process and Supply Chains\r\n12.3.Trends in Supply Chain Management and Collaborative Commerce\r\n12.4.Net Marketplaces: The Selling Side of B2B\r\n12.5.Private Industrial Networks"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Online quizzes are provided to assess their knowledge of covered topics."
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": "Hands-on demonstration on the installation and configuration of an eCommerce solution is conducted. \r\nEach session explores the incorporation of a feature or functionality that can be considered in their recommnetation/solution."
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Students are occasionally asked to demonstrate to other studentshow certain features are installed and configured for used in the development of their own projects."
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "This is performed by via \"Analysis of Problem and Proposed Solutions\" assignment (see details below)"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Global and local cases are presented in online lectures and relevant solutions are discussed."
+    },
+    {
+      "Name": "Groupwork",
+      "Description": "Students are grouped to work on the design, development and implementation of an e-commerce. This should be properly documented and reported along with a presentation."
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assessment 2: 10% Quiz",
+      "Learning Outcomes": "7,8,9,10,11,12",
+      "Assessment Description": "Twenty (20) MCQ, 10 Short Answers, 1hr, 11th week, synchronous",
+      "Weighting %": "10",
+      "Duration": "1 hour"
+    },
+    {
+      "Assessment": "Assessment 3: 30% Group Project",
+      "Learning Outcomes": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "Assessment Description": "Design, Develop, Deploy, Document, Present E-Commerce Solution/System. Given in 2nd Week, Due on 12th Week, Group size = 4-5",
+      "Weighting %": "30",
+      "Duration": "11 week project"
+    },
+    {
+      "Assessment": "Assessment 4: 20% Applied Research Paper of Specified list of ECommerce Topics (Individual)",
+      "Learning Outcomes": "",
+      "Assessment Description": "Given in 2nd Week, Due on 4th Week. Individual research of local business and implemenation of eCommerce solution based on topics discussed in lectures, 5 typed pages equivalent to 2250 words,Based on font: arial, font size: 12, single spaced (http://wordstopages.com)",
+      "Weighting %": "20",
+      "Duration": "2 week"
+    },
+    {
+      "Assessment": "Assessment 5: 30% Case Based Analysis (4 Essay Type Questions - on Analysis of Problem and Proposed Solutions)",
+      "Learning Outcomes": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "Assessment Description": "Four (4) Essay Type Questions - on Analysis of Problem and Proposed Solutions) (Individual) (Given 5th Week, Due on 9th Week. Answers to each question should be 1 page equivalent to 450 words single spaced, therefore total is 4 typed pages equivalent to 1800 words. Based on font: arial, font size: 12, single spaced (http://wordstopages.com)",
+      "Weighting %": "30",
+      "Duration": "5 week"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    ""
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "Week",
+      "Topics": "Topic",
+      "Required Readings": "Required Readings/\r\n Learning Resources",
+      "Learning Activities": "Learning \r\nActivities",
+      "Assessment": "Assessment",
+      "Date": "Assessment\r\n Date"
+    },
+    {
+      "Week": "1",
+      "Topics": "1. Introduction to E-commerce",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 1",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "2",
+      "Topics": "2. E-commerce Business Models and Concepts",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 2",
+      "Learning Activities": "",
+      "Assessment": "(Design, Develop, Deploy, Document, Present E-Commerce Solution/System) Given in 2nd Week, Due on 12th Week, Group size = 4-5\r\n\r\n(Given in 2nd Week, Due on 4th Week) (Individual research of local business and implemenation of eCommerce solution based on topics discussed in lectures, 5 typed pages equivalent to 2250 words,Based on font: arial, font size: 12, single spaced (http://wordstopages.com)",
+      "Date": ""
+    },
+    {
+      "Week": "3",
+      "Topics": "3.E-commerce Infrastructure: The Internet, Web, and Mobile Platform",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 3",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "4. Building an E-commerce Presence: Websites, Mobile Sites, and Apps",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 4",
+      "Learning Activities": "",
+      "Assessment": "(20 MCQ, 10 Short Answers, 1hr, 4th week) synchronous\r\n\r\nIndividual research of local business and implemenation of eCommerce solution based on topics discussed in lectures - DUE",
+      "Date": ""
+    },
+    {
+      "Week": "5",
+      "Topics": "5.E-commerce Security and Payment Systems",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 5",
+      "Learning Activities": "",
+      "Assessment": "(4 Essay Type Questions - on Analysis of Problem and Proposed Solutions) (Individual) (Given 5th Week, Due on 9th Week). Answers to each question should be 1 page equivalent to 450 words single spaced, therefore total is 4 typed pages equivalent to 1800 words. Based on font: arial, font size: 12, single spaced (http://wordstopages.com)",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "6.E-commerce Marketing and Advertising Concepts",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 6",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "7",
+      "Topics": "7.Social, Mobile, and Local Marketing",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 7",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "8",
+      "Topics": "8. Ethical, Social, and Political Issues in E-commerce",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 8",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "9",
+      "Topics": "9.Online Retail and Services",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 9",
+      "Learning Activities": "",
+      "Assessment": "Essay Type Questions - DUE",
+      "Date": ""
+    },
+    {
+      "Week": "10",
+      "Topics": "10.Online Content and Media",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 10",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "11",
+      "Topics": "11.Social Networks, Auctions, and Portals",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 11",
+      "Learning Activities": "",
+      "Assessment": "(20 MCQ, 10 Short Answers, 1hr, 11th week) synchronous",
+      "Date": ""
+    },
+    {
+      "Week": "12",
+      "Topics": "12.B2B E-commerce: Supply Chain Management and Collaborative Commerce",
+      "Required Readings": "E-commerce 2019: business. technology. society. 15th Edition, Chapter 12",
+      "Learning Activities": "",
+      "Assessment": "Design, Develop, Deploy, Document, Present E-Commerce Solution/System - DUE",
+      "Date": ""
+    }
+  ]
+}

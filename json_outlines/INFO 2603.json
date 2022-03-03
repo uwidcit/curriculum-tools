@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "INFO 2603 Platform Technologies 1",
+  "Semester and Level": "Semester 1  Level 2",
+  "Pre-requisites": "INFO 1600 OR COMP 1600",
+  "Co-requisites": "DONE",
+  "Anti-requisites": "COMP 2601",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course provides the student with an introductory understanding of the terminology and concepts of operating systems, computer architecture, and computer networking. The technical foundation of operating systems’ installation, configuration, administration and troubleshooting are introduced to students. The course will be delivered using a combination of face-to-face lectures and interactive hands-on computer lab sessions, along with eLearning activities using various online resources.  There are 5 units in this course: Unit 1: Hardware and Computer Architecture, Unit 2: Operating System Concepts, Unit 3: Operating Systems in Practice, Unit 4: System Administration, Unit 5: Network Operating System Concepts. Assessments will take the form of written examinations, practical lab examinations and a group project. This course has 100% coursework and no final written exam.",
+  "Rationale": "A computer platform generally refers to the operating system and computer hardware only.  Operating systems are central to all computing activities and act as intermediaries between computer users and a computer’s hardware and software. Computer platforms however conform to a set of standards that enable software developers to produce software applications for specific platforms. This course therefore bridges the knowledge gap between how computer platforms work with all other software systems and application code to produce a working environment for users. It merges theoretical content with practical, real-world application of computer platforms in business settings. It also prepares students for further courses on computer systems such as computer networks.",
+  "Course Aims": "INFO 2603 aims to develop practical operating system administration, management and troubleshooting skills in undergraduate students while promoting an understanding of the theory behind these operations relevant to computer architecture and networking concepts. This addresses the need for students to be able to configure and manipulate basic computer systems for a variety of platforms with a clear understanding of the implications of these tasks for business setting",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Examine the basic hardware, computer architectures and machine organisations used by modern operating systems.",
+    "Discuss operating system concepts, design objectives and principles using abstractions, layers and APIs",
+    " Analyse flavours of operating systems and evaluate features that meet the needs of a business in different scenarios.",
+    "Design an installation strategy for operating systems, the features and software to ensure the most economical use of hardware resources and time using a hypervisor. ",
+    "Configure an operating system, its settings and features so that it can perform specific tasks for a user using virtual machines.",
+    "Diagnose errors and problems with computers and the network to ensure the systems are available at all times.",
+    "Perform administration of an operating system allowing ongoing user access to the required resources on a network.",
+    "Utilise command line environments to manage file and directories, and perform administrative tasks in order to increase administrative performance.",
+    "Analyse how hardware developments have led to changes in the priorities for the design and the management of file systems and data storage",
+    "Conduct research necessary to successfully complete an assigned project on a cutting-edge topic area in Computer Science/Information Technology as applied to a business",
+    "",
+    "",
+    "UNIT 1 - Hardware Review \r\n1.Assembly Level Machine Organization\r\n1.1 Basic organization of the von Neumann machine\r\n1.2 Shared memory multiprocessors/multicore organization\r\n1.3 Introduction to SIMD vs MIMD and the Flynn Taxonomy\r\n2. Resource Allocation and Scheduling\r\n2.1 Kinds of resources (e.g.,processor share, memory, disk, net bandwidth)\r\n3. DigitalLogic andDigitalSystems\r\n3.1. Overview and history of computer architecture\r\n3.2. Review of major computer organisation models: Von Neumann, Harvard.\r\n3.3. Modern Processor Architectures: RISC, CISC\r\n3.4. Instruction Set Architectures – x86, x86_64, IA64, ARM, SPARC.\r\n3.5. Computer System Components, I/O\r\n3.6. Bus Interconnection, width, pipelining.\r\n\r\nUNIT 2 - Operating Systems Concepts\r\n4.Overview of Operating Systems\r\n4.1 Role and purpose of the operating system\r\n4.2 Functionality of a typical operating system\r\n4.3 Mechanisms to support client-server models, hand-held devices\r\n4.4 Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n4.5 Categories of Operating Systems\r\n4.6 Operating System Managers\r\n4.7 Kernel vs User Mode\r\n\r\nUNIT 3 - Operating Systems Management\r\n5.Operating System Principles\r\n5.1 Abstractions, processes, and resources\r\n5.2. Process Management: Multithreading, Context Switching\r\n5.3. Scheduling, Race Condition\r\n5.4. Hardware-Software Interface, POSIX standard\r\n5.5. Concrete examples of Operating Systems: UNIX, Linux, Windows\r\n5.6. Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n6.File Systems\r\n6.1 Files: data, metadata, operations, organization, buffering, sequential, nonsequential\r\n6.2 Directories: contents and structure\r\n6.3 File systems: partitioning, mount/unmount, virtual file systems\r\n7.Memory Management\r\n7.1 Review of physical memory and memory management hardware\r\n7.2. Main memory organisation and operation\r\n7.3. Cache memories (address mapping, block size, replacement and store policy)\r\n8.Fault Tolerance\r\n8.1 Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)\r\n9.Device Management\r\n9.1 Characteristics of serial and parallel devices\r\n10. AR/Interfacing and Communication\r\n10.1 I/O Fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O\r\n10.2 Interrupt structures and acknowledgement\r\n10.3 External storage, physical organisation and drives\r\n10.4 Buses: bus protocols, arbitration, direct-memory access (DMA)\r\n10.5 Introduction to networks, multimedia support\r\n10.6 RAID architectures\r\n11.Reliability through Redundancy\r\n11.1 Redundancy throughcheck and retry\r\n11.2 Redundancy through redundant encoding (error correcting codes, CRC, FEC)\r\n11.3 Duplication/mirroring/replicas\r\n11.4 Other approaches to fault tolerance and availability\r\n\r\nUNIT 4 - VIRTUALISATION\r\n12.Virtual Machines\r\n12.1 Types of virtualization (includingHardware/Software, OS, Server, Service, Network)\r\n12.2 Paging and virtual memory\r\n12.3 Virtual file systems\r\n13.Virtualization and Isolation\r\n13.1 Levels of indirection, illustrated by virtual memory for managing physical memory resources\r\n13.2 Methods for implementing virtual memory and virtual machines\r\n\r\nUNIT 5 - DOMAIN-SPECIFIC ARCHITECTURES AND PLATFORMS\r\n14. Multiprocessing and Alternative Architectures\r\n14.1 Power Law\r\n14.2 SIMD and MIMD instruction sets and architectures\r\n14.3 Interconnection networks \r\n14.4 Shared multiprocessor memory systems and memory consistency\r\n15 AR/Performance Enhancements\r\n15.1 Superscalar architecture\r\n15.2 Vector processors and GPUs\r\n15.3 Alternative architectures, special-purpose processors: personal, warehouse, neural, machine learning architectures"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Forum activities, Quizzes, Polls"
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": "Short-answer questions, research questions, practical IT activities"
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Video Tutorials, Reading Assignments, Worksheets"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Online lab activities, virtual labs, demonstrations, discussions"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Exercises, troubleshooting/configuration activities"
+    },
+    {
+      "Name": "Groupwork",
+      "Description": "Project, written research article, team video, animation, peer-review activities"
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "4,5,6,7",
+      "Assessment Description": " Troubleshooting, Problem Solving Tasks",
+      "Weighting %": "8",
+      "Duration": "2 weeks, released in Week 5, due in Week 7"
+    },
+    {
+      "Assessment": "Course work Exam 1",
+      "Learning Outcomes": "1,2,3,4",
+      "Assessment Description": "Scenario-based Problems & Practical Exercises",
+      "Weighting %": "25",
+      "Duration": "2 hours, Held in Week 5"
+    },
+    {
+      "Assessment": "Course work Exam 2",
+      "Learning Outcomes": "DONE",
+      "Assessment Description": "Scenario-based Problems & Practical Exercises",
+      "Weighting %": "25",
+      "Duration": "2 hours, Held in Week 9"
+    },
+    {
+      "Assessment": "Project",
+      "Learning Outcomes": "1,2,3,9,10",
+      "Assessment Description": "Research Article, Demo, Presentation",
+      "Weighting %": "35",
+      "Duration": "Released in Week 3,  Demo video and article due in Week 11, presentation due in Week 12"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "Units 1-2",
+      "Required Readings": "\"Chapters 2,3,4,7,8 (McHoe & Flynn)\r\nChapters 4, 7,10,11 (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "Assignment 1 Released",
+      "Date": "x"
+    },
+    {
+      "Week": "3",
+      "Topics": "Unit 3",
+      "Required Readings": "\"Chapters 13, 15 (McHoe & Flynn)\r\nChapters 4, 7 (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "Project Description Released",
+      "Date": "x"
+    },
+    {
+      "Week": "4",
+      "Topics": "Unit 3",
+      "Required Readings": "\"Chapters 13, 15 (McHoe & Flynn)\r\nChapters 5, 8 (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "Assignment 1 Due"
+    },
+    {
+      "Week": "5",
+      "Topics": "Revision /Unit 4",
+      "Required Readings": "See Weeks 1-5",
+      "Learning Activities": "Review Lecture, Written Exam",
+      "Assessment": "Coursework Exam 1",
+      "Date": "Week 5"
+    },
+    {
+      "Week": "6",
+      "Topics": "Unit 4",
+      "Required Readings": "\"Chapters 13, 15 (McHoe & Flynn)\r\nChapters 6,12  (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "x"
+    },
+    {
+      "Week": "7",
+      "Topics": "Unit 4",
+      "Required Readings": "\"Chapter 12, (Ledin)\r\nChapter 14 \r\n(McHoe & Flynn)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "Assignment 2 Due"
+    },
+    {
+      "Week": "8",
+      "Topics": "Unit 4",
+      "Required Readings": "Chapters 14 (McHoe & Flynn)",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "x"
+    },
+    {
+      "Week": "9",
+      "Topics": "Revision /Unit 5",
+      "Required Readings": "See Weeks 1-9",
+      "Learning Activities": "Review Lecture, Written Exam",
+      "Assessment": "Coursework Exam 2",
+      "Date": "Week 9"
+    },
+    {
+      "Week": "10",
+      "Topics": "Unit 5",
+      "Required Readings": "\"Chapter 9 (McHoe & Flynn) \r\nChapters 13, 14 (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "x"
+    },
+    {
+      "Week": "11",
+      "Topics": "Unit 5",
+      "Required Readings": "\"Chapter 9 (McHoe & Flynn) \r\nChapters 13, 14 (Ledin)\"",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "x"
+    },
+    {
+      "Week": "12",
+      "Topics": "Course Review (No introduction of new subject matter) / Project Presentations",
+      "Required Readings": "See resource section on myElearning course page",
+      "Learning Activities": "Presentation, Demo, Article",
+      "Assessment": "Group Presentation",
+      "Date": "Week 12"
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

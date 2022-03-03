@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 1602 Computer Programming II",
+  "Semester and Level": "Semester 2  Level 1",
+  "Pre-requisites": "None",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course uses an appropriate programming language as a tool to teach intermediate programming concepts. The main concepts covered are structures, one and two dimensional arrays and applications involving searching, sorting and merging, random number generation, numerical methods, games and simulation.",
+  "Rationale": "This course introduces new programming concepts. It focuses on the use of common searching and sorting methods and character and string manipulation which are two very important concepts that are necessary in most software systems.",
+  "Course Aims": "This course aims to introduce students to intermediate programming concepts.This course teaches students the foundations of modeling, searching, sorting, and handling multi-dimensional data. Mastery of these essential topics in Computer Science allows students to extend the capabilities of a given programming language to meet the needs of a specific problem.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Implement basic numerical algorithms.",
+    "Implement simple search algorithms and explain the differences in their time complexities.",
+    "Apply Bayes’ rule to determine the probability of a hypothesis given evidence.",
+    "Explain how conditional independence assertions allow for greater efficiency of probabilistic systems.",
+    "Use random number generation in simulation and game development.",
+    "Analyze and explain the behavior of simple programs involving the fundamental programming constructs variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and recursion.",
+    "Discuss the appropriate use of built-in data structures.",
+    "Describe common applications for each of the following data structures: stack, queue, priority queue, set, and map.",
+    "Design programs which utilize one and two-dimensional arrays.",
+    "Write programs that use each of the following data structures: arrays, records/structs, and strings.",
+    "",
+    "",
+    "1. Arrays \r\n1.1. Declaring one-dimensional arrays \r\n1.2. Finding largest and smallest values \r\n1.3. Functions and parameter passing\r\n1.4. Passing arrays as arguments  \r\n2. Structures \r\n2.1. Declaration \r\n2.2. User Defined Types \r\n2.3. Array of Structures \r\n2.4. Nested Structures \r\n3. Strings\r\n3.1 C-Strings and Strings\r\n3.2. Array of Strings \r\n3.3. Strings and string processing\r\n4. Sorting, Searching and Merging \r\n4.1. Sorting arrays \r\n4.2. Inserting elements in place \r\n4.3. Sorting parallel arrays \r\n4.4. Insertion Sort, Selection Sort, Bubble Sort \r\n4.5. Linear Search\r\n4.6. Binary Search\r\n4.7. Merging ordered lists, Merge Sort\r\n5. Two dimensional arrays \r\n5.1. 2 dimensional arrays: concept, creating, adding data \r\n5.2. 2 dimensional arrays: traversing column only, row only, specific areas of the 2D array \r\n5.3. 2 dimensional arrays: Manipulating \r\n6. Random Numbers \r\n6.1. Random and pseudo random numbers \r\n6.2. Random number generation and ranges \r\n6.3. Axioms of probability \r\n6.4. Probabilistic inference \r\n6.5. Bayes’ Rule\r\n7. Games and Simulation \r\n7.1. Simulation of real-life problems \r\n7.2. Simulating a queue \r\n8. Files\r\n8.1. Reading data from a file\r\n8.2. Sending output to a file\r\n8.3. Binary files\r\n8.4. Text file vs. Binary file\r\n8.5. Opening and closing files\r\n8.6. Random Access files\r\n8.7. Indexed files"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Quizzes"
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": ""
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Readings from text book. \r\nVideo lectueres by the author of the essential textbook"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Interactive tutorial sessions - students solve problems on the board"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Apply programming concepts to real world problems "
+    },
+    {
+      "Name": "Groupwork",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "5, 7, 8, 10",
+      "Assessment Description": "Take home programming problems",
+      "Weighting %": "6",
+      "Duration": "10-14 days"
+    },
+    {
+      "Assessment": "Assignment 3 ",
+      "Learning Outcomes": "3, 5, 9",
+      "Assessment Description": "Take home programming problems",
+      "Weighting %": "6",
+      "Duration": "10-14 days"
+    },
+    {
+      "Assessment": "Quiz 1 ",
+      "Learning Outcomes": "",
+      "Assessment Description": "Online quiz, MCQ",
+      "Weighting %": "1",
+      "Duration": "15-30 min"
+    },
+    {
+      "Assessment": "Quiz 2",
+      "Learning Outcomes": "3, 4, 5, 9",
+      "Assessment Description": "Online quiz, MCQ",
+      "Weighting %": "1",
+      "Duration": "15-30 min"
+    },
+    {
+      "Assessment": "Quiz 3",
+      "Learning Outcomes": "1, 2 9",
+      "Assessment Description": "Online quiz, MCQ",
+      "Weighting %": "1",
+      "Duration": "15-30 min"
+    },
+    {
+      "Assessment": "Coursework Exam 1",
+      "Learning Outcomes": "1, 5, 6, 7, 8, 10",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "10",
+      "Duration": "1.5 hours"
+    },
+    {
+      "Assessment": "Coursework Exam 2",
+      "Learning Outcomes": "1 - 10.",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "20",
+      "Duration": "1.5 hours"
+    },
+    {
+      "Assessment": "Final Examination",
+      "Learning Outcomes": "1 - 10.",
+      "Assessment Description": "Problems & short answer questions",
+      "Weighting %": "50",
+      "Duration": "2 hours"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "",
+    "",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "Arrays 1.3, 1.4",
+      "Required Readings": "C Programming - A Beginner's Course, Chapter 8",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 1",
+      "Date": "Week 2"
+    },
+    {
+      "Week": "3",
+      "Topics": "Structures 2.1, 2.2, 2.4",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "X",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "Structures 2.3, Files 8.1 - 8.5 ",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Quiz 1",
+      "Date": "Week 4"
+    },
+    {
+      "Week": "5",
+      "Topics": "Files 8.6, 8.7, Strings 3.1",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 8, C Programming - A Beginner's Course, Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "X",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "Strings 3.2, 3.3",
+      "Required Readings": "C Programming - A Beginner's Course, Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Coursework exam 1",
+      "Date": "Week 6"
+    },
+    {
+      "Week": "7",
+      "Topics": "Random Numbers 6.1 - 6.4",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 7",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 2",
+      "Date": "Week 7"
+    },
+    {
+      "Week": "8",
+      "Topics": "Random Numbers 6.5, 7.1, 7.2",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 7",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "X",
+      "Date": ""
+    },
+    {
+      "Week": "9",
+      "Topics": "Two dimensional arrays 5.1, 5.2, 5.3",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Assignment 3, Quiz 2",
+      "Date": "Week 9"
+    },
+    {
+      "Week": "10",
+      "Topics": "Sorting, Searching and Merging 4.1, 4.2, 4.3",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "X",
+      "Date": ""
+    },
+    {
+      "Week": "11",
+      "Topics": "Sorting, Searching and Merging 4.4, 4.5",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Quiz 3",
+      "Date": "Week 11"
+    },
+    {
+      "Week": "12",
+      "Topics": "Sorting, Searching and Merging 4.6, 4.7",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 1",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "Coursework Exam 2",
+      "Date": "Week 12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "X",
+      "Date": ""
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

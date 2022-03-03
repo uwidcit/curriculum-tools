@@ -1,0 +1,265 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 3607 Object-Oriented Programming II",
+  "Semester and Level": "Semester 2  Level 3",
+  "Pre-requisites": "COMP 2603",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Elective",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ☐     Blended ☑     Online ☐",
+  "Course Description": "This course looks at the main tools of modern object-oriented software development. These include design-support techniques and tools (principally design patterns), programming-support, debugging and testing tools (principally IDEs). The course has a strong emphasis on object-oriented design,  programming, refactoring and testings. Design pattern represents a best practice solution to a software problem in a specific context and the course examines the rationale and benefits of using patterns for such cases in relation to code smells and refactoring techniques. Numerous problems will be studied to investigate the implementation of good design, implementation and testing of object oriented programs and systems.",
+  "Rationale": "Computer programmers and software engineers must be able to use a variety of programs and systems for designing solutions to common information technology issues.  The object-oriented programming paradigm has made it easier to handle software development involving complex tasks since it easily facilitates the decomposition of problems into modular entities. The course will allow students to practice advance concepts in object-oriented design. This course will help motivated students to be primary contributors to any small to mid-sized commercial or open-source software project.",
+  "Course Aims": "COMP 3607 aims to elevate the practical object-oriented programming skills learned in COMP2603,Object-oriented Programming 1, in the context of production quality code projects and software systems. The course aims to expose students to best practices in modelling,  problem-solving, refactoring and testing using well-known tools and techniques.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Analyze modelling problems using object-oriented design principles ",
+    "Design object-oriented solutions using UML and software tools",
+    "Discuss the principles of good object-oriented design",
+    "Explain the reasoning for object-oriented design principles.",
+    "Use design patterns to facilitate good object-oriented design and implementation",
+    "Apply knowledge of design patterns to solve common programming problems",
+    "Construct high level class diagrams in UML for object-oriented software solutions.",
+    "Evaluate consequences of applying design patterns to  overall software quality of a system",
+    "Refactor object-oriented programs according to design principles and best practices",
+    "Test object-oriented programs with automated unit tests",
+    "Manage object-oriented projects using distributed version control tools  ",
+    "",
+    "1.Algorithms and Design\r\n1.1 Fundamental design concepts and principles\r\n2.Basic Type Systems\r\n2.1 Type safety and errors caused by using values inconsistentlygiventheir intended types\r\n2.2 Goals and limitations of static typing\r\n2.3 Generic types (parametric polymorphism)\r\n3.Data Modeling\r\n3.1 Conceptual models (e.g., entity-relationship, UML diagrams)\r\n3.2 Object-oriented models(cross-reference PL/Object-Oriented Programming)\r\n3.3. Object Persistence using relational databases and other forms\r\n4.Development Methods\r\n4.1 Program comprehension\r\n4.2 Program correctness\r\n4.3 Simple refactoring\r\n4.4 Modern programming environments\r\n4.5 Debugging strategies\r\n4.6 Documentation and program style\r\n5.Introduction to Modeling and Simulation\r\n5.1 Models as abstractions of situations\r\n6.Object-Oriented Programming\r\n6.1 Object-oriented design\r\n6.2 Subclasses, inheritance, and method overriding\r\n6.3 Subtyping (cross-reference PL/Type Systems)\r\n7.Programming Interactive Systems\r\n7.1 Software Architecture Patterns, e.g.,Model-View controller; command objects, online, offline (cross reference PL/Event Drivenand Reactive Programming, where MVC is used in the context of event-driven programming)\r\n7.2 Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross- reference PBD/Mobile Platforms)\r\n8.Requirements Engineering\r\n8.1 Describing functional requirements using, for example, use cases or users stories\r\n8.2 Unified Modelling Language (UML) - Class, Sequence and Use-Case Diagrams\r\n9.Software Construction\r\n9.1 Coding standards\r\n9.1 Model View Controller (MVC) architecture\r\n10.Software Design\r\n10.1 System design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion, re-use of standard structures\r\n10.2 Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis and design, event driven design, component-level design, data-structured centered, aspect oriented, function oriented\r\n10.3 Structural and behavioral models of software designs\r\n10.4 Design patterns\r\n10.4.1. Strategy, Observer, Factory, Singleton, FlyWeight, Command, Adapter, Facade, Template Method, Iterator, Composite, State, Proxy and Mediator\r\n10.5 Refactoring designs using design patterns\r\n10.5.1 Code Smells\r\n10.6 Middleware: the object-oriented paradigm within middleware, object request brokers and marshalling,\r\n10.7 SOLID design principles\r\n11.Software Verification and Validation\r\n11.1 Test-driven development\r\n11.2 Object-oriented testing; systems testing\r\n11.3 Concepts of Code Refactoring and testing\r\n12.Tools and Environments\r\n12.1 Testing tools including static and dynamic analysis tools\r\n12.2 Programming environments that automate parts of program construction processes (e.g., automated builds)"
+  ],
+  "Course Content": "",
+  "Teaching Methods": [
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Weekly activities: short quiz, design task/programming task/ forum posting task"
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Early release of lecture content, lab exercises with extra activities for debate/discussion/exploration"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Interactive code writing/ demonstrations / problem solving during lab sessions"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Exercises/activities/tasks from lectures, labs and worksheets"
+    },
+    {
+      "Name": "Group work/ Collaborative ",
+      "Description": "Project work, presentations, demonstration videos"
+    },
+    {
+      "Name": "",
+      "Description": ""
+    },
+    {
+      "Name": "",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    },
+    {
+      "Type": "",
+      "Duration": "",
+      "Contact Hours": "",
+      "Credit Hours": ""
+    }
+  ],
+  "Course Assessments Description": "",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "4,5,6,7",
+      "Assessment Description": "Programming and/or UML design exercises using Design Patterns",
+      "Weighting %": "10",
+      "Duration": "2 weeks, released in Week 5, due in Week 7"
+    },
+    {
+      "Assessment": "Coursework Exam 1",
+      "Learning Outcomes": "1,2,3,4,9",
+      "Assessment Description": "Short answer questions, programming code exercises, problem-solving tasks, code analysis",
+      "Weighting %": "25",
+      "Duration": "2 hours, Held in Week 5"
+    },
+    {
+      "Assessment": "Coursework Exam 2",
+      "Learning Outcomes": "",
+      "Assessment Description": "Short answer questions, programming code exercises, problem-solving tasks, code analysis",
+      "Weighting %": "25",
+      "Duration": "2 hours, Held in Week 9"
+    },
+    {
+      "Assessment": "Group project",
+      "Learning Outcomes": "1,2,3,4,5,6,7,8,9,10,11",
+      "Assessment Description": "Coding project, presentation, documentation, peer-review, code demonstration",
+      "Weighting %": "30",
+      "Duration": "Released in Week 3, code base due in Week 11, presentation due in Week 12"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": [
+    "Martin Fowler (2018). Refactoring: Improving the Design of Existing Code (2nd Edition), Addison-Wesley Professional; 2nd edition",
+    "Craig Larman (2008). Applying UML and Patterns: An Introduction to Object-oriented Analysis and Design and Iterative Development, Dorling Kindersley Pvt Ltd",
+    "Recommended"
+  ],
+  "Staffing Requirements": "",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "2",
+      "Topics": "UML - Class, Sequence and Use-Case Diagrams ",
+      "Required Readings": "Larman: Chpt (parts) 1, 9, 10, 15, 16 ",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "3",
+      "Topics": "SOLID Design Principles",
+      "Required Readings": "Resources on myElearning",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Project Group Formation",
+      "Date": "Week 3"
+    },
+    {
+      "Week": "4",
+      "Topics": "SOLID Design Principles, Introduction to Refactoring",
+      "Required Readings": "Resources on myElearning",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 1",
+      "Date": "Due in Week 4"
+    },
+    {
+      "Week": "5",
+      "Topics": "Introduction to Design patterns, Singleton",
+      "Required Readings": "Gamma: Chpt 1",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "CW Exam 1",
+      "Date": "Week 5"
+    },
+    {
+      "Week": "6",
+      "Topics": "Design Patterns - Composite, Command",
+      "Required Readings": "Gamma: Chpt 4,5",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "7",
+      "Topics": "Design Patterns (Behavioural): Observer, Template",
+      "Required Readings": "Gamma: Chpt 5",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 2",
+      "Date": "Due in Week 7"
+    },
+    {
+      "Week": "8",
+      "Topics": " Refactoring, Code Smells, Strategy & Iterator Design Patterns",
+      "Required Readings": "Gamma: Chpt 5; Fowler: Chpt 1",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "9",
+      "Topics": "Design Patterns - Adapter, Code Smells: Couplers;  Façade Pattern",
+      "Required Readings": "Gamma: Chpt 4",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "CW Exam 2",
+      "Date": "Week 9"
+    },
+    {
+      "Week": "10",
+      "Topics": "Design Patterns - Mediator, State, Intro to Maven Projects",
+      "Required Readings": "Gamma: Chpt 5; ",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "11",
+      "Topics": "Object Persistence, JPA, JDBC with MySQL",
+      "Required Readings": "Resources on myElearning",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Project code",
+      "Date": "Due in Week 11"
+    },
+    {
+      "Week": "12",
+      "Topics": "Project Week",
+      "Required Readings": "Resources on myElearning",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Project presentations",
+      "Date": "Due in Week 12"
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "Review",
+      "Assessment": "\r\n",
+      "Date": "\r\n"
+    },
+    {
+      "Week": "",
+      "Topics": "",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}
