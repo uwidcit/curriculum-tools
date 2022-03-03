@@ -8,6 +8,32 @@ const {writeJSON} = require('./util');
 const outlines = require("./outlines.json");
 const { parse } = require('path');
 
+
+function isBlankObject(obj){
+    if(obj.constructor == Object){
+        for(var key in obj){
+            if(obj[key] != "")
+                return false;
+        }
+    }
+
+    return true;
+}
+
+function removeBlanksAll(fn, collectionName, arr) {
+    var i = 0;
+    while (i < arr.length) {
+      if (isBlankObject(arr[i])) {
+        arr.splice(i, 1);
+        console.error(fn,collectionName,'blank object removed');
+      } else {
+        ++i;
+      }
+    }
+    return arr;
+}
+
+
 function removeItemAll(fn, arr, value) {
     var i = 0;
     while (i < arr.length) {
@@ -121,7 +147,12 @@ async function main(){
             console.log(file,fn);
             var parsedData = require(fn);
 
-            parsedData = detectAndTryToFixNoCourseContent(fn, parsedData);
+            parsedData = detectAndTryToFixNoCourseContent(file, parsedData);
+
+            //Remove blank objects
+            var checkPropertyForBlanks =["Teaching Methods","Matrix", "Course Calendar"];
+            for(var prop of checkPropertyForBlanks)
+                removeBlanksAll(file,prop,parsedData[prop]);
 
             parsedData['Course Content'] = parsedData['Course Content'].replace(/\r\n/g,'<br/>');
             var out = sectionTemplate.toString();    
