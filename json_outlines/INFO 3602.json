@@ -28,10 +28,14 @@
     "Deploy sites from local to production/live servers on the web using automated workflows",
     "Manage web projects and documentation using distributed version control tools   ",
     "",
-    "1.Web Platforms\r\n1.1 Web programming languages (e.g., HTML5, Java Script, PHP, CSS) \r\n1.2 Web platform constraints \r\n1.3 Software as a Service (SaaS)\r\n1.4 Web standards\r\n2. Platform Based Developemnt\r\n2.1 Programming via platform-specific APIs\r\n2.2 Content Management System (CMS) software \r\n3. Information Management Concepts\r\n3.1 Information systems as socio-technical systems\r\n3.2 Information capture and representation\r\n3.3 Declarative and navigational queries, use of links\r\n3.4 Supporting human needs: searching, retrieving, linking, browsing, navigating\r\n3.5 Analysis and indexing\r\n4.Database Systems\r\n4.1 Use of a declarative query language\r\n5.Information Storage and Retrieval\r\n5.1 Faceted search (e.g., using citations, keywords, classification schemes)\r\n5.2 Naming,repositories, archives\r\n6.Data, Information and Knowledge\r\n6.1 Content management models, frameworks, systems, design methods\r\n6.2 Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g.,QuickTime, MPEG2, MPEG4), audio (e.g., written score, MIDI, sampled digitized sound track) and animations; complex/composite/aggregate objects; FRB\r\n6.3 Content structure / management,\r\n6.4 Evaluate the requirements for data retention and processing for an application.\r\n7.Programming Interactive Systems\r\n7.1 Choosing interaction styles and interaction techniques\r\n8.Data, Information and Knowledge\r\n8.1 Widget classes and libraries\r\n8.2 Data-driven applications (database-backed web pages)\r\n8.3 Design for resource-constrained devices (e.g. small, mobile devices)\r\n9.Web Security\r\n9.1 Session management, authentication\r\n9.1 Server-side security tools, plugins\r\n10. Privacy and Civil Liberties\r\n10.1 Privacy implications of widespread data collection for transactional databases, data warehouses,\r\n10.2 Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on\r\n10.3 Assess the quality, accuracy, and timeliness of data or meta-data and its utility for creating information."
+    ""
   ],
-  "Course Content": "",
+  "Course Content": "<t>1.Web Platforms\r\n1.1 Web programming languages (e.g., HTML5, Java Script, PHP, CSS) \r\n1.2 Web platform constraints \r\n1.3 Software as a Service (SaaS)\r\n1.4 Web standards\r\n2. Platform Based Developemnt\r\n2.1 Programming via platform-specific APIs\r\n2.2 Content Management System (CMS) software \r\n3. Information Management Concepts\r\n3.1 Information systems as socio-technical systems\r\n3.2 Information capture and representation\r\n3.3 Declarative and navigational queries, use of links\r\n3.4 Supporting human needs: searching, retrieving, linking, browsing, navigating\r\n3.5 Analysis and indexing\r\n4.Database Systems\r\n4.1 Use of a declarative query language\r\n5.Information Storage and Retrieval\r\n5.1 Faceted search (e.g., using citations, keywords, classification schemes)\r\n5.2 Naming,repositories, archives\r\n6.Data, Information and Knowledge\r\n6.1 Content management models, frameworks, systems, design methods\r\n6.2 Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g.,QuickTime, MPEG2, MPEG4), audio (e.g., written score, MIDI, sampled digitized sound track) and animations; complex/composite/aggregate objects; FRB\r\n6.3 Content structure / management,\r\n6.4 Evaluate the requirements for data retention and processing for an application.\r\n7.Programming Interactive Systems\r\n7.1 Choosing interaction styles and interaction techniques\r\n8.Data, Information and Knowledge\r\n8.1 Widget classes and libraries\r\n8.2 Data-driven applications (database-backed web pages)\r\n8.3 Design for resource-constrained devices (e.g. small, mobile devices)\r\n9.Web Security\r\n9.1 Session management, authentication\r\n9.1 Server-side security tools, plugins\r\n10. Privacy and Civil Liberties\r\n10.1 Privacy implications of widespread data collection for transactional databases, data warehouses,\r\n10.2 Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on\r\n10.3 Assess the quality, accuracy, and timeliness of data or meta-data and its utility for creating information.</t>",
   "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly ; Interactive lectures and lab demonstrations"
+    },
     {
       "Name": "Online Activities (myElearning)",
       "Description": "Forum activities, Quizzes, Wiki, Surveys, Polls"
@@ -55,13 +59,15 @@
     {
       "Name": "",
       "Description": ""
-    },
-    {
-      "Name": "",
-      "Description": ""
     }
   ],
   "Contact and Credit hours": [
+    {
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
+    },
     {
       "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
       "Duration": "13",
@@ -73,16 +79,17 @@
       "Duration": "13",
       "Contact Hours": "4 hours",
       "Credit Hours": "4 hours"
-    },
-    {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
     }
   ],
-  "Course Assessments Description": "",
+  "Course Assessments Description": "In this course, assessments are designed to test student knowledge and problem solving skills  through a combination of theoretical/analytical exercises and practical software-related problem-solving tasks. \r\n\r\nThere are five coursework assessments in this course worth 100% collectively: 2 individual assignments based on theoretical and practical concepts, 2 highly practical coursework examinations, and 1 group project.\r\n\r\n",
   "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1,2,3",
+      "Assessment Description": "Programming problems (PHP)",
+      "Weighting %": "5",
+      "Duration": "10-14 days"
+    },
     {
       "Assessment": "Assignment 2",
       "Learning Outcomes": "2,3,6",
@@ -92,14 +99,14 @@
     },
     {
       "Assessment": "Coursework Examination 1",
-      "Learning Outcomes": "2,3,4,5,7",
+      "Learning Outcomes": "",
       "Assessment Description": "Practical CMS Tasks, Configuration, Customisation, Troubleshooting",
       "Weighting %": "25",
       "Duration": "120-150 minutes"
     },
     {
       "Assessment": "Coursework Examination 2",
-      "Learning Outcomes": "",
+      "Learning Outcomes": "5,6,7,8,9",
       "Assessment Description": "Practical CMS Tasks, Configuration, Customisation, Troubleshooting",
       "Weighting %": "25",
       "Duration": "120-150 minutes"
@@ -138,36 +145,37 @@
       "Assessment Description": "",
       "Weighting %": "",
       "Duration": ""
-    },
-    {
-      "Assessment": "",
-      "Learning Outcomes": "",
-      "Assessment Description": "",
-      "Weighting %": "",
-      "Duration": ""
     }
   ],
   "Learning Resources": {
     "Required": [
+      "Robin Nixon (2021) Learning PHP, MySQL, JavaScript CSS, & HTML5: A Step-by-Step Guide to Creating Dynamic Websites. 6th edition. O'Reilly Media",
       "",
-      "",
-      "Recommended"
+      ""
     ],
     "Recommended": [
+      "Doug Bierer and Cal Evans. (2021).  PHP 8 Programming Tips, Tricks and Best Practices: A practical guide to PHP 8 features, usage changes, and advanced programming techniques , Packt Publishing",
       "Karol Krol (2019) WordPress 5 Complete: Build beautiful and feature-rich websites from scratch, 7th Edition, Packt Publishing",
-      "",
-      "Other: (Special Equipment/Tools)"
+      ""
     ],
     "Other": [
       "",
-      "11. Staffing Requirements"
+      ""
     ]
   },
-  "Staffing Requirements": "",
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
   "Additional Cost": "",
   "Collaboration": "",
   "Course Coordinator": "",
   "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Introduction to PHP",
+      "Required Readings": "Lecture notes, resources on myElearning",
+      "Learning Activities": "Lecture, Lab",
+      "Assessment": "",
+      "Date": ""
+    },
     {
       "Week": "2",
       "Topics": "Content Management Systems - WordPress",
@@ -263,14 +271,6 @@
       "Learning Activities": "Presentations",
       "Assessment": "Group Presentations ",
       "Date": "Week 13"
-    },
-    {
-      "Week": "",
-      "Topics": "",
-      "Required Readings": "",
-      "Learning Activities": "",
-      "Assessment": "",
-      "Date": ""
     }
   ]
 }

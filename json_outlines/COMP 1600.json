@@ -33,6 +33,10 @@
   "Course Content": "",
   "Teaching Methods": [
     {
+      "Name": "Interactive Lectures",
+      "Description": "Lectures with pauses for students to answer MCQ based on preceeding content."
+    },
+    {
       "Name": "Online Activities (myElearning)",
       "Description": "Unit Review Quizzes - formative"
     },
@@ -55,13 +59,15 @@
     {
       "Name": "Groupwork",
       "Description": "Conducted during live lectures; Use of breakout rooms"
-    },
-    {
-      "Name": "",
-      "Description": ""
     }
   ],
   "Contact and Credit hours": [
+    {
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
+    },
     {
       "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
       "Duration": "13",
@@ -73,16 +79,17 @@
       "Duration": "13",
       "Contact Hours": "4 hours",
       "Credit Hours": "4 hours"
-    },
-    {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
     }
   ],
-  "Course Assessments Description": "",
+  "Course Assessments Description": "In this course, assessments are designed to test student knowledge and problem solving skills  through a combination of theoretical/analytical exercises and practical software-related problem-solving tasks. \r\n\r\nThere are five coursework assessments in this course worth 100% collectively: 4 individual assignments based on theoretical and practical concepts and 1 group project.\r\n",
   "Matrix": [
+    {
+      "Assessment": "Assignment 1 Number Systems and Logic circuit problems to solve. ",
+      "Learning Outcomes": "1, 2, 3, 4",
+      "Assessment Description": "Problem Solving: structured questions",
+      "Weighting %": "15%",
+      "Duration": "10-14 days"
+    },
     {
       "Assessment": "Assignment 2 Machine Language Program trace; Operating Systems Problems",
       "Learning Outcomes": "5, 6, 7, 8",
@@ -92,14 +99,14 @@
     },
     {
       "Assessment": "Assignment 3 Algorithms: Sequence & Selection ",
-      "Learning Outcomes": "9, 10",
+      "Learning Outcomes": "",
       "Assessment Description": "Problem Solving: Algorithms, Flowcharts and Deskchecking (Tracing)",
       "Weighting %": "20%",
       "Duration": "10-14 days"
     },
     {
       "Assessment": "Assignment 4 Algorithms: Iteration  & Recursion; Programming Languages",
-      "Learning Outcomes": "",
+      "Learning Outcomes": "9, 10",
       "Assessment Description": "Problem Solving: Algorithms, Flowcharts and Deskchecking (Tracing)",
       "Weighting %": "20%",
       "Duration": "10-14 days"
@@ -138,36 +145,37 @@
       "Assessment Description": "",
       "Weighting %": "",
       "Duration": ""
-    },
-    {
-      "Assessment": "",
-      "Learning Outcomes": "",
-      "Assessment Description": "",
-      "Weighting %": "",
-      "Duration": ""
     }
   ],
   "Learning Resources": {
     "Required": [
+      "Computer Science, an Overview. (2018) Glenn Brookshear & Dennis Brylow, 13th edition.  Pearson Publishing. ISBN: 978-0134875460\r\n\r\n\r\n\r\n\r\n\r\n\r\n________________",
       "Lecture notes, handouts, content provided on myElearning LMS",
-      "",
-      "Recommended"
+      ""
     ],
     "Recommended": [
       "",
       "",
-      "Other: (Special Equipment/Tools)"
+      ""
     ],
     "Other": [
-      "",
-      "11. Staffing Requirements"
+      "NONE",
+      ""
     ]
   },
-  "Staffing Requirements": "",
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
   "Additional Cost": "",
   "Collaboration": "",
   "Course Coordinator": "",
   "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Data Storage: Data representation.",
+      "Required Readings": "Chapter  1 - Data Structure",
+      "Learning Activities": "1, 2",
+      "Assessment": "",
+      "Date": ""
+    },
     {
       "Week": "2",
       "Topics": "Data Storage: Primary and secondary storage",
@@ -261,14 +269,6 @@
       "Topics": "Course Review\r\n (No introduction of new subject matter)",
       "Required Readings": "",
       "Learning Activities": "5, 6",
-      "Assessment": "",
-      "Date": ""
-    },
-    {
-      "Week": "",
-      "Topics": "",
-      "Required Readings": "",
-      "Learning Activities": "",
       "Assessment": "",
       "Date": ""
     }
