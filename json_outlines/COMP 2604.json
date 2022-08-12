@@ -1,0 +1,276 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 2604 Operating Systems",
+  "Semester and Level": "Semester 2  Level 2",
+  "Pre-requisites": "COMP 1600",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ❑      Blended ❑      Online ❑",
+  "Course Description": "This course looks at the inner workings of operating systems such as Windows, Ubuntu, and Mac OS X, both from a theoretical algorithmic point of view as well as a practical system programming point of view. The student will be introduced to the fundamental algorithms that support the existence of contemporary operating systems. Topics include the important areas of processes, threads, and CPU management, main and virtual memory management, file systems, disk scheduling algorithms, protection and security. This course will be delivered using a combination of lectures, blended learning, case studies, labs and various online resources. Assignments will take the form of written examinations, lab examinations, algorithm implementation and online assignments.",
+  "Rationale": "An operating system acts as the interface between software applications and computer hardware and therefore is an essential course to Computer Science. This course presents important topics of operating systems such as structures of computer hardware and OSs, processes, threads, concurrency, CPU scheduling algorithms, primary and virtual memory, page replacement algorithms, file systems, disk scheduling algorithms, protection, and security. The course prepares students for other courses such as Computer Networks and Distributed Systems.",
+  "Course Aims": "Operating Systems is to provide a user-friendly and convenient environment. Students are expected to learn and grasp the concepts of Operating Systems, as well as get expertise in how they operate as an intermediate between hardware and users, allowing users to access and utilise other resources more easily to manage a computer system's resources. ",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Describe how an operating system manages multiple processes on a single-CPU system",
+    "Analyze the procedure involved in context switching",
+    "Explain the advantages and disadvantages of inter-process communication (shared memory and message passing)",
+    "Analyze available solutions for how deadlocks can arise in a system",
+    "Examine virtual memory management systems using standard and inverted page tables",
+    "Examine a variety of page replacement algorithms",
+    "Describe the structure of a hard disk and the basic file system formats",
+    "Describe how access to resources is controlled by the operating system",
+    "Write programs to create, control and destroy processes and threads",
+    "Write programs that use semaphores for critical region control, as well as for synchronization",
+    "Write programs for inter-process communication (IPC) using shared memory and message passing on UNIX systems, Win32 API, and Java API",
+    "",
+    ""
+  ],
+  "Course Content": "<t>1. Introduction to Operating Systems \r\n2. Operating System Structures \r\n3. Process Management \r\n4. Thread Management \r\n5. CPU Scheduling \r\n6. Process Synchronization (Concurrency) \r\n7. Main Memory Management \r\n8. Virtual Memory Management \r\n9. Storage Management and Disk Scheduling \r\n10. File System \r\n11. Security and Protection</t>",
+  "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly. Recordings available offline post-lecture. Interactive lectures and Lab demonstrations."
+    },
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Polls, Whiteboard"
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": "Programming exercises, short-answer questions, research questions."
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Video tutorials, Reading assignments"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Online lab activities, Virutal labs, demonstrations, discussions."
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Programming exercises, case studies, discussions."
+    },
+    {
+      "Name": "Groupwork",
+      "Description": ""
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
+    },
+    {
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
+    },
+    {
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "4 hours",
+      "Credit Hours": "4 hours"
+    }
+  ],
+  "Course Assessments Description": "This course will be converted to 100% coursework. The assessment components are as follows:\r\n3 Assignments – 10% each \r\n1 Coursework Exam – 20%\r\n1 Final Exam – 50% \r\nFirst assignment includes Programming and short answer questions. Second and third assignments include Programming, alogrithm implementation, short answer questions and report writing. Course work and final exam includes short answer questions, program writing, algorithm implementation and case studies.",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1, 2, 3, 8",
+      "Assessment Description": "Programming exercises, short-answer questions, research questions.",
+      "Weighting %": "10",
+      "Duration": "Take home"
+    },
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "1, 2, 3, 8, 10",
+      "Assessment Description": "Programming exercises, short-answer questions, research questions, algorithm implementation",
+      "Weighting %": "10",
+      "Duration": "Take home"
+    },
+    {
+      "Assessment": "Assignment 3",
+      "Learning Outcomes": "",
+      "Assessment Description": "Programming exercises, short-answer questions, algorithm implementation and report writing",
+      "Weighting %": "10",
+      "Duration": "Take home"
+    },
+    {
+      "Assessment": "Course Work Exam",
+      "Learning Outcomes": "1, 2, 3, 4, 8, 9",
+      "Assessment Description": "Programming exercises, short-answer questions, case studies",
+      "Weighting %": "20",
+      "Duration": "2 hours"
+    },
+    {
+      "Assessment": "Final Exam",
+      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "Assessment Description": "Programming exercises, short-answer questions, algorithm implementation and case studies",
+      "Weighting %": "50",
+      "Duration": "3 hours"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": {
+    "Required": [
+      "Abraham Silberschatz, Peter B. Galvin, Greg Gagne. 2018. Operating System Concepts, 10th Ed, Wiley. ISBN: 9781119320913.",
+      "William Stallings. 2018. Operating Systems: Internals and Design Principles, 9th Ed, Pearson. ISBN: 9780134670959.",
+      "Andrew S. Tanenbaum, Herbert Bos. 2015. Modern Operating Systems, 4th Ed, Pearson. ISBN: 9780133591620."
+    ],
+    "Recommended": [
+      "",
+      "",
+      ""
+    ],
+    "Other": [
+      "",
+      ""
+    ]
+  },
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Introduction to Operating Systems",
+      "Required Readings": "Ch 1",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "2",
+      "Topics": "Operating System Structures",
+      "Required Readings": "Ch 2",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "3",
+      "Topics": "Processes",
+      "Required Readings": "Ch 3",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "Threads",
+      "Required Readings": "Ch 4",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 1",
+      "Date": "WK4"
+    },
+    {
+      "Week": "5",
+      "Topics": "CPU Scheduling",
+      "Required Readings": "Ch 5",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "Process Synchronization",
+      "Required Readings": "Ch 6, 7 & 8",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 2",
+      "Date": "WK6"
+    },
+    {
+      "Week": "7",
+      "Topics": "Main Memory",
+      "Required Readings": "Ch 9",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "8",
+      "Topics": "Virutal Memory",
+      "Required Readings": "Ch 10",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Course Work Exam",
+      "Date": "WK8"
+    },
+    {
+      "Week": "9",
+      "Topics": "Mass-Storage Structure",
+      "Required Readings": "Ch 11",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "10",
+      "Topics": "File System",
+      "Required Readings": "Ch 13 & 14",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "11",
+      "Topics": "Security",
+      "Required Readings": "Ch 16",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "Assignment 3",
+      "Date": "WK11"
+    },
+    {
+      "Week": "12",
+      "Topics": "Protection",
+      "Required Readings": "Ch 17",
+      "Learning Activities": "Lectures, Labs",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

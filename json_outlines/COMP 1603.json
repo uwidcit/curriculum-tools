@@ -28,10 +28,14 @@
     "Use recursion as a powerful technique in problem solving.",
     "Identify the base case and the general case of a recursively-defined problem.",
     "Apply a variety of strategies to the testing and debugging of simple programs.",
-    "1. Records/structs (heterogeneous aggregates)\r\n1.1. Declaration \r\n1.2. User Defined Types \r\n1.3. Array of Structures \r\n1.4. Nested Structures \r\n2. Pointers \r\n2.1. Concept of a pointer \r\n2.2. Pointers as arguments \r\n2.3. Pointer arithmetic \r\n3. Linked Lists \r\n3.1. Operations on a Linked List (inserting, deleting, counting, searching) \r\n3.2. Allocating Memory (e.g., sizeof, malloc, calloc, and free in C) \r\n3.3. Sorted Lists \r\n3.4. Merging \r\n4. Abstract data types and their implementation\r\n4.1. Stacks (Array and Linked List Implementation) \r\n4.1.1. Creating a Stack Header File \r\n4.1.2. How to convert from infix to postfix \r\n4.2. Queues (Array and Linked List Implementation) \r\n4.3. Priority queues (Array and Linked List Implementation) \r\n4.4. Sets\r\n4.5. Maps\r\n5. Recursion\r\n5.1. The concept of recursion \r\n5.2. Recursive functions \r\n5.3. Recursive applications"
+    ""
   ],
-  "Course Content": "",
+  "Course Content": "<t>1. Records/structs (heterogeneous aggregates)\r\n1.1. Declaration \r\n1.2. User Defined Types \r\n1.3. Array of Structures \r\n1.4. Nested Structures \r\n2. Pointers \r\n2.1. Concept of a pointer \r\n2.2. Pointers as arguments \r\n2.3. Pointer arithmetic \r\n3. Linked Lists \r\n3.1. Operations on a Linked List (inserting, deleting, counting, searching) \r\n3.2. Allocating Memory (e.g., sizeof, malloc, calloc, and free in C) \r\n3.3. Sorted Lists \r\n3.4. Merging \r\n4. Abstract data types and their implementation\r\n4.1. Stacks (Array and Linked List Implementation) \r\n4.1.1. Creating a Stack Header File \r\n4.1.2. How to convert from infix to postfix \r\n4.2. Queues (Array and Linked List Implementation) \r\n4.3. Priority queues (Array and Linked List Implementation) \r\n4.4. Sets\r\n4.5. Maps\r\n5. Recursion\r\n5.1. The concept of recursion \r\n5.2. Recursive functions \r\n5.3. Recursive applications</t>",
   "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly"
+    },
     {
       "Name": "Online Activities (myElearning)",
       "Description": "Quizzes"
@@ -55,34 +59,37 @@
     {
       "Name": "Groupwork",
       "Description": ""
-    },
-    {
-      "Name": "",
-      "Description": ""
     }
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "4 hours",
+      "Credit Hours": "4 hours"
     }
   ],
-  "Course Assessments Description": "",
+  "Course Assessments Description": "3 Assingments, 3 online quizzes,  2 courswork exams, 1 final exam",
   "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1, 2, 7, 9, 12",
+      "Assessment Description": "Take home programming problems",
+      "Weighting %": "5",
+      "Duration": "10-14 days"
+    },
     {
       "Assessment": "Assignment 2",
       "Learning Outcomes": "1, 2, 3, 5, 6, 7, 9, 12",
@@ -92,14 +99,14 @@
     },
     {
       "Assessment": "Assignment 3 ",
-      "Learning Outcomes": "1, 2, 3, 4, 7, 8, 9, 12",
+      "Learning Outcomes": "",
       "Assessment Description": "Take home programming problems",
       "Weighting %": "6",
       "Duration": "10-14 days"
     },
     {
       "Assessment": "Quiz 1 ",
-      "Learning Outcomes": "",
+      "Learning Outcomes": "1, 2, 5",
       "Assessment Description": "Online quiz, MCQ",
       "Weighting %": "1",
       "Duration": "15-30 min"
@@ -138,25 +145,37 @@
       "Assessment Description": "Problems & short answer questions",
       "Weighting %": "50",
       "Duration": "2 hours"
-    },
-    {
-      "Assessment": "",
-      "Learning Outcomes": "",
-      "Assessment Description": "",
-      "Weighting %": "",
-      "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "Robert Sedgewick. Algorithms. 1983. Addison-Wesley.",
-    "",
-    "Recommended"
-  ],
-  "Staffing Requirements": "",
+  "Learning Resources": {
+    "Required": [
+      "Noel Kalicharan.  C Programming - An Advanced Course.  2006.  CreateSpace Independent Publishing Platform.\r\n",
+      "Robert Sedgewick. Algorithms. 1983. Addison-Wesley.",
+      ""
+    ],
+    "Recommended": [
+      "Noel Kalicharan. Advance Topics in C: Croe Concepts in Data Structures (Expert's Voice in C). 2013. Apress.",
+      "",
+      ""
+    ],
+    "Other": [
+      "",
+      ""
+    ]
+  },
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
   "Additional Cost": "",
   "Collaboration": "",
   "Course Coordinator": "",
   "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Structures 1.1 - 1.4",
+      "Required Readings": "C Programming - An Advanced Course, Chapter 2",
+      "Learning Activities": "Lectures, Tutorials, Worksheets, online videos",
+      "Assessment": "X",
+      "Date": ""
+    },
     {
       "Week": "2",
       "Topics": "Pointers 2.1, 2.2",
@@ -251,14 +270,6 @@
       "Required Readings": "",
       "Learning Activities": "",
       "Assessment": "X",
-      "Date": ""
-    },
-    {
-      "Week": "",
-      "Topics": "",
-      "Required Readings": "",
-      "Learning Activities": "",
-      "Assessment": "",
       "Date": ""
     }
   ]

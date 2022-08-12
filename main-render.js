@@ -140,10 +140,14 @@ async function main(){
             '@@@mode': "Mode of Delivery"
         }
 
-        const json_files = fs.readdirSync('./json_outlines');
+        //const _json_dir = './valid_json_outlines';
+        const _json_dir = './json_outlines';
+        
+        const json_files = fs.readdirSync(_json_dir);
+        //const json_files = fs.readdirSync('./json_outlines');
         
         for(var file of json_files){
-            var fn = "./json_outlines/"+file+"";
+            var fn = _json_dir+"/"+file+"";
             console.log(file,fn);
             var parsedData = require(fn);
 
@@ -175,8 +179,16 @@ async function main(){
             var tm = renderTeachingMethods(parsedData['Teaching Methods']);
             out = out.replace(/@@@teachingMethods/g,tm);
 
-            var lr = renderLearningResource(parsedData['Learning Resources']);
-            out = out.replace(/@@@learningResources/g,lr);
+            //Why change up the json on meh :'(
+            if(parsedData['Learning Resources'].constructor == "Object"){
+                var lr = renderLearningResource(parsedData['Learning Resources']['Required']);
+                out = out.replace(/@@@learningResources/g,lr);
+            }
+            else{
+            //Assume is an array of books
+                var lr = renderLearningResource(parsedData['Learning Resources']);
+                out = out.replace(/@@@learningResources/g,lr);
+            }
 
             var cal = renderCourseCalendar(parsedData['Course Calendar']);
             out = out.replace(/@@@courseCal/g,cal);

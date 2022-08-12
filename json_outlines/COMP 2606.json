@@ -1,0 +1,276 @@
+{
+  "Campus and Faculty": "FST, STA",
+  "Department": "DCIT",
+  "Course Code & title": "COMP 2606 Software Engineering I",
+  "Semester and Level": "Semester 2  Level 2",
+  "Pre-requisites": "COMP 1603",
+  "Co-requisites": "",
+  "Anti-requisites": "",
+  "Course Type": "Core",
+  "Credits": "3",
+  "Projected Enrolment": "",
+  "Project Start Date": "",
+  "Mode of Delivery": "Face-to-Face ❑      Blended ❑      Online ❑",
+  "Course Description": "The specification, development, management, and evolution of software systems make up the discipline of software engineering. In this course, students apply methods and tools to develop software designs and specifications.  The course focuses on universal techniques for developing large-scale systems rather than individual algorithms. In order to build good business systems, it is particularly important that the student place a great deal of emphasis in exploring the different process models and the topics covering requirements analysis and system specification, system architecture and design, verification and validation and system evolution. During the course, students will participate in a real problem solving/software development project which will expose them to the processes, tools and techniques of professional product-quality software development.",
+  "Rationale": "Software engineering is a practical exercise that requires understanding how large-scale system development differs from small-scale programming and algorithm design. The course exposes students to issues related to the design, development and management of software products. It provides the foundation for making informed decisions about what methodology and tools to use in order to create robust and well-tested systems.",
+  "Course Aims": "The course aims to provide the foundation for making informed decisions regarding methodology, requirements, design, development, testing and management of software products.",
+  "Course Learning Outcomes": [
+    "On successful completion of this course, students will be able to:",
+    "Illustrate how software can interact with and participate in various systems including information management, embedded, process control and communication systems.",
+    "Develop project proposals that include comprehensive requirements based upon organization, client and/or system needs.",
+    "Describe how programming in the large differs from individual efforts with respect to understanding a large code base, code reading, understanding builds, and understanding context of changes.",
+    "Develop comprehensive requirements and project proposals based on organization, client and/or system needs.",
+    "Document the differences between software process models including the advantages and disadvantages of each one. (e.g., waterfall, incremental, agile)",
+    "Describe how general software engineering methodologies are applied¬¬ in specific domains, with a particular focus on dependable systems.",
+    "Construct structural and behavioural models of a simple software using system design principles and design paradigms (such as structured design) ",
+    "Derive the necessary trade-offs in developing ‘fit for purpose’ systems through the application of evaluation metrics. ",
+    "Develop strategies to manage identified risks, manage and motivate teams, roles motivation and conflict.",
+    "Demonstrate inter-personal skills, teamwork, and effective use of appropriate technology associated with the field of computer studies.",
+    "",
+    "",
+    ""
+  ],
+  "Course Content": "<t>1. Requirements Engineering (elicitation, analysis and specifications, user stories, functional and non -functional requirements)\r\n2. Software Process Models (waterfall, incremental, agile)\r\n3. System Modeling (Context, Interaction, Structural, Behavioural)\r\n4. Object Oriented Software Design and UML \r\n5. Product and Project Management (Cost Estimation, Risk Management)\r\n6. Testing, verification and validation (Test-Driven Development (TDD), Test plans, test strategies)</t>",
+  "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered either online or face-to-face twice weekly "
+    },
+    {
+      "Name": "Online Activities (myElearning)",
+      "Description": "Weekly activities : exercises based on case studies "
+    },
+    {
+      "Name": "Laboratory Work",
+      "Description": ""
+    },
+    {
+      "Name": "Flipped Classroom",
+      "Description": "Early release of lecture content, tutorial exercises with extra activities for discussion and research"
+    },
+    {
+      "Name": "Inquiry-based Learning",
+      "Description": "Interactive model /design of scenarios during tutorial session"
+    },
+    {
+      "Name": "Problem-based Learning",
+      "Description": "Questions based on case studies. "
+    },
+    {
+      "Name": "Groupwork",
+      "Description": "Students collaborate in groups of 3 - 4 on problem based on a real world problem"
+    }
+  ],
+  "Contact and Credit hours": [
+    {
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
+    },
+    {
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "1 hour",
+      "Credit Hours": "1 hour"
+    },
+    {
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "3 hours",
+      "Credit Hours": "3 hours"
+    }
+  ],
+  "Course Assessments Description": "In this course, assessments are designed to test student knowledge through a combination of theoretical/analytical exercises and a project \r\n\r\nThere are four coursework assessments in this course worth 50% collectively: 2 assignments and 1 written coursework exams based on theoretical concepts and a group project designing a system. The remaining 50% is assessed in a final 2 hour written examination.\r\n",
+  "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1,2,3, 4, 5",
+      "Assessment Description": "Short answer theory questions based on a case study ",
+      "Weighting %": "5",
+      "Duration": "2 weeks, released in week 4, due in week 6"
+    },
+    {
+      "Assessment": "Assignment 2",
+      "Learning Outcomes": "5, 6,7",
+      "Assessment Description": "Short answer theory questions based on a case study ",
+      "Weighting %": "5",
+      "Duration": "2 weeks, released in week 7, due in week 9"
+    },
+    {
+      "Assessment": "Course Work Examination",
+      "Learning Outcomes": "",
+      "Assessment Description": "Short answer theory questions. ",
+      "Weighting %": "20",
+      "Duration": "2 hours held in week 11"
+    },
+    {
+      "Assessment": "Project ",
+      "Learning Outcomes": "1,2,3,4,5,6, 7, 8, 8, 9, 10",
+      "Assessment Description": "Develop the concept of a system from requirements gathering, system modeling, chosing an appropriate architecture, develop test plans and consider risks involved in developing the system. ",
+      "Weighting %": "20",
+      "Duration": "Given in week 1 due week 12 "
+    },
+    {
+      "Assessment": "Final Examination",
+      "Learning Outcomes": "1,2,3,4,5,6, 7, 8, 8, 9, 10",
+      "Assessment Description": "Short answer theory questions. ",
+      "Weighting %": "50",
+      "Duration": "2 hours, written"
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    },
+    {
+      "Assessment": "",
+      "Learning Outcomes": "",
+      "Assessment Description": "",
+      "Weighting %": "",
+      "Duration": ""
+    }
+  ],
+  "Learning Resources": {
+    "Required": [
+      "Sommerville Ian A., Software Engineering 10th edition (2015), Pearson, ISBN -10: 0133943038; ISBN-13: 978-0133943030",
+      "",
+      ""
+    ],
+    "Recommended": [
+      "",
+      "",
+      ""
+    ],
+    "Other": [
+      "",
+      ""
+    ]
+  },
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
+  "Additional Cost": "",
+  "Collaboration": "",
+  "Course Coordinator": "",
+  "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Introduction to Software Engineering",
+      "Required Readings": "Sommerville, Chapter 1",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "Project Given ",
+      "Date": "Due in Week 12 "
+    },
+    {
+      "Week": "2",
+      "Topics": "Software Process Models",
+      "Required Readings": "Sommerville, Chapter 2",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "3",
+      "Topics": "Agile Method",
+      "Required Readings": "Sommerville, Chapter 3",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "4",
+      "Topics": "Requirements Engineering",
+      "Required Readings": "Sommerville, Chapter 4",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "Assignment #1",
+      "Date": "Due in Week 6"
+    },
+    {
+      "Week": "5",
+      "Topics": "System Modeling : Context Model (Activity Diagram), Interaction Model (Use Case and Sequence Duagrams)",
+      "Required Readings": "Sommerville, Chapter 5",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "6",
+      "Topics": "System Modeling: Structural Model (Class Diagram) , Behavioual Model (State Diagram )",
+      "Required Readings": "Sommerville, Chapter 5",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "7",
+      "Topics": "Architecural Design: Design decisions, views, patterns, architectures",
+      "Required Readings": "Sommerville, Chapter 6",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "Assignment #2",
+      "Date": "Due in Week 9"
+    },
+    {
+      "Week": "8",
+      "Topics": "Architecural Design: Design decisions, views, patterns, architectures",
+      "Required Readings": "Sommerville, Chapter 6",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "9",
+      "Topics": "Testing ",
+      "Required Readings": "Sommerville, Chapter 8",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "10",
+      "Topics": "Project management ",
+      "Required Readings": "Sommerville, Chapter 22",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "Course Work Exam ",
+      "Date": "Week 11"
+    },
+    {
+      "Week": "11",
+      "Topics": "Cost Estimation",
+      "Required Readings": "Sommerville, Chapter 23",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "12",
+      "Topics": "Risk management ",
+      "Required Readings": "Sommerville, Chapter 22",
+      "Learning Activities": "Lecture, tutorial",
+      "Assessment": "",
+      "Date": ""
+    },
+    {
+      "Week": "13",
+      "Topics": "Course Review\r\n (No introduction of new subject matter)",
+      "Required Readings": "",
+      "Learning Activities": "",
+      "Assessment": "",
+      "Date": ""
+    }
+  ]
+}

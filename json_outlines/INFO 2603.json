@@ -28,10 +28,14 @@
     "Conduct research necessary to successfully complete an assigned project on a cutting-edge topic area in Computer Science/Information Technology as applied to a business",
     "",
     "",
-    "UNIT 1 - Hardware Review \r\n1.Assembly Level Machine Organization\r\n1.1 Basic organization of the von Neumann machine\r\n1.2 Shared memory multiprocessors/multicore organization\r\n1.3 Introduction to SIMD vs MIMD and the Flynn Taxonomy\r\n2. Resource Allocation and Scheduling\r\n2.1 Kinds of resources (e.g.,processor share, memory, disk, net bandwidth)\r\n3. DigitalLogic andDigitalSystems\r\n3.1. Overview and history of computer architecture\r\n3.2. Review of major computer organisation models: Von Neumann, Harvard.\r\n3.3. Modern Processor Architectures: RISC, CISC\r\n3.4. Instruction Set Architectures – x86, x86_64, IA64, ARM, SPARC.\r\n3.5. Computer System Components, I/O\r\n3.6. Bus Interconnection, width, pipelining.\r\n\r\nUNIT 2 - Operating Systems Concepts\r\n4.Overview of Operating Systems\r\n4.1 Role and purpose of the operating system\r\n4.2 Functionality of a typical operating system\r\n4.3 Mechanisms to support client-server models, hand-held devices\r\n4.4 Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n4.5 Categories of Operating Systems\r\n4.6 Operating System Managers\r\n4.7 Kernel vs User Mode\r\n\r\nUNIT 3 - Operating Systems Management\r\n5.Operating System Principles\r\n5.1 Abstractions, processes, and resources\r\n5.2. Process Management: Multithreading, Context Switching\r\n5.3. Scheduling, Race Condition\r\n5.4. Hardware-Software Interface, POSIX standard\r\n5.5. Concrete examples of Operating Systems: UNIX, Linux, Windows\r\n5.6. Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n6.File Systems\r\n6.1 Files: data, metadata, operations, organization, buffering, sequential, nonsequential\r\n6.2 Directories: contents and structure\r\n6.3 File systems: partitioning, mount/unmount, virtual file systems\r\n7.Memory Management\r\n7.1 Review of physical memory and memory management hardware\r\n7.2. Main memory organisation and operation\r\n7.3. Cache memories (address mapping, block size, replacement and store policy)\r\n8.Fault Tolerance\r\n8.1 Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)\r\n9.Device Management\r\n9.1 Characteristics of serial and parallel devices\r\n10. AR/Interfacing and Communication\r\n10.1 I/O Fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O\r\n10.2 Interrupt structures and acknowledgement\r\n10.3 External storage, physical organisation and drives\r\n10.4 Buses: bus protocols, arbitration, direct-memory access (DMA)\r\n10.5 Introduction to networks, multimedia support\r\n10.6 RAID architectures\r\n11.Reliability through Redundancy\r\n11.1 Redundancy throughcheck and retry\r\n11.2 Redundancy through redundant encoding (error correcting codes, CRC, FEC)\r\n11.3 Duplication/mirroring/replicas\r\n11.4 Other approaches to fault tolerance and availability\r\n\r\nUNIT 4 - VIRTUALISATION\r\n12.Virtual Machines\r\n12.1 Types of virtualization (includingHardware/Software, OS, Server, Service, Network)\r\n12.2 Paging and virtual memory\r\n12.3 Virtual file systems\r\n13.Virtualization and Isolation\r\n13.1 Levels of indirection, illustrated by virtual memory for managing physical memory resources\r\n13.2 Methods for implementing virtual memory and virtual machines\r\n\r\nUNIT 5 - DOMAIN-SPECIFIC ARCHITECTURES AND PLATFORMS\r\n14. Multiprocessing and Alternative Architectures\r\n14.1 Power Law\r\n14.2 SIMD and MIMD instruction sets and architectures\r\n14.3 Interconnection networks \r\n14.4 Shared multiprocessor memory systems and memory consistency\r\n15 AR/Performance Enhancements\r\n15.1 Superscalar architecture\r\n15.2 Vector processors and GPUs\r\n15.3 Alternative architectures, special-purpose processors: personal, warehouse, neural, machine learning architectures"
+    ""
   ],
-  "Course Content": "",
+  "Course Content": "<t>UNIT 1 - Hardware Review \r\n1.Assembly Level Machine Organization\r\n1.1 Basic organization of the von Neumann machine\r\n1.2 Shared memory multiprocessors/multicore organization\r\n1.3 Introduction to SIMD vs MIMD and the Flynn Taxonomy\r\n2. Resource Allocation and Scheduling\r\n2.1 Kinds of resources (e.g.,processor share, memory, disk, net bandwidth)\r\n3. DigitalLogic andDigitalSystems\r\n3.1. Overview and history of computer architecture\r\n3.2. Review of major computer organisation models: Von Neumann, Harvard.\r\n3.3. Modern Processor Architectures: RISC, CISC\r\n3.4. Instruction Set Architectures – x86, x86_64, IA64, ARM, SPARC.\r\n3.5. Computer System Components, I/O\r\n3.6. Bus Interconnection, width, pipelining.\r\n\r\nUNIT 2 - Operating Systems Concepts\r\n4.Overview of Operating Systems\r\n4.1 Role and purpose of the operating system\r\n4.2 Functionality of a typical operating system\r\n4.3 Mechanisms to support client-server models, hand-held devices\r\n4.4 Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n4.5 Categories of Operating Systems\r\n4.6 Operating System Managers\r\n4.7 Kernel vs User Mode\r\n\r\nUNIT 3 - Operating Systems Management\r\n5.Operating System Principles\r\n5.1 Abstractions, processes, and resources\r\n5.2. Process Management: Multithreading, Context Switching\r\n5.3. Scheduling, Race Condition\r\n5.4. Hardware-Software Interface, POSIX standard\r\n5.5. Concrete examples of Operating Systems: UNIX, Linux, Windows\r\n5.6. Design issues (efficiency, robustness, flexibility, portability, security, compatibility)\r\n6.File Systems\r\n6.1 Files: data, metadata, operations, organization, buffering, sequential, nonsequential\r\n6.2 Directories: contents and structure\r\n6.3 File systems: partitioning, mount/unmount, virtual file systems\r\n7.Memory Management\r\n7.1 Review of physical memory and memory management hardware\r\n7.2. Main memory organisation and operation\r\n7.3. Cache memories (address mapping, block size, replacement and store policy)\r\n8.Fault Tolerance\r\n8.1 Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)\r\n9.Device Management\r\n9.1 Characteristics of serial and parallel devices\r\n10. AR/Interfacing and Communication\r\n10.1 I/O Fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O\r\n10.2 Interrupt structures and acknowledgement\r\n10.3 External storage, physical organisation and drives\r\n10.4 Buses: bus protocols, arbitration, direct-memory access (DMA)\r\n10.5 Introduction to networks, multimedia support\r\n10.6 RAID architectures\r\n11.Reliability through Redundancy\r\n11.1 Redundancy throughcheck and retry\r\n11.2 Redundancy through redundant encoding (error correcting codes, CRC, FEC)\r\n11.3 Duplication/mirroring/replicas\r\n11.4 Other approaches to fault tolerance and availability\r\n\r\nUNIT 4 - VIRTUALISATION\r\n12.Virtual Machines\r\n12.1 Types of virtualization (includingHardware/Software, OS, Server, Service, Network)\r\n12.2 Paging and virtual memory\r\n12.3 Virtual file systems\r\n13.Virtualization and Isolation\r\n13.1 Levels of indirection, illustrated by virtual memory for managing physical memory resources\r\n13.2 Methods for implementing virtual memory and virtual machines\r\n\r\nUNIT 5 - DOMAIN-SPECIFIC ARCHITECTURES AND PLATFORMS\r\n14. Multiprocessing and Alternative Architectures\r\n14.1 Power Law\r\n14.2 SIMD and MIMD instruction sets and architectures\r\n14.3 Interconnection networks \r\n14.4 Shared multiprocessor memory systems and memory consistency\r\n15 AR/Performance Enhancements\r\n15.1 Superscalar architecture\r\n15.2 Vector processors and GPUs\r\n15.3 Alternative architectures, special-purpose processors: personal, warehouse, neural, machine learning architectures</t>",
   "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly. Recordings available offline post-lecture."
+    },
     {
       "Name": "Online Activities (myElearning)",
       "Description": "Forum activities, Quizzes, Polls"
@@ -55,34 +59,37 @@
     {
       "Name": "Groupwork",
       "Description": "Project, written research article, team video, animation, peer-review activities"
-    },
-    {
-      "Name": "",
-      "Description": ""
     }
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Computer Science/Information Technology\r\n Tutorial/Labs",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "4 hours",
+      "Credit Hours": "4 hours"
     }
   ],
-  "Course Assessments Description": "",
+  "Course Assessments Description": "\"In this course, assessments are designed to test student knowledge and practical skills through a combination of written and practical exams. In addition, students will be assessed through a group presentation which requires research and preparation of strategies to address a particular topic or problem in a given domain. \r\n\r\nThere are five assessments in this course: 1 theoretical exam, 2 mixed practical and theoretical exams, 1 fully practical exam, and 1 group project.  As mentioned before, this course is 100% coursework.\r\n\"",
   "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1,2,3",
+      "Assessment Description": "Problems & Short Answer Questions",
+      "Weighting %": "7",
+      "Duration": "2 weeks, released in Week 2, due in Week 4"
+    },
     {
       "Assessment": "Assignment 2",
       "Learning Outcomes": "4,5,6,7",
@@ -92,14 +99,14 @@
     },
     {
       "Assessment": "Course work Exam 1",
-      "Learning Outcomes": "1,2,3,4",
+      "Learning Outcomes": "DONE",
       "Assessment Description": "Scenario-based Problems & Practical Exercises",
       "Weighting %": "25",
       "Duration": "2 hours, Held in Week 5"
     },
     {
       "Assessment": "Course work Exam 2",
-      "Learning Outcomes": "DONE",
+      "Learning Outcomes": "5,6,7,8,9",
       "Assessment Description": "Scenario-based Problems & Practical Exercises",
       "Weighting %": "25",
       "Duration": "2 hours, Held in Week 9"
@@ -138,25 +145,37 @@
       "Assessment Description": "",
       "Weighting %": "",
       "Duration": ""
-    },
-    {
-      "Assessment": "",
-      "Learning Outcomes": "",
-      "Assessment Description": "",
-      "Weighting %": "",
-      "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "",
-    "",
-    "Recommended"
-  ],
-  "Staffing Requirements": "",
+  "Learning Resources": {
+    "Required": [
+      "",
+      "",
+      ""
+    ],
+    "Recommended": [
+      "",
+      "",
+      ""
+    ],
+    "Other": [
+      "",
+      ""
+    ]
+  },
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
   "Additional Cost": "",
   "Collaboration": "",
   "Course Coordinator": "",
   "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Units 1-2",
+      "Required Readings": "Chapters 1, 3, 4 (Ledin) \r\nChapter 1\r\n (McHoe & Flynn)",
+      "Learning Activities": "Lectures, Labs, Worksheets",
+      "Assessment": "x",
+      "Date": "x"
+    },
     {
       "Week": "2",
       "Topics": "Units 1-2",
@@ -244,14 +263,6 @@
       "Learning Activities": "Presentation, Demo, Article",
       "Assessment": "Group Presentation",
       "Date": "Week 12"
-    },
-    {
-      "Week": "",
-      "Topics": "",
-      "Required Readings": "",
-      "Learning Activities": "",
-      "Assessment": "",
-      "Date": ""
     },
     {
       "Week": "",

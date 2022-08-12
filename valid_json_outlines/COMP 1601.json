@@ -27,8 +27,7 @@
     "Write a program that uses file I/O to provide persistence across multiple executions.",
     "Choose appropriate conditional and iteration constructs for a given programming task.",
     "Describe the concept of recursion and give examples of its use.",
-    "Identify the base case and the general case of a recursively-defined problem.",
-    ""
+    "Identify the base case and the general case of a recursively-defined problem."
   ],
   "Course Content": "<t>1. The concept and properties of algorithms\r\n2. Informal comparison of algorithm efficiency (e.g., operation counts)\r\n3. The role of algorithms in the problem-solving process\r\n4. Basic syntax and semantics of a higher-level language \r\n5. Variables and primitive data types (e.g., numbers, characters, Booleans, strings)\r\n6. Expressions and assignments\r\n7. Conditional and iterative control structures\r\n8. Simple I/O including file I/O\r\n9. Functions and parameter passing\r\n10. One dimensional arrays\r\n11. The concept of recursion</t>",
   "Teaching Methods": [

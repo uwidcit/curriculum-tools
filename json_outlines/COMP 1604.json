@@ -24,17 +24,21 @@
     "Explain the parallels between ideas of mathematical and/or structural induction to recursion and recursively defined structures.",
     "Formulate problems in the language of sets, functions & relations and perform the associated\r\noperations",
     "Use elementary number theory including the divisibility properties of numbers to determine\r\nprime numbers and composites, the greatest common divisor, and the least common multiple;\r\nperform modulo arithmetic and computer arithmetic.",
-    "Solve counting problems by applying elementary counting techniques using the product and\r\nsum rules, permutations, combinations, the pigeon-hole principle, and binomial expansion."
+    "Solve counting problems by applying elementary counting techniques using the product and\r\nsum rules, permutations, combinations, the pigeon-hole principle, and binomial expansion.",
+    "",
+    "",
+    "",
+    ""
   ],
-  "Course Content": "1. Propositional logic\r\n1.1. Logical connectives\r\n1.2. Truth tables\r\n1.3. Normal forms (conjunctive and disjunctive)\r\n1.4. Validity of well-formed formula\r\n1.5. Propositional inference rules (concepts of modus ponens and modus tollens) \r\n1.6. Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction\r\n1.7. Limitations of propositional logic \r\n2. Predicate logic\r\n2.1. Universal and existential quantification\r\n2.2. Limitations of predicate logic \r\n3. Basic Proof Techniques \r\n3.1.The structure of mathematical proofs\r\n3.2.Direct proofs\r\n3.3.Disproving by counterexample \r\n3.4.Proofs by contradiction and contraposition (i.e. Indirect Proofs)\r\n3.5.Proofs of Elementary Number Theory Results\r\n3.6. Results on Rational and Irrational Numbers \r\n4. Principles of Mathematical Induction and Recursive Definitions\r\n4.1. Weak and strong induction (i.e., First and Second Principle of Induction)\r\n4.2. Recursive mathematical definitions\r\n4.3. Sequences\r\n4.4. Structural induction \r\n5. Sets: Union,Intersection, complement, Cartesian product\r\n5.1. Power sets\r\n5.2. Cardinality of finite sets \r\n6. Relations and Modular Arithmetic\r\n6.1. Graphs\r\n6.2. Reflexivity, Symmetry, Transitivity, Equivalence relations \r\n6.3. Basic Modular Arithmetic\r\n6.4. Partial orders \r\n7. Functions: Surjections, Injections, Bijections, Inverses, Composition \r\n8. Counting\r\n8.1. Set cardinality and Counting\r\n8.2. Sum and Product rules\r\n8.3. Inclusion-Exclusion principle\r\n8.4. Pigeonhole principle\r\n8.5. Permutations and combinations\r\n8.6. Pascal’s identity\r\n8.7. Binomial theorem\r\n8.8. Recurrence Relations",
+  "Course Content": "<t>1. Propositional logic\r\n1.1. Logical connectives\r\n1.2. Truth tables\r\n1.3. Normal forms (conjunctive and disjunctive)\r\n1.4. Validity of well-formed formula\r\n1.5. Propositional inference rules (concepts of modus ponens and modus tollens) \r\n1.6. Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction\r\n1.7. Limitations of propositional logic \r\n2. Predicate logic\r\n2.1. Universal and existential quantification\r\n2.2. Limitations of predicate logic \r\n3. Basic Proof Techniques \r\n3.1.The structure of mathematical proofs\r\n3.2.Direct proofs\r\n3.3.Disproving by counterexample \r\n3.4.Proofs by contradiction and contraposition (i.e. Indirect Proofs)\r\n3.5.Proofs of Elementary Number Theory Results\r\n3.6. Results on Rational and Irrational Numbers \r\n4. Principles of Mathematical Induction and Recursive Definitions\r\n4.1. Weak and strong induction (i.e., First and Second Principle of Induction)\r\n4.2. Recursive mathematical definitions\r\n4.3. Sequences\r\n4.4. Structural induction \r\n5. Sets: Union,Intersection, complement, Cartesian product\r\n5.1. Power sets\r\n5.2. Cardinality of finite sets \r\n6. Relations and Modular Arithmetic\r\n6.1. Graphs\r\n6.2. Reflexivity, Symmetry, Transitivity, Equivalence relations \r\n6.3. Basic Modular Arithmetic\r\n6.4. Partial orders \r\n7. Functions: Surjections, Injections, Bijections, Inverses, Composition \r\n8. Counting\r\n8.1. Set cardinality and Counting\r\n8.2. Sum and Product rules\r\n8.3. Inclusion-Exclusion principle\r\n8.4. Pigeonhole principle\r\n8.5. Permutations and combinations\r\n8.6. Pascal’s identity\r\n8.7. Binomial theorem\r\n8.8. Recurrence Relations</t>",
   "Teaching Methods": [
+    {
+      "Name": "Interactive Lectures",
+      "Description": "Live lectures delivered twice weekly "
+    },
     {
       "Name": "Interactive Tutorials",
       "Description": "Live tutorial held once per weekly (for each tutorial group)"
-    },
-    {
-      "Name": "",
-      "Description": ""
     },
     {
       "Name": "",
@@ -59,26 +63,33 @@
   ],
   "Contact and Credit hours": [
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Lecture",
+      "Duration": "13",
+      "Contact Hours": "2 hours",
+      "Credit Hours": "2 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Tutorial",
+      "Duration": "13",
+      "Contact Hours": "1 hours",
+      "Credit Hours": "1 hours"
     },
     {
-      "Type": "",
-      "Duration": "",
-      "Contact Hours": "",
-      "Credit Hours": ""
+      "Type": "Total:",
+      "Duration": "13",
+      "Contact Hours": "3 hours",
+      "Credit Hours": "3 hours"
     }
   ],
-  "Course Assessments Description": "",
+  "Course Assessments Description": "Six assessments including 3 assignments, 2 Incourse Exams, and 1 Final Exam\r\nIn Course Assessment has a weight of 50 %, Final Exam has a weight of 50%",
   "Matrix": [
+    {
+      "Assessment": "Assignment 1",
+      "Learning Outcomes": "1, 2, 3",
+      "Assessment Description": "Short Answer and Problem Solving Exercises",
+      "Weighting %": "3",
+      "Duration": "10-14 days"
+    },
     {
       "Assessment": "Assignment 2",
       "Learning Outcomes": "1, 2, 3, 4, 5",
@@ -88,14 +99,14 @@
     },
     {
       "Assessment": "Assignment 3",
-      "Learning Outcomes": "1, 2, 3, 4, 5, 6, 7, 8",
+      "Learning Outcomes": "None",
       "Assessment Description": "Short Answer and Problem Solving Exercises",
       "Weighting %": "4",
       "Duration": "10-14 days"
     },
     {
       "Assessment": "Coursework Exam 1",
-      "Learning Outcomes": "None",
+      "Learning Outcomes": "1, 2, 3, 4, 5",
       "Assessment Description": "MCQ, Short Answer Questions and Problem Solving Exercises",
       "Weighting %": "20",
       "Duration": "60-90 minutes"
@@ -134,25 +145,37 @@
       "Assessment Description": "",
       "Weighting %": "",
       "Duration": ""
-    },
-    {
-      "Assessment": "",
-      "Learning Outcomes": "",
-      "Assessment Description": "",
-      "Weighting %": "",
-      "Duration": ""
     }
   ],
-  "Learning Resources": [
-    "",
-    "",
-    "Recommended"
-  ],
-  "Staffing Requirements": "",
+  "Learning Resources": {
+    "Required": [
+      "* Epp, S - Discrete Mathematics with Applications, 5th edition. 2019. Cengage Learning.",
+      "",
+      ""
+    ],
+    "Recommended": [
+      "Doer, Al and Ken Levasseur - Applied Discrete Structures (freely available online at https://discretemath.org/ads/index-ads.html)",
+      "Rosen, Kenneth - Discrete Mathematics and Its Applications 8th Edition. 2018. McGraw Hill.",
+      "Grimaldi, Ralph P. - Discrete and Combinatorial Mathematics: An Applied Introduction, 5th Edition. 2003. Pearson."
+    ],
+    "Other": [
+      "",
+      ""
+    ]
+  },
+  "Staffing Requirements": "1 Lecturer, 1 Tutor, 1 Marker",
   "Additional Cost": "",
   "Collaboration": "",
   "Course Coordinator": "",
   "Course Calendar": [
+    {
+      "Week": "1",
+      "Topics": "Propositional Logic",
+      "Required Readings": "Sec 2.1 - 2.2, Epp, Discrete Math 5e",
+      "Learning Activities": "2 Lectures and 1 Tutorial",
+      "Assessment": "X",
+      "Date": "X"
+    },
     {
       "Week": "2",
       "Topics": "Propositional Logic",
@@ -248,14 +271,6 @@
       "Learning Activities": "2 Lectures and 1 Tutorial",
       "Assessment": "X",
       "Date": "X"
-    },
-    {
-      "Week": "",
-      "Topics": "",
-      "Required Readings": "",
-      "Learning Activities": "",
-      "Assessment": "",
-      "Date": ""
     }
   ]
 }
